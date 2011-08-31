@@ -1,0 +1,894 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+.Sfootermain {
+	
+	border-radius: 15px 15px 15px 15px;
+	
+	height:auto;
+	overflow: hidden;
+	padding: 5px;
+	margin-top:10px;
+
+}
+
+
+
+.Snav
+{
+	padding:10px 20px 40px 10px;
+}
+
+
+.Sdatas{
+	
+	margin-left: 5px;
+	
+	padding:10px;
+	height: auto;
+}
+
+
+
+.SdataUp{
+	width: 660px;
+	float: left;
+	padding-left:15px;
+}
+
+.SdataMiddle{
+	width: 620px;
+	float: left;
+	padding:10px 0 0 10px;
+}
+
+
+
+
+
+
+
+.SMdataTabs
+{
+	float: right;	
+	padding-top:2px;
+}
+
+.SMdataTabs a{
+	display:block;
+	height:25px;
+	width: 70px;
+	color: #000;
+	background-color:#FC6;
+	box-shadow: 0 0 2px black;
+	border-radius:5px;
+}
+
+
+.SMdataTabs a:hover
+{
+	color:#ED6500;
+	
+}
+
+
+
+
+
+
+.SMdataTab
+{
+	float: left;
+	margin: 0 3px 0 0;
+	padding: 0px;
+	color: #444;
+	text-align: center;
+	
+	font-size: 11px;
+}
+
+.SMon a{
+	display:block;
+	height: 25px;
+	width: 70px;
+	box-shadow: 0 0 6px black inset;
+	border-radius:5px;
+	
+}
+
+
+
+
+
+
+
+
+.SdataDown h3
+{
+	color: #333333;
+	font-size: 15px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 2;
+	margin: 0 0 5px 0;
+	width: 660px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #AAA;	
+	
+}
+
+
+
+
+
+
+.SdataDown{
+	width:auto;
+	float: left;
+	padding-bottom:25px;
+	padding-top:15px;
+	padding-left:15px;
+	
+	
+}
+
+.SdataTabs
+{
+	float: left;	
+}
+
+.SdataTabs a{
+	display:block;
+	height: 30px;
+	width: 100px;
+	background-image: url(../images/www/FdataTab_bac.png);
+	color: #444;
+}
+
+
+.SdataTabs a:hover
+{
+	background-image:  url(../images/www/FdataTabOn_bac.png);
+	color: #444;
+}
+
+
+
+
+
+
+.SdataTab
+{
+	float: left;
+	margin: 0 3px 0 0;
+	padding: 0px;
+	color: #444;
+	background-image: url(../images/www/FdataTab_bac.png);
+	text-align: center;
+	line-height: 30px;
+}
+
+.Son a{
+	display:block;
+	height: 30px;
+	width: 100px;
+	background-image:  url(../images/www/FdataTabOn_bac.png);
+}
+
+
+
+
+
+
+
+
+
+
+.Stabs {
+	clear: both;
+	display: block;
+	float: left;
+	height: 29px;
+	line-height: 29px;
+	padding-left: 10px;
+	background-attachment: scroll;
+	background-color: #806F66;
+	background-image: url(../../images/www/sogi-img.png);
+	background-repeat: no-repeat;
+	background-position: -1px -180px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+
+.Stabs .Stab {
+    float: left;
+    line-height: 29px;
+    margin-right: 4px;
+    text-align: center;
+}
+
+
+.Stabs .Stab a {
+	color: white;
+	display: block;
+	line-height: 28px;
+	padding: 0 15px 0 15px;
+	
+}
+
+
+.Stabs .Stab a:hover {
+    background-color: #3A3536;
+    border-radius: 15px 15px 15px 15px;
+	
+}
+.Stabs .on {
+	border-radius: 15px 15px 15px 15px;
+	  background-color: #3A3536;
+}
+.StabsEnd {
+	display: block;
+	float: left;
+	height: 0px;
+	line-height: 29px;
+	width: 0px;
+	margin-top: 40px;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: right -180px;
+}
+
+
+
+
+
+
+
+
+#Scontent h3 span {
+    background-image: url("../images/front/ico_index_title.png");
+}
+#Scontent h3.tle-best span {
+    background-position: 0 0;
+}
+#Scontent h3.tle-new span {
+    background-position: 0 -20px;
+}
+#Scontent h3.tle-hot span {
+    background-position: 0 -40px;
+}
+
+
+.SbrandNav {
+    font-size: 13px;
+    margin: 5px 0 5px 0;
+	
+}
+.SbrandNav li {
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+.SdataDown table {
+    border-collapse: collapse;
+    line-height: 2;
+    word-wrap: break-word;
+}
+.SdataDown table, caption, tbody, tfoot, thead, tr, th, td {
+    vertical-align: middle;
+}
+.SdataDown table.tbl-border {
+    border: 1px solid #DDDDDD;
+}
+.SdataDown table.tbl-border TH, table.tbl-border TD {
+    border: 1px solid #DDDDDD;
+    padding: 3px;
+}
+.SdataDown TABLE.tbl-borderH {
+    border: 1px solid #DDDDDD;
+    border-collapse: collapse;
+}
+.SdataDown TABLE.tbl-borderH TH {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #DDDDDD;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    padding: 3px;
+}
+.SdataDown TABLE.tbl-borderH TD {
+    -moz-border-bottom-colors: none;
+    -moz-border-image: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #DDDDDD -moz-use-text-color -moz-use-text-color;
+    border-right: medium none;
+    border-style: solid none none;
+    border-width: 1px medium medium;
+    padding: 3px;
+}
+.SdataDown .off-Shelves td {
+    background-color: #C0C0C0;
+}
+.SdataDown table.tbl-noborder {
+    border: medium none;
+}
+.SdataDown table.tbl-noborder TH, table.tbl-noborder TD {
+    border: medium none;
+    padding: 3px;
+}
+.SdataDown .tbl-thRow2 {
+    background: none repeat scroll 0 0 #BADAE3;
+    font-size: 15px;
+}
+.SdataDown .tbl-thRow {
+ 
+}
+.SdataDown .tbl-Row {
+    background: none repeat scroll 0 0 #EEEEEE;
+}
+.SdataDown .tbl-Center {
+    text-align: center;
+}
+.SdataDown .tbl-Right {
+    text-align: right;
+}
+.SdataDown .tbl-vTop {
+    vertical-align: top;
+}
+
+
+
+
+
+
+.Sblock{
+	width:auto;
+	float: left;
+	padding-bottom:25px;
+	padding-top:15px;
+	padding-left:15px;
+	
+	
+	
+}
+
+.Sblock table {
+    border-collapse: collapse;
+    line-height: 2;
+    word-wrap: break-word;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 3px #AAAAAA;
+	margin-top:5px;
+}
+.Sblock table, caption, tbody, tfoot, thead, tr, th, td {
+    vertical-align: middle;
+}
+.Sblock table.tbl-border {
+	border: 1px solid #AAA;
+}
+
+
+/*上欄*/
+.Sblock table.tbl-border TH, table.tbl-border TD {
+    
+	
+    padding: 3px;
+}
+.Sblock TABLE.tbl-borderH {
+  
+    border-collapse: collapse;
+}
+.Sblock TABLE.tbl-borderH TH {
+  
+    padding: 3px;
+}
+
+.Sblock .off-Shelves td {
+	background-color: #BBB;
+}
+.Sblock table.tbl-noborder {
+   
+}
+.Sblock table.tbl-noborder TH, table.tbl-noborder TD {
+    border: medium none;
+    padding: 3px;
+}
+.Sblock .tbl-thRow2 {
+	background-attachment: scroll;
+    background-color: #CCCC66;
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px 5px;
+}
+.Sblock .tbl-thRow {
+	background-color: #FFC;
+	border: 1px solid #AAA;	
+}
+.Sblock .tbl-Row {
+    
+}
+.Sblock .tbl-Center {
+    text-align: center;
+}
+.Sblock .tbl-Right {
+    text-align: right;
+}
+.Sblock .tbl-vTop {
+    vertical-align: top;
+}
+
+
+
+.Sblock h3
+{
+	color: #333333;
+	font-size: 15px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 2;
+	margin: 0 0 5px 0;
+	width: 660px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #777;	
+}
+
+
+
+
+
+
+
+
+
+.Sclear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+}
+.Sclear:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+.Ssystem {
+	border: 1px solid #BBB;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 2px #AAAAAA;
+	margin-bottom: 15px;
+	margin-left: 17px;
+	padding: 0;
+	width:600px;
+	background-color: #FFC;;
+	
+}
+.Ssystem h4 {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 3px 5px;
+	background-attachment: scroll;
+	background-color: #CC6;
+	background-image: none;
+	background-repeat: repeat;
+	background-position: 0 0;
+}
+.Ssystem ul, .Ssystem p {
+    margin: 5px 10px;
+}
+.Ssystem ul.list li {
+    border-bottom: 1px solid #777;
+    line-height: 2;
+}
+.Ssystem ul.list li.last {
+    border: medium none;
+}
+.Ssystem .txt-date {
+    color: #666666;
+    padding-right: 15px;
+}
+.Ssystem h5 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+
+.Ssystem a:link {
+  cursor: pointer;
+  text-decoration: none;
+  color: #3a3536;
+  text-decoration: underline;
+   }
+
+.Ssystem a:hover {
+	cursor: pointer;
+	
+	color: #ed6500;  
+   }
+
+
+
+
+/*商品管理-新增報價*/
+
+.mobile table.tbl-border TH, .mobile table.tbl-border TD {
+	padding: 2px;
+	border: 1px solid #AAA;	
+	
+}
+
+
+
+.mobile .tbl-thRow {
+	background-attachment: scroll;
+    background-color: #CCCC66;
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+
+    font-weight: bold;
+    padding: 3px 5px;
+}
+
+.mobile table {
+    border-collapse: collapse;
+    line-height: 2;
+    word-wrap: break-word;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 3px #AAAAAA;
+	margin-top:5px;
+}
+
+
+
+
+/*門號資費*/
+
+ul.Snotice li {
+    background: url("../imgs/ico_notice.png") no-repeat scroll 0 3px transparent;
+    font-size: 13px;
+    padding-left: 18px;
+}
+
+
+
+.SFeeDown table {
+    border-collapse: collapse;
+    line-height: 2;
+    word-wrap: break-word;
+}
+
+
+
+
+.SFeeDown table.tbl-border TH, table.tbl-border TD {
+    padding: 6px 3px;
+}
+
+
+
+.SFeeDown table.tbl-border TH, table.tbl-border TD  {
+    border: 1px solid #aaa;
+	
+    padding: 3px 16px 3px 15px;
+}
+
+.SFeeDown .tbl-Center {
+    text-align: center;
+}
+
+.SFeeDown .tbl-thRow {
+   
+}
+
+.SFeeDown table, caption, tbody, tfoot, thead, tr, th, td {
+    vertical-align: middle;
+}
+
+
+
+
+
+
+
+ul.notice li {
+	font-size: 13px;
+	padding-left: 18px;
+	background-attachment: scroll;
+	background-color: transparent;
+	background-image: url(../imgs/ico_notice.png);
+	background-repeat: no-repeat;
+	background-position: 0 3px;
+}
+
+
+
+
+.SInformation .tbl-Right 
+
+{
+    text-align: left;
+	
+	}
+	
+	
+	
+	
+
+
+.SInformation TABLE.tbl-borderH TD
+
+{
+   border: 1px Solid #BBB;   
+}	
+	
+	
+	
+.SInformation TABLE.tbl-borderH TH {
+	-moz-border-bottom-colors: none;
+	-moz-border-image: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	padding: 3px;
+	border-top-width: medium;
+	border-right-width: medium;
+	border-bottom-width: 1px;
+	border-left-width: medium;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-bottom-color: #BBB;
+	
+}	
+
+
+
+
+
+.SPdataTabs
+{
+	float: right;	
+	padding-top:2px;
+	
+}
+
+.SPdataTabs a{
+	display:block;
+	height:25px;
+	width: 70px;
+	color: #000;
+	background-color:#FC6;
+	box-shadow: 0 0 2px black;
+	border-radius:5px;
+	line-height:24px;
+}
+
+
+.SPdataTabs a:hover
+{
+	color:#ED6500;
+	
+}
+
+
+
+
+
+
+.SPdataTab
+{
+	float: left;
+	margin: 0 3px 0 0;
+	padding: 0px;
+	color: #444;
+	text-align: center;
+	
+	font-size: 11px;
+}
+
+.SPon a{
+	display:block;
+	height: 25px;
+	width: 70px;
+	box-shadow: 0 0 6px black inset;
+	border-radius:5px;
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.SPblock{
+	
+	
+	
+}
+
+.SPblock table {
+    border-collapse: collapse;
+    line-height: 2;
+    word-wrap: break-word;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 3px #AAAAAA;
+	margin-top:5px;
+	margin-bottom:30px;
+}
+.SPblock table, caption, tbody, tfoot, thead, tr, th, td {
+    vertical-align: middle;
+}
+.SPblock table.tbl-border {
+	border: 1px solid #AAA;
+}
+
+
+/*上欄*/
+.SPblock table.tbl-border TH, table.tbl-border TD {
+    
+	
+    padding: 3px;
+}
+.SPblock TABLE.tbl-borderH {
+  
+    border-collapse: collapse;
+}
+.SPblock TABLE.tbl-borderH TH {
+  
+    padding: 3px;
+}
+
+.SPblock .off-Shelves td {
+	background-color: #BBB;
+}
+.SPblock table.tbl-noborder {
+   
+}
+.SPblock table.tbl-noborder TH, table.tbl-noborder TD {
+    border: medium none;
+    padding: 3px;
+}
+.SPblock .tbl-thRow2 {
+	background-attachment: scroll;
+    background-color: #CCCC66;
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 3px 5px;
+}
+.SPblock .tbl-thRow {
+	background-color: #CCCC66;
+	border: 1px solid #AAA;
+}
+.SPblock .tbl-Row {
+    
+}
+.SPblock .tbl-Center {
+    text-align: center;
+}
+.SPblock .tbl-Right {
+    text-align: right;
+}
+.SPblock .tbl-vTop {
+    vertical-align: top;
+}
+
+
+
+.SPblock h3
+{
+	color: #333333;
+	font-size: 15px;
+	font-weight: bold;
+	height: 30px;
+	line-height: 2;
+	margin: 0 0 5px 0;
+	width: 660px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #777;	
+}
+
+
+.SChatting
+
+{
+	width:660px;
+}
+
+
+
+
+
+
+
+
+.SRdataTabs
+{
+	float: right;	
+	padding-top:2px;
+	
+}
+
+.SRdataTabs a{
+	display:block;
+	height:25px;
+	width: auto;
+	color: #000;
+	background-color:#FC6;
+	box-shadow: 0 0 2px black;
+	border-radius:5px;
+	line-height:24px;
+}
+
+
+.SRdataTabs a:hover
+{
+	color:#ED6500;
+	
+}
+
+
+
+
+
+
+.SRdataTab
+{
+	float: left;
+	margin: 0 3px 0 0;
+	padding: 0px;
+	color: #444;
+	text-align: center;
+	
+	font-size: 11px;
+}
+
+.SRon a{
+	display:block;
+	height: 25px;
+	width: auto;
+	box-shadow: 0 0 6px black inset;
+	border-radius:5px;
+	
+	
+}
+

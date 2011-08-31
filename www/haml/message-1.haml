@@ -1,0 +1,349 @@
+!!!
+%html
+  %head
+    %title 討論館 - HTC
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %link{:href => "http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi-style-0.1.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi-message.css", :rel => "stylesheet", :type => "text/css"}/
+    :javascript
+      function MM_jumpMenu(targ,selObj,restore){ //v3.0
+        eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'");
+        if (restore) selObj.selectedIndex=0;
+      }
+            %body
+    #topbar
+      .channelList
+        %a{:href => "#", :target => "_blank"} 手機王
+        ｜
+        %a{:href => "#", :target => "_blank"} Windows Phone
+        ｜
+        %a{:href => "#", :target => "_blank"} Android
+        .loginClub
+          %a{:href => "#", :target => "_blank"} 註冊新會員
+          ｜
+          %a{:href => "#", :target => "_blank"} 登入
+    #container
+      .sHead.bw
+        .top
+          .sogiLogo
+            %a.logo{:href => "#", :target => "_blank"} 手機王 LOGO
+          .shopNavArea
+            .shopNav-1
+              %a{:href => "#", :target => "_blank"}
+              .icon
+              .name Ovi商店
+            .shopNav-2
+              %a{:href => "#", :target => "_blank"}
+              .icon
+              .name 手機單購
+            .shopNav-3
+              %a{:href => "#", :target => "_blank"}
+              .icon
+              .name 線上購物
+            .shopNav-4
+              %a{:href => "#", :target => "_blank"}
+              .icon
+              .name 下載服務
+        .mainNav
+          %ul
+            %li
+              %a 手機
+            %li
+              %a 電信
+            %li
+              %a 平板電腦
+            %li
+              %a 詢價
+            %li.on
+              %a 討論
+            %li
+              %a 精選文章
+            %li
+              %a 公益
+            %li
+              %a 簡訊
+        .mainSubNav
+          %ul
+            %li
+              %a NOKIA
+              |
+            %li
+              %a SAMSUNG
+              |
+            %li
+              %a Sony Ericsson
+              |
+            %li
+              %a LG
+              |
+            %li
+              %a HTC
+              |
+            %li
+              %a MOTO
+              |
+            %li
+              %a Acer
+              |
+            %li
+              %a PULID
+              |
+            %li
+              %a Garmin-Asus
+              |
+            %li
+              %a Sharp
+              |
+            %li
+              %a GIGABYTE
+              |
+            %li
+              %a Altek
+              |
+            %li
+              %a Apple
+              |
+            %li
+              %a BlackBerry
+              |
+            %li
+              %a 更多...
+      .fullPromo.bw
+        .breadNav
+          .icon
+          .bNav
+            %a{:href => "#", :title => "\346\211\213\346\251\237\347\216\213"} 手機王
+            >
+            %a{:href => "#", :title => "\350\250\216\350\253\226"} 討論
+            >
+            %span.here HTC
+        .textAd
+          %ul
+            %li
+              %a{:href => "#", :target => "_blank", :title => "\345\273\243\345\221\212"} iPhone最高省3000送雙色邊框
+            %li
+              %a{:href => "#", :target => "_blank", :title => "\345\273\243\345\221\212"} iPhone最高省3000送雙色邊框
+            %li
+              %a{:href => "#", :target => "_blank", :title => "\345\273\243\345\221\212"} iPhone最高省3000送雙色邊框
+        .AD970.ADin
+          %a{:href => "#", :title => "\345\273\243\345\221\212"}
+            %img{:src => "images/www/ad970.gif"}/
+      .bw.mg
+        .bwl
+          .messageMain
+            .mContent
+              .mTitle 發表新文章
+              .mChange
+                .objBtn
+                  %ul
+                    %li
+                      %a{:href => "#", :title => "\345\210\207\346\217\233\346\250\241\345\274\217"} 切換為簡易模式(手機發文)
+              .space
+                .mArticleT
+                  .pageSpaceL 文章標題*
+                  .pageSpaceR
+                    %form#form{:name => "form"}
+                      %select#jumpMenu{:name => "jumpMenu", :onchange => "MM_jumpMenu('parent',this,0)"}
+                        %option -請選擇屬性-
+                      %label{:for => "textfield"}
+                      \&nbsp;
+                      %input#textfield{:name => "textfield", :size => "58", :type => "text"}/
+                    %strong 先選擇文章屬性，在填入標題。
+                .mArticleMinor
+                  .pageSpaceL 分頁標題
+                  .pageSpaceR
+                    %input#textfield{:name => "textfield", :size => "\313\21277", :type => "text"}/
+                    %br/
+                    %strong 撰寫需分頁的文章才要填寫
+              .mArticle
+                %img{:height => "240", :src => "images/www/samples/Article.png", :width => "600"}/
+              .mArticleKeys
+                文章關鍵字
+                %input#textfield{:name => "textfield", :size => "\313\21277", :type => "text"}/
+              .mArticleSkeys
+                .objBtn
+                  %ul
+                    %li
+                      %a{:href => "#", :title => "\345\273\272\350\255\260\351\227\234\351\215\265\345\255\227"}
+                        建議
+                        %br/
+                        關鍵字
+                .objBtn
+                  %ul
+                    %li
+                      %input{:name => "", :type => "checkbox", :value => ""}/
+                      %a{:href => "#", :title => "\345\205\250\351\201\270"} 全選
+                    %li
+                      %input{:name => "", :type => "checkbox", :value => ""}/
+                      %a{:href => "#", :title => "AAA"} AAA
+                    %li
+                      %input{:name => "", :type => "checkbox", :value => ""}/
+                      %a{:href => "#", :title => "BBB"} BBB
+                    %li
+                      %input{:name => "", :type => "checkbox", :value => ""}/
+                      %a{:href => "#", :title => "CCC"} CCC
+              .mRule
+                %input{:name => "", :type => "checkbox", :value => ""}/
+                \&nbsp;我已閱讀文章，並同意遵守
+                %a{:href => "#"}> 手機王討論區規範
+                。
+              .mArticleBtn
+                .objBtn
+                  %ul
+                    %li
+                      %a{:href => "#", :title => "\347\231\274\350\241\250\346\226\207\347\253\240"} 發表文章
+                    %li
+                      %a{:href => "#", :title => "\351\240\220\350\246\275\346\226\207\347\253\240"} 預覽文章
+                    %li
+                      %a{:href => "#", :title => "\345\255\230\346\210\220\350\215\211\347\250\277"} 存成草稿
+                    %li
+                      %a{:href => "#", :title => "\346\226\260\345\242\236\345\210\206\351\240\201"} 新增分頁
+                    %li
+                      %a{:href => "#", :title => "\345\217\226\346\266\210"} 取消
+          .AD720.mg
+            %img{:src => "images/www/samples/sample-img-8.jpg"}/
+        .bwr
+          .AD240
+            %a{:href => "#", :title => "\345\273\243\345\221\212"}
+              %img{:src => "images/www/ad240.gif"}/
+          .adPromo.compare.mg
+            .oneTab
+              .tab.on
+                %a{:href => "#", :title => "\347\206\261\351\226\200\350\273\212\346\213\274"} 熱門車拼
+            .oneTabEnd
+            %ul
+              %li
+                %a{:href => "#", :title => "\350\273\212\346\213\274 - HTC Desire HD"}
+                .comparePd
+                  %img.pdImg{:src => "images/www/samples/sample-img-4.jpg"}/
+                  .title HTC Desire HD
+                .btn.red
+                  %a{:href => "#", :title => "\345\210\252\351\231\244\350\273\212\346\213\274"} 刪除車拼
+              %li
+                %a{:href => "#", :title => "\350\273\212\346\213\274 - HTC Desire HD"}
+                .comparePd
+                  %img.pdImg{:src => "images/www/samples/sample-img-4.jpg"}/
+                  .title HTC Desire HD
+                .btn.red
+                  %a{:href => "#", :title => "\345\210\252\351\231\244\350\273\212\346\213\274"} 刪除車拼
+            .goCompare
+              %a{:href => "#", :title => "\345\211\215\345\276\200\350\273\212\346\213\274"} 前往車拼
+          .searchPromo.mg
+            .tabs
+              .tab.on
+                %a{:href => "#", :title => "\346\211\276\346\211\213\346\251\237"} 找手機
+              .tab
+                %a{:href => "#", :title => "\346\211\276\345\271\263\346\235\277"} 找平板
+            .tabsEnd
+            .search{:style => "display:block;height:270px;"}
+            %a{:href => "#", :title => "\351\200\262\351\232\216\346\220\234\345\260\213"}
+            .more
+              進階搜尋
+              %img{:src => "images/www/sogi-arrow-3.gif"}/
+          .adPromo.sgPromo.mg
+            .oneTab
+              .tab.on
+                %a{:href => "#", :title => "\347\233\270\351\227\234\346\226\207\347\253\240"} 相關文章
+            .oneTabEnd
+            .faExtend
+              %ul
+                %li
+                  %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                    %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                  .title Android 軟體
+                  .desc 多工處理超強，網頁瀏覽超級快，玩遊...
+                %li
+                  %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                    %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                  .title Android 軟體
+                  .desc 多工處理超強，網頁瀏覽超級快，玩遊...
+                %li
+                  %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                    %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                  .title Android 軟體
+                  .desc 多工處理超強，網頁瀏覽超級快，玩遊...
+                %li
+                  %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                    %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                  .title Android 軟體
+                  .desc 多工處理超強，網頁瀏覽超級快，玩遊...
+                %li
+                  %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                    %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                  .title Android 軟體
+                  .desc 多工處理超強，網頁瀏覽超級快，玩遊...
+          .adPromo.sgPromo.mg
+            .oneTab
+              .tab.on
+                %a{:href => "#", :title => "\347\233\270\351\227\234\351\205\215\344\273\266"} 相關配件
+            .oneTabEnd
+            .faExtend
+              %ul
+                %li
+                  %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                    %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                  .title Android 軟體
+                  .desc 多工處理超強，網頁瀏覽超級快，玩遊...
+                %li
+                  %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                    %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                  .title Android 軟體
+                  .desc 多工處理超強，網頁瀏覽超級快，玩遊...
+                %li
+                  %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                    %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                  .title Android 軟體
+                  .desc 多工處理超強，網頁瀏覽超級快，玩遊...
+            %a{:href => "#", :title => "\346\233\264\345\244\232\351\205\215\344\273\266"}
+            .more
+              更多配件
+              %img{:src => "images/www/sogi-arrow-3.gif"}/
+          .AD240.mg
+            %a{:href => "#", :title => "\345\273\243\345\221\212"}
+              %img{:src => "images/www/ad240.gif"}/
+          .adPromo.mg
+            .oneTab
+              .tab.on
+                %a{:href => "#", :title => "\350\263\207\350\250\212\346\203\205\345\240\261"} 資訊情報
+            .oneTabEnd
+            %ul
+              %li
+                %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                  %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                .title Android 軟體
+                .desc 多工處理超強，網頁瀏覽超級快，玩遊...
+              %li
+                %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                  %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                .title Android 軟體
+                .desc 多工處理超強，網頁瀏覽超級快，玩遊...
+              %li
+                %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                  %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                .title Android 軟體
+                .desc 多工處理超強，網頁瀏覽超級快，玩遊...
+          .adPromo.sideStorePromo.mg
+            .oneTab
+              .tab.on
+                %a{:href => "#", :title => "\345\245\275\350\251\225\345\272\227\351\213\252"} 好評店鋪
+            .oneTabEnd
+            %ul
+              %li
+                %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                  %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                .title Android 軟體
+                .desc 多工處理超強，網頁瀏覽超級快，玩遊...
+              %li
+                %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                  %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                .title Android 軟體
+                .desc 多工處理超強，網頁瀏覽超級快，玩遊...
+              %li
+                %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                .title Android 軟體
+                .desc 多工處理超強，網頁瀏覽超級快，玩遊...
+    #footer
+      .list
+        關於手機王 | 網路行銷 | 廣告刊登 | 聯絡我們 | 服務條款 | 隱私權政策 | 法律顧問 | 技術合作 | 首機網路股份有限公司 © 1999-2011 All rights reserved.
+        %p 本網站已依台灣網站內容分級規定處理

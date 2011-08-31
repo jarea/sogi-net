@@ -1,0 +1,555 @@
+!!!
+%html
+  %head
+    %title 手機館首頁
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %link{:href => "http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi-style-0.1.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi-mobiModify.css", :rel => "stylesheet", :type => "text/css"}/
+  %body
+    #topbar
+      .channelList
+        %a{:href => "#", :target => "_blank"} 手機王
+        ｜
+        %a{:href => "#", :target => "_blank"} Windows Phone
+        ｜
+        %a{:href => "#", :target => "_blank"} Android
+        .loginClub
+          %a{:href => "#", :target => "_blank"} 註冊新會員
+          ｜
+          %a{:href => "#", :target => "_blank"} 登入
+    #container
+      .sHead.bw
+        .top
+          .sogiLogo
+            %a.logo{:href => "#", :target => "_blank"} 手機王 LOGO
+          .shopNavArea
+            .shopNav-1
+              %a{:href => "#", :target => "_blank"}
+              .icon
+              .name
+                Ovi商店
+            .shopNav-2
+              %a{:href => "#", :target => "_blank"}
+              .icon
+              .name
+                手機單購
+            .shopNav-3
+              %a{:href => "#", :target => "_blank"}
+              .icon
+              .name
+                線上購物
+            .shopNav-4
+              %a{:href => "#", :target => "_blank"}
+              .icon
+              .name
+                下載服務
+        .mainNav
+          %ul
+            %li.on
+              %a
+                手機
+            %li
+              %a
+                電信
+            %li
+              %a
+                平板電腦
+            %li
+              %a
+                詢價
+            %li
+              %a
+                討論
+            %li
+              %a
+                精選文章
+            %li
+              %a
+                公益
+            %li
+              %a
+                簡訊
+        .mainSubNav
+          %ul
+            %li
+              %a
+                NOKIA
+              |
+            %li
+              %a
+                SAMSUNG
+              |
+            %li
+              %a
+                Sony Ericsson
+              |
+            %li
+              %a
+                LG
+              |
+            %li
+              %a
+                HTC
+              |
+            %li
+              %a
+                MOTO
+              |
+            %li
+              %a
+                Acer
+              |
+            %li
+              %a
+                PULID
+              |
+            %li
+              %a
+                Garmin-Asus
+              |
+            %li
+              %a
+                Sharp
+              |
+            %li
+              %a
+                GIGABYTE
+              |
+            %li
+              %a
+                Altek
+              |
+            %li
+              %a
+                Apple
+              |
+            %li
+              %a
+                BlackBerry
+              |
+            %li
+              %a
+                更多...
+      .fullPromo.bw
+        .breadNav
+          .icon
+          .bNav
+            %a{:href => "#", :title => "\346\211\213\346\251\237\347\216\213"}
+              手機王
+            >
+            %span.here
+              手機
+        .textAd
+          %ul
+            %li
+              %a{:href => "#", :target => "_blank", :title => "\345\273\243\345\221\212"}
+                iPhone最高省3000送雙色邊框
+            %li
+              %a{:href => "#", :target => "_blank", :title => "\345\273\243\345\221\212"}
+                iPhone最高省3000送雙色邊框
+            %li
+              %a{:href => "#", :target => "_blank", :title => "\345\273\243\345\221\212"}
+                iPhone最高省3000送雙色邊框
+        .AD970.ADin
+          %a{:href => "#", :title => "\345\273\243\345\221\212"}
+            %img{:src => "images/www/ad970.gif"}/
+      .bw
+        .pk
+          #pkContent
+            %h2
+              PK結果
+            %br/
+            %div{:align => "right", :style => "margin: 10px 0;"}
+              %a#reselect.btnE{:href => "springboard.aspx?c=1", :name => "reselect", :title => "\351\207\215\346\226\260\351\201\270\346\223\207\346\211\213\346\251\237\347\224\242\345\223\201"}
+                %span 重新選擇手機產品
+              %a#selectmore.btnE{:href => "PKindex.aspx?c=1&amp;pno=8169&amp;pno=8469", :name => "selectmore"}
+                %span 新增更多手機產品
+            %table.tPK.border.stripeMe{:width => "100%"}
+              %tbody
+                %tr
+                  %th 手機名稱
+                  %th{:width => "20%"}
+                    %a{:href => "productInfo.aspx?pno=8169"} HTC EVO 3D
+                  %th{:width => "20%"}
+                    %a{:href => "productInfo.aspx?pno=8469"} NOKIA 500
+                  %th{:width => "20%"}
+                    %a{:href => "productInfo.aspx?pno=8469"} NOKIA 500
+                  %th{:width => "20%"}
+                    %a{:href => "productInfo.aspx?pno=8469"} NOKIA 500
+                  %th{:width => "20%"}
+                    %a{:href => "productInfo.aspx?pno=8469"} NOKIA 500
+                %tr
+                  %th 照片
+                  %td
+                    %div{:align => "right"}
+                      %a.btn-del.hide{:href => "springboard.aspx?c=1&amp;d=8169:HTC:EVO 3D", :title => "\345\210\252\351\231\244"}
+                        %span 刪除
+                    %br/
+                    %a{:href => "productInfo.aspx?pno=8169"}
+                      %img{:alt => "HTC EVO 3D", :onerror => "javascript:this.src='http://attach.sogi.com.tw/img_product/100/SOGIProduct.jpg'", :src => "http://attach.sogi.com.tw/img_product/100/NO_8169.jpg"}/
+                  %td
+                    %div{:align => "right"}
+                      %a.btn-del.hide{:href => "springboard.aspx?c=1&amp;d=8469:NOKIA:500", :title => "\345\210\252\351\231\244"}
+                        %span 刪除
+                    %br/
+                    %a{:href => "productInfo.aspx?pno=8169"}
+                      %img{:alt => "HTC EVO 3D", :onerror => "javascript:this.src='http://attach.sogi.com.tw/img_product/100/SOGIProduct.jpg'", :src => "http://attach.sogi.com.tw/img_product/100/NO_8169.jpg"}/
+                  %td
+                    %div{:align => "right"}
+                      %a.btn-del.hide{:href => "springboard.aspx?c=1&amp;d=8469:NOKIA:500", :title => "\345\210\252\351\231\244"}
+                        %span 刪除
+                    %br/
+                    %a{:href => "productInfo.aspx?pno=8169"}
+                      %img{:alt => "HTC EVO 3D", :onerror => "javascript:this.src='http://attach.sogi.com.tw/img_product/100/SOGIProduct.jpg'", :src => "http://attach.sogi.com.tw/img_product/100/NO_8169.jpg"}/
+                  %td
+                    %div{:align => "right"}
+                      %a.btn-del.hide{:href => "springboard.aspx?c=1&amp;d=8469:NOKIA:500", :title => "\345\210\252\351\231\244"}
+                        %span 刪除
+                    %br/
+                    %a{:href => "productInfo.aspx?pno=8169"}
+                      %img{:alt => "HTC EVO 3D", :onerror => "javascript:this.src='http://attach.sogi.com.tw/img_product/100/SOGIProduct.jpg'", :src => "http://attach.sogi.com.tw/img_product/100/NO_8169.jpg"}/
+                  %td
+                    %div{:align => "right"}
+                      %a.btn-del.hide{:href => "springboard.aspx?c=1&amp;d=8469:NOKIA:500", :title => "\345\210\252\351\231\244"}
+                        %span 刪除
+                    %br/
+                    %a{:href => "productInfo.aspx?pno=8469"}
+                      %img{:alt => "NOKIA 500", :onerror => "javascript:this.src='http://attach.sogi.com.tw/img_product/100/SOGIProduct.jpg'", :src => "http://attach.sogi.com.tw/img_product/100/NO_8469.jpg"}/
+                %tr
+                  %th 原廠售價
+                  %td
+                    %span.txt-price NT$ 21900
+                  %td
+                    %span.txt-price NT$ --------
+                  %td
+                    %span.txt-price NT$ --------
+                  %td
+                    %span.txt-price NT$ --------
+                  %td
+                    %span.txt-price NT$ --------
+                %tr
+                  %th 平均報價
+                  %td
+                    %span.txt-price NT$ --------
+                  %td
+                    %span.txt-price NT$ --------
+                  %td
+                    %span.txt-price NT$ --------
+                  %td
+                    %span.txt-price NT$ --------
+                  %td
+                    %span.txt-price NT$ --------
+                %tr
+                  %th 基本資訊
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                %tr
+                  %th 頻率系統
+                  %td GSM850, GSM900, GSM1800, GSM1900, HSDPA, WCDMA, HSUPA
+                  %td GSM850, GSM900, GSM1800, GSM1900, HSDPA, WCDMA, HSUPA
+                  %td GSM850, GSM900, GSM1800, GSM1900, HSDPA, WCDMA, HSUPA
+                  %td GSM850, GSM900, GSM1800, GSM1900, HSDPA, WCDMA, HSUPA
+                  %td GSM850, GSM900, GSM1800, GSM1900, HSDPA, WCDMA, HSUPA
+                %tr
+                  %th 內建相機畫素
+                  %td 500萬畫素
+                  %td 500萬畫素
+                  %td 500萬畫素
+                  %td 500萬畫素
+                  %td 500萬畫素
+                %tr
+                  %th 鈴聲種類
+                  %td AAC, AMR, MIDI, MP3, WAV, WMA
+                  %td MP3
+                  %td MP3
+                  %td MP3
+                  %td MP3
+                %tr
+                  %th 內建記憶體(ROM)
+                  %td 1G
+                  %td 512MB
+                  %td 512MB
+                  %td 512MB
+                  %td 512MB
+                %tr
+                  %th 藍牙版本
+                  %td V3.0
+                  %td V2.1
+                  %td V2.1
+                  %td V2.1
+                  %td V2.1
+                %tr
+                  %th RAM記憶體
+                  %td 1GB
+                  %td 256MB
+                  %td 256MB
+                  %td 256MB
+                  %td 256MB
+                %tr
+                  %th 音樂播放器
+                  %td AAC, M4A, MP3, OGG, WAV, WMA, AMR, MID
+                  %td MP3
+                  %td MP3
+                  %td MP3
+                  %td MP3
+                %tr
+                  %th 作業系統(平台)
+                  %td Android 2.3
+                  %td Symbian Anna
+                  %td Symbian Anna
+                  %td Symbian Anna
+                  %td Symbian Anna
+                %tr
+                  %th 傳輸介面
+                  %td 藍牙, USB, A2DP, HDMI
+                  %td 藍牙, USB
+                  %td 藍牙, USB
+                  %td 藍牙, USB
+                  %td 藍牙, USB
+                %tr
+                  %th 處理器
+                  %td Qualcomm Snapdragon MSM8660, 1.2GHz
+                  %td 1GHz
+                  %td 1GHz
+                  %td 1GHz
+                  %td 1GHz
+                %tr
+                  %th 記憶卡插槽
+                  %td microSD(TF)
+                  %td microSD(TF)
+                  %td microSD(TF)
+                  %td microSD(TF)
+                  %td microSD(TF)
+                %tr
+                  %th 影音資訊
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                %tr
+                  %th 感光元件
+                  %td CMOS
+                  %td CMOS
+                  %td CMOS
+                  %td CMOS
+                  %td CMOS
+                %tr
+                  %th 錄影格式
+                  %td 3GP
+                  %td -
+                  %td -
+                  %td -
+                  %td -
+                %tr
+                  %th 圖片支援格式
+                  %td JPEG
+                  %td Flash, JPEG
+                  %td Flash, JPEG
+                  %td Flash, JPEG
+                  %td Flash, JPEG
+                %tr
+                  %th 影片播放格式
+                  %td 3GP, AVI, MPEG4, WMV, Xvid, 3G2
+                  %td MPEG4
+                  %td MPEG4
+                  %td MPEG4
+                  %td MPEG4
+                %tr
+                  %th 視訊鏡頭(3G)
+                  %td 130萬畫素
+                  %td -
+                  %td -
+                  %td -
+                  %td -
+                %tr
+                  %th 相機功能
+                  %td 自動對焦, LED 閃光燈
+                  %td LED 閃光燈
+                  %td LED 閃光燈
+                  %td LED 閃光燈
+                  %td LED 閃光燈
+                %tr
+                  %th 螢幕資訊
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                %tr
+                  %th 主螢幕材質
+                  %td TFT
+                  %td TFT
+                  %td TFT
+                  %td TFT
+                  %td TFT
+                %tr
+                  %th 主螢幕色彩
+                  %td -
+                  %td 1600萬色
+                  %td 1600萬色
+                  %td 1600萬色
+                  %td 1600萬色
+                %tr
+                  %th 主螢幕尺寸
+                  %td 4.3吋
+                  %td 3.2吋
+                  %td 3.2吋
+                  %td 3.2吋
+                  %td 3.2吋
+                %tr
+                  %th 主螢幕解析度
+                  %td 960 x 540 pixels
+                  %td 360*640 pixels
+                  %td 360*640 pixels
+                  %td 360*640 pixels
+                  %td 360*640 pixels
+                %tr
+                  %th 網路資訊
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                %tr
+                  %th 簡訊格式
+                  %td SMS, MMS
+                  %td SMS, MMS
+                  %td SMS, MMS
+                  %td SMS, MMS
+                  %td SMS, MMS
+                %tr
+                  %th 上網方式
+                  %td EDGE, GPRS, Wi-Fi / WLAN, 3G / WCDMA, 3.5G / HSDPA
+                  %td EDGE, GPRS, Wi-Fi / WLAN, 3G / WCDMA, 3.5G / HSDPA
+                  %td EDGE, GPRS, Wi-Fi / WLAN, 3G / WCDMA, 3.5G / HSDPA
+                  %td EDGE, GPRS, Wi-Fi / WLAN, 3G / WCDMA, 3.5G / HSDPA
+                  %td EDGE, GPRS, Wi-Fi / WLAN, 3G / WCDMA, 3.5G / HSDPA
+                %tr
+                  %th 內建功能
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                %tr
+                  %th 輸入法
+                  %td -
+                  %td 手寫輸入
+                  %td 手寫輸入
+                  %td 手寫輸入
+                  %td 手寫輸入
+                %tr
+                  %th 實用工具
+                  %td FM收音機, 世界時鐘, 錄音, 數位指南針
+                  %td 計算機, FM收音機, 世界時鐘, 鬧鈴, 錄音
+                  %td 計算機, FM收音機, 世界時鐘, 鬧鈴, 錄音
+                  %td 計算機, FM收音機, 世界時鐘, 鬧鈴, 錄音
+                  %td 計算機, FM收音機, 世界時鐘, 鬧鈴, 錄音
+                %tr
+                  %th 進階功能
+                  %td GPS(衛星導航), 陀螺儀
+                  %td JAVA, GPS(衛星導航), A-GPS
+                  %td JAVA, GPS(衛星導航), A-GPS
+                  %td JAVA, GPS(衛星導航), A-GPS
+                  %td JAVA, GPS(衛星導航), A-GPS
+                %tr
+                  %th 機身資訊
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                  %th &nbsp;
+                %tr
+                  %th 機身長度
+                  %td 126mm(公厘)
+                  %td 111.3mm(公厘)
+                  %td 111.3mm(公厘)
+                  %td 111.3mm(公厘)
+                  %td 111.3mm(公厘)
+                %tr
+                  %th 機身寬度
+                  %td 65mm(公厘)
+                  %td 53.8mm(公厘)
+                  %td 53.8mm(公厘)
+                  %td 53.8mm(公厘)
+                  %td 53.8mm(公厘)
+                %tr
+                  %th 機身厚度
+                  %td 12.05mm(公厘)
+                  %td 14.1mm(公厘)
+                  %td 14.1mm(公厘)
+                  %td 14.1mm(公厘)
+                  %td 14.1mm(公厘)
+                %tr
+                  %th 機身重量
+                  %td 170g(公克)
+                  %td 93g(公克)
+                  %td 93g(公克)
+                  %td 93g(公克)
+                  %td 93g(公克)
+                %tr
+                  %th 通話時間(最大)
+                  %td 9.33HR(小時)
+                  %td 7HR(小時)
+                  %td 7HR(小時)
+                  %td 7HR(小時)
+                  %td 7HR(小時)
+                %tr
+                  %th 待機時間(最大)
+                  %td 14.91天
+                  %td 20.83天
+                  %td 20.83天
+                  %td 20.83天
+                  %td 20.83天
+                %tr
+                  %th 電池容量
+                  %td 1730mAh(毫安培)
+                  %td 1110mAh(毫安培)
+                  %td 1110mAh(毫安培)
+                  %td 1110mAh(毫安培)
+                  %td 1110mAh(毫安培)
+                %tr
+                  %th 操作介面
+                  %td 觸控螢幕, 直式 / 橫式螢幕切換
+                  %td 觸控螢幕, 直式 / 橫式螢幕切換
+                  %td 觸控螢幕, 直式 / 橫式螢幕切換
+                  %td 觸控螢幕, 直式 / 橫式螢幕切換
+                  %td 觸控螢幕, 直式 / 橫式螢幕切換
+                %tr
+                  %th 機身顏色
+                  %td 黑
+                  %td -
+                  %td -
+                  %td -
+                  %td -
+                %tr
+                  %th WCDMA通話時間(最大)
+                  %td 7.75HR
+                  %td 5HR
+                  %td 5HR
+                  %td 5HR
+                  %td 5HR
+                %tr
+                  %th WCDMA待機時間(最大)
+                  %td 17.5天
+                  %td 18.95天
+                  %td 18.95天
+                  %td 18.95天
+                  %td 18.95天
+                %tr
+                  %th 機身設計
+                  %td 直立式, 雙鏡頭, 3.5mm 耳機孔
+                  %td 直立式, 可換外殼, 3.5mm 耳機孔
+                  %td 直立式, 可換外殼, 3.5mm 耳機孔
+                  %td 直立式, 可換外殼, 3.5mm 耳機孔
+                  %td 直立式, 可換外殼, 3.5mm 耳機孔
+      #footer
+        .list
+          關於手機王 | 網路行銷 | 廣告刊登 | 聯絡我們 | 服務條款 | 隱私權政策 | 法律顧問 | 技術合作 | 首機網路股份有限公司 © 1999-2011 All rights reserved.
+          %p
+            本網站已依台灣網站內容分級規定處理

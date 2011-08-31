@@ -1,0 +1,45 @@
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %link{:href => "http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi-style-0.1.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi_DiscussBoard.css", :rel => "stylesheet", :type => "text/css"}/
+    %title Untitled Document
+  %body
+    #yauclaa.msg
+      %h4 標籤(Tag)管理
+      .thiscontent
+        %select#dropTagManager{:name => "dropTagManager", :onchange => "javascript:setTimeout('__doPostBack(\\'dropTagManager\\',\\'\\')', 1)"}
+          %option{:value => "0"} 功能選擇
+          %option{:selected => "selected", :value => "1"} 新增標籤(Tag)
+          %option{:value => "2"} 修改標籤(Tag)
+          %option{:value => "3"} 刪除標籤(Tag)
+    #yauclaa.msg2
+      %h4 新增標籤(Tag)
+      .thiscontent
+        #pr_box
+          %ul.arrow
+            %li
+              %span#Label4 1.	為方便各版版主規劃管理各版文章資料，SOGI!提供版主可以自訂文章標籤。各版版主可以依照需求設立文章標籤。例如：「下載分享」、「發問」或「好康報馬仔」等。
+            %li
+              %span#Label5 2.	版主自訂文章標籤最多設定6組，每組標籤文字最多不超過6個中文字為限，並僅該版版主可設定。
+            %li
+              %span#Label6 3.	標籤需於30分鐘後才顯示於網頁上，請耐心等候。
+          %br/
+          %h3
+            %span#Label7 已存在標籤：
+          %ul.arrow
+          %span#lblTagList
+            %li 公告事項
+            %li 版務管理
+            %li 意見交流
+          .clear
+          %br/
+          %p
+          .bar
+            %input#txtTag{:name => "txtTag", :type => "text"}/
+          .objBtn
+            %ul
+              %li
+                %a{:href => "#", :title => "\346\226\260\345\242\236"} 新增

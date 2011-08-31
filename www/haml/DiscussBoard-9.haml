@@ -1,0 +1,29 @@
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %link{:href => "http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi-style-0.1.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi_DiscussBoard.css", :rel => "stylesheet", :type => "text/css"}/
+    %title Untitled Document
+  %body
+    #yauclaa.msg
+      %h4 更換標籤(Tag)
+      .thiscontent
+        %h3
+          %span 原始Tag：
+          %span#lblTopicTag 綜合
+        %br/
+        .clear
+        %span#Label2 更換Tag：
+        %select#dropTag{:name => "dropTag"}
+          %option{:value => "0"} 綜合
+          %option{:value => "186"} 公告事項
+          %option{:value => "187"} 版務管理
+          %option{:value => "188"} 意見交流
+        %br/
+        %br/
+        .objBtn
+          %ul
+            %li
+              %a{:href => "#", :title => "\347\242\272\345\256\232"} 確定

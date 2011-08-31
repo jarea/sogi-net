@@ -1,0 +1,440 @@
+!!!
+%html
+  %head
+    %title SOGI 迷你店鋪 - 聯強電信聯盟-永傑通信
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %link{:href => "http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi-style-0.1.css", :rel => "stylesheet", :type => "text/css"}/
+  %body
+    #topbar
+      .channelList
+        %a{:href => "#", :target => "_blank"} 手機王
+        ｜
+        %a{:href => "#", :target => "_blank"} Windows Phone
+        ｜
+        %a{:href => "#", :target => "_blank"} Android
+        .loginClub
+          %a{:href => "#", :target => "_blank"} 註冊新會員
+          ｜
+          %a{:href => "#", :target => "_blank"} 店鋪管理
+          ｜
+          %a{:href => "#", :target => "_blank"} [ Jason ] 登出
+    #container
+      #globalBg
+        .storeBg
+          %img.sunBg{:src => "images/www/sogi-store-bg-2.png"}/
+      #head
+        .sHead.bw
+          .AD970.mg.pg
+            %a{:href => "#", :title => "\345\273\243\345\221\212"}
+              %img{:src => "images/www/ad970.gif"}/
+          .storeNav.mg
+            %ul
+              %li
+                %a{:href => "#"}
+                  店鋪首頁
+              %li
+                %a{:href => "#"}
+                  推薦促銷
+              %li
+                %a{:href => "#"}
+                  店鋪資訊
+              %li.on
+                %a{:href => "#"}
+                  服務中心
+              %li
+                %a{:href => "#"}
+                  詢價須知
+              %li
+                %a{:href => "#"}
+                  店鋪管理
+      #main
+        #storeMain.bw
+          .bwls
+            .forumMain.sstyle
+              .objInfo
+                .forumBtn
+                  .createVote
+                    %a{:href => "#", :title => "\347\231\274\350\265\267\346\264\273\345\213\225"}
+                      發起活動
+                  .newPost
+                    %a{:href => "#", :title => "\347\231\274\350\241\250\346\226\207\347\253\240"}
+                      發表文章
+              .articleSearch
+                %select{:name => "searchType"}
+                  %option{:value => "1"}
+                    文章標題
+                  %option{:value => "2"}
+                    作者
+                %input{:name => "searchTxt", :type => "text"}/
+                %input{:name => "\346\220\234\345\260\213", :type => "button", :value => "\346\220\234\345\260\213"}/
+              .pagination.digg
+                %ul
+                  %li.disabled
+                    第一頁
+                  %li.disabled
+                    上一頁
+                  %li.current
+                    1
+                  %li
+                    %a{:href => "#"}
+                      2
+                  %li
+                    %a{:href => "#"}
+                      3
+                  %li
+                    %a{:href => "#"}
+                      4
+                  %li
+                    %a{:href => "#"}
+                      5
+                  %li
+                    %a{:href => "#"}
+                      6
+                  %li
+                    %a{:href => "#"}
+                      7
+                  %li
+                    %a{:href => "#"}
+                      8
+                  %li
+                    %a{:href => "#"}
+                      9
+                  %li
+                    %a{:href => "#"}
+                      10
+                  %li
+                    %a{:href => "#"}
+                      下一頁
+                  %li
+                    %a{:href => "#"}
+                      最後一頁
+              .article
+                .objBtns
+                  .wording
+                    所屬子版：
+                  .objBtn
+                    %a{:href => "#", :title => "Desire HD"}
+                      Desire HD
+                  .objBtn
+                    %a{:href => "#", :title => "Android"}
+                      Android
+                %h1.arTitle
+                  [版主公告]手機王電子雜誌5月精彩好禮！
+                  %img{:src => "images/www/iconD.png", :title => "\347\275\256\351\240\202\346\226\207\347\253\240"}/
+                  %img{:src => "images/www/iconB.png", :title => "\347\210\206\347\206\261\346\226\207\347\253\240"}/
+                .authorInfo
+                  .userImg
+                    %img{:src => "images/www/samples/sample-img-3.jpg"}/
+                  .info
+                    .uName
+                      %a{:href => "#"}
+                        跳跳虎 (fantasytrees)
+                      .uTitle
+                        版主
+                    .ownBoard
+                      版主：
+                      %a{:href => "#", :title => "HTC"}
+                        HTC
+                      ,
+                      %a{:href => "#", :title => "Android"}
+                        Android
+                    .others
+                      %span
+                        經驗值：2334
+                      %span
+                        文章數：789
+                      %span
+                        文章評價：+4/-0
+                    .others
+                      %span
+                        發文時間：2011-07-01 14:30:30
+                    .articleBtns
+                      %a{:href => "#", :title => "\345\202\263\350\250\212"}
+                        傳訊
+                      %a{:href => "#", :title => "\345\233\236\350\246\206"}
+                        回覆
+                      %a{:href => "#", :title => "\345\274\225\347\224\250"}
+                        引用
+                      %a.yellow{:href => "#", :title => "\347\267\250\350\274\257"}
+                        編輯
+                      %a.red{:href => "#", :title => "\346\225\264\347\257\207\345\210\252\351\231\244"}
+                        整篇刪除
+                    .artiCount
+                      1樓
+                .articleContent
+                  .content
+                    %p
+                      許多網友總會抱怨說，HTC Desire HD 的內建相機 800 萬畫素，拍出來的照片常常都會呈現白霧朦朦，成像感覺很差，老實說，跳跳虎也是這樣認為！不過在這邊還是要告訴大家，畫素代表的僅是一張照片拍出來的圖片大小，跟實際拍出的品質無關。但是這就代表 HTC Desire HD 拍不出好照片嗎？難道就沒有解決方案？
+                    %p
+                      %img{:src => "images/www/samples/sample-img-9.jpg"}/
+                    %p
+                      許多網友總會抱怨說，HTC Desire HD 的內建相機 800 萬畫素，拍出來的照片常常都會呈現白霧朦朦，成像感覺很差，老實說，跳跳虎也是這樣認為！不過在這邊還是要告訴大家，畫素代表的僅是一張照片拍出來的圖片大小，跟實際拍出的品質無關。但是這就代表 HTC Desire HD 拍不出好照片嗎？難道就沒有解決方案？
+                    %p
+                      %img{:src => "images/www/samples/sample-img-9.jpg"}/
+                  .remark
+                    .del
+                      %img{:src => "images/www/icon_action_stop.gif"}/
+                      此文章已經刪除。非站務無法看見！
+                    .reEdit
+                      %img{:src => "images/www/icon_page_code.gif"}/
+                      此文章已經由 [Jason] ，於 2011-06-30 14:30:30 編輯過。
+                    .lock
+                      %img{:src => "images/www/icon_padlock.gif"}/
+                      此文章已經鎖定無法回覆！
+                  .signature
+                    我是簽名檔！我是簽名檔！我是簽名檔！我是簽名檔！我是簽名檔！
+                .authorInfo
+                  .userImg
+                    %img{:src => "images/www/samples/sample-img-3.jpg"}/
+                  .info
+                    .uName
+                      %a{:href => "#"}
+                        跳跳虎 (fantasytrees)
+                      .uTitle
+                        版主
+                    .ownBoard
+                      版主：
+                      %a{:href => "#", :title => "HTC"}
+                        HTC
+                      ,
+                      %a{:href => "#", :title => "Android"}
+                        Android
+                    .others
+                      %span
+                        經驗值：2334
+                      %span
+                        文章數：789
+                      %span
+                        文章評價：+4/-0
+                    .others
+                      %span
+                        發文時間：2011-07-01 14:30:30
+                    .articleBtns
+                      %a{:href => "#", :title => "\345\202\263\350\250\212"}
+                        傳訊
+                      %a{:href => "#", :title => "\345\233\236\350\246\206"}
+                        回覆
+                      %a{:href => "#", :title => "\345\274\225\347\224\250"}
+                        引用
+                      %a.yellow{:href => "#", :title => "\347\267\250\350\274\257"}
+                        編輯
+                      %a.red{:href => "#", :title => "\346\225\264\347\257\207\345\210\252\351\231\244"}
+                        單篇刪除
+                    .artiCount
+                      2樓
+                .articleContent
+                  .content
+                    %p
+                      許多網友總會抱怨說，HTC Desire HD 的內建相機 800 萬畫素，拍出來的照片常常都會呈現白霧朦朦，成像感覺很差，老實說，跳跳虎也是這樣認為！不過在這邊還是要告訴大家，畫素代表的僅是一張照片拍出來的圖片大小，跟實際拍出的品質無關。但是這就代表 HTC Desire HD 拍不出好照片嗎？難道就沒有解決方案？
+                    %p
+                      %img{:src => "images/www/samples/sample-img-9.jpg"}/
+                    %p
+                      許多網友總會抱怨說，HTC Desire HD 的內建相機 800 萬畫素，拍出來的照片常常都會呈現白霧朦朦，成像感覺很差，老實說，跳跳虎也是這樣認為！不過在這邊還是要告訴大家，畫素代表的僅是一張照片拍出來的圖片大小，跟實際拍出的品質無關。但是這就代表 HTC Desire HD 拍不出好照片嗎？難道就沒有解決方案？
+                    %p
+                      %img{:src => "images/www/samples/sample-img-9.jpg"}/
+                  .remark
+                    .del
+                      %img{:src => "images/www/icon_action_stop.gif"}/
+                      此文章已經刪除。非站務無法看見！
+                    .reEdit
+                      %img{:src => "images/www/icon_page_code.gif"}/
+                      此文章已經由 [Jason] ，於 2011-06-30 14:30:30 編輯過。
+                    .lock
+                      %img{:src => "images/www/icon_padlock.gif"}/
+                      此文章已經鎖定無法回覆！
+                  .signature
+                    我是簽名檔！我是簽名檔！我是簽名檔！我是簽名檔！我是簽名檔！
+                .authorInfo
+                  .userImg
+                    %img{:src => "images/www/samples/sample-img-3.jpg"}/
+                  .info
+                    .uName
+                      %a{:href => "#"}
+                        跳跳虎 (fantasytrees)
+                      .uTitle
+                        版主
+                    .ownBoard
+                      版主：
+                      %a{:href => "#", :title => "HTC"}
+                        HTC
+                      ,
+                      %a{:href => "#", :title => "Android"}
+                        Android
+                    .others
+                      %span
+                        經驗值：2334
+                      %span
+                        文章數：789
+                      %span
+                        文章評價：+4/-0
+                    .others
+                      %span
+                        發文時間：2011-07-01 14:30:30
+                    .articleBtns
+                      %a{:href => "#", :title => "\345\202\263\350\250\212"}
+                        傳訊
+                      %a{:href => "#", :title => "\345\233\236\350\246\206"}
+                        回覆
+                      %a{:href => "#", :title => "\345\274\225\347\224\250"}
+                        引用
+                      %a.yellow{:href => "#", :title => "\347\267\250\350\274\257"}
+                        編輯
+                      %a.red{:href => "#", :title => "\346\225\264\347\257\207\345\210\252\351\231\244"}
+                        單篇刪除
+                    .artiCount
+                      3樓
+                .articleContent
+                  .content
+                    %p
+                      許多網友總會抱怨說，HTC Desire HD 的內建相機 800 萬畫素，拍出來的照片常常都會呈現白霧朦朦，成像感覺很差，老實說，跳跳虎也是這樣認為！不過在這邊還是要告訴大家，畫素代表的僅是一張照片拍出來的圖片大小，跟實際拍出的品質無關。但是這就代表 HTC Desire HD 拍不出好照片嗎？難道就沒有解決方案？
+                    %p
+                      %img{:src => "images/www/samples/sample-img-9.jpg"}/
+                    %p
+                      許多網友總會抱怨說，HTC Desire HD 的內建相機 800 萬畫素，拍出來的照片常常都會呈現白霧朦朦，成像感覺很差，老實說，跳跳虎也是這樣認為！不過在這邊還是要告訴大家，畫素代表的僅是一張照片拍出來的圖片大小，跟實際拍出的品質無關。但是這就代表 HTC Desire HD 拍不出好照片嗎？難道就沒有解決方案？
+                    %p
+                      %img{:src => "images/www/samples/sample-img-9.jpg"}/
+                  .remark
+                    .del
+                      %img{:src => "images/www/icon_action_stop.gif"}/
+                      此文章已經刪除。非站務無法看見！
+                    .reEdit
+                      %img{:src => "images/www/icon_page_code.gif"}/
+                      此文章已經由 [Jason] ，於 2011-06-30 14:30:30 編輯過。
+                    .lock
+                      %img{:src => "images/www/icon_padlock.gif"}/
+                      此文章已經鎖定無法回覆！
+                  .signature
+                    我是簽名檔！我是簽名檔！我是簽名檔！我是簽名檔！我是簽名檔！
+              .pagination.digg
+                %ul
+                  %li.disabled
+                    第一頁
+                  %li.disabled
+                    上一頁
+                  %li.current
+                    1
+                  %li
+                    %a{:href => "#"}
+                      2
+                  %li
+                    %a{:href => "#"}
+                      3
+                  %li
+                    %a{:href => "#"}
+                      4
+                  %li
+                    %a{:href => "#"}
+                      5
+                  %li
+                    %a{:href => "#"}
+                      6
+                  %li
+                    %a{:href => "#"}
+                      7
+                  %li
+                    %a{:href => "#"}
+                      8
+                  %li
+                    %a{:href => "#"}
+                      9
+                  %li
+                    %a{:href => "#"}
+                      10
+                  %li
+                    %a{:href => "#"}
+                      下一頁
+                  %li
+                    %a{:href => "#"}
+                      最後一頁
+          .bwr
+            .storeSides
+              .mainImg
+                %img{:src => "images/www/samples/sample-img-11.jpg"}/
+                .spotlight
+              .info
+                %h1.sName
+                  聯強電信聯盟-永傑通信
+                .tel
+                  .icon
+                  02-23090818
+                .addr
+                  .icon
+                  台北市大安區忠孝東路三段100號
+              .rLists
+                .title
+                  .icon
+                  手機商品 (50)
+                .lists
+                  %ul.list
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        HTC (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Apple (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Nokia (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Sony Ericssion (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        ASUS (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        HTC (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Apple (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Nokia (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Sony Ericssion (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        ASUS (5)
+              .rLists
+                .title
+                  .icon
+                  平板電腦商品 (50)
+                .lists
+                  %ul.list
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        HTC (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Apple (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Nokia (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Sony Ericssion (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        ASUS (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        HTC (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Apple (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Nokia (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Sony Ericssion (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        ASUS (5)
+    #footer
+      .list
+        關於手機王 | 網路行銷 | 廣告刊登 | 聯絡我們 | 服務條款 | 隱私權政策 | 法律顧問 | 技術合作 | 首機網路股份有限公司 © 1999-2011 All rights reserved.
+        %p
+          本網站已依台灣網站內容分級規定處理

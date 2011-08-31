@@ -1,0 +1,65 @@
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %link{:href => "http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi-style-0.1.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi_DiscussBoard.css", :rel => "stylesheet", :type => "text/css"}/
+    %title Untitled Document
+  %body
+    #yauclaa.msg
+      %h4 標籤(Tag)管理
+      .thiscontent
+        %select#dropTagManager{:name => "dropTagManager", :onchange => "javascript:setTimeout('__doPostBack(\\'dropTagManager\\',\\'\\')', 0)"}
+          %option{:value => "0"} 功能選擇
+          %option{:value => "1"} 新增標籤(Tag)
+          %option{:selected => "selected", :value => "2"} 修改標籤(Tag)
+          %option{:value => "3"} 刪除標籤(Tag)
+    #yauclaa.msg2
+      %h4 修改標籤(Tag)
+      .thiscontent
+        #pr_box
+          %h3
+            %span#Label7 請選擇要修改的標籤：
+          %br/
+          %ul.arrow
+          %div
+            .pageSpace
+              .pageSpaceL 標籤
+              %br/
+              %br/
+              .pageSpaceL 公告事項
+              .pageSpaceR
+                .objBtn
+                  %ul
+                    %li
+                      %a{:href => "#", :title => "\347\267\250\350\274\257"} 編輯
+                .objBtn
+                  %ul
+                    %li
+                      %a{:href => "#", :title => "\345\210\252\351\231\244"} 刪除
+              %br/
+              %br/
+              .pageSpaceL 版務管理
+              .pageSpaceR
+                .objBtn
+                  %ul
+                    %li
+                      %a{:href => "#", :title => "\347\267\250\350\274\257"} 編輯
+                .objBtn
+                  %ul
+                    %li
+                      %a{:href => "#", :title => "\345\210\252\351\231\244"} 刪除
+              %br/
+              %br/
+              .pageSpaceL 意見交流
+              .pageSpaceR
+                .objBtn
+                  %ul
+                    %li
+                      %a{:href => "#", :title => "\347\267\250\350\274\257"} 編輯
+                .objBtn
+                  %ul
+                    %li
+                      %a{:href => "#", :title => "\345\210\252\351\231\244"} 刪除
+          .clear

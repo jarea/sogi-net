@@ -1,0 +1,382 @@
+  #container .messageMain
+  {
+	position: relative;
+	overflow: hidden;
+	height: auto;
+	border-radius: 15px;
+	border: 1px solid #aaaaaa;
+	box-shadow: 0 0 6px #aaaaaa;
+	background: #f9f9f9 url(../images/www/sogi-bg-9.png) 0 0 scroll repeat-x;
+	 }
+	
+	
+	#container .mContent
+	{
+	width:650px;
+	height:auto;
+	margin: 15px;
+	clear: both;
+	float: left;
+	padding-top: 5px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	
+	
+	
+	
+	
+	}
+	
+	
+
+	.mTitle
+	{
+	width:650px;
+	float:left;
+	text-align: center;
+	font-size:15px;
+	background-color:#AAA;
+	height:35px;
+	line-height: 35px;
+	border-radius:10px;
+	letter-spacing: 0.2em;	
+	}
+	
+.mChange
+{
+	padding:20px 0 5px 20px;
+	float:left;
+}	
+	
+
+
+
+
+.mContent .objBtn li {
+    background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 6px white inset;
+    float: left;
+    margin-right: 2px;
+	padding:10px;
+}
+
+
+
+.mArticleT
+{
+	width:auto;
+	 float: left;
+	 padding-top:15px;
+	 font-size:13px;
+	 
+}
+
+
+
+#container .mContent strong
+	{
+	color: #888;	
+	font-size:12px;
+	
+	
+	}
+	
+	
+	
+.mArticleMinor
+{
+	width:auto;
+	 float: left;
+	 padding-top:20px;
+	 font-size:13px;
+
+}
+
+
+.mArticleContent
+{
+	width:620px;
+	 float: left;
+	 padding-top:20px;
+	 font-size:13px;
+	
+}
+
+
+
+.mArticle
+{
+	width:auto;
+	 float: left;
+	  padding-left:20px;
+	
+	padding-top:30px;
+	padding-bottom:30px;
+}
+
+.mArticleKeys
+
+{
+	float: left;
+ padding-left:20px;	
+  padding-bottom:30px;
+  font-size:13px;
+}
+
+.mArticleSkeys	
+{
+	float:left;
+ padding-left:20px;	
+  padding-bottom:15px;
+  font-size:13px;
+  width:500px;
+}
+
+
+
+
+
+
+.mArticleSkeys	 .objBtn li {
+	background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
+	border: 1px solid #AAAAAA;
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 0 0 6px white inset;
+	float:left;
+	margin-right: 5px;
+	padding:3px 6px 3px 6px;
+	font-size:11px;
+	text-align: center;	
+}
+
+
+.mArticleSkeys .objBtn {
+    
+	float:left;
+	padding-right:20px;
+	 
+}
+
+
+
+.mRule
+{
+	
+	padding-left:180px;
+	padding-bottom:15px;
+	padding-top:20px;
+	float:left;
+	font-size: 13px;
+	color: #444;
+	 
+}
+
+
+
+.mArticleBtn
+{
+	
+	padding-top:25px;
+	padding-left:145px;
+	
+	
+}
+
+.mArticleBtn .objBtn {
+    width:500px;
+	float:left;
+	 
+}
+
+
+
+.mArticleBtn .objBtn li {
+    background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 6px white inset;
+    float:left;
+    margin-right: 5px;
+	padding:5px 10px 5px 10px;
+	font-size:13px;
+}
+
+	
+	
+	
+	
+	
+.mNewPage
+{
+border-radius:14px 14px 14px 14px;
+ box-shadow: 0 0 6px #aaaaaa;
+float:left;
+border: 1px solid #AAAAAA;
+width:650px;
+padding-bottom:20px;
+	
+}	
+
+
+
+.pageSpace
+{
+	float:left;
+	width:610px;
+	padding-bottom:20px;
+	margin-left:20px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #AAA;	
+}	
+
+
+.pageSpaceR
+{
+	float:left;
+	width:auto;
+	
+	
+
+}	
+
+.pageSpaceL
+{
+	float:left;
+	width:68px;
+	
+}	
+
+.space
+{
+	float:left;
+	width:610px;
+	
+	margin-left:20px;
+	
+}	
+
+
+
+.mNewPage .objBtn
+{
+
+  width:600px;
+	float:left;
+padding-top:20px;	 
+
+	
+}	
+
+
+
+.mNewPage .objBtn li {
+    background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 6px white inset;
+    float:right;
+    margin-right: 5px;
+	padding:5px 10px 5px 10px;
+	font-size:13px;
+}
+
+	
+.mArticleAnswerBtn
+{
+	
+	padding-top:25px;
+	padding-left:185px;
+	
+	
+}
+
+
+.mArticleAnswerBtn .objBtn {
+    width:500px;
+	float:left;
+	 
+}
+
+
+
+.mArticleAnswerBtn .objBtn li {
+    background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 6px white inset;
+    float:left;
+    margin-right: 5px;
+	padding:5px 10px 5px 10px;
+	font-size:13px;
+}
+	
+	
+	
+	
+.mExplanation
+{
+	width:auto;
+	 float: left;
+	 padding-top:20px;
+	 font-size:13px;
+
+}	
+
+.mDeadline
+{
+	width:auto;
+	 float: left;
+	 padding-top:20px;
+	 font-size:13px;
+
+}	
+	
+	
+.pageSpaceR .img
+{
+	padding-top:1px;
+	float:left;	
+}	
+
+
+
+
+.mArticlePreviewBtn
+{
+	width:auto;
+	padding-top:50px;
+	padding-left:240px;
+	
+	
+}
+
+
+.mArticlePreviewBtn .objBtn {
+    width:auto;
+	float:left;
+	padding-top:0px;
+	 
+}
+
+
+
+.mArticlePreviewBtn .objBtn li {
+    background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0 0 6px white inset;
+    float:left;
+    margin-right: 5px;
+	padding:5px 10px 5px 10px;
+	font-size:13px;
+}
+
+
+
+	
+	
+	

@@ -1,0 +1,265 @@
+#container .NewProgram
+	{
+	width:350px;
+	float:left;
+	font-size:14px;
+	line-height: 22px;
+	}
+	
+	#container .NewProgram .spacer
+	{
+	height:5px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #BBB;
+	margin-top:8px;
+	margin-right: 0;
+	margin-bottom: 5px;
+	margin-left: 0;
+	
+	
+	}
+	
+	
+	#container .NewProgram strong
+	{
+	color: #D00;
+	font-weight: 800;
+	}
+	
+	
+	#container .NewProgramS
+	{
+	width:300px;
+	float:left;
+	font-size:14px;
+	line-height: 22px;
+	}
+	
+	#container .NewProgramS .spacer
+	{
+	height:5px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #BBB;
+	margin-top:8px;
+	margin-right: 0;
+	margin-bottom: 5px;
+	margin-left: 0;
+	
+	clear:left;
+		
+	}
+	
+	
+	#container .NewProgramS strong
+	{
+	color: #D00;
+	font-weight: 800;
+	}
+		 
+	 
+	 
+.NewProgram .space
+{
+	float:left;
+	width:350px;
+	
+	
+	
+}	 
+
+.NewProgramS .space
+{
+	float:left;
+	width:300px;
+	
+	
+	
+}	 
+
+
+
+
+.programR
+{
+	float:left;
+	width:auto;
+	
+	
+
+}	
+
+.programL
+{
+	float:left;
+	width:auto;
+	
+}		 
+	
+
+  
+	
+	
+	
+	
+	
+	#container .points
+	{
+	margin-bottom: 10px;	
+	width:600px;
+	font-size: 13px;
+    padding-left: 18px;
+	padding-bottom:10px;
+
+	}
+	
+	
+	#container .points img
+	{
+	padding-top:5px;
+	
+	
+	}
+	
+	#container .points strong
+	{
+		color: #D00;
+	font-weight: 700;
+	}
+	
+	
+	
+	
+	
+	
+.content .FdataTabs
+{
+	float: left;	
+}
+
+.content .FdataTabs a{
+	display:block;
+	height: 30px;
+	width: 100px;
+	background-image: url(../images/www/FdataTab_bac.png);
+}
+
+.content .FdataTabs a:hover
+{
+	background-image:  url(../images/www/FdataTabOn_bac.png);
+	color: #444;
+}
+
+
+
+
+
+
+
+.content .FdataTab
+{
+	float: left;
+	margin: 0 3px 0 0;
+	padding: 0px;
+	color: #444;
+	background-image: url(../images/www/FdataTab_bac.png);
+	text-align: center;
+	line-height: 30px;
+}
+
+
+.content .Fon a{
+	display:block;
+	height: 30px;
+	width: 100px;
+	background-image: url(../images/www/FdataTabOn_bac.png);
+	
+}
+
+
+
+
+
+
+.content .FdataDown
+{
+	float: left;
+	margin: 0 3px 0 0;
+	padding:0 0 30px 0;
+	color: #444;
+	
+	text-align: center;
+	line-height: 30px;
+	width: 690px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+table.tbl-border TH, table.tbl-border TD {
+    border: 1px solid #DDDDDD;
+    padding: 3px;
+}
+
+
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+	
+	}
+	
+	
+
+.tbl-Center {
+    text-align: center;
+}
+
+table th {
+	background-color:#DDD;
+	font-weight: bold;
+}
+
+table, caption, tbody, tfoot, thead, tr, th, td {
+    vertical-align: middle;
+	padding:50px;
+
+}
+	
+	.tp-col2 .tptGroup {
+    margin: 0;
+}
+
+ol, ul {
+    list-style: none outside none;
+}
+	
+	
+	
+
+
+ #container .shopMain .filterResult .byLeft
+		  {
+	float: left;
+	width:auto;
+	font-size:14px;
+	line-height: 20px;
+	padding:0;
+	margin:0;
+
+	 }
+	 
+	 
+	 
+	 
+	 
+
+
+	 

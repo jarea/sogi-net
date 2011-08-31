@@ -1,0 +1,687 @@
+!!!
+%html
+  %head
+    %title SOGI 迷你店鋪 - 聯強電信聯盟-永傑通信
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %link{:href => "http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi-style-0.1.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi_store-6.css", :rel => "stylesheet", :type => "text/css"}/
+  %body
+    #topbar
+      .channelList
+        %a{:href => "#", :target => "_blank"} 手機王
+        ｜
+        %a{:href => "#", :target => "_blank"} Windows Phone
+        ｜
+        %a{:href => "#", :target => "_blank"} Android
+        .loginClub
+          %a{:href => "#", :target => "_blank"} 註冊新會員
+          ｜
+          %a{:href => "#", :target => "_blank"} 店鋪管理
+          ｜
+          %a{:href => "#", :target => "_blank"} [ Jason ] 登出
+    #container
+      #globalBg
+        .storeBg
+          %img.sunBg{:src => "images/www/sogi-store-bg-2.png"}/
+      #head
+        .sHead.bw
+          .AD970.mg.pg
+            %a{:href => "#", :title => "\345\273\243\345\221\212"}
+              %img{:src => "images/www/ad970.gif"}/
+          .storeNav.mg
+            %ul
+              %li
+                %a{:href => "#"}
+                  店鋪首頁
+              %li
+                %a{:href => "#"}
+                  推薦促銷
+              %li
+                %a{:href => "#"}
+                  店鋪資訊
+              %li
+                %a{:href => "#"}
+                  服務中心
+              %li
+                %a{:href => "#"}
+                  詢價須知
+              %li.on
+                %a{:href => "#"}
+                  店鋪管理
+      #main
+        #storeMain.bw
+          .bwls
+            .Sfootermain
+              .Sdatas
+                .SdataL
+                .SdataR
+                  .Snav
+                    .Stabs{:style => "width:660px;"}
+                      .Stab
+                        %a{:href => "#", :title => "\347\263\273\347\265\261\345\205\254\345\221\212"}
+                          系統公告
+                      .Stab
+                        %a{:href => "#", :title => "\345\225\206\345\223\201\347\256\241\347\220\206"}
+                          商品管理
+                      .Stab
+                        %a{:href => "#", :title => "\351\226\200\350\231\237\350\263\207\350\262\273"}
+                          門號資費
+                      .Stab
+                        %a{:href => "#", :title => "\346\216\250\350\226\246\344\277\203\351\212\267"}
+                          推薦促銷
+                      .Stab.on
+                        %a{:href => "#", :title => "\345\272\227\351\213\252\350\263\207\350\250\212"}
+                          店鋪資訊
+                      .Stab
+                        %a{:href => "#", :title => "\345\225\217\351\241\214\345\217\215\346\230\240"}
+                          問題反映
+                      .Stab
+                        %a{:href => "#", :title => "\346\211\213\346\251\237\345\240\261\344\277\256"}
+                          手機報修
+                      .Stab
+                        %a{:href => "#", :title => "\347\217\276\351\207\221\347\233\244\350\263\207\350\250\212"}
+                          現金盤資訊
+                    .StabsEnd
+                  .Sdata
+                    .SdataUp
+                      .SdataTabs
+                        .SdataTab.Son
+                          %a{:href => "#"} 店鋪資訊
+                        .SdataTab
+                          %a{:href => "#"} 帳戶資訊
+                    .SdataDown
+                      .SInformation
+                        %h3.tle-bg-gray 店鋪資訊
+                        %table.tbl-borderH{:width => "100%"}
+                          %tbody
+                            %tr
+                              %th.tbl-Right.tbl-thRow{:width => "15%"}
+                                店舖名稱
+                              %td{:colspan => "2"}
+                                %span#ctl00_ContentPlaceHolder1_lblShopName 熟雞王
+                            %tr
+                              %th.tbl-Right.tbl-thRow
+                                照片上傳
+                              %td{:colspan => "2"}
+                                %input#ctl00_ContentPlaceHolder1_fuShopPic{:name => "ctl00$ContentPlaceHolder1$fuShopPic", :type => "file"}/
+                                \&nbsp;
+                                %img#ctl00_ContentPlaceHolder1_imgShopPic{:onerror => "javascript:this.src='http://attach.sogi.com.tw/img_product/250/SOGIProduct.jpg';", :src => "http://sogi-attach.s3.amazonaws.com/img_shop/no591.jpg?7507?1860?1791?2638?140", :style => "height:200px;width:300px;border-width:0px;"}/
+                                = succeed "\347\224\242\345\223\201\345\234\226\347\211\207\346\240\274\345\274\217\350\253\213\344\270\212\345\202\263" do
+                                  %br/
+                                300*200
+                            %tr
+                              %th.tbl-Right.tbl-thRow{:style => "height: 27px"}
+                                %span{:style => "color: Red"}> *
+                                電話 1
+                              %td{:colspan => "2", :style => "height: 27px"}
+                                %input#ctl00_ContentPlaceHolder1_txtTel1{:maxlength => "12", :name => "ctl00$ContentPlaceHolder1$txtTel1", :type => "text", :value => "02-27094233"}/
+                                = succeed "&amp;nbsp;" do
+                                  %span#ctl00_ContentPlaceHolder1_Label1{:style => "color:Red;"} 格式：xx-xxxxxxxx
+                            %tr
+                              %th.tbl-Right.tbl-thRow
+                                電話 2
+                              %td{:colspan => "2"}
+                                %input#ctl00_ContentPlaceHolder1_txtTel2{:maxlength => "12", :name => "ctl00$ContentPlaceHolder1$txtTel2", :type => "text", :value => "02-27098457"}/
+                                = succeed "&amp;nbsp;" do
+                                  %span#ctl00_ContentPlaceHolder1_Label2{:style => "color:Red;"} 格式：xx-xxxxxxxx
+                            %tr
+                              %th.tbl-Right.tbl-thRow
+                                %span{:style => "color: Red"}> *
+                                手機 1
+                              %td{:colspan => "2"}
+                                %input#ctl00_ContentPlaceHolder1_txtMobile1{:maxlength => "10", :name => "ctl00$ContentPlaceHolder1$txtMobile1", :type => "text", :value => "0912345678"}/
+                                \&nbsp;
+                                %input#ctl00_ContentPlaceHolder1_rbIsCellPhoneEnableT{:checked => "checked", :name => "ctl00$ContentPlaceHolder1$IsCellPhoneEnable", :type => "radio", :value => "rbIsCellPhoneEnableT"}/
+                                = succeed "&amp;nbsp;" do
+                                  %label{:for => "ctl00_ContentPlaceHolder1_rbIsCellPhoneEnableT"} 公開
+                                %input#ctl00_ContentPlaceHolder1_rbIsCellPhoneEnableF{:name => "ctl00$ContentPlaceHolder1$IsCellPhoneEnable", :type => "radio", :value => "rbIsCellPhoneEnableF"}/
+                                %label{:for => "ctl00_ContentPlaceHolder1_rbIsCellPhoneEnableF"} 不公開
+                                %span#ctl00_ContentPlaceHolder1_Label3{:style => "color:Red;"} 格式：xxxxxxxxxx
+                            %tr
+                              %th.tbl-Right.tbl-thRow
+                                手機 2
+                              %td{:colspan => "2"}
+                                %input#ctl00_ContentPlaceHolder1_txtMobile2{:maxlength => "10", :name => "ctl00$ContentPlaceHolder1$txtMobile2", :type => "text", :value => "0912345678"}/
+                                %span#ctl00_ContentPlaceHolder1_Label4{:style => "color:Red;"} 格式：xxxxxxxxxx
+                            %tr
+                              %th.tbl-Right.tbl-thRow
+                                地址
+                              %td{:colspan => "2"}
+                                %span#ctl00_ContentPlaceHolder1_txtAddress 台北縣蘆洲市長安街249巷12號2樓
+                            %tr
+                              %th.tbl-Right.tbl-thRow
+                                E-mail
+                              %td{:colspan => "2"}
+                                %input#ctl00_ContentPlaceHolder1_txtEmail{:name => "ctl00$ContentPlaceHolder1$txtEmail", :style => "width:200px;", :type => "text", :value => "eva@sogi.com.tw"}/
+                                \&nbsp;
+                                %input#ctl00_ContentPlaceHolder1_rbIsEmailEnableT{:checked => "checked", :name => "ctl00$ContentPlaceHolder1$IsEmailEnable", :type => "radio", :value => "rbIsEmailEnableT"}/
+                                = succeed "&amp;nbsp;" do
+                                  %label{:for => "ctl00_ContentPlaceHolder1_rbIsEmailEnableT"} 公開
+                                %input#ctl00_ContentPlaceHolder1_rbIsEmailEnableF{:name => "ctl00$ContentPlaceHolder1$IsEmailEnable", :type => "radio", :value => "rbIsEmailEnableF"}/
+                                = succeed "&amp;nbsp;" do
+                                  %label{:for => "ctl00_ContentPlaceHolder1_rbIsEmailEnableF"} 不公開
+                                %span#ctl00_ContentPlaceHolder1_Label5{:style => "color:Red;"} 格式：xxxx@xxx.xxx
+                            %tr
+                              %th.tbl-Right.tbl-thRow.tbl-vTop
+                                營業時間
+                              %td{:colspan => "2"}
+                                平日：
+                                %select#ctl00_ContentPlaceHolder1_dropNormalHourStart{:name => "ctl00$ContentPlaceHolder1$dropNormalHourStart"}
+                                  %option{:value => "0"} 00
+                                  %option{:value => "1"} 01
+                                  %option{:value => "2"} 02
+                                  %option{:value => "3"} 03
+                                  %option{:value => "4"} 04
+                                  %option{:value => "5"} 05
+                                  %option{:value => "6"} 06
+                                  %option{:value => "7"} 07
+                                  %option{:value => "8"} 08
+                                  %option{:value => "9"} 09
+                                  %option{:selected => "selected", :value => "10"} 10
+                                  %option{:value => "11"} 11
+                                  %option{:value => "12"} 12
+                                  %option{:value => "13"} 13
+                                  %option{:value => "14"} 14
+                                  %option{:value => "15"} 15
+                                  %option{:value => "16"} 16
+                                  %option{:value => "17"} 17
+                                  %option{:value => "18"} 18
+                                  %option{:value => "19"} 19
+                                  %option{:value => "20"} 20
+                                  %option{:value => "21"} 21
+                                  %option{:value => "22"} 22
+                                  %option{:value => "23"} 23
+                                \:
+                                %select#ctl00_ContentPlaceHolder1_dropNormalMinStart{:name => "ctl00$ContentPlaceHolder1$dropNormalMinStart"}
+                                  %option{:selected => "selected", :value => "0"} 00
+                                  %option{:value => "1"} 01
+                                  %option{:value => "2"} 02
+                                  %option{:value => "3"} 03
+                                  %option{:value => "4"} 04
+                                  %option{:value => "5"} 05
+                                  %option{:value => "6"} 06
+                                  %option{:value => "7"} 07
+                                  %option{:value => "8"} 08
+                                  %option{:value => "9"} 09
+                                  %option{:value => "10"} 10
+                                  %option{:value => "11"} 11
+                                  %option{:value => "12"} 12
+                                  %option{:value => "13"} 13
+                                  %option{:value => "14"} 14
+                                  %option{:value => "15"} 15
+                                  %option{:value => "16"} 16
+                                  %option{:value => "17"} 17
+                                  %option{:value => "18"} 18
+                                  %option{:value => "19"} 19
+                                  %option{:value => "20"} 20
+                                  %option{:value => "21"} 21
+                                  %option{:value => "22"} 22
+                                  %option{:value => "23"} 23
+                                  %option{:value => "24"} 24
+                                  %option{:value => "25"} 25
+                                  %option{:value => "26"} 26
+                                  %option{:value => "27"} 27
+                                  %option{:value => "28"} 28
+                                  %option{:value => "29"} 29
+                                  %option{:value => "30"} 30
+                                  %option{:value => "31"} 31
+                                  %option{:value => "32"} 32
+                                  %option{:value => "33"} 33
+                                  %option{:value => "34"} 34
+                                  %option{:value => "35"} 35
+                                  %option{:value => "36"} 36
+                                  %option{:value => "37"} 37
+                                  %option{:value => "38"} 38
+                                  %option{:value => "39"} 39
+                                  %option{:value => "40"} 40
+                                  %option{:value => "41"} 41
+                                  %option{:value => "42"} 42
+                                  %option{:value => "43"} 43
+                                  %option{:value => "44"} 44
+                                  %option{:value => "45"} 45
+                                  %option{:value => "46"} 46
+                                  %option{:value => "47"} 47
+                                  %option{:value => "48"} 48
+                                  %option{:value => "49"} 49
+                                  %option{:value => "50"} 50
+                                  %option{:value => "51"} 51
+                                  %option{:value => "52"} 52
+                                  %option{:value => "53"} 53
+                                  %option{:value => "54"} 54
+                                  %option{:value => "55"} 55
+                                  %option{:value => "56"} 56
+                                  %option{:value => "57"} 57
+                                  %option{:value => "58"} 58
+                                  %option{:value => "59"} 59
+                                \~
+                                %select#ctl00_ContentPlaceHolder1_dropNormalHourEnd{:name => "ctl00$ContentPlaceHolder1$dropNormalHourEnd"}
+                                  %option{:value => "0"} 00
+                                  %option{:value => "1"} 01
+                                  %option{:value => "2"} 02
+                                  %option{:value => "3"} 03
+                                  %option{:value => "4"} 04
+                                  %option{:value => "5"} 05
+                                  %option{:value => "6"} 06
+                                  %option{:value => "7"} 07
+                                  %option{:value => "8"} 08
+                                  %option{:value => "9"} 09
+                                  %option{:value => "10"} 10
+                                  %option{:value => "11"} 11
+                                  %option{:value => "12"} 12
+                                  %option{:value => "13"} 13
+                                  %option{:value => "14"} 14
+                                  %option{:value => "15"} 15
+                                  %option{:value => "16"} 16
+                                  %option{:value => "17"} 17
+                                  %option{:value => "18"} 18
+                                  %option{:selected => "selected", :value => "19"} 19
+                                  %option{:value => "20"} 20
+                                  %option{:value => "21"} 21
+                                  %option{:value => "22"} 22
+                                  %option{:value => "23"} 23
+                                \:
+                                %select#ctl00_ContentPlaceHolder1_dropNormalMinEnd{:name => "ctl00$ContentPlaceHolder1$dropNormalMinEnd"}
+                                  %option{:selected => "selected", :value => "0"} 00
+                                  %option{:value => "1"} 01
+                                  %option{:value => "2"} 02
+                                  %option{:value => "3"} 03
+                                  %option{:value => "4"} 04
+                                  %option{:value => "5"} 05
+                                  %option{:value => "6"} 06
+                                  %option{:value => "7"} 07
+                                  %option{:value => "8"} 08
+                                  %option{:value => "9"} 09
+                                  %option{:value => "10"} 10
+                                  %option{:value => "11"} 11
+                                  %option{:value => "12"} 12
+                                  %option{:value => "13"} 13
+                                  %option{:value => "14"} 14
+                                  %option{:value => "15"} 15
+                                  %option{:value => "16"} 16
+                                  %option{:value => "17"} 17
+                                  %option{:value => "18"} 18
+                                  %option{:value => "19"} 19
+                                  %option{:value => "20"} 20
+                                  %option{:value => "21"} 21
+                                  %option{:value => "22"} 22
+                                  %option{:value => "23"} 23
+                                  %option{:value => "24"} 24
+                                  %option{:value => "25"} 25
+                                  %option{:value => "26"} 26
+                                  %option{:value => "27"} 27
+                                  %option{:value => "28"} 28
+                                  %option{:value => "29"} 29
+                                  %option{:value => "30"} 30
+                                  %option{:value => "31"} 31
+                                  %option{:value => "32"} 32
+                                  %option{:value => "33"} 33
+                                  %option{:value => "34"} 34
+                                  %option{:value => "35"} 35
+                                  %option{:value => "36"} 36
+                                  %option{:value => "37"} 37
+                                  %option{:value => "38"} 38
+                                  %option{:value => "39"} 39
+                                  %option{:value => "40"} 40
+                                  %option{:value => "41"} 41
+                                  %option{:value => "42"} 42
+                                  %option{:value => "43"} 43
+                                  %option{:value => "44"} 44
+                                  %option{:value => "45"} 45
+                                  %option{:value => "46"} 46
+                                  %option{:value => "47"} 47
+                                  %option{:value => "48"} 48
+                                  %option{:value => "49"} 49
+                                  %option{:value => "50"} 50
+                                  %option{:value => "51"} 51
+                                  %option{:value => "52"} 52
+                                  %option{:value => "53"} 53
+                                  %option{:value => "54"} 54
+                                  %option{:value => "55"} 55
+                                  %option{:value => "56"} 56
+                                  %option{:value => "57"} 57
+                                  %option{:value => "58"} 58
+                                  %option{:value => "59"} 59
+                                %br/
+                                假日：
+                                %select#ctl00_ContentPlaceHolder1_dropHolidayHourStart{:name => "ctl00$ContentPlaceHolder1$dropHolidayHourStart"}
+                                  %option{:value => "0"} 00
+                                  %option{:value => "1"} 01
+                                  %option{:value => "2"} 02
+                                  %option{:value => "3"} 03
+                                  %option{:value => "4"} 04
+                                  %option{:value => "5"} 05
+                                  %option{:value => "6"} 06
+                                  %option{:value => "7"} 07
+                                  %option{:value => "8"} 08
+                                  %option{:value => "9"} 09
+                                  %option{:selected => "selected", :value => "10"} 10
+                                  %option{:value => "11"} 11
+                                  %option{:value => "12"} 12
+                                  %option{:value => "13"} 13
+                                  %option{:value => "14"} 14
+                                  %option{:value => "15"} 15
+                                  %option{:value => "16"} 16
+                                  %option{:value => "17"} 17
+                                  %option{:value => "18"} 18
+                                  %option{:value => "19"} 19
+                                  %option{:value => "20"} 20
+                                  %option{:value => "21"} 21
+                                  %option{:value => "22"} 22
+                                  %option{:value => "23"} 23
+                                \:
+                                %select#ctl00_ContentPlaceHolder1_dropHolidayMinStart{:name => "ctl00$ContentPlaceHolder1$dropHolidayMinStart"}
+                                  %option{:selected => "selected", :value => "0"} 00
+                                  %option{:value => "1"} 01
+                                  %option{:value => "2"} 02
+                                  %option{:value => "3"} 03
+                                  %option{:value => "4"} 04
+                                  %option{:value => "5"} 05
+                                  %option{:value => "6"} 06
+                                  %option{:value => "7"} 07
+                                  %option{:value => "8"} 08
+                                  %option{:value => "9"} 09
+                                  %option{:value => "10"} 10
+                                  %option{:value => "11"} 11
+                                  %option{:value => "12"} 12
+                                  %option{:value => "13"} 13
+                                  %option{:value => "14"} 14
+                                  %option{:value => "15"} 15
+                                  %option{:value => "16"} 16
+                                  %option{:value => "17"} 17
+                                  %option{:value => "18"} 18
+                                  %option{:value => "19"} 19
+                                  %option{:value => "20"} 20
+                                  %option{:value => "21"} 21
+                                  %option{:value => "22"} 22
+                                  %option{:value => "23"} 23
+                                  %option{:value => "24"} 24
+                                  %option{:value => "25"} 25
+                                  %option{:value => "26"} 26
+                                  %option{:value => "27"} 27
+                                  %option{:value => "28"} 28
+                                  %option{:value => "29"} 29
+                                  %option{:value => "30"} 30
+                                  %option{:value => "31"} 31
+                                  %option{:value => "32"} 32
+                                  %option{:value => "33"} 33
+                                  %option{:value => "34"} 34
+                                  %option{:value => "35"} 35
+                                  %option{:value => "36"} 36
+                                  %option{:value => "37"} 37
+                                  %option{:value => "38"} 38
+                                  %option{:value => "39"} 39
+                                  %option{:value => "40"} 40
+                                  %option{:value => "41"} 41
+                                  %option{:value => "42"} 42
+                                  %option{:value => "43"} 43
+                                  %option{:value => "44"} 44
+                                  %option{:value => "45"} 45
+                                  %option{:value => "46"} 46
+                                  %option{:value => "47"} 47
+                                  %option{:value => "48"} 48
+                                  %option{:value => "49"} 49
+                                  %option{:value => "50"} 50
+                                  %option{:value => "51"} 51
+                                  %option{:value => "52"} 52
+                                  %option{:value => "53"} 53
+                                  %option{:value => "54"} 54
+                                  %option{:value => "55"} 55
+                                  %option{:value => "56"} 56
+                                  %option{:value => "57"} 57
+                                  %option{:value => "58"} 58
+                                  %option{:value => "59"} 59
+                                \~
+                                %select#ctl00_ContentPlaceHolder1_dropHolidayHourEnd{:name => "ctl00$ContentPlaceHolder1$dropHolidayHourEnd"}
+                                  %option{:value => "0"} 00
+                                  %option{:value => "1"} 01
+                                  %option{:value => "2"} 02
+                                  %option{:value => "3"} 03
+                                  %option{:value => "4"} 04
+                                  %option{:value => "5"} 05
+                                  %option{:value => "6"} 06
+                                  %option{:value => "7"} 07
+                                  %option{:value => "8"} 08
+                                  %option{:value => "9"} 09
+                                  %option{:value => "10"} 10
+                                  %option{:value => "11"} 11
+                                  %option{:value => "12"} 12
+                                  %option{:value => "13"} 13
+                                  %option{:value => "14"} 14
+                                  %option{:value => "15"} 15
+                                  %option{:value => "16"} 16
+                                  %option{:value => "17"} 17
+                                  %option{:value => "18"} 18
+                                  %option{:selected => "selected", :value => "19"} 19
+                                  %option{:value => "20"} 20
+                                  %option{:value => "21"} 21
+                                  %option{:value => "22"} 22
+                                  %option{:value => "23"} 23
+                                \:
+                                %select#ctl00_ContentPlaceHolder1_dropHolidayMinEnd{:name => "ctl00$ContentPlaceHolder1$dropHolidayMinEnd"}
+                                  %option{:selected => "selected", :value => "0"} 00
+                                  %option{:value => "1"} 01
+                                  %option{:value => "2"} 02
+                                  %option{:value => "3"} 03
+                                  %option{:value => "4"} 04
+                                  %option{:value => "5"} 05
+                                  %option{:value => "6"} 06
+                                  %option{:value => "7"} 07
+                                  %option{:value => "8"} 08
+                                  %option{:value => "9"} 09
+                                  %option{:value => "10"} 10
+                                  %option{:value => "11"} 11
+                                  %option{:value => "12"} 12
+                                  %option{:value => "13"} 13
+                                  %option{:value => "14"} 14
+                                  %option{:value => "15"} 15
+                                  %option{:value => "16"} 16
+                                  %option{:value => "17"} 17
+                                  %option{:value => "18"} 18
+                                  %option{:value => "19"} 19
+                                  %option{:value => "20"} 20
+                                  %option{:value => "21"} 21
+                                  %option{:value => "22"} 22
+                                  %option{:value => "23"} 23
+                                  %option{:value => "24"} 24
+                                  %option{:value => "25"} 25
+                                  %option{:value => "26"} 26
+                                  %option{:value => "27"} 27
+                                  %option{:value => "28"} 28
+                                  %option{:value => "29"} 29
+                                  %option{:value => "30"} 30
+                                  %option{:value => "31"} 31
+                                  %option{:value => "32"} 32
+                                  %option{:value => "33"} 33
+                                  %option{:value => "34"} 34
+                                  %option{:value => "35"} 35
+                                  %option{:value => "36"} 36
+                                  %option{:value => "37"} 37
+                                  %option{:value => "38"} 38
+                                  %option{:value => "39"} 39
+                                  %option{:value => "40"} 40
+                                  %option{:value => "41"} 41
+                                  %option{:value => "42"} 42
+                                  %option{:value => "43"} 43
+                                  %option{:value => "44"} 44
+                                  %option{:value => "45"} 45
+                                  %option{:value => "46"} 46
+                                  %option{:value => "47"} 47
+                                  %option{:value => "48"} 48
+                                  %option{:value => "49"} 49
+                                  %option{:value => "50"} 50
+                                  %option{:value => "51"} 51
+                                  %option{:value => "52"} 52
+                                  %option{:value => "53"} 53
+                                  %option{:value => "54"} 54
+                                  %option{:value => "55"} 55
+                                  %option{:value => "56"} 56
+                                  %option{:value => "57"} 57
+                                  %option{:value => "58"} 58
+                                  %option{:value => "59"} 59
+                                %br/
+                            %tr
+                              %th.tbl-Right.tbl-thRow.tbl-vTop 公休日
+                              %td
+                                %input#ctl00_ContentPlaceHolder1_Closed{:maxlength => "15", :name => "ctl00$ContentPlaceHolder1$Closed", :style => "width:300px;", :type => "text", :value => "\345\222\225\345\222\225\344\274\221\346\210\221\345\260\261\344\274\221"}/
+                                %span#ctl00_ContentPlaceHolder1_showtxt_{:style => "color:Red;"} 至多15個字
+                            %tr
+                              %th.tbl-Right.tbl-thRow
+                                付款服務
+                              %td{:colspan => "2"}
+                                %span#ctl00_ContentPlaceHolder1_cbxlPayment.noborder{:style => "display:inline-block;border-style:None;"}
+                                  %input#ctl00_ContentPlaceHolder1_cbxlPayment_0{:checked => "checked", :name => "ctl00$ContentPlaceHolder1$cbxlPayment$0", :type => "checkbox"}/
+                                  %label{:for => "ctl00_ContentPlaceHolder1_cbxlPayment_0"} 信用卡
+                                  %input#ctl00_ContentPlaceHolder1_cbxlPayment_1{:checked => "checked", :name => "ctl00$ContentPlaceHolder1$cbxlPayment$1", :type => "checkbox"}/
+                                  %label{:for => "ctl00_ContentPlaceHolder1_cbxlPayment_1"} 現金
+                                  %input#ctl00_ContentPlaceHolder1_cbxlPayment_2{:checked => "checked", :name => "ctl00$ContentPlaceHolder1$cbxlPayment$2", :type => "checkbox"}/
+                                  %label{:for => "ctl00_ContentPlaceHolder1_cbxlPayment_2"} 貨到付款
+                                  %input#ctl00_ContentPlaceHolder1_cbxlPayment_3{:checked => "checked", :name => "ctl00$ContentPlaceHolder1$cbxlPayment$3", :type => "checkbox"}/
+                                  %label{:for => "ctl00_ContentPlaceHolder1_cbxlPayment_3"} 分期付款
+                            %tr
+                              %th.tbl-Right.tbl-thRow
+                                服務項目
+                              %td{:colspan => "2"}
+                                %span#ctl00_ContentPlaceHolder1_cbxlShopService.noborder{:style => "display:inline-block;border-style:None;"}
+                                  %input#ctl00_ContentPlaceHolder1_cbxlShopService_0{:checked => "checked", :name => "ctl00$ContentPlaceHolder1$cbxlShopService$0", :type => "checkbox"}/
+                                  %label{:for => "ctl00_ContentPlaceHolder1_cbxlShopService_0"} 二手手機買賣
+                                  %input#ctl00_ContentPlaceHolder1_cbxlShopService_1{:checked => "checked", :name => "ctl00$ContentPlaceHolder1$cbxlShopService$1", :type => "checkbox"}/
+                                  %label{:for => "ctl00_ContentPlaceHolder1_cbxlShopService_1"} 配件
+                                  %input#ctl00_ContentPlaceHolder1_cbxlShopService_2{:checked => "checked", :name => "ctl00$ContentPlaceHolder1$cbxlShopService$2", :type => "checkbox"}/
+                                  %label{:for => "ctl00_ContentPlaceHolder1_cbxlShopService_2"} 新辦門號
+                                  %input#ctl00_ContentPlaceHolder1_cbxlShopService_3{:checked => "checked", :name => "ctl00$ContentPlaceHolder1$cbxlShopService$3", :type => "checkbox"}/
+                                  %label{:for => "ctl00_ContentPlaceHolder1_cbxlShopService_3"} 門號續約
+                                  %input#ctl00_ContentPlaceHolder1_cbxlShopService_4{:checked => "checked", :name => "ctl00$ContentPlaceHolder1$cbxlShopService$4", :type => "checkbox"}/
+                                  %label{:for => "ctl00_ContentPlaceHolder1_cbxlShopService_4"} 門號NP
+                                  %input#ctl00_ContentPlaceHolder1_cbxlShopService_5{:checked => "checked", :name => "ctl00$ContentPlaceHolder1$cbxlShopService$5", :type => "checkbox"}/
+                                  %label{:for => "ctl00_ContentPlaceHolder1_cbxlShopService_5"} 手機維修
+                            %tr
+                              %th.tbl-Right.tbl-thRow.tbl-vTop
+                                交通資訊
+                              %td.tbl-vTop{:width => "42%"}
+                                GPS導航座標：
+                                %br/
+                                東經
+                                %span#ctl00_ContentPlaceHolder1_txtLongitude 121.458496
+                                %br/
+                                北緯
+                                %span#ctl00_ContentPlaceHolder1_txtLatitude 25.083065
+                              %td.tbl-vTop
+                                店鋪QR Code：
+                                %br/
+                                %img{:alt => "", :height => "120", :src => "images/temp/shop_qrcode.jpg", :width => "120"}/
+                            %tr
+                              %th.tbl-Right.tbl-thRow.tbl-vTop 啟用街景：
+                              %td{:colspan => "2"}
+                                %table#ctl00_ContentPlaceHolder1_rblStreetView{:border => "0"}
+                                  %tbody
+                                    %tr
+                                      %td
+                                        %input#ctl00_ContentPlaceHolder1_rblStreetView_0{:checked => "checked", :name => "ctl00$ContentPlaceHolder1$rblStreetView", :type => "radio", :value => "1"}/
+                                        %label{:for => "ctl00_ContentPlaceHolder1_rblStreetView_0"} 啟用
+                                      %td
+                                        %input#ctl00_ContentPlaceHolder1_rblStreetView_1{:name => "ctl00$ContentPlaceHolder1$rblStreetView", :type => "radio", :value => "0"}/
+                                        %label{:for => "ctl00_ContentPlaceHolder1_rblStreetView_1"} 不啟用
+                            %tr
+                              %th.tbl-Right.tbl-thRow.tbl-vTop
+                                店鋪簡介
+                              %td{:colspan => "2"}
+                                %span#ctl00_ContentPlaceHolder1_lblMaxLength{:style => "color:Red;"} 限制只能輸入 2000 字。
+                                %textarea#ctl00_ContentPlaceHolder1_txtShopIntro{:cols => "20", :name => "ctl00$ContentPlaceHolder1$txtShopIntro", :rows => "2", :style => "height:300px;width:90%;"}
+                                  :preserve
+                                    ████不給輸入偏偏要輸入████
+                                    
+                                    咕咕雞┌┬┐熟雞王店鋪┌┬┐什麼都買的到！什麼都很奇怪！                        %br/
+                        %p{:align => "center"}
+                          %input#ctl00_ContentPlaceHolder1_btnView1Confirm{:name => "ctl00$ContentPlaceHolder1$btnView1Confirm", :type => "submit", :value => "\347\242\272\345\256\232"}/
+          .bwr
+            .storeSides
+              .mainImg
+                %img{:src => "images/www/samples/sample-img-11.jpg"}/
+                .spotlight
+              .info
+                %h1.sName
+                  聯強電信聯盟-永傑通信
+                .tel
+                  .icon
+                  02-23090818
+                .addr
+                  .icon
+                  台北市大安區忠孝東路三段100號
+              .rLists
+                .title
+                  .icon
+                  手機商品 (50)
+                .lists
+                  %ul.list
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        HTC (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Apple (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Nokia (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Sony Ericssion (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        ASUS (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        HTC (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Apple (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Nokia (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Sony Ericssion (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        ASUS (5)
+              .rLists
+                .title
+                  .icon
+                  平板電腦商品 (50)
+                .lists
+                  %ul.list
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        HTC (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Apple (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Nokia (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Sony Ericssion (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        ASUS (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        HTC (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Apple (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Nokia (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Sony Ericssion (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        ASUS (5)
+    #footer
+      .list
+        關於手機王 | 網路行銷 | 廣告刊登 | 聯絡我們 | 服務條款 | 隱私權政策 | 法律顧問 | 技術合作 | 首機網路股份有限公司 © 1999-2011 All rights reserved.
+        %p
+          本網站已依台灣網站內容分級規定處理

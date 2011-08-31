@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<link href='http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css' rel='stylesheet' type='text/css' />
+    <link href='css/sogi-style-0.1.css' rel='stylesheet' type='text/css' />
+ <link  type="text/css" rel="stylesheet" href="css/sogi_DiscussBoard.css" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+
+
+<div class="msg" id="yauclaa">
+<h4>文章異動</h4>
+
+<div class="thiscontent">
+
+
+<form runat="server" name="delForm" id="delForm" method="post"><div class="name">文章標題：文章異動</div><hr><div class="Cleft">請選擇違規項目<select onchange="setReason(this.options[this.selectedIndex].value,this.options[this.selectedIndex].label);"><option selected="" label="未選擇" value="0">請選擇一項原因</option><option label="內容違反智慧財產權" value="1">1、內容違反智慧財產權</option><option label="張貼買賣文章" value="3">2、張貼買賣文章</option><option label="與本版主題不符" value="5">3、與本版主題不符</option><option label="內容語意不明或使用火星文" value="4">4、內容語意不明或使用火星文</option><option label="含有病毒、惡意語法連結" value="9">5、含有病毒、惡意語法連結</option><option label="含有同質性或商業網站連結" value="6">6、含有同質性或商業網站連結</option><option label="涉及情色等不雅字眼" value="7">7、涉及情色等不雅字眼</option><option label="帶有蓄意攻擊、挑釁等字眼" value="2">8、帶有蓄意攻擊、挑釁等字眼</option><option label="涉及政治與宗教性話題" value="8">9、涉及政治與宗教性話題</option><option label="公開留下連絡方式" value="10">10、公開留下連絡方式</option><option label="重覆張貼文章" value="12">11、重覆張貼文章</option><option label="其他違規" value="11">12、其他違規</option></select></div><div id="info"></div><label>違規說明：</label><textarea style="width: 400px; height: 80px;" id="delReason" onkeyup="count(this.value)"></textarea><center class="txt-imp">詳述刪文說明(100字以內)<br>$ ! # $ % &amp; * "  ' 等符號將會無法顯示</center><hr>
+
+
+ <div class="objBtn">
+                  <ul>
+                <li><a title="確定並刪除所選文章" href="#">確定並刪除所選文章</a> </li>
+                <li><a title="取消" href="#">取消</a> </li>
+               
+              </ul>
+              </div>
+
+
+</form></div>
+</div>
+
+</div>
+
+
+</body>
+</html>

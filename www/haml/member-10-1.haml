@@ -1,0 +1,676 @@
+!!!
+%html
+  %head
+    %title 手機館首頁
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %link{:href => "http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi-style-0.1.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi_member.css", :rel => "stylesheet", :type => "text/css"}/
+  %body
+    #topbar
+      .channelList
+        %a{:href => "#", :target => "_blank"} 手機王
+        ｜
+        %a{:href => "#", :target => "_blank"} Windows Phone
+        ｜
+        %a{:href => "#", :target => "_blank"} Android
+        .loginClub
+          %a{:href => "#", :target => "_blank"} 註冊新會員
+          ｜
+          %a{:href => "#", :target => "_blank"} 登入
+    #container
+      .sHead.bw
+        .top
+          .sogiLogo
+            %a.logo{:href => "#", :target => "_blank"} 手機王 LOGO
+          .shopNavArea
+            .shopNav-1
+              %a{:href => "#", :target => "_blank"}
+              .icon
+              .name
+                Ovi商店
+            .shopNav-2
+              %a{:href => "#", :target => "_blank"}
+              .icon
+              .name
+                手機單購
+            .shopNav-3
+              %a{:href => "#", :target => "_blank"}
+              .icon
+              .name
+                線上購物
+            .shopNav-4
+              %a{:href => "#", :target => "_blank"}
+              .icon
+              .name
+                下載服務
+        .mainNav
+          %ul
+            %li.on
+              %a
+                手機
+            %li
+              %a
+                電信
+            %li
+              %a
+                平板電腦
+            %li
+              %a
+                詢價
+            %li
+              %a
+                討論
+            %li
+              %a
+                精選文章
+            %li
+              %a
+                公益
+            %li
+              %a
+                簡訊
+        .mainSubNav
+          %ul
+            %li
+              %a
+                NOKIA
+              |
+            %li
+              %a
+                SAMSUNG
+              |
+            %li
+              %a
+                Sony Ericsson
+              |
+            %li
+              %a
+                LG
+              |
+            %li
+              %a
+                HTC
+              |
+            %li
+              %a
+                MOTO
+              |
+            %li
+              %a
+                Acer
+              |
+            %li
+              %a
+                PULID
+              |
+            %li
+              %a
+                Garmin-Asus
+              |
+            %li
+              %a
+                Sharp
+              |
+            %li
+              %a
+                GIGABYTE
+              |
+            %li
+              %a
+                Altek
+              |
+            %li
+              %a
+                Apple
+              |
+            %li
+              %a
+                BlackBerry
+              |
+            %li
+              %a
+                更多...
+      .fullPromo.bw
+        .breadNav
+          .icon
+          .bNav
+            %a{:href => "#", :title => "\346\211\213\346\251\237\347\216\213"}
+              手機王
+            >
+            %span.here
+              手機
+        .textAd
+          %ul
+            %li
+              %a{:href => "#", :target => "_blank", :title => "\345\273\243\345\221\212"}
+                iPhone最高省3000送雙色邊框
+            %li
+              %a{:href => "#", :target => "_blank", :title => "\345\273\243\345\221\212"}
+                iPhone最高省3000送雙色邊框
+            %li
+              %a{:href => "#", :target => "_blank", :title => "\345\273\243\345\221\212"}
+                iPhone最高省3000送雙色邊框
+        .AD970.ADin
+          %a{:href => "#", :title => "\345\273\243\345\221\212"}
+            %img{:src => "images/www/ad970.gif"}/
+      .bw.mg
+        .bwl
+          .Mfootermain
+            .Mnav
+              .Mtabs{:style => "width:690px;"}
+                .Mtab
+                  %a{:href => "#", :title => "\351\246\226\351\240\201"}
+                    首頁
+                .Mtab
+                  %a{:href => "#", :title => "\346\234\203\345\223\241\350\263\207\346\226\231"}
+                    會員資料
+                .Mtab.on
+                  %a{:href => "#", :title => "\346\210\221\347\232\204\346\234\200\346\204\233"}
+                    我的最愛
+                .Mtab
+                  %a{:href => "#", :title => "\346\210\221\347\232\204\345\234\226\345\272\253"}
+                    我的圖庫
+                .Mtab
+                  %a{:href => "#", :title => "\346\210\221\347\232\204\350\250\212\346\201\257"}
+                    我的訊息
+                .Mtab
+                  %a{:href => "#", :title => "\346\210\221\347\232\204\350\215\211\347\250\277"}
+                    我的草稿
+                .Mtab
+                  %a{:href => "#", :title => "\346\234\203\345\223\241\346\254\212\347\233\212"}
+                    會員權益
+                .Mtab
+                  %a{:href => "#", :title => "\347\264\205\345\210\251\350\264\210\345\223\201"}
+                    紅利贈品
+                .Mtab
+                  %a{:href => "#", :title => "\346\264\273\345\213\225\345\260\210\345\215\200"}
+                    活動專區
+              .MtabsEnd
+            .Mdatas
+              %form#aspnetForm{:action => "mylove.aspx", :method => "post", :name => "aspnetForm"}
+                %div
+                  %input#__EVENTTARGET{:name => "__EVENTTARGET", :type => "hidden", :value => ""}/
+                  %input#__EVENTARGUMENT{:name => "__EVENTARGUMENT", :type => "hidden", :value => ""}/
+                  %input#__VIEWSTATE{:name => "__VIEWSTATE", :type => "hidden", :value => "iVsFizPFTajAqVZeLOr8D34bu7m60To0BGV3Wt3m/+dnwBewIZ/cyC5KlkCGTYeJch1b/N1uZz+5ayX+/STbuneDzaUSiu/qgBkeTOLxmSs2ZX+z31tVSHONw1Aqk7c6mUA9usgRPYe8eWQ7nULDeGgxMKHjW5myyCPBArc473KaKrBjybwttFW7mjrAuHUJyWJ/7/Q+jF+fyRB6hUKxndJcSLBb2RN5wyCna7takv4esdKqMldw2L+X9on116czYNaB4mJBNhtZ7IBV8nB/hu91BXnOjGyOQ0NnZ2/A1wQfgjQLCvG2FTqhDCP5jfht4szWTWCs6h5hiuGl3t++qwiJRNzxLLsXTIt8GXzHsSz9XYkdzLAaDYhlaOn2G8xzkIODm4Og/oMRbNZE8rqlkwoZ5okEi9mpPZKMYm1dhdT210eH6/XCCvGsD50sI9wWDJ+Zy+XqR7mWDipwqULVzB1kQN11BdPyqT3H1OryB1IL94l7sgk6XRL5ugMiVg/+HiKA1Iq86CAAu0UvDRzJidxt2Kcc1YsfL9zIFMURhKc0zCZzDPuw9RTB4dOnTi11kjWz57VVFVWkrnwft3irGRc5NP7gH9y4jXCiV2uUiXtXJ/ZlBxhSMjcQzOfjP+bqOMEdq/zaQHdyFZnn434WvCU2eoWWhHHSGRg1tJSnUX/WFDEsA+sL281nN54SH07URjW95ZLDYsDBIY9NZ8g7I8MFB9G7+GFoQZEUuAzFHupT+i6ie2/oSz+8iSBnu9vPNN/fMzC4oVqjTCM6DwgvikZ23SNm7CXv86fv8jH8f8gRZgt7HydORyxGlMBDPh8qqfMTO7rgD2LeNP31LfkXiFX9CPzvY9Gv3gZrzi81F5/Jf+k+0LX2XFs59nTJ15AItkOwJbDvSUQbU7WOd+wBPHiEsVHXQdqV5n42Gtbfn6O3lAHptTga8Jrlc9BzavYNTRReXwnFRiU1DqDB+jHQc69BiCJjC2S578pXkTeFhBlJa/fSpRnI6c9zKXfQCwVWd1LxQ7gH5szoqw1Kjcgahu2BcH46miMDlLGo55116McnNGbcrgYk91hDnc/2+SgOhJnJUTVcaUmUtMnJ4bhqVfikWmy/UFMxJaC/XT5Mss0oIC5L0icN9aM22eodyRedl/KVyzyvt9dJeN+l5P7ZnEq+ngY6vcj7tthKKBo8ypKb0tDKLwaAMbChOep8y8YT6fQliIBnfiDZqA15S04VHXdU9/A+iqTIVyltxuiSRLGhvQOJ8fdFf3yrJoG92xgZta9rE7vwobwNgocbzpQfbyRzbXBf/0Pdr52JMv9sJj3+P8rfYQJOjxV1NrhAWUfBOgW7ZPCV5XF00+5wHH+yTVFBSu4="}/
+                :javascript
+                  //<![CDATA[
+                  var theForm = document.forms['aspnetForm'];
+                  if (!theForm) {
+                      theForm = document.aspnetForm;
+                  }
+                  function __doPostBack(eventTarget, eventArgument) {
+                      if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                          theForm.__EVENTTARGET.value = eventTarget;
+                          theForm.__EVENTARGUMENT.value = eventArgument;
+                          theForm.submit();
+                      }
+                  }
+                  //]]>
+                %div
+                  %input#__VIEWSTATEENCRYPTED{:name => "__VIEWSTATEENCRYPTED", :type => "hidden", :value => ""}/
+                  %input#__EVENTVALIDATION{:name => "__EVENTVALIDATION", :type => "hidden", :value => "R7+Rc+09TAZOiMe6yvAl3sewDguM9TD789xO1psO4kjFC9051ytr4Sw4Mgl1uRkNjgrHLY4fC7nbikeHOu56D9nNPZd7iWJ2p1MJd5irC2ChtDlWXPZ80q+CHIBVcLvQbKtwMw=="}/
+                .MdataUp
+                  .MdataTabs
+                    .MdataTab.Mon
+                      %a{:href => "#"} 我的發表文章
+                    .MdataTab
+                      %a{:href => "#"} 我的回覆紀錄
+                .MdataDown
+                  #maincont
+                    .nav_hr
+              %form#aspnetForm{:action => "MyArticle.aspx?sid=pheva", :method => "post", :name => "aspnetForm"}
+                %div
+                  %input#__EVENTTARGET{:name => "__EVENTTARGET", :type => "hidden", :value => ""}/
+                  %input#__EVENTARGUMENT{:name => "__EVENTARGUMENT", :type => "hidden", :value => ""}/
+                  %input#__VIEWSTATE{:name => "__VIEWSTATE", :type => "hidden", :value => "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"}/
+                :javascript
+                  //<![CDATA[
+                  var theForm = document.forms['aspnetForm'];
+                  if (!theForm) {
+                      theForm = document.aspnetForm;
+                  }
+                  function __doPostBack(eventTarget, eventArgument) {
+                      if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                          theForm.__EVENTTARGET.value = eventTarget;
+                          theForm.__EVENTARGUMENT.value = eventArgument;
+                          theForm.submit();
+                      }
+                  }
+                  //]]>
+                %div
+                  %input#__VIEWSTATEENCRYPTED{:name => "__VIEWSTATEENCRYPTED", :type => "hidden", :value => ""}/
+                  %input#__EVENTVALIDATION{:name => "__EVENTVALIDATION", :type => "hidden", :value => "0SqOLCY4p107C/X95/VuRw65L491UZAoaTC3yCG8ZfBVw1TAs830cL2tSQpB9M4ocDJk6sdF799H0j6AY0T9PketDAKPvKP3Xeu5K/rHO4dDBr2N"}/
+                %div
+                  %span#ctl00_ContentPlaceHolder1_LoginMsg/
+                  %h2 最新發表文章
+                  %input#ctl00_ContentPlaceHolder1_Btn{:name => "ctl00$ContentPlaceHolder1$Btn", :type => "submit", :value => "\345\203\205\351\241\257\347\244\272\346\234\211\346\226\260\345\233\236\350\246\206\347\232\204\347\231\274\350\241\250\346\226\207\347\253\240"}/
+                  .spacer
+                  %div
+                    %table#ctl00_ContentPlaceHolder1_GridView1.spec2{:align => "Left", :border => "1", :cellpadding => "5", :cellspacing => "0", :rules => "all", :style => "border-color:#E0E0E0;border-collapse:collapse;"}
+                      %tbody
+                        %tr.bar{:align => "left", :style => "font-weight:bold;"}
+                          %th{:scope => "col"} 時間
+                          %th{:scope => "col"} 文章位置
+                          %th{:scope => "col"} 主題
+                        %tr.even{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl02_Label2 2011/01/21 15:22:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=4612", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl02_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl02_Label5{:style => "display:inline-block;width:200px;"} 版區測試討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=6152413", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl02_Label3{:style => "display:inline-block;width:350px;"} brief
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl02_lblNew.text-imp{:style => "display:inline-block;width:350px;"}
+                        %tr.odd{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl03_Label2 2011/01/21 15:18:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=4612", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl03_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl03_Label5{:style => "display:inline-block;width:200px;"} 版區測試討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=6152412", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl03_Label3{:style => "display:inline-block;width:350px;"} 咕咕雞新開幕‧全館特價中！
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl03_lblNew.text-imp{:style => "display:inline-block;width:350px;"}
+                        %tr.even{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl04_Label2 2011/01/21 13:49:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=4612", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl04_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl04_Label5{:style => "display:inline-block;width:200px;"} 版區測試討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=6152393", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl04_Label3{:style => "display:inline-block;width:350px;"} 咕咕機開張，全館大特價
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl04_lblNew.text-imp{:style => "display:inline-block;width:350px;"}
+                        %tr.odd{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl05_Label2 2011/01/20 12:17:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=297", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl05_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl05_Label5{:style => "display:inline-block;width:200px;"} 手機王服務中心討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=6152258", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl05_Label3{:style => "display:inline-block;width:350px;"} 請各位幫幫忙！
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl05_lblNew.text-imp{:style => "display:inline-block;width:350px;"} [有新回覆！]
+                        %tr.even{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl06_Label2 2010/12/18 01:21:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=4438", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl06_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl06_Label5{:style => "display:inline-block;width:200px;"} PULID討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=6148641", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl06_Label3{:style => "display:inline-block;width:350px;"} 【得獎公告】PULID D202 找碴活動第二彈活動‧得獎名單
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl06_lblNew.text-imp{:style => "display:inline-block;width:350px;"}
+                        %tr.odd{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl07_Label2 2010/12/13 15:43:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=4438", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl07_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl07_Label5{:style => "display:inline-block;width:200px;"} PULID討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=6148117", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl07_Label3{:style => "display:inline-block;width:350px;"} 花博+高鐵來回雙人票+雙人住宿券,再送手機只要$9,990元
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl07_lblNew.text-imp{:style => "display:inline-block;width:350px;"}
+                        %tr.even{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl08_Label2 2010/12/11 23:28:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=4438", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl08_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl08_Label5{:style => "display:inline-block;width:200px;"} PULID討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=6147979", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl08_Label3{:style => "display:inline-block;width:350px;"} 【抽獎名單】PULID D202 找碴第二彈解答&amp;抽獎名單
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl08_lblNew.text-imp{:style => "display:inline-block;width:350px;"}
+                        %tr.odd{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl09_Label2 2010/12/09 21:24:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=4438", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl09_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl09_Label5{:style => "display:inline-block;width:200px;"} PULID討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=6147753", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl09_Label3{:style => "display:inline-block;width:350px;"} 【得獎公告】PULID A66 分享告白地點活動‧得獎名單
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl09_lblNew.text-imp{:style => "display:inline-block;width:350px;"}
+                        %tr.even{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl10_Label2 2010/12/03 13:53:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=4438", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl10_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl10_Label5{:style => "display:inline-block;width:200px;"} PULID討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=6146974", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl10_Label3{:style => "display:inline-block;width:350px;"} 【抽獎名單】PULID A66 分享告白地點活動‧抽獎名單
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl10_lblNew.text-imp{:style => "display:inline-block;width:350px;"}
+                        %tr.odd{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl11_Label2 2010/11/24 14:36:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=4438", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl11_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl11_Label5{:style => "display:inline-block;width:200px;"} PULID討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=6145855", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl11_Label3{:style => "display:inline-block;width:350px;"} 【活動公告】找碴活動第二彈！再抽魔燈機!
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl11_lblNew.text-imp{:style => "display:inline-block;width:350px;"} [有新回覆！]
+                        %tr.even{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl12_Label2 2010/11/12 14:36:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=4438", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl12_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl12_Label5{:style => "display:inline-block;width:200px;"} PULID討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=6144509", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl12_Label3{:style => "display:inline-block;width:350px;"} 【得獎公告】PULID D202 找碴活動得獎者公佈
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl12_lblNew.text-imp{:style => "display:inline-block;width:350px;"}
+                        %tr.odd{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl13_Label2 2010/11/11 16:02:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=4492", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl13_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl13_Label5{:style => "display:inline-block;width:200px;"} iPad討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=6144390", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl13_Label3{:style => "display:inline-block;width:350px;"} 平版會贏嗎？
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl13_lblNew.text-imp{:style => "display:inline-block;width:350px;"} [有新回覆！]
+                        %tr.even{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl14_Label2 2010/11/04 18:48:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=4438", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl14_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl14_Label5{:style => "display:inline-block;width:200px;"} PULID討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=6143639", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl14_Label3{:style => "display:inline-block;width:350px;"} 【抽獎名單】PULID D202 找碴活動解答&amp;抽獎名單
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl14_lblNew.text-imp{:style => "display:inline-block;width:350px;"}
+                        %tr.odd{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl15_Label2 2010/10/01 19:14:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=4438", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl15_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl15_Label5{:style => "display:inline-block;width:200px;"} PULID討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=6139988", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl15_Label3{:style => "display:inline-block;width:350px;"} 【活動公告】看影片來找碴！魔燈機免費送給你
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl15_lblNew.text-imp{:style => "display:inline-block;width:350px;"} [有新回覆！]
+                        %tr.even{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl16_Label2 2009/04/04 15:27:00
+                          %td
+                            %a{:href => "http://car.sogi.com.tw/newforum/topic_List.aspx?forum_no=3192", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl16_Label4{:style => "display:inline-block;width:200px;"} 汽車頻道
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl16_Label5{:style => "display:inline-block;width:200px;"} 汽車綜合討論討論區
+                          %td
+                            %a{:href => "http://car.sogi.com.tw/newforum/article_list.aspx?topic_ID=6073202", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl16_Label3{:style => "display:inline-block;width:350px;"} 請問...有誰知道???
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl16_lblNew.text-imp{:style => "display:inline-block;width:350px;"} [有新回覆！]
+                        %tr.odd{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl17_Label2 2007/09/12 13:43:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=2318", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl17_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl17_Label5{:style => "display:inline-block;width:200px;"} W580i討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=4677616", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl17_Label3{:style => "display:inline-block;width:350px;"} SE W580i 又推一款粉紅色
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl17_lblNew.text-imp{:style => "display:inline-block;width:350px;"} [有新回覆！]
+                        %tr.even{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl18_Label2 2007/09/12 12:53:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=2382", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl18_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl18_Label5{:style => "display:inline-block;width:200px;"} S500i討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=4677608", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl18_Label3{:style => "display:inline-block;width:350px;"} 新色確定會在台灣上市
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl18_lblNew.text-imp{:style => "display:inline-block;width:350px;"} [有新回覆！]
+                        %tr.odd{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl19_Label2 2007/09/03 16:23:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=2352", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl19_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl19_Label5{:style => "display:inline-block;width:200px;"} KG271討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=4674670", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl19_Label3{:style => "display:inline-block;width:350px;"} 孝親首選！LG KG271 廣播隨時聽、手機不怕掉
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl19_lblNew.text-imp{:style => "display:inline-block;width:350px;"}
+                        %tr.even{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl20_Label2 2007/09/03 16:18:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=2383", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl20_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl20_Label5{:style => "display:inline-block;width:200px;"} T650i討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=4674666", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl20_Label3{:style => "display:inline-block;width:350px;"} 洗鍊金屬風 SE T650i 320 萬素犀利照相手機
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl20_lblNew.text-imp{:style => "display:inline-block;width:350px;"}
+                        %tr.odd{:align => "left"}
+                          %td
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl21_Label2 2007/08/31 10:35:00
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/topic_List.aspx?forum_no=2482", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl21_Label4{:style => "display:inline-block;width:200px;"} 手機王
+                              %br/
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl21_Label5{:style => "display:inline-block;width:200px;"} KU990 Viewty討論區
+                          %td
+                            %a{:href => "http://www.sogi.com.tw/newforum/article_list.aspx?topic_ID=4673643", :style => "cursor:hand;"}
+                              %span#ctl00_ContentPlaceHolder1_GridView1_ctl21_Label3{:style => "display:inline-block;width:350px;"} 500 萬鏡頭 LG KU990 槓上 N95
+                            %span#ctl00_ContentPlaceHolder1_GridView1_ctl21_lblNew.text-imp{:style => "display:inline-block;width:350px;"} [有新回覆！]
+                        %tr{:align => "center", :style => "background-color:LightGrey;"}
+                          %td{:colspan => "3"}
+                            .number
+                              %table{:border => "0"}
+                                %tbody
+                                  %tr
+                                    %td
+                                      %span 1
+                                    %td
+                                      %a{:href => "javascript:__doPostBack('ctl00$ContentPlaceHolder1$GridView1','Page$2')"} 2
+      .AD720.mg
+        %img{:src => "images/www/samples/sample-img-8.jpg"}/
+    .bwr
+      .AD240
+        %a{:href => "#", :title => "\345\273\243\345\221\212"}
+          %img{:src => "images/www/ad240.gif"}/
+      .adPromo.compare.mg
+        .oneTab
+          .tab.on
+            %a{:href => "#", :title => "\347\206\261\351\226\200\350\273\212\346\213\274"}
+              熱門車拼
+        .oneTabEnd
+        %ul
+          %li
+            %a{:href => "#", :title => "\350\273\212\346\213\274 - HTC Desire HD"}
+            .comparePd
+              %img.pdImg{:src => "images/www/samples/sample-img-4.jpg"}/
+              .title
+                HTC Desire HD
+            .btn.red
+              %a{:href => "#", :title => "\345\210\252\351\231\244\350\273\212\346\213\274"}
+                刪除車拼
+          %li
+            %a{:href => "#", :title => "\350\273\212\346\213\274 - HTC Desire HD"}
+            .comparePd
+              %img.pdImg{:src => "images/www/samples/sample-img-4.jpg"}/
+              .title
+                HTC Desire HD
+            .btn.red
+              %a{:href => "#", :title => "\345\210\252\351\231\244\350\273\212\346\213\274"}
+                刪除車拼
+        .goCompare
+          %a{:href => "#", :title => "\345\211\215\345\276\200\350\273\212\346\213\274"}
+            前往車拼
+      .searchPromo.mg
+        .tabs
+          .tab.on
+            %a{:href => "#", :title => "\346\211\276\346\211\213\346\251\237"}
+              找手機
+          .tab
+            %a{:href => "#", :title => "\346\211\276\345\271\263\346\235\277"}
+              找平板
+        .tabsEnd
+        .search{:style => "display:block;height:270px;"}
+        %a{:href => "#", :title => "\351\200\262\351\232\216\346\220\234\345\260\213"}
+        .more
+          進階搜尋
+          %img{:src => "images/www/sogi-arrow-3.gif"}/
+      .adPromo.sgPromo.mg
+        .oneTab
+          .tab.on
+            %a{:href => "#", :title => "\347\206\261\351\226\200\346\220\234\345\260\213\346\242\235\344\273\266"}
+              熱門搜尋條件
+        .oneTabEnd
+        .collection
+          .cName
+            依相機畫素
+          %ul
+            %li
+              %a{:href => "#", :title => "500\350\220\254\347\225\253\347\264\240\344\273\245\344\270\212"}
+                500萬畫素以上
+            %li
+              %a{:href => "#", :title => "300~499\350\220\254\347\225\253\347\264\240"}
+                300~499萬畫素
+            %li
+              %a{:href => "#", :title => "\347\204\241\347\233\270\346\251\237~299\350\220\254\347\225\253\347\264\240"}
+                無相機~299萬畫素
+          .cName
+            依相機畫素
+          %ul
+            %li
+              %a{:href => "#", :title => "500\350\220\254\347\225\253\347\264\240\344\273\245\344\270\212"}
+                500萬畫素以上
+            %li
+              %a{:href => "#", :title => "300~499\350\220\254\347\225\253\347\264\240"}
+                300~499萬畫素
+            %li
+              %a{:href => "#", :title => "\347\204\241\347\233\270\346\251\237~299\350\220\254\347\225\253\347\264\240"}
+                無相機~299萬畫素
+          .cName
+            依相機畫素
+          %ul
+            %li
+              %a{:href => "#", :title => "500\350\220\254\347\225\253\347\264\240\344\273\245\344\270\212"}
+                500萬畫素以上
+            %li
+              %a{:href => "#", :title => "300~499\350\220\254\347\225\253\347\264\240"}
+                300~499萬畫素
+            %li
+              %a{:href => "#", :title => "\347\204\241\347\233\270\346\251\237~299\350\220\254\347\225\253\347\264\240"}
+                無相機~299萬畫素
+          .cName
+            依相機畫素
+          %ul
+            %li
+              %a{:href => "#", :title => "500\350\220\254\347\225\253\347\264\240\344\273\245\344\270\212"}
+                500萬畫素以上
+            %li
+              %a{:href => "#", :title => "300~499\350\220\254\347\225\253\347\264\240"}
+                300~499萬畫素
+            %li
+              %a{:href => "#", :title => "\347\204\241\347\233\270\346\251\237~299\350\220\254\347\225\253\347\264\240"}
+                無相機~299萬畫素
+        %a{:href => "#", :title => "\351\200\262\351\232\216\346\220\234\345\260\213"}
+        .more
+          進階搜尋
+          %img{:src => "images/www/sogi-arrow-3.gif"}/
+      .AD240.mg
+        %a{:href => "#", :title => "\345\273\243\345\221\212"}
+          %img{:src => "images/www/ad240.gif"}/
+      .adPromo.mg
+        .oneTab
+          .tab.on
+            %a{:href => "#", :title => "\350\263\207\350\250\212\346\203\205\345\240\261"}
+              資訊情報
+        .oneTabEnd
+        %ul
+          %li
+            %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+              %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+            .title
+              Android 軟體
+            .desc
+              多工處理超強，網頁瀏覽超級快，玩遊...
+          %li
+            %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+              %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+            .title
+              Android 軟體
+            .desc
+              多工處理超強，網頁瀏覽超級快，玩遊...
+          %li
+            %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+              %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+            .title
+              Android 軟體
+            .desc
+              多工處理超強，網頁瀏覽超級快，玩遊...
+      .adPromo.sideStorePromo.mg
+        .oneTab
+          .tab.on
+            %a{:href => "#", :title => "\345\245\275\350\251\225\345\272\227\351\213\252"}
+              好評店鋪
+        .oneTabEnd
+        %ul
+          %li
+            %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+              %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+            .title
+              Android 軟體
+            .desc
+              多工處理超強，網頁瀏覽超級快，玩遊...
+          %li
+            %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+              %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+            .title
+              Android 軟體
+            .desc
+              多工處理超強，網頁瀏覽超級快，玩遊...
+          %li
+            %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+              %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+            .title
+              Android 軟體
+            .desc
+              多工處理超強，網頁瀏覽超級快，玩遊...
+    #footer
+      .list
+        關於手機王 | 網路行銷 | 廣告刊登 | 聯絡我們 | 服務條款 | 隱私權政策 | 法律顧問 | 技術合作 | 首機網路股份有限公司 © 1999-2011 All rights reserved.
+        %p
+          本網站已依台灣網站內容分級規定處理

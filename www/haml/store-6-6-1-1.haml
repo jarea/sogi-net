@@ -1,0 +1,242 @@
+!!!
+%html
+  %head
+    %title SOGI 迷你店鋪 - 聯強電信聯盟-永傑通信
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %link{:href => "http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi-style-0.1.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi_store-6.css", :rel => "stylesheet", :type => "text/css"}/
+  %body
+    #topbar
+      .channelList
+        %a{:href => "#", :target => "_blank"} 手機王
+        ｜
+        %a{:href => "#", :target => "_blank"} Windows Phone
+        ｜
+        %a{:href => "#", :target => "_blank"} Android
+        .loginClub
+          %a{:href => "#", :target => "_blank"} 註冊新會員
+          ｜
+          %a{:href => "#", :target => "_blank"} 店鋪管理
+          ｜
+          %a{:href => "#", :target => "_blank"} [ Jason ] 登出
+    #container
+      #globalBg
+        .storeBg
+          %img.sunBg{:src => "images/www/sogi-store-bg-2.png"}/
+      #head
+        .sHead.bw
+          .AD970.mg.pg
+            %a{:href => "#", :title => "\345\273\243\345\221\212"}
+              %img{:src => "images/www/ad970.gif"}/
+          .storeNav.mg
+            %ul
+              %li
+                %a{:href => "#"}
+                  店鋪首頁
+              %li
+                %a{:href => "#"}
+                  推薦促銷
+              %li
+                %a{:href => "#"}
+                  店鋪資訊
+              %li
+                %a{:href => "#"}
+                  服務中心
+              %li
+                %a{:href => "#"}
+                  詢價須知
+              %li.on
+                %a{:href => "#"}
+                  店鋪管理
+      #main
+        #storeMain.bw
+          .bwls
+            .Sfootermain
+              .Sdatas
+                .SdataL
+                .SdataR
+                  .Snav
+                    .Stabs{:style => "width:660px;"}
+                      .Stab
+                        %a{:href => "#", :title => "\347\263\273\347\265\261\345\205\254\345\221\212"}
+                          系統公告
+                      .Stab
+                        %a{:href => "#", :title => "\345\225\206\345\223\201\347\256\241\347\220\206"}
+                          商品管理
+                      .Stab
+                        %a{:href => "#", :title => "\351\226\200\350\231\237\350\263\207\350\262\273"}
+                          門號資費
+                      .Stab
+                        %a{:href => "#", :title => "\346\216\250\350\226\246\344\277\203\351\212\267"}
+                          推薦促銷
+                      .Stab
+                        %a{:href => "#", :title => "\345\272\227\351\213\252\350\263\207\350\250\212"}
+                          店鋪資訊
+                      .Stab.on
+                        %a{:href => "#", :title => "\350\210\207\346\211\213\346\251\237\347\216\213\351\200\243\347\265\241"}
+                          與手機王連絡
+                    .StabsEnd
+                  .Sdata
+                    .SdataUp
+                      .SdataTabs
+                        .SdataTab.Son
+                          %a{:href => "#"} 問題反映
+                        .SdataTab
+                          %a{:href => "#"} 手機報修
+                        .SdataTab
+                          %a{:href => "#"} 現金盤資訊
+                      .SPdataTabs
+                        .SPdataTab.SPon
+                          %a{:href => "#"} 未回覆
+                        .SPdataTab
+                          %a{:href => "#"} 已回覆
+                    .SdataDown
+                      .SInformation
+                        %h3.tle-bg-gray 未回覆
+                        .SPblock
+                          %div
+                            %table#ctl00_ContentPlaceHolder1_gvwShopQuestionList.tbl-border{:border => "1", :cellspacing => "0", :rules => "all", :style => "border-collapse:collapse;"}
+                              %tbody
+                                %tr
+                                  %th.tbl-Center.tbl-thRow{:scope => "col", :style => "width:38%;"} 問題
+                                  %th.tbl-Center.tbl-thRow{:scope => "col", :style => "width:38%;"} 回覆
+                                  %th.tbl-Center.tbl-thRow{:scope => "col", :style => "width:13%;"} 回覆者
+                                  %th.tbl-Center.tbl-thRow{:scope => "col", :style => "width:15%;"} 日期
+                                %tr
+                                  %td
+                                    %a#ctl00_ContentPlaceHolder1_gvwShopQuestionList_ctl02_lbtnQuestionContent{:href => "javascript:__doPostBack('ctl00$ContentPlaceHolder1$gvwShopQuestionList$ctl02$lbtnQuestionContent','')"} 測試一下
+                                  %td
+                                    %span#ctl00_ContentPlaceHolder1_gvwShopQuestionList_ctl02_lblReplyContent
+                                      您好
+                                      有收到測試主題。於此也回覆，以利您確認。
+                                      謝謝
+                                  %td
+                                    %span#ctl00_ContentPlaceHolder1_gvwShopQuestionList_ctl02_lblUserName 瑞鈞
+                                  %td
+                                    %span#ctl00_ContentPlaceHolder1_gvwShopQuestionList_ctl02_lblCreateDate 2011/08/11 17:14:00
+                        #ctl00_ContentPlaceHolder1_Panel2
+                          %h3.tle-bg-gray
+                            新增問題&amp;建議
+                          請選擇問題類型：
+                          %p
+                          %table#ctl00_ContentPlaceHolder1_rdbShopQuestionClass{:border => "0"}
+                            %tbody
+                              %tr
+                                %td
+                                  %input#ctl00_ContentPlaceHolder1_rdbShopQuestionClass_0{:name => "ctl00$ContentPlaceHolder1$rdbShopQuestionClass", :type => "radio", :value => "1"}/
+                                  %label{:for => "ctl00_ContentPlaceHolder1_rdbShopQuestionClass_0"} 迷你店鋪操作問題
+                              %tr
+                                %td
+                                  %input#ctl00_ContentPlaceHolder1_rdbShopQuestionClass_1{:name => "ctl00$ContentPlaceHolder1$rdbShopQuestionClass", :type => "radio", :value => "2"}/
+                                  %label{:for => "ctl00_ContentPlaceHolder1_rdbShopQuestionClass_1"} 迷你店鋪操作建議
+                              %tr
+                                %td
+                                  %input#ctl00_ContentPlaceHolder1_rdbShopQuestionClass_2{:name => "ctl00$ContentPlaceHolder1$rdbShopQuestionClass", :type => "radio", :value => "3"}/
+                                  %label{:for => "ctl00_ContentPlaceHolder1_rdbShopQuestionClass_2"} 迷你店鋪其它建議
+                              %tr
+                                %td
+                                  %input#ctl00_ContentPlaceHolder1_rdbShopQuestionClass_3{:name => "ctl00$ContentPlaceHolder1$rdbShopQuestionClass", :type => "radio", :value => "5"}/
+                                  %label{:for => "ctl00_ContentPlaceHolder1_rdbShopQuestionClass_3"} 向手機王建議
+                          %textarea#ctl00_ContentPlaceHolder1_txtContent{:cols => "20", :name => "ctl00$ContentPlaceHolder1$txtContent", :rows => "2", :style => "width: 99%;\n                height: 100px;"}
+                          %br/
+                          %span#ctl00_ContentPlaceHolder1_lblQuestionMaxLength{:style => "color:Red;"} 限制只能輸入 2000 字。
+                          %br/
+                          %p
+                          %br/
+                          %p{:align => "center"}
+                            %input#ctl00_ContentPlaceHolder1_btnConfirm{:name => "ctl00$ContentPlaceHolder1$btnConfirm", :type => "submit", :value => "\347\242\272\345\256\232\351\200\201\345\207\272"}>/
+                            \&nbsp;
+                            %input{:type => "reset", :value => "\346\270\205\351\231\244"}/
+                          %br/
+          .bwr
+            .storeSides
+              .mainImg
+                %img{:src => "images/www/samples/sample-img-11.jpg"}/
+                .spotlight
+              .info
+                %h1.sName
+                  聯強電信聯盟-永傑通信
+                .tel
+                  .icon
+                  02-23090818
+                .addr
+                  .icon
+                  台北市大安區忠孝東路三段100號
+              .rLists
+                .title
+                  .icon
+                  手機商品 (50)
+                .lists
+                  %ul.list
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        HTC (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Apple (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Nokia (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Sony Ericssion (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        ASUS (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        HTC (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Apple (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Nokia (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Sony Ericssion (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        ASUS (5)
+              .rLists
+                .title
+                  .icon
+                  平板電腦商品 (50)
+                .lists
+                  %ul.list
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        HTC (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Apple (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Nokia (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Sony Ericssion (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        ASUS (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        HTC (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Apple (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Nokia (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Sony Ericssion (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        ASUS (5)
+    #footer
+      .list
+        關於手機王 | 網路行銷 | 廣告刊登 | 聯絡我們 | 服務條款 | 隱私權政策 | 法律顧問 | 技術合作 | 首機網路股份有限公司 © 1999-2011 All rights reserved.
+        %p
+          本網站已依台灣網站內容分級規定處理

@@ -1,0 +1,31 @@
+!!!
+%html{:xmlns => "http://www.w3.org/1999/xhtml"}
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %link{:href => "http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi-style-0.1.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi_DiscussBoard.css", :rel => "stylesheet", :type => "text/css"}/
+    %title Untitled Document
+  %body
+    .msg
+      %h4 文章異動
+      .thiscontent
+        %form#delForm{:method => "post", :name => "delForm", :runat => "server"}
+          .name 文章標題：文章異動
+          #info
+          .pageSpace
+            .pageSpaceL
+              %label 描述：
+            .pageSpaceR
+              %textarea#argReason{:onkeyup => "count(this.value)", :style => "width: 400px; height: 80px;"}
+              %center.txt-imp
+                必填且詳述改修說明(300字以內)
+                = succeed "$" do
+                  %br/
+                \! # $ % &amp; * "  ' 等符號將會無法顯示
+          .objBtn
+            %ul
+              %li
+                %a{:href => "#", :title => "\347\242\272\345\256\232\344\270\246\345\260\207\346\211\200\351\201\270\346\226\207\347\253\240\345\210\227\345\205\245\344\277\256\346\224\271\345\215\200"} 確定並將所選文章列入修改區
+              %li
+                %a{:href => "#", :title => "\345\217\226\346\266\210"} 取消

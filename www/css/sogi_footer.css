@@ -1,0 +1,1046 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+
+strong
+{
+	color:#500;
+	margin: 5px;
+	line-height: 30px;	
+	
+}
+
+.footermain {
+	
+	border-radius: 15px 15px 15px 15px;
+	
+	height: auto;
+	overflow: hidden;
+	
+	
+}
+
+
+.nav
+{
+	padding:10px 20px 40px 10px;
+}
+
+
+.Fdatas{
+	margin-top:30px;
+	margin-left: 5px;
+	height: auto;
+}
+
+.FdataL{
+	float:left;
+	margin: 0px;
+	padding: 0px;
+	height: auto;
+}
+
+.FdataR{
+	float:left;
+	border-radius: 0px 15px 15px 15px;
+	box-shadow: 0 0 6px #AAAAAA;
+	height: auto;
+	overflow: hidden;
+	width: 650px;
+	padding: 5px 5px 5px 0;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #AAAAAA;
+	border-right-color: #AAAAAA;
+	border-bottom-color: #AAAAAA;
+	border-left-color: #AAAAAA;
+	margin: 0px;
+	background-image: url(../images/www/FdataR_bac.jpg);
+	padding-bottom:20px;
+}
+
+.Fdata{
+	padding: 0px;
+	width: 620px;
+	height: 200px;
+	margin: 13px 20px 20px 18px;
+	
+}
+
+
+.FdataUp{
+	width: 620px;
+	float: left;
+}
+
+
+
+
+.FdataDown{
+	width: 620px;
+	float: left;
+	border: 0.1em solid #AAA;
+}
+
+
+
+
+
+
+.FdataTabs
+{
+	float: left;	
+}
+
+.FdataTabs a{
+	display:block;
+	height: 35px;
+	width: 100px;
+	background-image: url(../images/www/FdataTab_bac.png);
+}
+
+.FdataTabs a:hover
+{
+	background-image:  url(../images/www/FdataTabOn_bac.png);
+	color: #444;
+}
+
+
+
+.FdataTab
+{
+	float: left;
+	margin: 0 3px 0 0;
+	padding: 0px;
+	color: #444;
+	background-image: url(../images/www/FdataTab_bac.png);
+	text-align: center;
+	line-height: 35px;
+}
+
+.Fon a{
+	display:block;
+	height: 35px;
+	width: 100px;
+	background-image:  url(../images/www/FdataTabOn_bac.png);
+}
+
+
+.FdataSignBig
+{
+	float: right;
+	padding: 0px;
+	height: auto;
+	width: auto;
+	margin: 23px 0 0 0;
+	color: #BBB;
+	font-size: 12px;
+}
+
+
+
+.FdataSignSmall
+{
+	float: right;
+	padding: 0px;
+	height: auto;
+	width: auto;
+	margin:0;
+	color: #BBB;
+	font-size: 12px;
+}
+
+
+
+.FdataSign
+{
+	float: right;
+	padding: 0px;
+	height: auto;
+	width: auto;
+	margin: 18px 0 0 0;
+	color: #BBB;
+	font-size: 12px;
+}
+
+
+
+
+
+
+.Ftabs {
+	clear: both;
+	display: block;
+	float: left;
+	height: 29px;
+	line-height: 29px;
+	padding-left: 10px;
+	background-attachment: scroll;
+	background-color: #806F66;
+	background-image: url(../../images/www/sogi-img.png);
+	background-repeat: no-repeat;
+	background-position: -1px -180px;
+	border-radius: 15px 15px 15px 15px;
+}
+
+
+.Ftabs .Ftab {
+    float: left;
+    line-height: 29px;
+    margin-right: 2px;
+    text-align: center;
+}
+
+
+.Ftabs .Ftab a {
+	color: white;
+	display: block;
+	line-height: 28px;
+	padding: 0 15px 0 15px;
+	
+}
+
+
+.Ftabs .Ftab a:hover {
+    background-color: #3A3536;
+    border-radius: 15px 15px 15px 15px;
+}
+.Ftabs .on {
+	border-radius: 15px 15px 15px 15px;
+	  background-color: #3A3536;
+}
+.FtabsEnd {
+	display: block;
+	float: left;
+	height: 0px;
+	line-height: 29px;
+	width: 0px;
+	margin-top: 40px;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: right -180px;
+}
+
+
+
+/* 關於手機王 公司簡介*/
+
+
+.IntroFtitle
+{
+	height:35px;
+	width: 610px;
+	float: left;
+	
+	line-height: 35px;
+	font-size: 13px;
+	font-weight: 200;
+	background-color: #DDD;
+	background-image: url(../images/www/Ftitle_bac.png);
+	padding: 0 0 0 10px;
+	margin: 0px;
+}
+
+
+
+.IntroFblock1
+{
+	width: 610px;
+	float: left;
+	padding-left: 10px;
+	letter-spacing: 2px;
+	line-height: 20px;
+	border-top: 0.1em solid #AAA;
+	border-bottom: 0.1em solid #AAA;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 12px;
+}
+
+.IntroFblock1l
+{
+	width: 305px;
+	float: left;
+}
+.IntroFblock1r
+{
+	width: 305px;
+	float: left;
+}
+
+
+
+.IntroFblock2
+{
+	width: auto;
+	float: left;
+	padding: 20px 25px 15px 25px;
+	letter-spacing: 2px;
+	line-height: 20px;
+	
+
+	
+	font-size: 11px;
+	
+}
+
+
+/* 關於手機王 里程碑*/
+
+
+
+.MileFtitle
+{
+	height:35px;
+	width: 610px;
+	float: left;
+	border: 0.1em solid #AAA;
+	line-height: 35px;
+	font-size: 13px;
+	font-weight: 200;
+	background-color: #DDD;
+	background-image: url(../images/www/Ftitle_bac.png);
+	padding: 0 0 0 10px;
+	margin: 0px;
+}
+
+
+.MileFtitleL
+{
+	float: left;
+	width: 100px;
+}
+
+.MileFtitleR
+{
+
+
+}
+
+
+
+
+.MileFblock
+{
+	height:auto;
+	width: 610px;
+	float: left;
+	border: 0.1em solid #AAA;
+	line-height: 35px;
+	
+	font-size: 12px;
+	font-weight: 200;
+	
+	padding: 0 0 0 10px;
+	margin: 0px;
+}
+
+.MileFblockL
+{
+	float: left;
+	width: 50px;
+	height:auto;
+}
+
+.MileFblockM
+{
+	float: left;
+	width: 50px;
+	height:auto;
+}
+
+
+.MileFblockR
+{
+
+float: left;
+height:auto;
+}
+
+
+
+/* 關於手機王 facebook*/
+
+
+
+
+.FaceFtitle
+{
+	height:35px;
+	width: 610px;
+	float: left;
+	
+	line-height: 35px;
+	
+	font-size: 13px;
+	font-weight: 200;
+	background-color: #DDD;
+	background-image: url(../images/www/Ftitle_bac.png);
+	padding: 0 0 0 10px;
+	margin: 0px;
+}
+
+
+.FaceFtitle a:hover
+{
+	text-decoration: underline;	
+	color:#444;
+}
+
+
+
+.FaceFblockUp
+{
+	width: 610px;
+	float: left;
+	padding-left: 10px;
+	letter-spacing: 2px;
+	line-height: 20px;
+	border-top: 0.1em solid #AAA;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 12px;
+}
+
+
+
+.FaceFblockDown
+{
+	width: 610px;
+	float: left;
+	padding-left: 10px;
+	letter-spacing: 2px;
+	line-height: 20px;
+	border-top: 0.1em solid #AAA;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom:15px;
+	font-size: 11px;
+}
+
+
+.Facebook
+{
+	margin: 20px;
+	
+	height: autopx;
+	width: autopx;
+}
+
+
+/* 關於手機王 plurk*/
+
+.Plurk
+{
+	margin: 20px;
+	
+	height: autopx;
+	width: autopx;
+}
+
+
+/* 網路行銷 Strength*/
+
+
+
+.StrengthFblock
+{
+	width: 610px;
+	float: left;
+	padding-left: 5px;
+	padding-right: 10px;
+	letter-spacing: 2px;
+	line-height: 20px;
+	border: 0.1em solid #AAA;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 12px;
+	margin-bottom:15px;
+	
+	
+}
+
+
+
+.StrengthFblockL
+{
+	width: 280;
+	float: left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #AAAAAA;
+	margin:10px 0px 10px 10px;
+	padding-right:10px;
+	
+
+}
+.StrengthFblockR
+{
+	width: 280;
+	float: right;
+	margin:10px 0px 10px 10px;
+	
+	
+	
+}
+
+
+
+
+.StrengthFdataDown{
+	width: 620px;
+	float: left;
+	
+}
+
+
+
+/* 網路行銷 Effect*/
+
+
+.Ftitle
+{
+	height:35px;
+	width: 610px;
+	float: left;
+	border: 0.1em solid #AAA;
+	line-height: 35px;
+	font-size: 13px;
+	font-weight: 200;
+	background-color: #DDD;
+	background-image: url(../images/www/Ftitle_bac.png);
+	padding: 0 0 0 10px;
+	margin: 0px;
+}
+
+.Ftitle a:hover
+{
+	color: #555;
+	text-decoration: underline;	
+}
+
+
+.Fblock
+{
+height:auto;
+	width: 610px;
+	height:35px;
+	float: left;
+	border: 0.1em solid #AAA;
+	line-height: 35px;
+	
+	font-size: 12px;
+	font-weight: 200;
+	
+	padding: 0 0 0 10px;
+	margin: 0px;
+	
+	
+}
+
+
+
+.FblockL
+{
+	width: 305;
+	float: left;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #AAAAAA;
+	margin:0
+	
+	
+
+}
+.FblockR
+{
+	width: 305;
+	float: right;
+	margin:0
+	
+	
+	
+}
+
+.EffectFdataDown{
+	width: 620px;
+	float: left;
+	
+}
+
+
+/* 廣告刊登*/
+
+
+
+.AdsFtitle
+{
+	height:35px;
+	width:620px;
+	float: left;
+	border-top: 0.1em solid #AAA;
+	line-height: 35px;
+	
+	font-size: 13px;
+	font-weight: 200;
+	background-color: #DDD;
+	background-image: url(../images/www/Ftitle_bac.png);
+	padding: 0;
+	margin: 0px;
+}
+
+.AdsFtitleL
+{
+	height:auto;
+	width:400px;
+	border-right: 0.1em solid #AAA;
+	float: left;
+	padding:0 0 0 20px;
+}
+
+
+.AdsFtitleR
+{
+		height:auto;
+	width:auto;
+	float: left;
+	padding:0 0 0 20px;
+}
+
+
+
+
+
+.AdsFblockUp
+{
+	height:auto;
+	width: auto;
+	float: left;
+	
+	line-height: 25px;
+	
+	font-size: 12px;
+	font-weight: 200;
+	
+	padding: 15px 0 20px 20px;
+	margin: 0;
+}
+
+
+.AdsFblockM
+{
+	height:auto;
+	width: auto;
+	float: left;
+	
+	line-height: 25px;
+	
+	font-size: 12px;
+	font-weight: 200;
+	
+	
+	margin: 0;
+}
+
+.AdsFblockML
+{
+	height:auto;
+	width: 400px;
+	float: left;
+	border-right: 0.1em solid #AAA;
+	line-height: 20px;
+	font-size: 12px;
+	font-weight: 200;
+	padding:15px 0 20px 20px;
+	margin: 0;
+	color: #000;
+}
+
+
+.AdsFblockMR
+{
+	height:auto;
+	width: 160px;
+	float: left;
+	
+	line-height: 25px;
+	
+	font-size: 12px;
+	font-weight: 200;
+	
+	padding:15px 0 0 20px;
+	margin: 0;
+}
+
+
+
+.AdsFblockDown
+{
+	height:auto;
+	width: auto;
+	
+	
+	line-height: 25px;
+	
+	font-size: 12px;
+	font-weight: 200;
+	
+	
+	margin: 0;
+}
+
+.AdsFblockDownL
+{
+	height:auto;
+	width: 300px;
+	float: left;
+	border-right: 0.1em solid #AAA;
+	line-height: 20px;
+	font-size: 12px;
+	font-weight: 200;
+	padding:15px 15px 20px 20px;
+	margin: 0;
+	color: #000;
+}
+
+
+.AdsFblockDownR
+{
+	height:auto;
+	width: 160px;
+	float: left;
+	
+	line-height: 25px;
+	
+	font-size: 12px;
+	font-weight: 200;
+	
+	padding:45px 0 0 40px;
+	margin: 0;
+}
+
+
+
+
+/* 連絡我們*/
+
+
+
+.ContactFtitle
+{
+	height:35px;
+	width: 605px;
+	float: left;
+	border-bottom: 0.1em solid #AAA;
+	line-height: 35px;
+	
+	font-size: 13px;
+	font-weight: 200;
+	background-color: #DDD;
+	background-image: url(../images/www/Ftitle_bac.png);
+	padding: 0 0 0 15px;
+	margin: 0px;
+}
+
+
+.ContactFblockUp
+{
+	width: 600px;
+	
+	float: left;
+	padding-left: 20px;
+	
+	letter-spacing: 2px;
+	line-height: 20px;
+	border-bottom: 0.1em solid #AAA;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 12px;
+}
+
+
+.ContactFblockDown
+{
+	width: auto;
+	float: left;
+	
+	letter-spacing: 2px;
+	line-height: 20px;
+	
+
+	
+	font-size: 11px;
+	
+}
+
+.ContactFblockDownL
+{
+float: left;	
+padding: 20px 20px 15px 20px;
+
+	
+}
+
+.ContactFblockDownM
+{
+	float: left;
+	width:130px;
+	padding: 20px 20px 15px 20px;
+	border-right: 0.1em solid #AAA;
+	border-left: 0.1em solid #AAA;
+	
+}
+.ContactFblockDownR
+{
+	float: right;
+	padding: 20px 20px 15px 20px;
+	
+}
+
+
+
+
+
+
+/* 隱私權*/
+
+
+
+.PrivacyFtitle
+{
+	height:35px;
+	width: 605px;
+	float: left;
+	border-bottom: 0.1em solid #AAA;
+	line-height: 35px;
+	
+	font-size: 13px;
+	font-weight: 200;
+	background-color: #DDD;
+	background-image: url(../images/www/Ftitle_bac.png);
+	padding: 0 0 0 15px;
+	margin: 0px;
+}
+.PrivacyFtitleL
+{
+	float:left;
+}
+
+.PrivacyFtitleR
+{
+	padding-top:10px;
+	float:right;
+	font-size: 10px;
+}
+
+
+.PrivacyFblockT
+{
+	width: 590px;
+	float: left;
+	padding:5px 15px 10px 15px;
+	letter-spacing: 2px;
+	line-height: 25px;
+	border-bottom: 0.1em solid #AAA;
+	font-size: 12px;
+}
+
+h1
+{
+	font-size: 14px;
+	line-height: 40px;
+}
+
+.PrivacyFblockM
+{
+	width: 600px;
+	float: left;
+	padding-left:10px;
+	letter-spacing: 2px;
+	line-height: 25px;
+	border-bottom: 0.1em solid #AAA;
+	font-size: 12px;
+}
+
+.PrivacyFblockML
+{
+	width: 270px;
+	float: left;
+	padding:5px 10px 10px 10px;
+	border-right: 0.1em solid #AAA;
+	color: #000;	
+}
+.PrivacyFblockMR
+{
+	width: 270px;
+	float: left;
+	padding:5px 10px 10px 20px;
+	
+}
+
+
+.PrivacyFdataDown{
+	width: 620px;
+	float: left;
+	border: 0.1em solid #AAA;
+}
+
+
+
+/* 法律顧問*/
+
+
+
+.LowFtitle
+{
+	height:35px;
+	width: 610px;
+	float: left;
+	border-bottom: 0.1em solid #AAA;
+	line-height: 35px;
+	
+	font-size: 13px;
+	font-weight: 200;
+	background-color: #DDD;
+	background-image: url(../images/www/Ftitle_bac.png);
+	padding: 0 0 0 10px;
+	margin: 0px;
+}
+
+.LowFtitleL
+{
+	float:left;
+}
+
+.LowFtitleR
+{
+	padding-top:10px;
+	float:right;
+	font-size: 10px;
+}
+
+
+.LowFblock
+{
+	width: 600px;
+	float: left;
+	padding-left: 15px;
+	letter-spacing: 2px;
+	line-height: 20px;
+	border-bottom: 0.1em solid #AAA;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 12px;
+}
+
+.LowFblockl
+{
+	width: 290px;
+	float: left;
+	padding:5px;
+}
+.LowFblockr
+{
+	width: 290px;
+	float: left;
+}
+
+
+
+
+/* 技術合作*/
+
+
+
+
+.TechFtitle
+{
+	height:35px;
+	width: 610px;
+	float: left;
+	border-bottom: 0.1em solid #AAA;
+	line-height: 35px;
+	
+	font-size: 13px;
+	font-weight: 200;
+	background-color: #DDD;
+	background-image: url(../images/www/Ftitle_bac.png);
+	padding: 0 0 0 10px;
+	margin: 0px;
+}
+
+.TechFtitleL
+{
+	float:left;
+	width:270px;
+	border-right: 0.1em solid #AAA;
+}
+
+.TechFtitleR
+{
+	
+	float:left;
+	
+}
+
+
+.TechFblock
+{
+	width: 600px;
+	float: left;
+	
+	letter-spacing: 2px;
+	line-height: 20px;
+	border-bottom: 0.1em solid #AAA;
+	
+	font-size: 12px;
+}
+
+.TechFblockl
+{
+	width: 220px;
+	height:auto;
+	float: left;
+	
+	
+	
+	
+}
+
+.TechFblockLT
+{
+	width:250px;
+	float: left;
+	border-bottom: 0.1em solid #AAA;
+	border-right: 0.1em solid #AAA;
+	padding:15px;
+}
+
+.TechFblockLB
+{
+	float: left;
+	border-right: 0.1em solid #AAA;
+	padding:15px;
+	width:250px;
+	font-size: 11px;
+}
+
+
+
+.TechFblockr
+{
+	width: 300px;
+	float: left;
+	padding-left:80px;
+	padding-top:10px;
+}
+

@@ -1,0 +1,222 @@
+!!!
+%html
+  %head
+    %title SOGI 迷你店鋪 - 聯強電信聯盟-永傑通信
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %link{:href => "http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi-style-0.1.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi_store-6.css", :rel => "stylesheet", :type => "text/css"}/
+  %body
+    #topbar
+      .channelList
+        %a{:href => "#", :target => "_blank"} 手機王
+        ｜
+        %a{:href => "#", :target => "_blank"} Windows Phone
+        ｜
+        %a{:href => "#", :target => "_blank"} Android
+        .loginClub
+          %a{:href => "#", :target => "_blank"} 註冊新會員
+          ｜
+          %a{:href => "#", :target => "_blank"} 店鋪管理
+          ｜
+          %a{:href => "#", :target => "_blank"} [ Jason ] 登出
+    #container
+      #globalBg
+        .storeBg
+          %img.sunBg{:src => "images/www/sogi-store-bg-2.png"}/
+      #head
+        .sHead.bw
+          .AD970.mg.pg
+            %a{:href => "#", :title => "\345\273\243\345\221\212"}
+              %img{:src => "images/www/ad970.gif"}/
+          .storeNav.mg
+            %ul
+              %li
+                %a{:href => "#"}
+                  店鋪首頁
+              %li
+                %a{:href => "#"}
+                  推薦促銷
+              %li
+                %a{:href => "#"}
+                  店鋪資訊
+              %li
+                %a{:href => "#"}
+                  服務中心
+              %li
+                %a{:href => "#"}
+                  詢價須知
+              %li.on
+                %a{:href => "#"}
+                  店鋪管理
+      #main
+        #storeMain.bw
+          .bwls
+            .Sfootermain
+              .Sdatas
+                .SdataL
+                .SdataR
+                  .Snav
+                    .Stabs{:style => "width:660px;"}
+                      .Stab
+                        %a{:href => "#", :title => "\347\263\273\347\265\261\345\205\254\345\221\212"}
+                          系統公告
+                      .Stab
+                        %a{:href => "#", :title => "\345\225\206\345\223\201\347\256\241\347\220\206"}
+                          商品管理
+                      .Stab
+                        %a{:href => "#", :title => "\351\226\200\350\231\237\350\263\207\350\262\273"}
+                          門號資費
+                      .Stab
+                        %a{:href => "#", :title => "\346\216\250\350\226\246\344\277\203\351\212\267"}
+                          推薦促銷
+                      .Stab
+                        %a{:href => "#", :title => "\345\272\227\351\213\252\350\263\207\350\250\212"}
+                          店鋪資訊
+                      .Stab.on
+                        %a{:href => "#", :title => "\350\210\207\346\211\213\346\251\237\347\216\213\351\200\243\347\265\241"}
+                          與手機王連絡
+                    .StabsEnd
+                  .Sdata
+                    .SdataUp
+                      .SdataTabs
+                        .SdataTab.Son
+                          %a{:href => "#"} 問題反映
+                        .SdataTab
+                          %a{:href => "#"} 手機報修
+                        .SdataTab
+                          %a{:href => "#"} 現金盤資訊
+                      .SPdataTabs
+                        .SPdataTab
+                          %a{:href => "#"} 未回覆
+                        .SPdataTab.SPon
+                          %a{:href => "#"} 已回覆
+                    .SdataDown
+                      .SChatting
+                        #ctl00_ContentPlaceHolder1_Panel3
+                          %br/
+                          發問時間：2011/08/11 17:14:00
+                          %br>/
+                          發問內容：測試一下
+                          %br/
+                          %br/
+                          %hr/
+                          = succeed "\347\231\274\345\225\217\346\231\202\351\226\223\357\274\2322011/08/11" do
+                            %br/
+                          17:16:00
+                          %br>/
+                          發問內容：增加test
+                          %br/
+                          %br/
+                          %hr/
+                          = succeed "\345\233\236\350\246\206\346\231\202\351\226\223\357\274\2322011/08/11" do
+                            %br/
+                          22:44:00&nbsp;&nbsp;&nbsp;回覆者：瑞鈞
+                          = succeed "\345\233\236\350\246\206\345\205\247\345\256\271\357\274\232\346\202\250\345\245\275" do
+                            %br/
+                          有收到測試主題。於此也回覆，以利您確認。
+                          謝謝
+                          %br/
+                          %br/
+                          %hr/
+                          %br/
+                          %br/
+                          %textarea#ctl00_ContentPlaceHolder1_txtReply{:cols => "20", :name => "ctl00$ContentPlaceHolder1$txtReply", :rows => "2", :style => "width: 99%;\n            height: 100px;"}
+                          %br/
+                          %span#ctl00_ContentPlaceHolder1_lblReplyMaxLength{:style => "color:Red;"} 限制只能輸入 {0} 字。
+                          %input#ctl00_ContentPlaceHolder1_hfListNo{:name => "ctl00$ContentPlaceHolder1$hfListNo", :type => "hidden", :value => "425"}/
+                          %p{:align => "center"}
+                            %input#ctl00_ContentPlaceHolder1_btnReply{:name => "ctl00$ContentPlaceHolder1$btnReply", :type => "submit", :value => "\347\242\272\345\256\232\351\200\201\345\207\272"}>/
+                            \&nbsp;
+                            %input{:type => "reset", :value => "\346\270\205\351\231\244"}/
+          .bwr
+            .storeSides
+              .mainImg
+                %img{:src => "images/www/samples/sample-img-11.jpg"}/
+                .spotlight
+              .info
+                %h1.sName
+                  聯強電信聯盟-永傑通信
+                .tel
+                  .icon
+                  02-23090818
+                .addr
+                  .icon
+                  台北市大安區忠孝東路三段100號
+              .rLists
+                .title
+                  .icon
+                  手機商品 (50)
+                .lists
+                  %ul.list
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        HTC (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Apple (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Nokia (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Sony Ericssion (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        ASUS (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        HTC (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Apple (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Nokia (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Sony Ericssion (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        ASUS (5)
+              .rLists
+                .title
+                  .icon
+                  平板電腦商品 (50)
+                .lists
+                  %ul.list
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        HTC (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Apple (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Nokia (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Sony Ericssion (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        ASUS (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        HTC (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Apple (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Nokia (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        Sony Ericssion (5)
+                    %li
+                      %a{:href => "#", :title => "HTC"}
+                        ASUS (5)
+    #footer
+      .list
+        關於手機王 | 網路行銷 | 廣告刊登 | 聯絡我們 | 服務條款 | 隱私權政策 | 法律顧問 | 技術合作 | 首機網路股份有限公司 © 1999-2011 All rights reserved.
+        %p
+          本網站已依台灣網站內容分級規定處理

@@ -1,0 +1,3212 @@
+@charset "utf-8";
+
+/* 變數集合 */
+$sitecolor-1: #ffffff; /* #ffffff 白*/
+$sitecolor-2: #3a3536; /* #3a3536 深灰*/
+$sitecolor-3: #806f66; /* #806f66 淺褐*/
+$sitecolor-4: #d73a3a; /* #d73a3a 紅*/
+$sitecolor-5: #aaaaaa; /* #aaaaaa 灰*/
+$sitecolor-6: #ed6500; /* #ed6500 橘*/
+$sitecolor-7: #ffeebd; /* #ffeebd 米白*/
+$sitecolor-8: #fdd84b; /* #fdd84b 黃*/
+$sitecolor-9: #666666; /* #666666 灰*/
+$sitecolor-10: #cccccc; /* #cccccc 灰*/
+$sitecolor-11: #eee1b8; /* #eee1b8 淡咖啡*/
+$sitecolor-12: #fe3a3a; /* #fe3a3a 價格紅*/
+$sitecolor-13: #0a2d58; /* #0a2d58 店鋪藍*/
+$sitecolor-14: #e0eff5; /* #e0eff5 淺藍*/
+$sitecolor-15: #ec741b; /* #ec741b 橙色*/
+$sitecolor-16: #fee57f; /* #fee57f 論壇置頂色*/
+$sitecolor-17: #fff3c2; /* #fff3c2 論壇列表色*/
+
+body{
+	font-size:77%;
+	font-family:Verdana, Arial, Geneva, sans-serif;
+}
+a{
+	cursor:pointer;
+	text-decoration:none;
+	color:$sitecolor-2;
+}
+a:hover{
+	cursor:pointer;
+	text-decoration:none;
+	color:$sitecolor-6;
+}
+.clr{
+	clear:both;	
+}
+.AD300{
+	float:left;
+	width:300px;
+	margin-left:3px;
+}
+.AD970{
+	float:left;
+	display:block;
+	width:980px;
+	margin-top:10px;
+}
+.ADin{
+	margin:0;	
+}
+.AD240{
+	float:left;
+	display:block;
+	width:250px;
+	margin-bottom:10px;
+}
+#topbar{
+	width:100%;
+	background-color:$sitecolor-2;
+	height:30px;
+	.channelList{
+		width:970px;
+		margin: 0 auto;
+		color:$sitecolor-1;
+		line-height:30px;
+		.loginClub{
+			width:auto;
+			float:right;
+		}
+	}
+	a{
+		color:$sitecolor-1;
+	}
+	a:hover{
+		color:$sitecolor-9;
+	}
+}
+#container{
+	overflow:auto;
+	width:100%;
+	height:auto;
+	background:$sitecolor-1 url(../images/www/sogi-bg.png) 0 0 scroll repeat-x;
+	.bw{
+		position:relative;
+		width:980px;
+		margin: 0 auto;
+		behavior: url(ie-css3.htc);
+		z-index:1;
+	}
+	.bwl{
+		width:720px;
+		float:left;
+	}
+  .bwls{
+    width:730px;
+    float:left;
+  }
+	.bwr{
+		width:250px;
+		float:right;
+	}
+	.mg{
+		margin-top:10px;
+	}
+	.pg{
+	 padding-bottom: 10px;
+	}
+	.pdg{
+		padding:5px 5px 15px;
+	}
+	.more{
+		float:right;
+		display:block;
+		color:$sitecolor-1;
+		line-height:18px;
+		font-size:11px;
+		padding:0 5px;
+		border-radius:3px;
+		background-color:$sitecolor-3;
+		margin-right:5px;
+		margin-bottom:5px;
+	}
+	.btn{
+		display:block;
+		border-radius:3px;
+		text-align:center;
+	}
+	.money{
+		font-size:14px;
+		color:$sitecolor-12;
+		a{
+			font-size:14px;
+			color:$sitecolor-12;
+		}
+		a:hover{
+			color:$sitecolor-4;
+		}
+	}
+	.highlight{
+	 color:$sitecolor-4;
+	 font-weight: bold;
+	}
+	#globalBg{
+	 position:absolute;
+	 top:30px;
+	 width:100%;
+	 height:auto;
+	 overflow:auto;
+	 z-index: 0;
+	 .storeBg{
+	   height: 420px;
+	   background: url(../images/www/sogi-store-bg-1.png) 0 bottom repeat-x transparent;
+	   .sunBg{
+	     float: right;
+	   }
+	 }
+	}
+	#head, #promo, #footer{
+	 position: relative;
+	 z-index: 1;
+	}
+	#main{
+	 position: relative;
+	 z-index: 2;
+	}
+	.sHead{
+		background:$sitecolor-1 url(../images/www/sogi-bg-2.png) 0 0 scroll no-repeat;
+		.top{
+			height:99px;
+		}
+		.sogiLogo{
+			float:left;
+			.logo{
+				display:block;
+				position:relative;
+				width:150px;
+				height:87px;
+				top:10px;
+				left:45px;
+				background: url(../images/www/sogi-img.png) -1px 0px no-repeat transparent;
+				text-indent:-9999px;
+			}
+		}
+		.shopNavArea{
+			float:left;
+			position:relative;
+			width:415px;
+			height:83px;
+			top:20px;
+			left:120px;
+			background: url(../images/www/sogi-img.png) -1px -87px no-repeat transparent;
+			.shopNav-1{
+				float:left;
+				a{
+					.icon{
+						display:block;
+						position:relative;
+						top:18px;
+						width:40px;
+						height:38px;
+						margin-right:40px;
+						margin-left:65px;
+						background: url(../images/www/sogi-img.png) -160px -1px no-repeat transparent;
+						text-indent:-9999px;
+					}
+					.name{
+						clear:both;
+						display:block;
+						position:relative;
+						color:$sitecolor-2;
+						margin-left:65px;
+						top:15px;
+					}
+				}
+				a:hover{
+					.icon{
+						background: url(../images/www/sogi-img.png) -160px -39px no-repeat transparent;
+					}
+					.name{
+						color:$sitecolor-6;
+					}
+				}
+			}
+			.shopNav-2{
+				float:left;
+				a{
+					.icon{
+						display:block;
+						position:relative;
+						top:18px;
+						width:40px;
+						height:38px;
+						margin-right:40px;
+						background: url(../images/www/sogi-img.png) -200px -1px no-repeat transparent;
+						text-indent:-9999px;
+					}
+					.name{
+						clear:both;
+						display:block;
+						position:relative;
+						color:$sitecolor-2;
+						top:15px;
+					}
+				}
+				a:hover{
+					.icon{
+						background: url(../images/www/sogi-img.png) -200px -39px no-repeat transparent;
+					}
+					.name{
+						color:$sitecolor-6;
+					}
+				}
+			}
+			.shopNav-3{
+				float:left;
+				a{
+					.icon{
+						display:block;
+						position:relative;
+						top:18px;
+						width:40px;
+						height:38px;
+						margin-right:40px;
+						background: url(../images/www/sogi-img.png) -240px -1px no-repeat transparent;
+						text-indent:-9999px;
+					}
+					.name{
+						clear:both;
+						display:block;
+						position:relative;
+						color:$sitecolor-2;
+						top:15px;
+					}
+				}
+				a:hover{
+					.icon{
+						background: url(../images/www/sogi-img.png) -240px -39px no-repeat transparent;
+					}
+					.name{
+						color:$sitecolor-6;
+					}
+				}
+			}
+			.shopNav-4{
+				float:left;
+				a{
+					.icon{
+						display:block;
+						position:relative;
+						top:18px;
+						width:40px;
+						height:38px;
+						margin-right:40px;
+						background: url(../images/www/sogi-img.png) -280px -1px no-repeat transparent;
+						text-indent:-9999px;
+					}
+					.name{
+						clear:both;
+						display:block;
+						position:relative;
+						color:$sitecolor-2;
+						top:15px;
+					}
+				}
+				a:hover{
+					.icon{
+						background: url(../images/www/sogi-img.png) -280px -39px no-repeat transparent;
+					}
+					.name{
+						color:$sitecolor-6;
+					}
+				}
+			}
+		}
+		/*購物NAV end*/
+		.mainNav{
+			clear:both;
+			height:36px;
+			position:relative;
+			background:url(../images/www/sogi-nav-bg-1.png) 0 0 scroll repeat-x $sitecolor-6;
+			border-radius: 15px 15px 0 0;
+			border:1px solid $sitecolor-5;
+			box-shadow: 0 0 6px $sitecolor-5;
+			text-align:center;
+			behavior: url(ie-css3.htc);
+			z-index:1;
+			li{
+				display:inline-block;
+				*display:inline;
+				_display:inline;
+				padding:0 15px;
+				line-height:36px;
+				a{
+					font-size:15px;
+					color:$sitecolor-7;
+					text-shadow: 0 0 0, 1px 1px 2px $sitecolor-2;
+				}
+				a:hover{
+					font-size:15px;
+					color:$sitecolor-2;
+					text-shadow: 0 0 0, 0px 0px 3px $sitecolor-7;
+				}
+			}
+			li.on{
+				display:inline-block;
+				*display:inline;
+				_display:inline;
+				padding:0 15px;
+				line-height:36px;
+				background:url(../images/www/sogi-arrow-2.gif) center bottom no-repeat transparent;
+				a{
+					font-size:15px;
+					color:$sitecolor-2;
+					font-weight:bold;
+					text-shadow: 0 0 0, 0px 0px 3px $sitecolor-7;
+				}				
+			}
+		}
+		.mainSubNav{
+			clear:both;
+			width:100%;
+			position:relative;
+			line-height:26px;
+			background-color:$sitecolor-8;
+			box-shadow: 0 0 6px $sitecolor-5;
+			border-top:1px solid $sitecolor-8;
+			behavior: url(ie-css3.htc);
+			z-index:1;
+			ul{
+				padding-left:10px;
+			}
+			li{
+				display:inline-block;
+				*display:inline;
+				_display:inline;
+				line-height:26px;
+				a{
+					color:$sitecolor-2;
+				}
+				a:hover{
+					color:$sitecolor-2;
+					text-shadow: 1px 1px 2px $sitecolor-6;
+				}
+			}
+		}
+	}
+	.fullPromo{
+		overflow:auto;
+		border-radius:0 0 15px 15px;
+		border-left:1px solid $sitecolor-5;
+		border-right:1px solid $sitecolor-5;
+		border-bottom:1px solid $sitecolor-5;
+		box-shadow: 0 3px 6px $sitecolor-5;
+		background:#e8e8e8 url(../images/www/sogi-bg-3.png) 0 0 scroll repeat-x;
+		.textAd{
+			li{
+				float: left;
+				font-size: 16px;
+				line-height: 20px;
+				padding: 10px 0;
+				text-align: center;
+				width: 33%;				
+			}
+			a{
+				font-size:15px;	
+			}
+		}
+	}
+	.breadNav{
+		width:auto;
+		height:18px;
+		background:$sitecolor-1 url(../images/www/sogi-bg-8.png) 0 0 scroll repeat-y;
+		padding:8px 10px 5px 30px;
+		vertical-align:middle;
+		.icon{
+			float:left;
+			width:15px;
+			height:15px;
+			overflow:hidden;
+			background: url(../images/www/sogi-img.png) -380px 0px no-repeat transparent;
+			margin-right:6px;
+		}
+		.bNav{
+			float:left;
+			color:$sitecolor-1;
+			.here{
+				color:$sitecolor-7;
+			}
+			a{
+				color:$sitecolor-1;
+			}
+			a:hover{
+				color:$sitecolor-6;
+			}
+		}
+	}
+	.hotNews{
+		float:left;
+		margin-left:18px;
+		margin-right:5px;
+	}
+	.forumBox{
+		float:left;
+		margin-right:15px;
+		width:305px;
+	}
+	.tabs{
+		clear:both;
+		float:left;
+		display:block;
+		height:29px;
+		padding-left:10px;
+		line-height:29px;
+		background: url(../images/www/sogi-img.png) -1px -180px no-repeat transparent;
+		.tab{
+			float:left;
+			line-height:29px;
+			margin-right:2px;
+			text-align:center;
+			a{
+				display:block;
+				line-height:28px;
+				color:$sitecolor-1;
+				padding:0 12px;
+			}
+			a:hover{
+				background-color:$sitecolor-2;
+				border-radius: 15px 15px 15px 15px;
+			}
+		}
+		.on{
+			background-color:$sitecolor-2;
+			border-radius: 15px 15px 15px 15px;
+		}
+	}
+	.tabsEnd{
+		float:left;
+		display:block;
+		width:15px;
+		height:29px;
+		line-height:29px;
+		background: url(../images/www/sogi-img.png) right -180px no-repeat transparent;
+	}
+	.tBlue{
+		background: url(../images/www/sogi-img.png) -1px -240px no-repeat transparent;
+		.tab{
+			a{
+				color:$sitecolor-1;
+			}
+			a:hover{
+				background-color:$sitecolor-13;
+			}
+		}
+		.on{
+			background-color:$sitecolor-13;
+		}
+	}
+	.teBlue{
+		background: url(../images/www/sogi-img.png) right -240px no-repeat transparent;
+	}
+	.oneTab{
+		clear:both;
+		float:left;
+		display:block;
+		height:29px;
+		padding-left:10px;
+		line-height:29px;
+		background: url(../images/www/sogi-img.png) -1px -210px no-repeat transparent;
+		a{
+			display:block;
+			line-height:28px;
+			color:$sitecolor-1;
+			padding:0 12px;
+			background-color:$sitecolor-2;
+			border-radius: 15px 15px 15px 15px;
+		}
+	}
+	.oneTabEnd{
+		float:left;
+		display:block;
+		width:15px;
+		height:29px;
+		line-height:29px;
+		background: url(../images/www/sogi-img.png) right -210px no-repeat transparent;
+	}
+	.promoTp-1{
+		width:615px;
+		margin:5px 0 0 10px;
+		.hotOne{
+			float:left;
+			display:block;
+			width:360px;
+			background-color:$sitecolor-8;
+			.title{
+				font-size:15px;
+				font-weight:bold;
+				margin:8px;
+			}
+			.excerpts{
+				line-height:20px;
+				margin:0 15px 15px 15px;
+			}
+			a:hover{
+				color:$sitecolor-9;
+			}
+		}
+		.hotList{
+			float:left;
+			display:block;
+			width:248px;
+			margin:2px;
+			.newsImg{
+				float:left;
+				width:120px;
+				margin:1px;
+			}
+		}
+		.newsfeed{
+			position:relative;
+			float:left;
+			width:230px;
+			margin:10px;
+			border:1px solid $sitecolor-9;
+			background-color:$sitecolor-10;
+			a:hover{
+				color:$sitecolor-9;
+			}
+			.title{
+				position:absolute;
+				top:-12px;
+				line-height:28px;
+				padding:0 15px;
+				background-color:$sitecolor-2;
+				border-radius: 15px;
+				color:$sitecolor-1;
+			}
+			ul{
+				margin:20px 5px 10px 5px;
+			}
+			li{
+				line-height:22px;
+				padding-left:15px;
+				background:url(../images/www/limg-1.jpg) 4px 10px scroll no-repeat;
+			}
+		}
+	}
+	.promoTp-2{
+		width:615px;
+		margin:5px 0 0 10px;
+		.hotOne{
+			float:left;
+			display:block;
+			width:360px;
+			background-color:$sitecolor-8;
+			.title{
+				font-size:15px;
+				font-weight:bold;
+				margin:8px;
+			}
+			.excerpts{
+				line-height:20px;
+				margin:0 15px 15px 15px;
+			}
+			a:hover{
+				color:$sitecolor-9;
+			}
+		}
+		.hotList{
+			float:left;
+			display:block;
+			width:248px;
+			overflow:auto;
+			height:auto;
+			ul{
+				clear:both;
+				margin-top:1px;
+			}
+			li{
+				display:block;
+				width:230px;
+				height:auto;
+				overflow:auto;
+				padding:7px 5px;
+				border-bottom:1px dotted $sitecolor-5;
+				.softImg{
+					float:left;
+					width:100px;
+					margin-right:10px;
+				}
+				.title{
+					float:left;
+					width:115px;
+					font-weight:bold;
+					margin:5px 0;
+				}
+				.desc{
+					float:left;
+					width:115px;
+					line-height:18px;
+				}
+			}
+			li.end{
+				border:0;
+			}
+			li.style3{
+			 padding: 2px 5px;
+			}
+		}
+		.newsfeed{
+			position:relative;
+			float:left;
+			width:230px;
+			margin:15px 10px;
+			border:1px solid $sitecolor-9;
+			background-color:$sitecolor-10;
+			a:hover{
+				color:$sitecolor-9;
+			}
+			.title{
+				position:absolute;
+				top:-12px;
+				line-height:28px;
+				padding:0 15px;
+				background-color:$sitecolor-2;
+				border-radius: 15px;
+				color:$sitecolor-1;
+			}
+			ul{
+				margin:20px 5px 10px 5px;
+			}
+			li{
+				line-height:22px;
+				padding-left:15px;
+				background:url(../images/www/limg-1.jpg) 4px 10px scroll no-repeat;
+			}
+		}
+	}
+	.forumFeed{
+		margin-top:30px;
+		display:block;
+		width:298px;
+		margin-left:3px;
+		margin-bottom:10px;
+		border:1px solid $sitecolor-5;
+		box-shadow:inset 0 0 5px $sitecolor-1;
+		background:#d7d7d7 url(../images/www/sogi-bg-4.png) 0 0 scroll repeat-x;
+		overflow:auto;
+		a{
+			font-size:15px;
+		}
+		ul{
+			margin:10px 5px;
+		}
+		li{
+			line-height:25px;
+			padding-left:15px;
+			background:url(../images/www/limg-1.jpg) 4px 10px scroll no-repeat;
+		}
+	}
+	.softPromo{
+		overflow:auto;
+		border-radius: 15px;
+		border:1px solid $sitecolor-5;
+		box-shadow: 0 0 6px $sitecolor-5;
+		background:#d7d7d7 url(../images/www/sogi-bg-4.png) 0 0 scroll repeat-x;
+		li{
+			position:relative;
+			float:left;
+			display:block;
+			width:204px;
+			height:60px;
+			border-right:1px solid $sitecolor-5;
+			padding:15px 15px 15px 25px;
+			box-shadow:inset 0 0 8px $sitecolor-1;
+			.softImg{
+				float:left;
+				width:60px;
+				border-radius:10px;
+				margin-right:10px;
+			}
+			.title{
+				float:left;
+				width:130px;
+				font-weight:bold;
+				margin:5px 0;
+			}
+			.desc{
+				float:left;
+				width:130px;
+				line-height:18px;
+			}
+			.softType{
+				position:absolute;
+				right:0px;
+				top:0px;
+				img{
+					filter:alpha( opacity=50, FinishOpacity=50, Style=2 );
+					opacity:0.5;
+				}
+			}
+		}
+		li.end{
+			border:0;	
+		}
+	}
+	.newsPromo{
+		overflow:hidden;
+		padding:5px;
+		height:175px;
+		border-radius: 15px;
+		border:1px solid $sitecolor-5;
+		box-shadow: 0 0 6px $sitecolor-5;
+		background:#ffebac url(../images/www/sogi-bg-5.png) 0 0 scroll repeat-x;
+		li{
+			float:left;
+			display:block;
+			width:330px;
+			height:100px;
+			padding:10px;
+			.newsImg{
+				float:left;
+				width:100px;
+				border:1px solid $sitecolor-5;
+				border-radius:10px;
+				margin-right:10px;
+			}
+			.title{
+				float:left;
+				font-size:15px;
+				width:215px;
+				font-weight:bold;
+				margin:5px 0;
+			}
+			.desc{
+				float:left;
+				width:215px;
+				line-height:20px;
+			}
+		}
+		.quiz{
+			clear:both;
+			width:230px;
+			padding-top:5px;
+			.icon{
+				float:left;
+				color:$sitecolor-1;
+				font-size:11px;
+				padding:2px;
+				margin-right:5px;
+				background-color:$sitecolor-2;
+			}
+			.title{
+				float:left;
+				font-size:15px;	
+			}
+		}
+	}
+	.searchPromo{
+		overflow:hidden;
+		padding:5px;
+		height:300px;
+		border-radius: 15px;
+		border:1px solid $sitecolor-5;
+		box-shadow: 0 0 6px $sitecolor-5;
+		background:#d7d7d7 url(../images/www/sogi-bg-4.png) 0 0 scroll repeat-x;
+	}
+	.adPromo{
+		overflow:auto;
+		padding:5px 5px 15px 5px;
+		height:auto;
+		border-radius: 15px;
+		border:1px solid $sitecolor-5;
+		box-shadow: 0 0 6px $sitecolor-5;
+		background:#d7d7d7 url(../images/www/sogi-bg-4.png) 0 0 scroll repeat-x;
+		ul{
+			clear:both;
+		}
+		li{
+			display:block;
+			width:220px;
+			height:70px;
+			padding:10px 5px;
+			.softImg{
+				float:left;
+				width:100px;
+				border-radius:10px;
+				margin-right:10px;
+			}
+			.title{
+				float:left;
+				width:105px;
+				font-weight:bold;
+				margin:5px 0;
+			}
+			.desc{
+				float:left;
+				width:105px;
+				line-height:18px;
+			}
+		}
+	}
+	.compare{
+		height:auto;
+		overflow:auto;
+		padding-bottom:0px;
+		li{
+			width:100px;
+			height:auto;
+			float:left;
+			text-align:center;
+			.comparePd{
+				img.pdImg{
+					width:100px;
+					border:1px solid $sitecolor-5;
+				}
+				.title{
+					float:none;
+				}
+			}
+			.red{
+				width:70px;
+				font-size:11px;
+				background-color: $sitecolor-4;
+				margin-left:18px;
+				a{
+					color: $sitecolor-1;
+				}
+				a:hover{
+					color: $sitecolor-10;
+				}
+			}
+		}
+		.goCompare{
+			clear:both;
+			display:block;
+			width:120px;
+			border-radius:10px 10px 0 0;
+			box-shadow: 0 0 6px $sitecolor-5;
+			margin-left:55px;
+			background: url(../images/www/sogi-bg-7.png) 0 -15px scroll repeat-x transparent;
+			text-align:center;
+			line-height:30px;
+		}
+	}
+	.sgPromo{
+		background:#ffebac url(../images/www/sogi-bg-5.png) 0 0 scroll repeat-x;
+		.collection{
+			width:220px;
+			.cName{
+				clear:both;
+				width:auto;
+				color: $sitecolor-9;
+				line-height:28px;
+				padding-left:13px;
+				margin-left:5px;
+				font-size:15px;
+				border-bottom:1px dotted $sitecolor-5;
+				background:url(../images/www/limg-2.png) 0px 10px scroll no-repeat transparent;
+			}
+			ul{
+				margin-bottom:10px;
+			}
+			li{
+				width:200px;
+				padding:0;
+				height:auto;
+				line-height:22px;
+				font-size:15px;
+				margin-left:15px;
+				margin-top:5px;
+				padding-left:10px;
+				background:url(../images/www/limg-1.jpg) 0px 10px scroll no-repeat transparent;
+			}
+		}
+		.faExtend{
+			ul{
+				clear:both;
+			}
+			li{
+				display:block;
+				width:220px;
+				height:70px;
+				padding:10px 5px;
+				.softImg{
+					float:left;
+					width:100px;
+					border-radius:10px;
+					margin-right:10px;
+				}
+				.title{
+					float:left;
+					width:105px;
+					font-weight:bold;
+					margin:5px 0;
+				}
+				.desc{
+					float:left;
+					width:105px;
+					line-height:18px;
+				}
+			}
+    }
+	}
+	.sideStorePromo{
+		background:#e0eff5 url(../images/www/sogi-bg-6.png) 0 0 scroll repeat-x;
+	}
+	.pdPromo{
+		position:relative;
+		overflow:hidden;
+		padding:5px;
+		height:310px;
+		border-radius: 15px;
+		border:1px solid $sitecolor-5;
+		box-shadow: 0 0 6px $sitecolor-5;
+		background-color:$sitecolor-11;
+		.promoIcon{
+			position:absolute;
+			overflow:hidden;
+			z-index:1;
+		}
+		ul{
+			position:relative;
+			clear:both;
+			padding:10px 0px 10px 0px;
+			z-index:10;
+		}
+		li{
+			float:left;
+			display:block;
+			width:175px;
+			margin-bottom:10px;
+			.pd{
+				width:160px;
+				text-align:center;
+				border:1px solid $sitecolor-5;
+				margin-left:10px;
+				.info{
+					position:relative;
+					background-color:$sitecolor-2;
+					padding:5px 0;
+					.arrow{
+						position:absolute;
+						right:15px;
+						top:0px;
+					}
+					.pName{
+						line-height:18px;
+						a{
+							color:$sitecolor-8;
+						}
+						a:hover{
+							color:$sitecolor-6;
+						}
+					}
+					.price{
+						line-height:18px;
+						color:$sitecolor-1;
+					}
+					.reviewBtn{
+						width:150px;
+						background-color:$sitecolor-3;
+						color:$sitecolor-1;
+						border-radius: 3px;
+						margin-left:5px;
+						margin-top:5px;
+						padding:3px 0;
+						a{
+							color:$sitecolor-1;
+						}
+						a:hover{
+							color:$sitecolor-6;
+						}
+					}
+				}
+			}
+			.pdImg{
+				display:block;
+				width:160px;
+				margin-right:10px;
+			}
+			.title{
+				float:left;
+				font-size:15px;
+				width:215px;
+				font-weight:bold;
+				margin:5px 0;
+			}
+			.desc{
+				float:left;
+				width:215px;
+				line-height:20px;
+			}
+			.rkIcon-1{
+				position:absolute;
+				width:43px;
+				height:63px;
+				overflow:hidden;
+				background: url(../images/www/sogi-img.png) -420px -1px no-repeat transparent;
+			}
+			.rkIcon-2{
+				position:absolute;
+				width:43px;
+				height:63px;
+				overflow:hidden;
+				background: url(../images/www/sogi-img.png) -470px -1px no-repeat transparent;
+			}
+			.rkIcon-3{
+				position:absolute;
+				width:43px;
+				height:63px;
+				overflow:hidden;
+				background: url(../images/www/sogi-img.png) -520px -1px no-repeat transparent;
+			}
+		}
+		.sortFunc{
+			width:auto;
+			height:30px;
+			border-bottom:1px dashed $sitecolor-3;
+			vertical-align:middle;
+			padding-top:5px;
+			.byOthers{
+				float:right;
+				line-height:26px;
+				a{
+					background-color: #806F66;
+					border-radius: 3px 3px 3px 3px;
+					color: white;
+					margin-left: 5px;
+					margin-top: 5px;
+					padding: 5px;
+					width: 150px;
+				}
+			}
+			.bySoft{
+				float:right;
+				border-right: 1px dashed $sitecolor-3;
+				padding-right:2px;
+				a{
+					float:left;
+					display:block;
+					line-height:25px;
+					background-color: #806F66;
+					padding:2px 3px 1px 4px;
+					border-radius: 3px 3px 3px 3px;
+					margin-right:2px;
+					.wPhone{
+						height:22px;
+						width:22px;
+						background: url(../images/www/sogi-img.png) -350px 0px no-repeat transparent;
+					}
+					.android{
+						height:22px;
+						width:22px;
+						background: url(../images/www/sogi-img.png) -350px -22px no-repeat transparent;
+					}
+				}
+			}
+		}
+	}
+	.storePromo{
+		margin-bottom:15px;
+		height:265px;
+		background:$sitecolor-14 url(../images/www/sogi-bg-6.png) 0 0 scroll repeat-x;
+	}
+	/*手機館*/
+	.feature{
+		display:block;
+		width:auto;
+		z-index:999;
+		margin-left:10px;
+		.wording{
+			margin-top:9px;
+		}
+		.box-1{
+			float:left;
+			width:50px;
+			height:50px;
+			margin-right:5px;
+			text-align:center;
+			color:$sitecolor-7;
+			background:#b01616 url(../images/www/featurebox-bg-1.png) 0 0 scroll repeat-x;
+			border:1px solid #7d3804;
+			word-wrap: break-word;
+			word-break: break-all;
+			cursor:default;
+		}
+		.box-2{
+			float:left;
+			width:50px;
+			height:50px;
+			margin-right:5px;
+			text-align:center;
+			color:$sitecolor-7;
+			background:#b05715 url(../images/www/featurebox-bg-2.png) 0 0 scroll repeat-x;
+			border:1px solid #7d3804;
+			word-wrap: break-word;
+			word-break: break-all;
+			cursor:default;
+		}
+	}
+	.mobiNewsPromo{
+		overflow:hidden;
+		padding:5px;
+		height:405px;;
+		border-radius: 15px;
+		border:1px solid $sitecolor-5;
+		box-shadow: 0 0 6px $sitecolor-5;
+		background:#ffebac url(../images/www/sogi-bg-3.png) 0 0 scroll repeat-x;
+		li{
+			float:left;
+			display:block;
+			width:330px;
+			height:100px;
+			padding:10px;
+			.newsImg{
+				float:left;
+				width:100px;
+				border:1px solid $sitecolor-5;
+				border-radius:10px;
+				margin-right:10px;
+			}
+			.title{
+				float:left;
+				font-size:15px;
+				width:215px;
+				font-weight:bold;
+				margin:5px 0;
+			}
+			.desc{
+				float:left;
+				width:215px;
+				line-height:20px;
+			}
+		}
+		.hotShow{
+			float:left;
+			display:block;
+			margin-left:10px;
+			margin-top:5px;
+			width:360px;
+			a:hover{
+				color:$sitecolor-9;
+			}
+			.pdiv{
+				position:relative;
+				width:100%;
+				.pd{
+					overflow:auto;
+					position:absolute;
+					display:block;
+					width:100%;
+					height:auto;
+					z-index:998;
+					top:260px;
+					left:1px;
+					.feature{
+						position:absolute;
+						bottom:8px;
+					}
+					.featureBg{
+						bottom:0px;
+						filter:alpha( opacity=80, FinishOpacity=80, Style=2 );
+						opacity:0.8;
+						width:auto;
+						height:100px;
+						background-color:$sitecolor-8;
+					}
+				}
+				img{
+					position:absolute;
+					border:1px solid $sitecolor-5;
+					z-index:997;
+				}
+				.title{
+					position:absolute;
+					font-size:15px;
+					font-weight:bold;
+					margin:10px;
+					z-index:999;
+				}
+			}
+		}
+		.hotShowList{
+			float:right;
+			width:330px;
+			li{
+				position:relative;
+				float:left;
+				width:150px;
+				height:170px;
+				padding:0;
+				margin:5px;
+				background-color: $sitecolor-1;
+				border:1px solid $sitecolor-5;
+				img.showListImg{
+					width:150px;
+				}
+				img{
+					position:absolute;
+					z-index:997;
+				}
+				.nameBG{
+					position:absolute;
+					top:134px;
+					width:150px;
+					height:36px;
+					background-color:$sitecolor-2;
+					filter:alpha( opacity=80, FinishOpacity=80, Style=2 );
+					opacity:0.8;
+					z-index:998;
+				}
+				.name{
+					position:absolute;
+					top:145px;
+					width:150px;
+					text-align:center;
+					z-index:999;
+				}
+			}
+			a{
+				color: $sitecolor-8;
+			}
+			a:hover{
+				color: $sitecolor-6;
+			}
+		}
+		.hotShowList2{
+			float:right;
+			width:330px;
+			.headNews{
+				position:relative;
+				float:left;
+				width:300px;
+				height:170px;
+				margin:0 10px;
+				overflow:hidden;
+				border-bottom:1px dashed $sitecolor-5;
+				img.newsImg{
+					float:right;
+					margin:0px 0px 8px 8px;
+				}
+				.title{
+					font-size:18px;
+					font-weight:bold;
+					margin-bottom:8px;
+				}
+				.desc{
+					line-height:20px;
+				}
+			}
+			.newsLists{
+				li.newsList{
+					line-height:22px;
+					margin: 5px 10px;
+					padding: 0;
+					height:auto;
+					a{
+						font-size:15px;
+					}
+				}
+			}
+		}
+	}
+	.androidPd{
+		background-color:#e4fb9c;
+		.tabs{
+			background: url(../images/www/sogi-img.png) -1px -300px no-repeat transparent;
+			.tab{
+				a:hover{
+					background-color:#445608;
+					border-radius: 15px 15px 15px 15px;
+				}
+			}
+		}
+		.on{
+			background-color:#445608;
+			border-radius: 15px 15px 15px 15px;
+		}
+		.tabsEnd{
+			background: url(../images/www/sogi-img.png) right -300px no-repeat transparent;
+		}
+	}
+	.wpPd{
+		background-color:#d6eeff;
+		.tabs{
+			background: url(../images/www/sogi-img.png) -1px -240px no-repeat transparent;
+			.tab{
+				a:hover{
+					background-color:#0a2d58;
+					border-radius: 15px 15px 15px 15px;
+				}
+			}
+		}
+		.on{
+			background-color:#0a2d58;
+			border-radius: 15px 15px 15px 15px;
+		}
+		.tabsEnd{
+			background: url(../images/www/sogi-img.png) right -240px no-repeat transparent;
+		}
+	}
+	.iosPd{
+		background-color:#e3e3e3;
+		.tabs{
+			background: url(../images/www/sogi-img.png) -1px -360px no-repeat transparent;
+			.tab{
+				a:hover{
+					background-color:#515151;
+					border-radius: 15px 15px 15px 15px;
+				}
+			}
+		}
+		.on{
+			background-color:#515151;
+			border-radius: 15px 15px 15px 15px;
+		}
+		.tabsEnd{
+			background: url(../images/www/sogi-img.png) right -360px no-repeat transparent;
+		}
+	}
+	.mobiRkPd{
+		height:555px;
+	}
+	.brandBox{
+		overflow:auto;
+		padding:10px;
+		height:60px;;
+		border-radius: 15px;
+		border:1px solid $sitecolor-5;
+		box-shadow: 0 0 6px $sitecolor-5;
+		background:#ffebac url(../images/www/sogi-bg-3.png) 0 0 scroll repeat-x;
+		.brandLogo{
+			float:left;
+			max-width:160px;
+			width:expression( this.clientWidth > 160 ? 160 : auto );
+			width:160px;
+			margin-right:20px;
+		}
+		.brandDesc{
+			float:left;
+			width:500px;
+			line-height:22px;
+			margin-top:7px;
+		}
+	}
+	.pdReview, .brandList{
+		overflow:auto;
+		padding:10px 0 0;
+		height:auto;
+		border-radius: 15px;
+		border:1px solid $sitecolor-5;
+		box-shadow: 0 0 6px $sitecolor-5;
+		background:#f9f9f9 url(../images/www/sogi-bg-9.png) 0 0 scroll repeat-x;
+		.mainImg{
+			float:left;
+			border:1px solid $sitecolor-5;
+			margin-right:10px;
+			margin-top:10px;
+			margin-bottom:15px;
+			margin-left:17px;
+		}
+		.pdName{
+			float:left;
+			font-size:20px;
+			font-weight:bold;
+			margin:5px 0;
+		}
+		.qfeature{
+			margin-top:15px;
+			padding-left:10px;
+			float:left;
+			.row-1, .row-2{
+				height:auto;
+				overflow:auto;
+				margin-bottom:5px;
+			}
+		}
+		.trend{
+			margin-top:10px;
+			float:left;
+			width:300px;
+			padding-top:10px;
+			padding-left:10px;
+			background:url(../images/www/sogi-bg-10.png) 30px 0 scroll no-repeat transparent;
+			.avPrice{
+				float:left;
+				width:140px;
+				margin-left:10px;
+				vertical-align:middle;
+			}
+			.arvDate{
+				float:left;
+				width:140px;
+				vertical-align:middle;
+			}
+		}
+		.chart{
+			float:left;
+			width:280px;
+			height:120px;
+			padding:10px;
+			margin-top:5px;
+			background-color:$sitecolor-5;
+		}
+		.album{
+			width:auto;
+			.prev{
+				float:left;
+				width:30px;
+				height:30px;
+				margin-top:40px;
+				margin-left:13px;
+				background: url(../images/www/sogi-img.png) -570px 0px no-repeat transparent;
+			}
+			.next{
+				float:left;
+				width:30px;
+				height:30px;
+				margin-top:40px;
+				background: url(../images/www/sogi-img.png) -600px 0px no-repeat transparent;
+			}
+			.list{
+				float:left;
+				width:635px;
+				height:115px;
+				overflow:hidden;
+			}
+			ul{
+				width:1000px;
+			}
+			li{
+				float:left;
+				margin-right:4px;
+				.pdImg{
+					width:100px;
+					border:1px solid $sitecolor-5;
+				}
+			}
+		}
+		.pdReviewTabs{
+			ul{
+				height:35px;
+				padding-left:16px;
+				border-bottom:1px solid $sitecolor-5;
+			}
+			li{
+				float:left;
+				width:80px;
+				position:relative;
+				text-align:center;
+				margin-right:3px;
+				margin-top:5px;
+				z-index:1;
+				a{
+					display:block;
+					width:100%;
+					color:$sitecolor-1;
+					border-radius:5px 5px 0 0;
+					border-top:1px solid $sitecolor-10;
+					border-left:1px solid $sitecolor-10;
+					border-right:1px solid $sitecolor-10;
+					padding:7px 0 8px;
+					background:$sitecolor-1 url(../images/www/sogi-tab-bg-1.png) 0 0 scroll repeat-x;
+				}
+			}
+			li.on{
+				margin-top:0;
+				z-index:2;
+				a{
+					display:block;
+					width:100%;
+					color:$sitecolor-2;
+					font-weight:bold;
+					border-radius:5px 5px 0 0;
+					border-top:1px solid $sitecolor-10;
+					border-left:1px solid $sitecolor-10;
+					border-right:1px solid $sitecolor-10;
+					padding:10px 0 11px;
+					background:$sitecolor-1 url(../images/www/sogi-tab-bg-2.png) 0 0 scroll repeat-x;
+				}
+			}
+		}
+		.brandTabs{
+			ul{
+				height:35px;
+				padding-left:16px;
+				border-bottom:1px solid $sitecolor-5;
+			}
+			li{
+				float:left;
+				width:23px;
+				position:relative;
+				text-align:center;
+				margin-right:3px;
+				margin-top:5px;
+				z-index:1;
+				a{
+					display:block;
+					width:100%;
+					color:$sitecolor-1;
+					border-radius:5px 5px 0 0;
+					border-top:1px solid $sitecolor-10;
+					border-left:1px solid $sitecolor-10;
+					border-right:1px solid $sitecolor-10;
+					padding:7px 0 8px;
+					background:$sitecolor-1 url(../images/www/sogi-tab-bg-1.png) 0 0 scroll repeat-x;
+				}
+			}
+			li.on{
+				margin-top:0;
+				z-index:2;
+				a{
+					color:$sitecolor-2;
+					font-weight:bold;
+					padding:10px 0 11px;
+					background:$sitecolor-1 url(../images/www/sogi-tab-bg-2.png) 0 0 scroll repeat-x;
+				}
+			}
+		}
+		.pdIntro{
+			width:auto;
+			height:auto;
+			padding:10px;
+			line-height:22px;
+			/*暫定樣式*/
+			.content{
+				margin:5px 10px;
+			}
+			.pdTitle{
+				font-size:15px;
+				font-weight:bold;
+				color:$sitecolor-6;
+			}
+			.subTitle{
+				font-weight:bold;
+				margin-top:10px;
+			}
+			/*暫定樣式 end*/
+			/* 手機館-討論列表 */
+			.faList{
+				width:auto;
+				margin-top:10px;
+				margin-bottom:10px;
+				.faRow{
+					clear:both;
+					height:50px;
+					background-color: $sitecolor-17;
+					overflow:auto;
+					border-bottom:1px dashed $sitecolor-10;
+					.field-1, .field-2, .field-3, .field-4{
+						float:left;
+						padding:5px;
+					}
+					.field-1{
+						width:360px;
+						.objBtns, .title, .pagi, .specialIcon{
+							float:left;
+						}
+						.objBtns{
+							width:75px;
+							height:auto;
+							text-align:right;
+							overflow:hidden;
+							margin-right:5px;
+							.objBtn{
+								margin-bottom:2px;
+								a{
+									border-radius:3px;
+									background-color:$sitecolor-3;
+									padding:2px 3px;
+									line-height:18px;
+									font-size:11px;
+									color:$sitecolor-1;
+								}
+								a:hover{
+									color:$sitecolor-6;
+								}
+							}
+						}
+						.pagi{
+							display:table-cell;
+							height:40px;
+							vertical-align:middle;
+							span{
+								height:100%; display:inline-block;
+							}
+							*{
+								vertical-align:middle;
+							}
+						}
+						.title, .specialIcon{
+							display:table;
+							width:230px;
+							height:40px;
+							*position:relative;
+							a{
+								display: table-cell;
+								vertical-align: middle;
+								line-height:18px;
+								*display: block;
+								*position: absolute;
+								*top: 50%;
+								*width: 100%;
+							}
+							span{
+								*position : relative;
+								*top : -50%;
+							}
+							.mTag{
+								font-weight:bold;
+								color: lighten($sitecolor-2, 30%);
+							}
+						}
+						.check{
+							float:left;
+							width:15px;
+							margin-top:12px;
+						}
+						.specialIcon{
+							width:50px;
+						}
+					}
+					.field-2, .field-3{
+						.reCount, .postInfo{
+							display:table;
+							height:40px;
+							*position:relative;
+							a{
+								display: table-cell;
+								vertical-align: middle;
+								text-align:center;
+								line-height:18px;
+								font-size:11px;
+								*display: block;
+								*position: absolute;
+								*top: 50%;
+								*width: 100%;
+							}
+							span{
+								*position : relative;
+								*top : -50%;
+							}
+						}
+						.reCount{
+							width:50px;
+						}
+						.postInfo{
+							width:114px;
+						}
+					}
+				}
+				.top{
+					background-color: $sitecolor-16;
+				}
+				.fa2pdTitle{
+					clear:both;
+					overflow:auto;
+					border-bottom:1px dashed $sitecolor-10;
+				}
+			}
+		}
+		.moreIntro{
+			width:80px;
+			float:right;
+			margin-right:30px;
+			border-radius:5px 5px 0 0;
+			background-color:#e3e3e3;
+			a{
+				display:block;
+				width:100%;
+				text-align:center;
+				color:$sitecolor-9;
+				padding:4px 0 4px;
+			}
+			a:hover{
+				color:$sitecolor-6;
+			}
+		}
+		.listTitle{
+			font-size:20px;
+			font-weight:bold;
+			margin:5px 20px 15px;
+		}
+		.brand{
+			margin:15px;
+			ul{
+				clear:both;
+				width:auto;
+				height:100px;
+				li{
+					float:left;
+					width:25%;
+					height:100px;
+					vertical-align:middle;
+					a{
+						display:block;
+						margin:0 auto;
+						text-align:center;
+						img.brandImg{
+							line-height:100px;
+							vertical-align:middle;
+						}
+					}
+				}
+			}
+		}
+	}
+	.fb-msg, .AD720{
+		width:720px;
+	}
+/* 討論館 */
+	.forumMain, .articleSelected{
+		position:relative;
+		overflow:auto;
+		height:auto;
+		border-radius: 15px;
+		border:1px solid $sitecolor-5;
+		box-shadow: 0 0 6px $sitecolor-5;
+		background:#f9f9f9 url(../images/www/sogi-bg-9.png) 0 0 scroll repeat-x;
+		.objInfo{
+			position:relative;
+			margin:10px 20px;
+			padding-bottom:10px;
+			border-bottom:1px dotted $sitecolor-5;
+			overflow:auto;
+			.objBtn{
+				position:absolute;
+				top:5px;
+				right:0px;
+				li{
+					float:left;
+					border-radius: 5px;
+					border:1px solid $sitecolor-5;
+					box-shadow:inset 0 0 6px $sitecolor-1;
+					background:#cecece url(../images/www/sogi-btn-bg-1.png) 0 0 scroll repeat-x;
+					margin-right:2px;
+					a{
+						line-height:30px;
+						padding:0 5px;
+					}
+				}
+			}
+			.pdImg{
+				float:left;
+				border:1px solid $sitecolor-5;
+				margin-right:10px;
+				img{
+					display:block;
+					width:150px;
+				}
+			}
+			.pdName{
+				float:left;
+				font-size:20px;
+				font-weight:bold;
+				margin:5px 0;
+			}
+			.forumManager, .desc{
+				float:left;
+				width:500px;
+				line-height:20px;
+				margin-bottom:5px;
+			}
+			.forumBtn{
+				float:right;
+				width:500px;
+				overflow:hidden;
+				margin-top:10px;
+				.createVote, .newPost{
+					float:right;
+				}
+				.createVote{
+					margin-right:3px;
+					a{
+						display:block;
+						width:101px;
+						height:35px;
+						background:url(../images/www/sogi-img.png) -640px -37px no-repeat transparent;
+						text-indent:-9999px;
+					}
+				}
+				.newPost{
+					margin-right:3px;
+					a{
+						display:block;
+						width:101px;
+						height:35px;
+						background:url(../images/www/sogi-img.png) -640px 0px no-repeat transparent;
+						text-indent:-9999px;
+					}
+				}
+			}
+		}
+		.objList{
+			position:relative;
+			margin:10px 20px;
+			padding-bottom:10px;
+			border-bottom:1px dotted $sitecolor-5;
+			overflow:auto;
+			.objBtn-b{
+				float:left;
+				border-radius: 5px;
+				background-color: $sitecolor-3;
+				margin-right:2px;
+				margin-bottom:2px;
+				a{
+					display:block;
+					padding:0 5px;
+					line-height:20px;
+					color: $sitecolor-1;
+				}
+				a:hover{
+					color: $sitecolor-6;
+				}
+			}
+		}
+		.adArticle{
+			position:relative;
+			margin:10px 20px;
+			padding-bottom:10px;
+			border-bottom:1px dotted $sitecolor-5;
+			overflow:auto;
+			ul{
+				li{
+					display: block;
+					float: left;
+					height: 100px;
+					padding: 10px 5px;
+					width: 325px;
+					img.newsImg{
+						border: 1px solid #AAAAAA;
+						border-radius: 10px 10px 10px 10px;
+						float: left;
+						margin-right: 10px;
+						width: 100px;
+					}
+					.title{
+						float: left;
+						font-size: 15px;
+						font-weight: bold;
+						margin: 5px 0;
+						width: 210px;
+					}
+					.desc{
+						float: left;
+						line-height: 20px;
+						width: 210px;
+					}
+				}
+				li.sList{
+					width:120px;
+					height:auto;
+					margin-right:3px;
+					text-align:center;
+					.title{
+						width: 100px;
+						font-size:12px;
+					}
+				}
+			}
+		}
+		.adArticleStyle2{
+			position:relative;
+			margin:10px 20px;
+			border-bottom:none;
+		}
+		.adArticleFixed{
+			margin:10px 0 10px 10px;
+			border:0;
+			ul{
+				float:left;
+			}
+			li{
+				clear:both;
+			}
+		}
+		.articleSearch{
+			width:650px;
+			line-height:20px;
+			padding:5px;
+			margin:0 25px 10px;
+			border-radius:5px;
+			border:1px solid $sitecolor-5;
+			box-shadow:inset 0 0 6px $sitecolor-1;
+			background:#cecece url(../images/www/sogi-btn-bg-1.png) 0 0 scroll repeat-x;
+		}
+		.faList{
+			width:auto;
+			margin-top:10px;
+			margin-bottom:10px;
+			.fTabs{
+				margin:0 10px;
+				li{
+					float:left;
+					background-color: lighten($sitecolor-6, 20%);
+					border-radius:3px 3px 0 0;
+					margin-right:1px;
+					a{
+						display:block;
+						padding:0 6px;
+						line-height:22px;
+					}
+				}
+				li.on{
+					background-color: $sitecolor-6;
+					padding:0 6px;
+					line-height:22px;
+				}
+			}
+			.faHead{
+				clear:both;
+				background-color: $sitecolor-6;
+				color: $sitecolor-1;
+				overflow:auto;
+				border-bottom:1px dashed $sitecolor-10;
+				.faTitle, .faCount, .faAuthor, .faNewRe{
+					float:left;
+					padding:5px 10px;
+				}
+				.faTitle{
+					width:380px;
+				}
+				.faCount{
+					width:50px;
+					text-align:center;
+				}
+				.faAuthor, .faNewRe{
+					width:104px;
+					text-align:center;
+				}
+			}
+			.faRow{
+				clear:both;
+				height:50px;
+				background-color: $sitecolor-17;
+				overflow:auto;
+				border-bottom:1px dashed $sitecolor-10;
+				.field-1, .field-2, .field-3, .field-4{
+					float:left;
+					padding:5px;
+				}
+				.field-1{
+					width:390px;
+					.objBtns, .title, .pagi, .specialIcon{
+						float:left;
+					}
+					.objBtns{
+						width:75px;
+						height:auto;
+						text-align:right;
+						overflow:hidden;
+						margin-right:5px;
+						.objBtn{
+							margin-bottom:2px;
+							a{
+								border-radius:3px;
+								background-color:$sitecolor-3;
+								padding:2px 3px;
+								line-height:18px;
+								font-size:11px;
+								color:$sitecolor-1;
+							}
+							a:hover{
+								color:$sitecolor-6;
+							}
+						}
+					}
+					.pagi{
+						display:table-cell;
+						height:40px;
+						vertical-align:middle;
+						span{
+							height:100%; display:inline-block;
+						}
+						*{
+							vertical-align:middle;
+						}
+					}
+					.title, .specialIcon{
+						display:table;
+						width:235px;
+						height:40px;
+						*position:relative;
+						a{
+							display: table-cell;
+							vertical-align: middle;
+							line-height:18px;
+							*display: block;
+							*position: absolute;
+							*top: 50%;
+							*width: 100%;
+						}
+						span{
+							*position : relative;
+							*top : -50%;
+						}
+						.mTag{
+							font-weight:bold;
+							color: lighten($sitecolor-2, 30%);
+						}
+					}
+					.check{
+						float:left;
+						width:15px;
+						margin-top:12px;
+					}
+					.specialIcon{
+						width:50px;
+					}
+				}
+				.field-2, .field-3{
+					.reCount, .postInfo{
+						display:table;
+						height:40px;
+						*position:relative;
+						a{
+							display: table-cell;
+							vertical-align: middle;
+							text-align:center;
+							line-height:18px;
+							font-size:11px;
+							*display: block;
+							*position: absolute;
+							*top: 50%;
+							*width: 100%;
+						}
+						span{
+							*position : relative;
+							*top : -50%;
+						}
+					}
+					.reCount{
+						width:60px;
+					}
+					.postInfo{
+						width:114px;
+					}
+				}
+			}
+			.top{
+				background-color: $sitecolor-16;
+			}
+		}
+		.article{
+			.objBtns{
+				width:auto;
+				height:auto;
+				text-align:right;
+				overflow:hidden;
+				margin-right:5px;
+				margin-left:25px;
+				.objBtn{
+					float:left;
+					margin-right:2px;
+					margin-bottom:2px;
+					a{
+						border-radius:3px;
+						background-color:$sitecolor-3;
+						padding:2px 3px;
+						line-height:18px;
+						font-size:11px;
+						color:$sitecolor-1;
+					}
+					a:hover{
+						color:$sitecolor-6;
+					}
+				}
+				.wording{
+					float:left;
+				}
+			}
+			h1.arTitle{
+				font-size:16px;
+				font-weight:bold;
+				margin-left:25px;
+				margin-bottom:10px;
+				margin-top:10px;
+				img{
+					vertical-align:middle;
+				}
+			}
+			.authorInfo{
+				position:relative;
+				width:auto;
+				height:auto;
+				overflow:auto;
+				background-color:lighten($sitecolor-9, 50%);
+				.userImg{
+					float:left;
+					margin:10px 10px 10px 25px;
+					img{
+						border:1px solid $sitecolor-5;
+						padding:5px;
+						background-color:$sitecolor-1;
+						width:130px;
+					}
+				}
+				.info{
+					float:left;
+					height:auto;
+					overflow:auto;
+					color:$sitecolor-9;
+				}
+				.uName{
+					font-weight:bold;
+					font-size:15px;
+					margin:10px 0;
+					width:auto;
+					a{
+						color:$sitecolor-2;
+					}
+					a:hover{
+						color:$sitecolor-6;
+					}
+					.uTitle{
+						display:inline-block;
+						*display:inline;
+						border-radius:3px;
+						background-color:$sitecolor-6;
+						color:$sitecolor-1;
+						padding:3px 5px;
+						font-weight:normal;
+						font-size:12px;
+					}
+				}
+				.ownBoard, .others{
+					margin:5px 0;
+					span{
+						margin-right:10px;
+					}
+				}
+				.articleBtns{
+					margin:8px 0;
+					a{
+						float:left;
+						display:block;
+						border-radius:3px;
+						border:1px solid $sitecolor-5;
+						padding:5px 8px;
+						margin-left:1px;
+						background:url(../images/www/sogi-btn-bg-1.png) 0 0 scroll repeat-x;
+					}
+					a.red{
+						color:$sitecolor-1;
+						background:url(../images/www/sogi-mabtn-bg-1.png) 0 0 scroll repeat-x;
+					}
+					a.yellow{
+						background:url(../images/www/sogi-mabtn-bg-2.png) 0 0 scroll repeat-x;
+					}
+				}
+				.artiCount{
+					position:absolute;
+					bottom:5px;
+					right:5px;
+					font-size:18px;
+					font-weight:bold;
+					color:lighten($sitecolor-9, 35%);
+				}
+			}
+			.articleContent{
+				.content{
+					margin:10px 25px;
+					line-height:22px;
+					p{
+						margin-bottom:15px;
+					}
+					img{
+						max-width:500px;
+					}
+				}
+				.remark{
+					color:lighten($sitecolor-9, 30%);
+					width:auto;
+					text-align:right;
+					margin-top:30px;
+					.del, .reEdit, .lock{
+						img{
+							vertical-align:middle;
+						}
+					}
+					.del{
+						color:lighten($sitecolor-4, 10%);
+					}
+				}
+				.signature{
+					border-top:1px dashed lighten($sitecolor-9, 30%);
+					margin:30px 25px 15px 25px;
+					padding-top:10px;
+					color:lighten($sitecolor-9, 20%);
+				}
+			}
+		}
+		.faGroups{
+			margin:10px 10px 10px 18px;
+			width:auto;
+			.faGroup{
+				float:left;
+				width:200px;
+				height:200px;
+				padding:10px;
+				border:1px solid $sitecolor-5;
+				margin-right:7px;
+				margin-bottom:10px;
+				.title{
+					font-size:15px;
+					font-weight:bold;
+					border-bottom:1px dotted $sitecolor-5;
+					padding-bottom:5px;
+					margin-bottom:5px;
+				}
+				li.faboard{
+					margin-bottom:5px;
+				}
+			}
+		}
+		.ranking{
+			float:left;
+			width:227px;
+			margin-right:8px;
+			height:260px;
+			border-right:1px dotted $sitecolor-5;
+			.rkList{
+				padding-top:10px;
+				padding-left:10px;
+				li{
+					overflow:auto;
+					clear:both;
+					margin-bottom:2px;
+					.rkNum{
+						float:left;
+						width:25px;
+						padding:2px 0;
+						margin-right:5px;
+						text-align:center;
+					}
+					.rkTop3{
+						color: $sitecolor-1;
+						background-color: $sitecolor-6;
+					}
+					.name{
+						float:left;
+						padding:2px 0;
+					}
+				}
+			}
+		}
+		.rankingEnd{
+			border-right:0;
+		}
+		 
+	}
+	.articleSelected{
+		overflow:auto;
+		border-radius: 15px;
+		border:1px solid $sitecolor-5;
+		box-shadow: 0 0 6px $sitecolor-5;
+		background:#ffebac url(../images/www/sogi-bg-5.png) 0 0 scroll repeat-x;
+		li.artiList{
+			width:auto;
+			margin:10px;
+			.bTitle{
+				overflow:auto;
+				margin:5px 0;
+				border-bottom:1px dashed $sitecolor-5;
+				font-size:15px;
+				font-weight:bold;
+				.name{
+					float:left;
+					padding:10px;
+				}
+			}
+		}
+	}
+	.forumMaBtn{
+		position:absolute;
+		top:300px;
+		left:-41px;
+		.maBtn{
+			display:table;
+			background:#cecece url(../images/www/sogi-mabtn-bg-3.png) 0 0 scroll repeat-x;
+			border-top:1px solid $sitecolor-5;
+			border-bottom:1px solid $sitecolor-5;
+			border-left:1px solid $sitecolor-5;
+			border-radius:5px 0 0 5px;
+			height:40px;
+			width:40px;
+			text-align:center;
+			vertical-align:middle;
+			margin-bottom:1px;
+			a{
+				display:block;
+				margin-top:5px;
+			}
+		}
+		.red{
+			background:#d38d8d url(../images/www/sogi-mabtn-bg-1.png) 0 0 scroll repeat-x;
+			a{
+				color:$sitecolor-1;
+			}
+			a:hover{
+				color:$sitecolor-6;
+			}
+		}
+		.yellow{
+			background:#efde9c url(../images/www/sogi-mabtn-bg-2.png) 0 0 scroll repeat-x;
+		}
+	}
+
+/*詢價館*/
+  .pdTrend, .mapApi{
+    position:relative;
+    overflow:auto;
+    padding:5px;
+    height:auto;
+    border-radius: 15px;
+    border:1px solid $sitecolor-5;
+    box-shadow: 0 0 6px $sitecolor-5;
+    background-color:$sitecolor-11;
+    .shopChart{
+      clear:both;
+      float:left;
+      width: auto;
+      margin: 10px;
+    }
+    .chartItems{
+      float: left;
+      width: auto;
+      padding: 10px;
+      ul.items{
+        li.item{
+          clear:both;
+          width: 300px;
+          span{
+            display: block;
+            float: left;
+            margin-right: 2px;
+            line-height: 30px;
+          }
+          .reviewBtn{
+            float:left;
+            width:150px;
+            background-color:$sitecolor-3;
+            color:$sitecolor-1;
+            border-radius: 3px;
+            margin-left:5px;
+            margin-top:5px;
+            padding:3px 0;
+            text-align: center;
+            a{
+              color:$sitecolor-1;
+            }
+            a:hover{
+              color:$sitecolor-6;
+            }
+          }
+        }
+      }
+    }
+  }
+  .glMap{
+    margin: 10px;
+    width: auto;
+    img{
+      margin-top:10px;
+    }
+  }
+  .hotStoreFa{
+    position:relative;
+    overflow:auto;
+    padding:5px;
+    height:auto;
+    border-radius: 15px;
+    border:1px solid $sitecolor-5;
+    box-shadow: 0 0 6px $sitecolor-5;
+    background-color:$sitecolor-11;
+      .faList{
+        clear:both;
+        width:auto;
+        margin-top:10px;
+        padding-top:10px;
+        margin-bottom:10px;
+        .faRow{
+          clear:both;
+          height:50px;
+          background-color: $sitecolor-17;
+          overflow:auto;
+          border-bottom:1px dashed $sitecolor-10;
+          .field-1, .field-2, .field-3, .field-4{
+            float:left;
+            padding:5px;
+          }
+          .field-1{
+            width:360px;
+            .objBtns, .title, .pagi, .specialIcon{
+              float:left;
+            }
+            .objBtns{
+              width:75px;
+              height:auto;
+              text-align:right;
+              overflow:hidden;
+              margin-right:5px;
+              .objBtn{
+                margin-bottom:2px;
+                a{
+                  border-radius:3px;
+                  background-color:$sitecolor-3;
+                  padding:2px 3px;
+                  line-height:18px;
+                  font-size:11px;
+                  color:$sitecolor-1;
+                }
+                a:hover{
+                  color:$sitecolor-6;
+                }
+              }
+            }
+            .pagi{
+              display:table-cell;
+              height:40px;
+              vertical-align:middle;
+              span{
+                height:100%; display:inline-block;
+              }
+              *{
+                vertical-align:middle;
+              }
+            }
+            .title, .specialIcon{
+              display:table;
+              width:230px;
+              height:40px;
+              *position:relative;
+              a{
+                display: table-cell;
+                vertical-align: middle;
+                line-height:18px;
+                *display: block;
+                *position: absolute;
+                *top: 50%;
+                *width: 100%;
+              }
+              span{
+                *position : relative;
+                *top : -50%;
+              }
+              .mTag{
+                font-weight:bold;
+                color: lighten($sitecolor-2, 30%);
+              }
+            }
+            .check{
+              float:left;
+              width:15px;
+              margin-top:12px;
+            }
+            .specialIcon{
+              width:50px;
+            }
+          }
+          .field-2, .field-3{
+            .reCount, .postInfo{
+              display:table;
+              height:40px;
+              *position:relative;
+              a{
+                display: table-cell;
+                vertical-align: middle;
+                text-align:center;
+                line-height:18px;
+                font-size:11px;
+                *display: block;
+                *position: absolute;
+                *top: 50%;
+                *width: 100%;
+              }
+              span{
+                *position : relative;
+                *top : -50%;
+              }
+            }
+            .reCount{
+              width:50px;
+            }
+            .postInfo{
+              width:114px;
+            }
+          }
+        }
+        .top{
+          background-color: $sitecolor-16;
+        }
+        .fa2pdTitle{
+          clear:both;
+          overflow:auto;
+          border-bottom:1px dashed $sitecolor-10;
+        }
+      }
+  }
+  .shopMain{
+    position:relative;
+    overflow:auto;
+    height:auto;
+    border-radius: 15px;
+    border:1px solid $sitecolor-5;
+    box-shadow: 0 0 6px $sitecolor-5;
+    background:#f9f9f9 url(../images/www/sogi-bg-9.png) 0 0 scroll repeat-x;
+    .objInfo{
+      position:relative;
+      margin:10px 20px;
+      padding-bottom:10px;
+      border-bottom:1px dotted $sitecolor-5;
+      overflow:auto;
+      .objBtn{
+        position:absolute;
+        top:5px;
+        right:0px;
+        li{
+          float:left;
+          border-radius: 5px;
+          border:1px solid $sitecolor-5;
+          box-shadow:inset 0 0 6px $sitecolor-1;
+          background:#cecece url(../images/www/sogi-btn-bg-1.png) 0 0 scroll repeat-x;
+          margin-right:2px;
+          a{
+            line-height:30px;
+            padding:0 5px;
+          }
+        }
+      }
+      .pdImg{
+        float:left;
+        border:1px solid $sitecolor-5;
+        margin-right:10px;
+        img{
+          display:block;
+          width:150px;
+        }
+      }
+      .pdName{
+        float:left;
+        font-size:20px;
+        font-weight:bold;
+        margin:5px 0;
+      }
+      .priceAvg{
+        float:left;
+        width:500px;
+        margin: 10px 0;
+      }
+      .priceFilter{
+        float:left;
+        width: 510px;
+        border:1px solid $sitecolor-5;
+        box-shadow: inset 0 0 6px $sitecolor-5;
+        background:#d7d7d7 url(../images/www/sogi-bg-4.png) 0 0 scroll repeat-x;
+        .filterRow{
+          margin: 8px;
+          width: auto;
+          height: 24px;
+          overflow:hidden;
+          .opt{
+            float: left;
+            margin-right: 8px;
+            .filterBtn{
+              border-radius: 5px;
+              border:1px solid $sitecolor-5;
+              box-shadow:inset 0 0 6px $sitecolor-1;
+              background:#cecece url(../images/www/sogi-btn-bg-1.png) 0 0 scroll repeat-x;
+              a{
+                line-height: 22px;
+                padding: 0 25px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .objMap{
+      border-bottom: 1px dotted $sitecolor-5;
+      margin: 10px 20px;
+      img{
+        width: 680px;
+        margin-bottom: 10px;
+      }
+    }
+    .filterResult{
+      margin: 10px 20px;
+      .sortFunc{
+        width:auto;
+        height:30px;
+        border-bottom:1px dotted $sitecolor-5;
+        vertical-align:middle;
+        padding-top:5px;
+        .byOthers{
+          float:right;
+          line-height:26px;
+          a{
+            background-color: #806F66;
+            border-radius: 3px 3px 3px 3px;
+            color: white;
+            margin-left: 5px;
+            margin-top: 5px;
+            padding: 5px;
+            width: 150px;
+          }
+        }
+      }
+      .stores{
+        margin: 10px 0;
+        .fll{
+          float: left;
+        }
+        li.store{
+          overflow: hidden;
+          width: auto;
+          height: 90px;
+          border-bottom:1px dotted $sitecolor-5;
+          padding-bottom: 10px;
+          margin-top: 10px;
+          .storeImg{
+            margin-right: 10px;
+            img{
+              width: 120px;
+              border-radius: 5px;
+              border: 1px solid $sitecolor-5;
+            }
+          }
+          .storeInfos{
+            width: 320px;
+            overflow: hidden;
+            margin-right: 25px;
+            .name{
+              font-size: 15px;
+              font-weight: bold;
+              margin-bottom: 3px;
+            }
+            .address, .tel{
+              color: $sitecolor-9;
+            }
+            .desc{
+              margin-top: 3px;
+              color: $sitecolor-2;
+            }
+          }
+          .update{
+            color: $sitecolor-9;
+            width: 110px;
+            line-height: 90px;
+          }
+          .price{
+            width: 90px;
+            line-height: 85px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+  .bAutoH{
+    height: auto;
+    overflow: auto;
+  }
+  
+  /* 店鋪 */
+  .storeNav{
+    clear:both;
+    height:36px;
+    background:url(../images/www/sogi-nav-bg-1.png) 0 0 scroll repeat-x $sitecolor-6;
+    border-radius: 15px 15px 0 0;
+    border:1px solid $sitecolor-5;
+    box-shadow: 0 0 6px $sitecolor-5;
+    behavior: url(ie-css3.htc);
+    z-index:1;
+    ul{
+      margin-left: 10px;
+    }
+    li{
+      display:inline-block;
+      *display:inline;
+      _display:inline;
+      padding:0 15px;
+      line-height:36px;
+      a{
+        font-size:15px;
+        color:$sitecolor-7;
+        text-shadow: 0 0 0, 1px 1px 2px $sitecolor-2;
+      }
+      a:hover{
+        font-size:15px;
+        color:$sitecolor-2;
+        text-shadow: 0 0 0, 0px 0px 3px $sitecolor-7;
+      }
+    }
+    li.on{
+      display:inline-block;
+      *display:inline;
+      _display:inline;
+      padding:0 15px;
+      line-height:36px;
+      background:url(../images/www/sogi-arrow-1.gif) center bottom no-repeat transparent;
+      a{
+        font-size:15px;
+        color:$sitecolor-2;
+        font-weight:bold;
+        text-shadow: 0 0 0, 0px 0px 3px $sitecolor-7;
+      }       
+    }
+  }
+  #storeMain{
+    position: relative;
+    overflow:auto;
+    border-radius:0 0 15px 15px;
+    border-left:1px solid $sitecolor-5;
+    border-right:1px solid $sitecolor-5;
+    border-bottom:1px solid $sitecolor-5;
+    box-shadow: 0 3px 6px $sitecolor-5;
+    background:#e8e8e8 url(../images/www/sogi-bg-3.png) 0 0 scroll repeat-x;
+    height: auto;
+    padding-bottom: 10px;
+    z-index: 0;
+    .sstyle{
+     border: 0;
+     border-radius: 0;
+    }
+    .keyVisual{
+      margin-left: 10px;
+      img{
+        width: 700px;
+      }
+    }
+    .storeProd{
+      position: relative;
+      width: 100%;
+      overflow: auto;
+      .tAdorn{
+        position:relative;
+        width: 10px;
+        height:  40px;
+        left:-8px;
+/*        margin: 0 0 -40px -10px;*/
+        background: url(../images/www/sogi-img.png) -780px 0 no-repeat transparent;
+        z-index: 99;
+      }
+      .title{
+        width: 100%;
+        height: 36px;
+        background-color: #fdd84b;
+        border-bottom: 1px solid #ab8a0d;
+        line-height: 36px;
+        .wording{
+          float: left;
+          font-size: 15px;
+        }
+      }
+      .spIcon{
+        float: left;
+        width: 16px;
+        height: 16px;
+        margin-top:10px;
+        margin-left:15px;
+        margin-right:6px;
+      }
+      .i1{
+        background: url(../images/www/sogi-img.png) -780px -78px no-repeat transparent;
+      }
+      .i2{
+        background: url(../images/www/sogi-img.png) -780px -42px no-repeat transparent;
+      }
+      .i3{
+        background: url(../images/www/sogi-img.png) -780px -59px no-repeat transparent;
+      }
+      .i4{
+        background: url(../images/www/sogi-img.png) -780px -118px no-repeat transparent;
+      }
+      .i5{
+        background: url(../images/www/sogi-img.png) -800px -109px no-repeat transparent;
+      }
+      .i6{
+        background: url(../images/www/sogi-img.png) -800px -130px no-repeat transparent;
+      }
+      .i7{
+        background: url(../images/www/sogi-img.png) -800px -151px no-repeat transparent;
+      }
+      .i8{
+        width: 6px;
+        height: 6px;
+        background: url(../images/www/sogi-img.png) -800px -100px no-repeat transparent;
+      }
+      .basic{
+        margin: 10px;
+        .bTitle{
+          clear:both;
+          font-size: 13px;
+          font-weight: bold;
+          border-bottom: 1px dashed $sitecolor-5;
+          padding-bottom: 10px;
+        }
+        .infos{
+          margin-left: 20px;
+          .nt{
+            color: lighten($sitecolor-2, 20%);
+          }
+        }
+        .payItems{
+          margin-left: 20px;
+          margin-bottom: 20px;
+          li{
+            float: left;
+            margin-right: 30px;
+            color: darken($sitecolor-6, 5%);
+            .payIcon{
+              float: left;
+              width: 16px;
+              height: 16px;
+              margin-right:6px;
+              background: url(../images/www/sogi-img.png) -780px -159px no-repeat transparent;
+            }
+          }
+        }
+        .serItems{
+          margin-left: 20px;
+          margin-bottom: 20px;
+          li{
+            float: left;
+            margin-right: 30px;
+            .servIcon{
+              float: left;
+              width: 6px;
+              height: 6px;
+              margin-top:6px;
+              margin-right:6px;
+              background: url(../images/www/sogi-img.png) -800px -100px no-repeat transparent;
+            }
+          }
+        }
+        .storeDesc{
+          clear: both;
+          margin-top:30px;
+          line-height: 20px;
+          font-size: 13px;
+        }
+      }
+      .gMap{
+        margin: 10px;
+        .gMapApi{
+          float: left;
+          width: 520px;
+          overflow: hidden;
+        }
+        .gps{
+          float: right;
+          width: 180px;
+          .gpsTitle{
+            font-size: 13px;
+            font-weight: bold;
+            border-bottom: 1px dashed $sitecolor-5;
+            padding-bottom: 5px;
+          }
+          .infos{
+            margin-left: 10px;
+            line-height: 20px;
+            .btn{
+              margin-top: 10px;
+              padding: 3px;
+              background: #cecece url(../images/www/sogi-btn-bg-1.png) 0 0 scroll repeat-x;
+              border: 1px solid $sitecolor-5;
+            }
+            .qrcode{
+              width: 100%;
+              margin-top: 20px;
+              text-align: center;
+            }
+          }
+        }
+      }
+      .storeNotice{
+        overflow: auto;
+        width:auto;
+        padding: 20px;
+        .noticeIcon{
+          float: left;
+          margin-right: 15px;
+          margin-bottom: 15px;
+          width:128px;
+          height:400px;
+          background: url(../images/www/sogi-store-img-1.png) 0 0 scroll repeat-x transparent;
+        }
+        .nRow{
+          float: left;
+          width:520px;
+          font-size: 13px;
+          line-height: 20px;
+          margin-bottom: 10px;
+          padding-left: 12px;
+          background: url(../images/www/limg-1.jpg) 0 10px scroll no-repeat transparent;
+        }
+      }
+    }
+    ul.storePdLists{
+      position:relative;
+      clear:both;
+      padding:10px 0px 10px 0px;
+      z-index:10;
+    }
+    li.storePd{
+      float:left;
+      display:block;
+      width:175px;
+      margin-bottom:10px;
+      .pd{
+        width:160px;
+        text-align:center;
+        border:1px solid $sitecolor-5;
+        margin-left:10px;
+        .info{
+          position:relative;
+          background-color:$sitecolor-2;
+          padding:5px 0;
+          .arrow{
+            position:absolute;
+            right:15px;
+            top:0px;
+          }
+          .pName{
+            line-height:18px;
+            a{
+              color:$sitecolor-8;
+            }
+            a:hover{
+              color:$sitecolor-6;
+            }
+          }
+          .price{
+            line-height:18px;
+            color:$sitecolor-1;
+          }
+          .reviewBtn{
+            width:150px;
+            background-color:$sitecolor-3;
+            color:$sitecolor-1;
+            border-radius: 3px;
+            margin-left:5px;
+            margin-top:5px;
+            padding:3px 0;
+            a{
+              color:$sitecolor-1;
+            }
+            a:hover{
+              color:$sitecolor-6;
+            }
+          }
+          .descb{
+            color:$sitecolor-1;
+            width: 150px;
+            padding: 5px;
+            background-color: lighten($sitecolor-2, 10%);
+          }
+          .update{
+            color: $sitecolor-5
+          }
+        }
+      }
+      .pdImg{
+        display:block;
+        width:160px;
+        margin-right:10px;
+      }
+      .title{
+        float:left;
+        font-size:15px;
+        width:215px;
+        font-weight:bold;
+        margin:5px 0;
+      }
+      .desc{
+        float:left;
+        width:215px;
+        line-height:20px;
+      }
+    }
+    .storeSides{
+      position: relative;
+      width: auto;
+      height: auto;
+      overflow: auto;
+      border-left:1px dashed $sitecolor-5;
+      .mainImg{
+        img{
+          width: 200px;
+          margin-left: 18px;
+          padding: 5px;
+          border: 1px solid $sitecolor-5;
+          box-shadow: 0 0 10px $sitecolor-5;
+        }
+        .spotlight{
+          position: absolute;
+          width: 186px;
+          height: 102px;
+          top: 70px;
+          left: 30px;
+          background: url(../images/www/sogi-img.png) -814px 0 no-repeat transparent;
+        }
+      }
+      .info{
+        width: 225px;
+        height: auto;
+        overflow: auto;
+        margin-left: 10px;
+        background: url(../images/www/sogi-store-bg-3.png) 0 0 repeat-x #fff8d5;
+        border: 1px solid #d4ad45;
+        border-radius: 10px;
+        margin-top:20px;
+        .sName{
+          font-size: 15px;
+          font-weight: bold;
+          margin: 5px 10px;
+        }
+        .tel{
+          margin: 0 10px;
+          line-height: 18px;
+          .icon{
+            float: left;
+            width: 16px;
+            height: 16px;
+            margin-top: 3px;
+            margin-right:5px;
+            background: url(../images/www/sogi-img.png) -780px -99px no-repeat transparent;
+          }
+        }
+        .addr{
+          clear: both;
+          margin: 0 10px 7px;
+          line-height: 18px;
+          .icon{
+            float: left;
+            width: 16px;
+            height: 16px;
+            margin-top: 3px;
+            margin-right:5px;
+            background: url(../images/www/sogi-img.png) -780px -139px no-repeat transparent;
+          }
+        }
+      }
+      .rLists{
+        width: 100%;
+        margin-top: 10px;
+        .title{
+          font-size: 15px;
+          padding-left: 10px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          background:#cecece url(../images/www/sogi-mabtn-bg-3.png) 0 0 scroll repeat-x;
+          border-bottom: 1px solid lighten($sitecolor-5, 5%);
+          border-top: 1px solid lighten($sitecolor-5, 5%);
+          .icon{
+            float: left;
+            width: 16px;
+            height: 16px;
+            margin-top: 3px;
+            margin-right:5px;
+            background: url(../images/www/sogi-img.png) -780px -118px no-repeat transparent;
+          }
+        }
+        .lists{
+          ul.list{
+            padding: 5px 0;
+            li{
+              padding: 5px 10px;
+              border-bottom: 1px dashed $sitecolor-5;
+              a{
+                font-size: 13px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+/* 全域優先控制 */
+	.ath{
+		height:auto;
+		overflow:auto;
+	}
+
+/*分頁樣式*/
+	.pagination {
+		overflow: hidden;
+		font-size: 9pt;
+		padding: 10px 0;
+		ul {
+			list-style: none;
+			padding: 2px 0;
+			line-height: 16px;
+		}
+		li {
+			display: inline;
+		}
+	}
+	/*Digg*/
+	.digg {
+		padding:10px 0;
+		margin: 3px;
+		text-align:center;
+		a {
+			padding: 2px 4px 2px 4px;
+			margin: 2px;
+			border: 1px solid $sitecolor-6;
+			text-decoration: none; /* no underline */
+			color: $sitecolor-6;
+		}
+		a:hover, a:active{
+			border: 1px solid lighten($sitecolor-6, 20%);
+			color: lighten($sitecolor-6, 20%);
+		}
+		li.current{
+			padding: 2px 4px 2px 4px;
+			margin: 2px;
+			border: 1px solid $sitecolor-6;
+			font-weight: bold;
+			background-color: $sitecolor-6;
+			color: #FFF;
+		}
+		li.disabled{
+			padding: 2px 4px 2px 4px;
+			margin: 2px;
+			border: 1px solid $sitecolor-10;
+			color: $sitecolor-5;
+		}
+	}
+	.small{
+		float:right;
+		a {
+			padding:0;
+			margin: 2px;
+			text-decoration: none; /* no underline */
+			color: $sitecolor-6;
+		}
+		li.current{
+			padding:0;
+			margin: 2px;
+			border: 1px solid $sitecolor-6;
+			font-weight: bold;
+			background-color: $sitecolor-6;
+			color: #FFF;
+		}
+		li{
+			padding:0;
+		}
+	}
+}
+#footer{
+	clear:both;
+	display:block;
+	width:100%;
+	background:$sitecolor-1 url(../images/www/sogi-bg-7.png) 0 0 scroll repeat-x;
+	border-top:1px dotted $sitecolor-5;
+	margin:10px 0;
+	.list{
+		color:$sitecolor-9;
+		position:relative;
+		width:970px;
+		margin: 0 auto;
+		line-height:22px;
+		padding-top:15px;
+		text-align:center;
+	}
+}

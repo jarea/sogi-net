@@ -1,0 +1,2761 @@
+@charset "utf-8";
+/* 變數集合 */
+/* #ffffff 白*/
+/* #3a3536 深灰*/
+/* #806f66 淺褐*/
+/* #d73a3a 紅*/
+/* #aaaaaa 灰*/
+/* #ed6500 橘*/
+/* #ffeebd 米白*/
+/* #fdd84b 黃*/
+/* #666666 灰*/
+/* #cccccc 灰*/
+/* #eee1b8 淡咖啡*/
+/* #fe3a3a 價格紅*/
+/* #0a2d58 店鋪藍*/
+/* #e0eff5 淺藍*/
+/* #ec741b 橙色*/
+/* #fee57f 論壇置頂色*/
+/* #fff3c2 論壇列表色*/
+body {
+  font-size: 77%;
+  font-family: Verdana, Arial, Geneva, sans-serif; }
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #3a3536; }
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #ed6500; }
+
+.clr {
+  clear: both; }
+
+.AD300 {
+  float: left;
+  width: 300px;
+  margin-left: 3px; }
+
+.AD970 {
+  float: left;
+  display: block;
+  width: 980px;
+  margin-top: 10px; }
+
+.ADin {
+  margin: 0; }
+
+.AD240 {
+  float: left;
+  display: block;
+  width: 250px;
+  margin-bottom: 10px; }
+
+#topbar {
+  width: 100%;
+  background-color: #3a3536;
+  height: 30px; }
+  #topbar .channelList {
+    width: 970px;
+    margin: 0 auto;
+    color: white;
+    line-height: 30px; }
+    #topbar .channelList .loginClub {
+      width: auto;
+      float: right; }
+  #topbar a {
+    color: white; }
+  #topbar a:hover {
+    color: #666666; }
+
+#container {
+  overflow: auto;
+  width: 100%;
+  height: auto;
+  background: white url(../images/www/sogi-bg.png) 0 0 scroll repeat-x;
+  /*手機館*/
+  /* 討論館 */
+  /*詢價館*/
+  /* 店鋪 */
+  /*精選文章*/
+  /* 全域優先控制 */
+  /*分頁樣式*/
+  /*Digg*/ }
+  #container .bw {
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+    behavior: url(ie-css3.htc);
+    z-index: 1; }
+  #container .bwl {
+    width: 720px;
+    float: left; }
+  #container .bwls {
+    width: 730px;
+    float: left; }
+  #container .bwr {
+    width: 250px;
+    float: right; }
+  #container .mg {
+    margin-top: 10px; }
+  #container .pg {
+    padding-bottom: 10px; }
+  #container .pdg {
+    padding: 5px 5px 15px; }
+  #container .more {
+    float: right;
+    display: block;
+    color: white;
+    line-height: 18px;
+    font-size: 11px;
+    padding: 0 5px;
+    border-radius: 3px;
+    background-color: #806f66;
+    margin-right: 5px;
+    margin-bottom: 5px; }
+  #container .btn {
+    display: block;
+    border-radius: 3px;
+    text-align: center; }
+  #container .money {
+    font-size: 14px;
+    color: #fe3a3a; }
+    #container .money a {
+      font-size: 14px;
+      color: #fe3a3a; }
+    #container .money a:hover {
+      color: #d73a3a; }
+  #container .highlight {
+    color: #d73a3a;
+    font-weight: bold; }
+  #container #globalBg {
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    z-index: 0; }
+    #container #globalBg .storeBg {
+      height: 420px;
+      background: url(../images/www/sogi-store-bg-1.png) 0 bottom repeat-x transparent; }
+      #container #globalBg .storeBg .sunBg {
+        float: right; }
+  #container #head, #container #promo, #container #footer {
+    position: relative;
+    z-index: 1; }
+  #container #main {
+    position: relative;
+    z-index: 2; }
+  #container .sHead {
+    background: white url(../images/www/sogi-bg-2.png) 0 0 scroll no-repeat;
+    /*購物NAV end*/ }
+    #container .sHead .top {
+      height: 99px; }
+    #container .sHead .sogiLogo {
+      float: left; }
+      #container .sHead .sogiLogo .logo {
+        display: block;
+        position: relative;
+        width: 150px;
+        height: 87px;
+        top: 10px;
+        left: 45px;
+        background: url(../images/www/sogi-img.png) -1px 0px no-repeat transparent;
+        text-indent: -9999px; }
+    #container .sHead .shopNavArea {
+      float: left;
+      position: relative;
+      width: 415px;
+      height: 83px;
+      top: 20px;
+      left: 120px;
+      background: url(../images/www/sogi-img.png) -1px -87px no-repeat transparent; }
+      #container .sHead .shopNavArea .shopNav-1 {
+        float: left; }
+        #container .sHead .shopNavArea .shopNav-1 a .icon {
+          display: block;
+          position: relative;
+          top: 18px;
+          width: 40px;
+          height: 38px;
+          margin-right: 40px;
+          margin-left: 65px;
+          background: url(../images/www/sogi-img.png) -160px -1px no-repeat transparent;
+          text-indent: -9999px; }
+        #container .sHead .shopNavArea .shopNav-1 a .name {
+          clear: both;
+          display: block;
+          position: relative;
+          color: #3a3536;
+          margin-left: 65px;
+          top: 15px; }
+        #container .sHead .shopNavArea .shopNav-1 a:hover .icon {
+          background: url(../images/www/sogi-img.png) -160px -39px no-repeat transparent; }
+        #container .sHead .shopNavArea .shopNav-1 a:hover .name {
+          color: #ed6500; }
+      #container .sHead .shopNavArea .shopNav-2 {
+        float: left; }
+        #container .sHead .shopNavArea .shopNav-2 a .icon {
+          display: block;
+          position: relative;
+          top: 18px;
+          width: 40px;
+          height: 38px;
+          margin-right: 40px;
+          background: url(../images/www/sogi-img.png) -200px -1px no-repeat transparent;
+          text-indent: -9999px; }
+        #container .sHead .shopNavArea .shopNav-2 a .name {
+          clear: both;
+          display: block;
+          position: relative;
+          color: #3a3536;
+          top: 15px; }
+        #container .sHead .shopNavArea .shopNav-2 a:hover .icon {
+          background: url(../images/www/sogi-img.png) -200px -39px no-repeat transparent; }
+        #container .sHead .shopNavArea .shopNav-2 a:hover .name {
+          color: #ed6500; }
+      #container .sHead .shopNavArea .shopNav-3 {
+        float: left; }
+        #container .sHead .shopNavArea .shopNav-3 a .icon {
+          display: block;
+          position: relative;
+          top: 18px;
+          width: 40px;
+          height: 38px;
+          margin-right: 40px;
+          background: url(../images/www/sogi-img.png) -240px -1px no-repeat transparent;
+          text-indent: -9999px; }
+        #container .sHead .shopNavArea .shopNav-3 a .name {
+          clear: both;
+          display: block;
+          position: relative;
+          color: #3a3536;
+          top: 15px; }
+        #container .sHead .shopNavArea .shopNav-3 a:hover .icon {
+          background: url(../images/www/sogi-img.png) -240px -39px no-repeat transparent; }
+        #container .sHead .shopNavArea .shopNav-3 a:hover .name {
+          color: #ed6500; }
+      #container .sHead .shopNavArea .shopNav-4 {
+        float: left; }
+        #container .sHead .shopNavArea .shopNav-4 a .icon {
+          display: block;
+          position: relative;
+          top: 18px;
+          width: 40px;
+          height: 38px;
+          margin-right: 40px;
+          background: url(../images/www/sogi-img.png) -280px -1px no-repeat transparent;
+          text-indent: -9999px; }
+        #container .sHead .shopNavArea .shopNav-4 a .name {
+          clear: both;
+          display: block;
+          position: relative;
+          color: #3a3536;
+          top: 15px; }
+        #container .sHead .shopNavArea .shopNav-4 a:hover .icon {
+          background: url(../images/www/sogi-img.png) -280px -39px no-repeat transparent; }
+        #container .sHead .shopNavArea .shopNav-4 a:hover .name {
+          color: #ed6500; }
+    #container .sHead .mainNav {
+      clear: both;
+      height: 36px;
+      position: relative;
+      background: url(../images/www/sogi-nav-bg-1.png) 0 0 scroll repeat-x #ed6500;
+      border-radius: 15px 15px 0 0;
+      border: 1px solid #aaaaaa;
+      box-shadow: 0 0 6px #aaaaaa;
+      text-align: center;
+      behavior: url(ie-css3.htc);
+      z-index: 1; }
+      #container .sHead .mainNav li {
+        display: inline-block;
+        *display: inline;
+        _display: inline;
+        padding: 0 15px;
+        line-height: 36px; }
+        #container .sHead .mainNav li a {
+          font-size: 15px;
+          color: #ffeebd;
+          text-shadow: 0 0 0, 1px 1px 2px #3a3536; }
+        #container .sHead .mainNav li a:hover {
+          font-size: 15px;
+          color: #3a3536;
+          text-shadow: 0 0 0, 0px 0px 3px #ffeebd; }
+      #container .sHead .mainNav li.on {
+        display: inline-block;
+        *display: inline;
+        _display: inline;
+        padding: 0 15px;
+        line-height: 36px;
+        background: url(../images/www/sogi-arrow-2.gif) center bottom no-repeat transparent; }
+        #container .sHead .mainNav li.on a {
+          font-size: 15px;
+          color: #3a3536;
+          font-weight: bold;
+          text-shadow: 0 0 0, 0px 0px 3px #ffeebd; }
+    #container .sHead .mainSubNav {
+      clear: both;
+      width: 100%;
+      position: relative;
+      line-height: 26px;
+      background-color: #fdd84b;
+      box-shadow: 0 0 6px #aaaaaa;
+      border-top: 1px solid #fdd84b;
+      behavior: url(ie-css3.htc);
+      z-index: 1; }
+      #container .sHead .mainSubNav ul {
+        padding-left: 10px; }
+      #container .sHead .mainSubNav li {
+        display: inline-block;
+        *display: inline;
+        _display: inline;
+        line-height: 26px; }
+        #container .sHead .mainSubNav li a {
+          color: #3a3536; }
+        #container .sHead .mainSubNav li a:hover {
+          color: #3a3536;
+          text-shadow: 1px 1px 2px #ed6500; }
+  #container .fullPromo {
+    overflow: auto;
+    border-radius: 0 0 15px 15px;
+    border-left: 1px solid #aaaaaa;
+    border-right: 1px solid #aaaaaa;
+    border-bottom: 1px solid #aaaaaa;
+    box-shadow: 0 3px 6px #aaaaaa;
+    background: #e8e8e8 url(../images/www/sogi-bg-3.png) 0 0 scroll repeat-x; }
+    #container .fullPromo .textAd li {
+      float: left;
+      font-size: 16px;
+      line-height: 20px;
+      padding: 10px 0;
+      text-align: center;
+      width: 33%; }
+    #container .fullPromo .textAd a {
+      font-size: 15px; }
+  #container .breadNav {
+    width: auto;
+    height: 18px;
+    background: white url(../images/www/sogi-bg-8.png) 0 0 scroll repeat-y;
+    padding: 8px 10px 5px 30px;
+    vertical-align: middle; }
+    #container .breadNav .icon {
+      float: left;
+      width: 15px;
+      height: 15px;
+      overflow: hidden;
+      background: url(../images/www/sogi-img.png) -380px 0px no-repeat transparent;
+      margin-right: 6px; }
+    #container .breadNav .bNav {
+      float: left;
+      color: white; }
+      #container .breadNav .bNav .here {
+        color: #ffeebd; }
+      #container .breadNav .bNav a {
+        color: white; }
+      #container .breadNav .bNav a:hover {
+        color: #ed6500; }
+  #container .hotNews {
+    float: left;
+    margin-left: 18px;
+    margin-right: 5px; }
+  #container .forumBox {
+    float: left;
+    margin-right: 15px;
+    width: 305px; }
+  #container .tabs {
+    clear: both;
+    float: left;
+    display: block;
+    height: 29px;
+    padding-left: 10px;
+    line-height: 29px;
+    background: url(../images/www/sogi-img.png) -1px -180px no-repeat transparent; }
+    #container .tabs .tab {
+      float: left;
+      line-height: 29px;
+      margin-right: 2px;
+      text-align: center; }
+      #container .tabs .tab a {
+        display: block;
+        line-height: 28px;
+        color: white;
+        padding: 0 12px; }
+      #container .tabs .tab a:hover {
+        background-color: #3a3536;
+        border-radius: 15px 15px 15px 15px; }
+    #container .tabs .on {
+      background-color: #3a3536;
+      border-radius: 15px 15px 15px 15px; }
+  #container .tabsEnd {
+    float: left;
+    display: block;
+    width: 15px;
+    height: 29px;
+    line-height: 29px;
+    background: url(../images/www/sogi-img.png) right -180px no-repeat transparent; }
+  #container .tBlue {
+    background: url(../images/www/sogi-img.png) -1px -240px no-repeat transparent; }
+    #container .tBlue .tab a {
+      color: white; }
+    #container .tBlue .tab a:hover {
+      background-color: #0a2d58; }
+    #container .tBlue .on {
+      background-color: #0a2d58; }
+  #container .teBlue {
+    background: url(../images/www/sogi-img.png) right -240px no-repeat transparent; }
+  #container .oneTab {
+    clear: both;
+    float: left;
+    display: block;
+    height: 29px;
+    padding-left: 10px;
+    line-height: 29px;
+    background: url(../images/www/sogi-img.png) -1px -210px no-repeat transparent; }
+    #container .oneTab a {
+      display: block;
+      line-height: 28px;
+      color: white;
+      padding: 0 12px;
+      background-color: #3a3536;
+      border-radius: 15px 15px 15px 15px; }
+  #container .oneTabEnd {
+    float: left;
+    display: block;
+    width: 15px;
+    height: 29px;
+    line-height: 29px;
+    background: url(../images/www/sogi-img.png) right -210px no-repeat transparent; }
+  #container .promoTp-1 {
+    width: 615px;
+    margin: 5px 0 0 10px; }
+    #container .promoTp-1 .hotOne {
+      float: left;
+      display: block;
+      width: 360px;
+      background-color: #fdd84b; }
+      #container .promoTp-1 .hotOne .title {
+        font-size: 15px;
+        font-weight: bold;
+        margin: 8px; }
+      #container .promoTp-1 .hotOne .excerpts {
+        line-height: 20px;
+        margin: 0 15px 15px 15px; }
+      #container .promoTp-1 .hotOne a:hover {
+        color: #666666; }
+    #container .promoTp-1 .hotList {
+      float: left;
+      display: block;
+      width: 248px;
+      margin: 2px; }
+      #container .promoTp-1 .hotList .newsImg {
+        float: left;
+        width: 120px;
+        margin: 1px; }
+    #container .promoTp-1 .newsfeed {
+      position: relative;
+      float: left;
+      width: 230px;
+      margin: 10px;
+      border: 1px solid #666666;
+      background-color: #cccccc; }
+      #container .promoTp-1 .newsfeed a:hover {
+        color: #666666; }
+      #container .promoTp-1 .newsfeed .title {
+        position: absolute;
+        top: -12px;
+        line-height: 28px;
+        padding: 0 15px;
+        background-color: #3a3536;
+        border-radius: 15px;
+        color: white; }
+      #container .promoTp-1 .newsfeed ul {
+        margin: 20px 5px 10px 5px; }
+      #container .promoTp-1 .newsfeed li {
+        line-height: 22px;
+        padding-left: 15px;
+        background: url(../images/www/limg-1.jpg) 4px 10px scroll no-repeat; }
+  #container .promoTp-2 {
+    width: 615px;
+    margin: 5px 0 0 10px; }
+    #container .promoTp-2 .hotOne {
+      float: left;
+      display: block;
+      width: 360px;
+      background-color: #fdd84b; }
+      #container .promoTp-2 .hotOne .title {
+        font-size: 15px;
+        font-weight: bold;
+        margin: 8px; }
+      #container .promoTp-2 .hotOne .excerpts {
+        line-height: 20px;
+        margin: 0 15px 15px 15px; }
+      #container .promoTp-2 .hotOne a:hover {
+        color: #666666; }
+    #container .promoTp-2 .hotList {
+      float: left;
+      display: block;
+      width: 248px;
+      overflow: auto;
+      height: auto; }
+      #container .promoTp-2 .hotList ul {
+        clear: both;
+        margin-top: 1px; }
+      #container .promoTp-2 .hotList li {
+        display: block;
+        width: 230px;
+        height: auto;
+        overflow: auto;
+        padding: 7px 5px;
+        border-bottom: 1px dotted #aaaaaa; }
+        #container .promoTp-2 .hotList li .softImg {
+          float: left;
+          width: 100px;
+          margin-right: 10px; }
+        #container .promoTp-2 .hotList li .title {
+          float: left;
+          width: 115px;
+          font-weight: bold;
+          margin: 5px 0; }
+        #container .promoTp-2 .hotList li .desc {
+          float: left;
+          width: 115px;
+          line-height: 18px; }
+      #container .promoTp-2 .hotList li.end {
+        border: 0; }
+      #container .promoTp-2 .hotList li.style3 {
+        padding: 2px 5px; }
+    #container .promoTp-2 .newsfeed {
+      position: relative;
+      float: left;
+      width: 230px;
+      margin: 15px 10px;
+      border: 1px solid #666666;
+      background-color: #cccccc; }
+      #container .promoTp-2 .newsfeed a:hover {
+        color: #666666; }
+      #container .promoTp-2 .newsfeed .title {
+        position: absolute;
+        top: -12px;
+        line-height: 28px;
+        padding: 0 15px;
+        background-color: #3a3536;
+        border-radius: 15px;
+        color: white; }
+      #container .promoTp-2 .newsfeed ul {
+        margin: 20px 5px 10px 5px; }
+      #container .promoTp-2 .newsfeed li {
+        line-height: 22px;
+        padding-left: 15px;
+        background: url(../images/www/limg-1.jpg) 4px 10px scroll no-repeat; }
+  #container .forumFeed {
+    margin-top: 30px;
+    display: block;
+    width: 298px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    border: 1px solid #aaaaaa;
+    box-shadow: inset 0 0 5px white;
+    background: #d7d7d7 url(../images/www/sogi-bg-4.png) 0 0 scroll repeat-x;
+    overflow: auto; }
+    #container .forumFeed a {
+      font-size: 15px; }
+    #container .forumFeed ul {
+      margin: 10px 5px; }
+    #container .forumFeed li {
+      line-height: 25px;
+      padding-left: 15px;
+      background: url(../images/www/limg-1.jpg) 4px 10px scroll no-repeat; }
+  #container .softPromo {
+    overflow: auto;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 6px #aaaaaa;
+    background: #d7d7d7 url(../images/www/sogi-bg-4.png) 0 0 scroll repeat-x; }
+    #container .softPromo li {
+      position: relative;
+      float: left;
+      display: block;
+      width: 204px;
+      height: 60px;
+      border-right: 1px solid #aaaaaa;
+      padding: 15px 15px 15px 25px;
+      box-shadow: inset 0 0 8px white; }
+      #container .softPromo li .softImg {
+        float: left;
+        width: 60px;
+        border-radius: 10px;
+        margin-right: 10px; }
+      #container .softPromo li .title {
+        float: left;
+        width: 130px;
+        font-weight: bold;
+        margin: 5px 0; }
+      #container .softPromo li .desc {
+        float: left;
+        width: 130px;
+        line-height: 18px; }
+      #container .softPromo li .softType {
+        position: absolute;
+        right: 0px;
+        top: 0px; }
+        #container .softPromo li .softType img {
+          filter: alpha(opacity=50, FinishOpacity=50, Style=2);
+          opacity: 0.5; }
+    #container .softPromo li.end {
+      border: 0; }
+  #container .newsPromo {
+    overflow: hidden;
+    padding: 5px;
+    height: 175px;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 6px #aaaaaa;
+    background: #ffebac url(../images/www/sogi-bg-5.png) 0 0 scroll repeat-x; }
+    #container .newsPromo li {
+      float: left;
+      display: block;
+      width: 330px;
+      height: 100px;
+      padding: 10px; }
+      #container .newsPromo li .newsImg {
+        float: left;
+        width: 100px;
+        border: 1px solid #aaaaaa;
+        border-radius: 10px;
+        margin-right: 10px; }
+      #container .newsPromo li .title {
+        float: left;
+        font-size: 15px;
+        width: 215px;
+        font-weight: bold;
+        margin: 5px 0; }
+      #container .newsPromo li .desc {
+        float: left;
+        width: 215px;
+        line-height: 20px; }
+    #container .newsPromo .quiz {
+      clear: both;
+      width: 230px;
+      padding-top: 5px; }
+      #container .newsPromo .quiz .icon {
+        float: left;
+        color: white;
+        font-size: 11px;
+        padding: 2px;
+        margin-right: 5px;
+        background-color: #3a3536; }
+      #container .newsPromo .quiz .title {
+        float: left;
+        font-size: 15px; }
+  #container .searchPromo {
+    overflow: hidden;
+    padding: 5px;
+    height: 300px;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 6px #aaaaaa;
+    background: #d7d7d7 url(../images/www/sogi-bg-4.png) 0 0 scroll repeat-x; }
+  #container .adPromo {
+    overflow: auto;
+    padding: 5px 5px 15px 5px;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 6px #aaaaaa;
+    background: #d7d7d7 url(../images/www/sogi-bg-4.png) 0 0 scroll repeat-x; }
+    #container .adPromo ul {
+      clear: both; }
+    #container .adPromo li {
+      display: block;
+      width: 220px;
+      height: 70px;
+      padding: 10px 5px; }
+      #container .adPromo li .softImg {
+        float: left;
+        width: 100px;
+        border-radius: 10px;
+        margin-right: 10px; }
+      #container .adPromo li .title {
+        float: left;
+        width: 105px;
+        font-weight: bold;
+        margin: 5px 0; }
+      #container .adPromo li .desc {
+        float: left;
+        width: 105px;
+        line-height: 18px; }
+  #container .compare {
+    height: auto;
+    overflow: auto;
+    padding-bottom: 0px; }
+    #container .compare li {
+      width: 100px;
+      height: auto;
+      float: left;
+      text-align: center; }
+      #container .compare li .comparePd img.pdImg {
+        width: 100px;
+        border: 1px solid #aaaaaa; }
+      #container .compare li .comparePd .title {
+        float: none; }
+      #container .compare li .red {
+        width: 70px;
+        font-size: 11px;
+        background-color: #d73a3a;
+        margin-left: 18px; }
+        #container .compare li .red a {
+          color: white; }
+        #container .compare li .red a:hover {
+          color: #cccccc; }
+    #container .compare .goCompare {
+      clear: both;
+      display: block;
+      width: 120px;
+      border-radius: 10px 10px 0 0;
+      box-shadow: 0 0 6px #aaaaaa;
+      margin-left: 55px;
+      background: url(../images/www/sogi-bg-7.png) 0 -15px scroll repeat-x transparent;
+      text-align: center;
+      line-height: 30px; }
+  #container .sgPromo {
+    background: #ffebac url(../images/www/sogi-bg-5.png) 0 0 scroll repeat-x; }
+    #container .sgPromo .collection {
+      width: 220px; }
+      #container .sgPromo .collection .cName {
+        clear: both;
+        width: auto;
+        color: #666666;
+        line-height: 28px;
+        padding-left: 13px;
+        margin-left: 5px;
+        font-size: 15px;
+        border-bottom: 1px dotted #aaaaaa;
+        background: url(../images/www/limg-2.png) 0px 10px scroll no-repeat transparent; }
+      #container .sgPromo .collection ul {
+        margin-bottom: 10px; }
+      #container .sgPromo .collection li {
+        width: 200px;
+        padding: 0;
+        height: auto;
+        line-height: 22px;
+        font-size: 15px;
+        margin-left: 15px;
+        margin-top: 5px;
+        padding-left: 10px;
+        background: url(../images/www/limg-1.jpg) 0px 10px scroll no-repeat transparent; }
+    #container .sgPromo .faExtend ul {
+      clear: both; }
+    #container .sgPromo .faExtend li {
+      display: block;
+      width: 220px;
+      height: 70px;
+      padding: 10px 5px; }
+      #container .sgPromo .faExtend li .softImg {
+        float: left;
+        width: 100px;
+        border-radius: 10px;
+        margin-right: 10px; }
+      #container .sgPromo .faExtend li .title {
+        float: left;
+        width: 105px;
+        font-weight: bold;
+        margin: 5px 0; }
+      #container .sgPromo .faExtend li .desc {
+        float: left;
+        width: 105px;
+        line-height: 18px; }
+  #container .sideStorePromo {
+    background: #e0eff5 url(../images/www/sogi-bg-6.png) 0 0 scroll repeat-x; }
+  #container .pdPromo {
+    position: relative;
+    overflow: hidden;
+    padding: 5px;
+    height: 310px;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 6px #aaaaaa;
+    background-color: #eee1b8; }
+    #container .pdPromo .promoIcon {
+      position: absolute;
+      overflow: hidden;
+      z-index: 1; }
+    #container .pdPromo ul {
+      position: relative;
+      clear: both;
+      padding: 10px 0px 10px 0px;
+      z-index: 10; }
+    #container .pdPromo li {
+      float: left;
+      display: block;
+      width: 175px;
+      margin-bottom: 10px; }
+      #container .pdPromo li .pd {
+        width: 160px;
+        text-align: center;
+        border: 1px solid #aaaaaa;
+        margin-left: 10px; }
+        #container .pdPromo li .pd .info {
+          position: relative;
+          background-color: #3a3536;
+          padding: 5px 0; }
+          #container .pdPromo li .pd .info .arrow {
+            position: absolute;
+            right: 15px;
+            top: 0px; }
+          #container .pdPromo li .pd .info .pName {
+            line-height: 18px; }
+            #container .pdPromo li .pd .info .pName a {
+              color: #fdd84b; }
+            #container .pdPromo li .pd .info .pName a:hover {
+              color: #ed6500; }
+          #container .pdPromo li .pd .info .price {
+            line-height: 18px;
+            color: white; }
+          #container .pdPromo li .pd .info .reviewBtn {
+            width: 150px;
+            background-color: #806f66;
+            color: white;
+            border-radius: 3px;
+            margin-left: 5px;
+            margin-top: 5px;
+            padding: 3px 0; }
+            #container .pdPromo li .pd .info .reviewBtn a {
+              color: white; }
+            #container .pdPromo li .pd .info .reviewBtn a:hover {
+              color: #ed6500; }
+      #container .pdPromo li .pdImg {
+        display: block;
+        width: 160px;
+        margin-right: 10px; }
+      #container .pdPromo li .title {
+        float: left;
+        font-size: 15px;
+        width: 215px;
+        font-weight: bold;
+        margin: 5px 0; }
+      #container .pdPromo li .desc {
+        float: left;
+        width: 215px;
+        line-height: 20px; }
+      #container .pdPromo li .rkIcon-1 {
+        position: absolute;
+        width: 43px;
+        height: 63px;
+        overflow: hidden;
+        background: url(../images/www/sogi-img.png) -420px -1px no-repeat transparent; }
+      #container .pdPromo li .rkIcon-2 {
+        position: absolute;
+        width: 43px;
+        height: 63px;
+        overflow: hidden;
+        background: url(../images/www/sogi-img.png) -470px -1px no-repeat transparent; }
+      #container .pdPromo li .rkIcon-3 {
+        position: absolute;
+        width: 43px;
+        height: 63px;
+        overflow: hidden;
+        background: url(../images/www/sogi-img.png) -520px -1px no-repeat transparent; }
+    #container .pdPromo .sortFunc {
+      width: auto;
+      height: 30px;
+      border-bottom: 1px dashed #806f66;
+      vertical-align: middle;
+      padding-top: 5px; }
+      #container .pdPromo .sortFunc .byOthers {
+        float: right;
+        line-height: 26px; }
+        #container .pdPromo .sortFunc .byOthers a {
+          background-color: #806F66;
+          border-radius: 3px 3px 3px 3px;
+          color: white;
+          margin-left: 5px;
+          margin-top: 5px;
+          padding: 5px;
+          width: 150px; }
+      #container .pdPromo .sortFunc .bySoft {
+        float: right;
+        border-right: 1px dashed #806f66;
+        padding-right: 2px; }
+        #container .pdPromo .sortFunc .bySoft a {
+          float: left;
+          display: block;
+          line-height: 25px;
+          background-color: #806F66;
+          padding: 2px 3px 1px 4px;
+          border-radius: 3px 3px 3px 3px;
+          margin-right: 2px; }
+          #container .pdPromo .sortFunc .bySoft a .wPhone {
+            height: 22px;
+            width: 22px;
+            background: url(../images/www/sogi-img.png) -350px 0px no-repeat transparent; }
+          #container .pdPromo .sortFunc .bySoft a .android {
+            height: 22px;
+            width: 22px;
+            background: url(../images/www/sogi-img.png) -350px -22px no-repeat transparent; }
+  #container .storePromo {
+    margin-bottom: 15px;
+    height: 265px;
+    background: #e0eff5 url(../images/www/sogi-bg-6.png) 0 0 scroll repeat-x; }
+  #container .feature {
+    display: block;
+    width: auto;
+    z-index: 999;
+    margin-left: 10px; }
+    #container .feature .wording {
+      margin-top: 9px; }
+    #container .feature .box-1 {
+      float: left;
+      width: 50px;
+      height: 50px;
+      margin-right: 5px;
+      text-align: center;
+      color: #ffeebd;
+      background: #b01616 url(../images/www/featurebox-bg-1.png) 0 0 scroll repeat-x;
+      border: 1px solid #7d3804;
+      word-wrap: break-word;
+      word-break: break-all;
+      cursor: default; }
+    #container .feature .box-2 {
+      float: left;
+      width: 50px;
+      height: 50px;
+      margin-right: 5px;
+      text-align: center;
+      color: #ffeebd;
+      background: #b05715 url(../images/www/featurebox-bg-2.png) 0 0 scroll repeat-x;
+      border: 1px solid #7d3804;
+      word-wrap: break-word;
+      word-break: break-all;
+      cursor: default;
+      overflow: hidden; }
+  #container .mobiNewsPromo {
+    overflow: hidden;
+    padding: 5px;
+    height: 405px;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 6px #aaaaaa;
+    background: #ffebac url(../images/www/sogi-bg-3.png) 0 0 scroll repeat-x; }
+    #container .mobiNewsPromo li {
+      float: left;
+      display: block;
+      width: 330px;
+      height: 100px;
+      padding: 10px; }
+      #container .mobiNewsPromo li .newsImg {
+        float: left;
+        width: 100px;
+        border: 1px solid #aaaaaa;
+        border-radius: 10px;
+        margin-right: 10px; }
+      #container .mobiNewsPromo li .title {
+        float: left;
+        font-size: 15px;
+        width: 215px;
+        font-weight: bold;
+        margin: 5px 0; }
+      #container .mobiNewsPromo li .desc {
+        float: left;
+        width: 215px;
+        line-height: 20px; }
+    #container .mobiNewsPromo .hotShow {
+      float: left;
+      display: block;
+      margin-left: 10px;
+      margin-top: 5px;
+      width: 360px; }
+      #container .mobiNewsPromo .hotShow a:hover {
+        color: #666666; }
+      #container .mobiNewsPromo .hotShow .pdiv {
+        position: relative;
+        width: 100%; }
+        #container .mobiNewsPromo .hotShow .pdiv .pd {
+          overflow: auto;
+          position: absolute;
+          display: block;
+          width: 100%;
+          height: auto;
+          z-index: 998;
+          top: 260px;
+          left: 1px; }
+          #container .mobiNewsPromo .hotShow .pdiv .pd .feature {
+            position: absolute;
+            bottom: 8px; }
+          #container .mobiNewsPromo .hotShow .pdiv .pd .featureBg {
+            bottom: 0px;
+            filter: alpha(opacity=80, FinishOpacity=80, Style=2);
+            opacity: 0.8;
+            width: auto;
+            height: 100px;
+            background-color: #fdd84b; }
+        #container .mobiNewsPromo .hotShow .pdiv img {
+          position: absolute;
+          border: 1px solid #aaaaaa;
+          z-index: 997; }
+        #container .mobiNewsPromo .hotShow .pdiv .title {
+          position: absolute;
+          font-size: 15px;
+          font-weight: bold;
+          margin: 10px;
+          z-index: 999; }
+    #container .mobiNewsPromo .hotShowList {
+      float: right;
+      width: 330px; }
+      #container .mobiNewsPromo .hotShowList li {
+        position: relative;
+        float: left;
+        width: 150px;
+        height: 170px;
+        padding: 0;
+        margin: 5px;
+        background-color: white;
+        border: 1px solid #aaaaaa; }
+        #container .mobiNewsPromo .hotShowList li img.showListImg {
+          width: 150px; }
+        #container .mobiNewsPromo .hotShowList li img {
+          position: absolute;
+          z-index: 997; }
+        #container .mobiNewsPromo .hotShowList li .nameBG {
+          position: absolute;
+          top: 134px;
+          width: 150px;
+          height: 36px;
+          background-color: #3a3536;
+          filter: alpha(opacity=80, FinishOpacity=80, Style=2);
+          opacity: 0.8;
+          z-index: 998; }
+        #container .mobiNewsPromo .hotShowList li .name {
+          position: absolute;
+          top: 145px;
+          width: 150px;
+          text-align: center;
+          z-index: 999; }
+      #container .mobiNewsPromo .hotShowList a {
+        color: #fdd84b; }
+      #container .mobiNewsPromo .hotShowList a:hover {
+        color: #ed6500; }
+    #container .mobiNewsPromo .hotShowList2 {
+      float: right;
+      width: 330px; }
+      #container .mobiNewsPromo .hotShowList2 .headNews {
+        position: relative;
+        float: left;
+        width: 300px;
+        height: 170px;
+        margin: 0 10px;
+        overflow: hidden;
+        border-bottom: 1px dashed #aaaaaa; }
+        #container .mobiNewsPromo .hotShowList2 .headNews img.newsImg {
+          float: right;
+          margin: 0px 0px 8px 8px; }
+        #container .mobiNewsPromo .hotShowList2 .headNews .title {
+          font-size: 18px;
+          font-weight: bold;
+          margin-bottom: 8px; }
+        #container .mobiNewsPromo .hotShowList2 .headNews .desc {
+          line-height: 20px; }
+      #container .mobiNewsPromo .hotShowList2 .newsLists li.newsList {
+        line-height: 22px;
+        margin: 5px 10px;
+        padding: 0;
+        height: auto; }
+        #container .mobiNewsPromo .hotShowList2 .newsLists li.newsList a {
+          font-size: 15px; }
+  #container .androidPd {
+    background-color: #e4fb9c; }
+    #container .androidPd .tabs {
+      background: url(../images/www/sogi-img.png) -1px -300px no-repeat transparent; }
+      #container .androidPd .tabs .tab a:hover {
+        background-color: #445608;
+        border-radius: 15px 15px 15px 15px; }
+    #container .androidPd .on {
+      background-color: #445608;
+      border-radius: 15px 15px 15px 15px; }
+    #container .androidPd .tabsEnd {
+      background: url(../images/www/sogi-img.png) right -300px no-repeat transparent; }
+  #container .wpPd {
+    background-color: #d6eeff; }
+    #container .wpPd .tabs {
+      background: url(../images/www/sogi-img.png) -1px -240px no-repeat transparent; }
+      #container .wpPd .tabs .tab a:hover {
+        background-color: #0a2d58;
+        border-radius: 15px 15px 15px 15px; }
+    #container .wpPd .on {
+      background-color: #0a2d58;
+      border-radius: 15px 15px 15px 15px; }
+    #container .wpPd .tabsEnd {
+      background: url(../images/www/sogi-img.png) right -240px no-repeat transparent; }
+  #container .iosPd {
+    background-color: #e3e3e3; }
+    #container .iosPd .tabs {
+      background: url(../images/www/sogi-img.png) -1px -360px no-repeat transparent; }
+      #container .iosPd .tabs .tab a:hover {
+        background-color: #515151;
+        border-radius: 15px 15px 15px 15px; }
+    #container .iosPd .on {
+      background-color: #515151;
+      border-radius: 15px 15px 15px 15px; }
+    #container .iosPd .tabsEnd {
+      background: url(../images/www/sogi-img.png) right -360px no-repeat transparent; }
+  #container .mobiRkPd {
+    height: 555px; }
+  #container .brandBox {
+    overflow: auto;
+    padding: 10px;
+    height: 60px;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 6px #aaaaaa;
+    background: #ffebac url(../images/www/sogi-bg-3.png) 0 0 scroll repeat-x; }
+    #container .brandBox .brandLogo {
+      float: left;
+      max-width: 160px;
+      width: expression(this.clientWidth > 160 ? 160 : auto );
+      width: 160px;
+      margin-right: 20px; }
+    #container .brandBox .brandDesc {
+      float: left;
+      width: 500px;
+      line-height: 22px;
+      margin-top: 7px; }
+  #container .pdReview, #container .brandList {
+    overflow: auto;
+    padding: 10px 0 0;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 6px #aaaaaa;
+    background: #f9f9f9 url(../images/www/sogi-bg-9.png) 0 0 scroll repeat-x; }
+    #container .pdReview .mainImg, #container .brandList .mainImg {
+      float: left;
+      border: 1px solid #aaaaaa;
+      margin-right: 10px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      margin-left: 17px; }
+    #container .pdReview .pdName, #container .brandList .pdName {
+      float: left;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 5px 0; }
+    #container .pdReview .qfeature, #container .brandList .qfeature {
+      margin-top: 15px;
+      padding-left: 10px;
+      float: left; }
+      #container .pdReview .qfeature .row-1, #container .pdReview .qfeature .row-2, #container .brandList .qfeature .row-1, #container .brandList .qfeature .row-2 {
+        height: auto;
+        overflow: auto;
+        margin-bottom: 5px; }
+    #container .pdReview .trend, #container .brandList .trend {
+      margin-top: 10px;
+      float: left;
+      width: 300px;
+      padding-top: 10px;
+      padding-left: 10px;
+      background: url(../images/www/sogi-bg-10.png) 30px 0 scroll no-repeat transparent; }
+      #container .pdReview .trend .avPrice, #container .brandList .trend .avPrice {
+        float: left;
+        width: 140px;
+        margin-left: 10px;
+        vertical-align: middle; }
+      #container .pdReview .trend .arvDate, #container .brandList .trend .arvDate {
+        float: left;
+        width: 140px;
+        vertical-align: middle; }
+    #container .pdReview .chart, #container .brandList .chart {
+      float: left;
+      width: 280px;
+      height: 120px;
+      padding: 10px;
+      margin-top: 5px;
+      background-color: #aaaaaa; }
+    #container .pdReview .album, #container .brandList .album {
+      width: auto; }
+      #container .pdReview .album .prev, #container .brandList .album .prev {
+        float: left;
+        width: 30px;
+        height: 30px;
+        margin-top: 40px;
+        margin-left: 13px;
+        background: url(../images/www/sogi-img.png) -570px 0px no-repeat transparent; }
+      #container .pdReview .album .next, #container .brandList .album .next {
+        float: left;
+        width: 30px;
+        height: 30px;
+        margin-top: 40px;
+        background: url(../images/www/sogi-img.png) -600px 0px no-repeat transparent; }
+      #container .pdReview .album .list, #container .brandList .album .list {
+        float: left;
+        width: 635px;
+        height: 115px;
+        overflow: hidden; }
+      #container .pdReview .album ul, #container .brandList .album ul {
+        width: 1000px; }
+      #container .pdReview .album li, #container .brandList .album li {
+        float: left;
+        margin-right: 4px; }
+        #container .pdReview .album li .pdImg, #container .brandList .album li .pdImg {
+          width: 100px;
+          border: 1px solid #aaaaaa; }
+    #container .pdReview .pdReviewTabs ul, #container .brandList .pdReviewTabs ul {
+      height: 35px;
+      padding-left: 16px;
+      border-bottom: 1px solid #aaaaaa; }
+    #container .pdReview .pdReviewTabs li, #container .brandList .pdReviewTabs li {
+      float: left;
+      width: 80px;
+      position: relative;
+      text-align: center;
+      margin-right: 3px;
+      margin-top: 5px;
+      z-index: 1; }
+      #container .pdReview .pdReviewTabs li a, #container .brandList .pdReviewTabs li a {
+        display: block;
+        width: 100%;
+        color: white;
+        border-radius: 5px 5px 0 0;
+        border-top: 1px solid #cccccc;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        padding: 7px 0 8px;
+        background: white url(../images/www/sogi-tab-bg-1.png) 0 0 scroll repeat-x; }
+    #container .pdReview .pdReviewTabs li.on, #container .brandList .pdReviewTabs li.on {
+      margin-top: 0;
+      z-index: 2; }
+      #container .pdReview .pdReviewTabs li.on a, #container .brandList .pdReviewTabs li.on a {
+        display: block;
+        width: 100%;
+        color: #3a3536;
+        font-weight: bold;
+        border-radius: 5px 5px 0 0;
+        border-top: 1px solid #cccccc;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        padding: 10px 0 11px;
+        background: white url(../images/www/sogi-tab-bg-2.png) 0 0 scroll repeat-x; }
+    #container .pdReview .brandTabs ul, #container .brandList .brandTabs ul {
+      height: 35px;
+      padding-left: 16px;
+      border-bottom: 1px solid #aaaaaa; }
+    #container .pdReview .brandTabs li, #container .brandList .brandTabs li {
+      float: left;
+      width: 23px;
+      position: relative;
+      text-align: center;
+      margin-right: 3px;
+      margin-top: 5px;
+      z-index: 1; }
+      #container .pdReview .brandTabs li a, #container .brandList .brandTabs li a {
+        display: block;
+        width: 100%;
+        color: white;
+        border-radius: 5px 5px 0 0;
+        border-top: 1px solid #cccccc;
+        border-left: 1px solid #cccccc;
+        border-right: 1px solid #cccccc;
+        padding: 7px 0 8px;
+        background: white url(../images/www/sogi-tab-bg-1.png) 0 0 scroll repeat-x; }
+    #container .pdReview .brandTabs li.on, #container .brandList .brandTabs li.on {
+      margin-top: 0;
+      z-index: 2; }
+      #container .pdReview .brandTabs li.on a, #container .brandList .brandTabs li.on a {
+        color: #3a3536;
+        font-weight: bold;
+        padding: 10px 0 11px;
+        background: white url(../images/www/sogi-tab-bg-2.png) 0 0 scroll repeat-x; }
+    #container .pdReview .pdIntro, #container .brandList .pdIntro {
+      width: auto;
+      height: auto;
+      padding: 10px;
+      line-height: 22px;
+      /*暫定樣式*/
+      /*暫定樣式 end*/
+      /* 手機館-討論列表 */
+      /* 手機王－規格列表	*/ }
+      #container .pdReview .pdIntro .content, #container .brandList .pdIntro .content {
+        margin: 5px 10px; }
+      #container .pdReview .pdIntro .pdTitle, #container .brandList .pdIntro .pdTitle {
+        font-size: 15px;
+        font-weight: bold;
+        color: #ed6500; }
+      #container .pdReview .pdIntro .subTitle, #container .brandList .pdIntro .subTitle {
+        font-weight: bold;
+        margin-top: 10px; }
+      #container .pdReview .pdIntro .faList, #container .brandList .pdIntro .faList {
+        width: auto;
+        margin-top: 10px;
+        margin-bottom: 10px; }
+        #container .pdReview .pdIntro .faList .faRow, #container .brandList .pdIntro .faList .faRow {
+          clear: both;
+          height: 50px;
+          background-color: #fff3c2;
+          overflow: auto;
+          border-bottom: 1px dashed #cccccc; }
+          #container .pdReview .pdIntro .faList .faRow .field-1, #container .pdReview .pdIntro .faList .faRow .field-2, #container .pdReview .pdIntro .faList .faRow .field-3, #container .pdReview .pdIntro .faList .faRow .field-4, #container .brandList .pdIntro .faList .faRow .field-1, #container .brandList .pdIntro .faList .faRow .field-2, #container .brandList .pdIntro .faList .faRow .field-3, #container .brandList .pdIntro .faList .faRow .field-4 {
+            float: left;
+            padding: 5px; }
+          #container .pdReview .pdIntro .faList .faRow .field-1, #container .brandList .pdIntro .faList .faRow .field-1 {
+            width: 360px; }
+            #container .pdReview .pdIntro .faList .faRow .field-1 .objBtns, #container .pdReview .pdIntro .faList .faRow .field-1 .title, #container .pdReview .pdIntro .faList .faRow .field-1 .pagi, #container .pdReview .pdIntro .faList .faRow .field-1 .specialIcon, #container .brandList .pdIntro .faList .faRow .field-1 .objBtns, #container .brandList .pdIntro .faList .faRow .field-1 .title, #container .brandList .pdIntro .faList .faRow .field-1 .pagi, #container .brandList .pdIntro .faList .faRow .field-1 .specialIcon {
+              float: left; }
+            #container .pdReview .pdIntro .faList .faRow .field-1 .objBtns, #container .brandList .pdIntro .faList .faRow .field-1 .objBtns {
+              width: 75px;
+              height: auto;
+              text-align: right;
+              overflow: hidden;
+              margin-right: 5px; }
+              #container .pdReview .pdIntro .faList .faRow .field-1 .objBtns .objBtn, #container .brandList .pdIntro .faList .faRow .field-1 .objBtns .objBtn {
+                margin-bottom: 2px; }
+                #container .pdReview .pdIntro .faList .faRow .field-1 .objBtns .objBtn a, #container .brandList .pdIntro .faList .faRow .field-1 .objBtns .objBtn a {
+                  border-radius: 3px;
+                  background-color: #806f66;
+                  padding: 2px 3px;
+                  line-height: 18px;
+                  font-size: 11px;
+                  color: white; }
+                #container .pdReview .pdIntro .faList .faRow .field-1 .objBtns .objBtn a:hover, #container .brandList .pdIntro .faList .faRow .field-1 .objBtns .objBtn a:hover {
+                  color: #ed6500; }
+            #container .pdReview .pdIntro .faList .faRow .field-1 .pagi, #container .brandList .pdIntro .faList .faRow .field-1 .pagi {
+              display: table-cell;
+              height: 40px;
+              vertical-align: middle; }
+              #container .pdReview .pdIntro .faList .faRow .field-1 .pagi span, #container .brandList .pdIntro .faList .faRow .field-1 .pagi span {
+                height: 100%;
+                display: inline-block; }
+              #container .pdReview .pdIntro .faList .faRow .field-1 .pagi *, #container .brandList .pdIntro .faList .faRow .field-1 .pagi * {
+                vertical-align: middle; }
+            #container .pdReview .pdIntro .faList .faRow .field-1 .title, #container .pdReview .pdIntro .faList .faRow .field-1 .specialIcon, #container .brandList .pdIntro .faList .faRow .field-1 .title, #container .brandList .pdIntro .faList .faRow .field-1 .specialIcon {
+              display: table;
+              width: 230px;
+              height: 40px;
+              *position: relative; }
+              #container .pdReview .pdIntro .faList .faRow .field-1 .title a, #container .pdReview .pdIntro .faList .faRow .field-1 .specialIcon a, #container .brandList .pdIntro .faList .faRow .field-1 .title a, #container .brandList .pdIntro .faList .faRow .field-1 .specialIcon a {
+                display: table-cell;
+                vertical-align: middle;
+                line-height: 18px;
+                *display: block;
+                *position: absolute;
+                *top: 50%;
+                *width: 100%; }
+              #container .pdReview .pdIntro .faList .faRow .field-1 .title span, #container .pdReview .pdIntro .faList .faRow .field-1 .specialIcon span, #container .brandList .pdIntro .faList .faRow .field-1 .title span, #container .brandList .pdIntro .faList .faRow .field-1 .specialIcon span {
+                *position: relative;
+                *top: -50%; }
+              #container .pdReview .pdIntro .faList .faRow .field-1 .title .mTag, #container .pdReview .pdIntro .faList .faRow .field-1 .specialIcon .mTag, #container .brandList .pdIntro .faList .faRow .field-1 .title .mTag, #container .brandList .pdIntro .faList .faRow .field-1 .specialIcon .mTag {
+                font-weight: bold;
+                color: #8a7e81; }
+            #container .pdReview .pdIntro .faList .faRow .field-1 .check, #container .brandList .pdIntro .faList .faRow .field-1 .check {
+              float: left;
+              width: 15px;
+              margin-top: 12px; }
+            #container .pdReview .pdIntro .faList .faRow .field-1 .specialIcon, #container .brandList .pdIntro .faList .faRow .field-1 .specialIcon {
+              width: 50px; }
+          #container .pdReview .pdIntro .faList .faRow .field-2 .reCount, #container .pdReview .pdIntro .faList .faRow .field-2 .postInfo, #container .pdReview .pdIntro .faList .faRow .field-3 .reCount, #container .pdReview .pdIntro .faList .faRow .field-3 .postInfo, #container .brandList .pdIntro .faList .faRow .field-2 .reCount, #container .brandList .pdIntro .faList .faRow .field-2 .postInfo, #container .brandList .pdIntro .faList .faRow .field-3 .reCount, #container .brandList .pdIntro .faList .faRow .field-3 .postInfo {
+            display: table;
+            height: 40px;
+            *position: relative; }
+            #container .pdReview .pdIntro .faList .faRow .field-2 .reCount a, #container .pdReview .pdIntro .faList .faRow .field-2 .postInfo a, #container .pdReview .pdIntro .faList .faRow .field-3 .reCount a, #container .pdReview .pdIntro .faList .faRow .field-3 .postInfo a, #container .brandList .pdIntro .faList .faRow .field-2 .reCount a, #container .brandList .pdIntro .faList .faRow .field-2 .postInfo a, #container .brandList .pdIntro .faList .faRow .field-3 .reCount a, #container .brandList .pdIntro .faList .faRow .field-3 .postInfo a {
+              display: table-cell;
+              vertical-align: middle;
+              text-align: center;
+              line-height: 18px;
+              font-size: 11px;
+              *display: block;
+              *position: absolute;
+              *top: 50%;
+              *width: 100%; }
+            #container .pdReview .pdIntro .faList .faRow .field-2 .reCount span, #container .pdReview .pdIntro .faList .faRow .field-2 .postInfo span, #container .pdReview .pdIntro .faList .faRow .field-3 .reCount span, #container .pdReview .pdIntro .faList .faRow .field-3 .postInfo span, #container .brandList .pdIntro .faList .faRow .field-2 .reCount span, #container .brandList .pdIntro .faList .faRow .field-2 .postInfo span, #container .brandList .pdIntro .faList .faRow .field-3 .reCount span, #container .brandList .pdIntro .faList .faRow .field-3 .postInfo span {
+              *position: relative;
+              *top: -50%; }
+          #container .pdReview .pdIntro .faList .faRow .field-2 .reCount, #container .pdReview .pdIntro .faList .faRow .field-3 .reCount, #container .brandList .pdIntro .faList .faRow .field-2 .reCount, #container .brandList .pdIntro .faList .faRow .field-3 .reCount {
+            width: 50px; }
+          #container .pdReview .pdIntro .faList .faRow .field-2 .postInfo, #container .pdReview .pdIntro .faList .faRow .field-3 .postInfo, #container .brandList .pdIntro .faList .faRow .field-2 .postInfo, #container .brandList .pdIntro .faList .faRow .field-3 .postInfo {
+            width: 114px; }
+        #container .pdReview .pdIntro .faList .top, #container .brandList .pdIntro .faList .top {
+          background-color: #fee57f; }
+        #container .pdReview .pdIntro .faList .fa2pdTitle, #container .brandList .pdIntro .faList .fa2pdTitle {
+          clear: both;
+          overflow: auto;
+          border-bottom: 1px dashed #cccccc; }
+      #container .pdReview .pdIntro .specLists, #container .brandList .pdIntro .specLists {
+        width: auto; }
+        #container .pdReview .pdIntro .specLists .specGroup, #container .brandList .pdIntro .specLists .specGroup {
+          background-color: white; }
+          #container .pdReview .pdIntro .specLists .specGroup .title, #container .brandList .pdIntro .specLists .specGroup .title {
+            font-size: 15px;
+            font-weight: bold;
+            background-color: #fdd84b;
+            padding: 5px; }
+          #container .pdReview .pdIntro .specLists .specGroup .specRow li, #container .brandList .pdIntro .specLists .specGroup .specRow li {
+            border-bottom: 1px dashed #aaaaaa;
+            overflow: auto; }
+          #container .pdReview .pdIntro .specLists .specGroup .specRow .name, #container .pdReview .pdIntro .specLists .specGroup .specRow .values, #container .pdReview .pdIntro .specLists .specGroup .specRow .specFeedback, #container .brandList .pdIntro .specLists .specGroup .specRow .name, #container .brandList .pdIntro .specLists .specGroup .specRow .values, #container .brandList .pdIntro .specLists .specGroup .specRow .specFeedback {
+            float: left;
+            padding: 4px 10px; }
+          #container .pdReview .pdIntro .specLists .specGroup .specRow .name, #container .brandList .pdIntro .specLists .specGroup .specRow .name {
+            width: 120px;
+            font-size: 13px;
+            font-weight: bold;
+            color: #554d4f; }
+          #container .pdReview .pdIntro .specLists .specGroup .specRow .values, #container .brandList .pdIntro .specLists .specGroup .specRow .values {
+            width: 500px; }
+          #container .pdReview .pdIntro .specLists .specGroup .specRow .specFeedback, #container .brandList .pdIntro .specLists .specGroup .specRow .specFeedback {
+            width: 16px;
+            height: 16px;
+            background: url(../images/www/sogi-img.png) -830px -150px no-repeat transparent;
+            margin-top: 10px; }
+          #container .pdReview .pdIntro .specLists .specGroup .greyBg, #container .brandList .pdIntro .specLists .specGroup .greyBg {
+            background-color: #e6e4e4; }
+    #container .pdReview .moreIntro, #container .brandList .moreIntro {
+      width: 80px;
+      float: right;
+      margin-right: 30px;
+      border-radius: 5px 5px 0 0;
+      background-color: #e3e3e3; }
+      #container .pdReview .moreIntro a, #container .brandList .moreIntro a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #666666;
+        padding: 4px 0 4px; }
+      #container .pdReview .moreIntro a:hover, #container .brandList .moreIntro a:hover {
+        color: #ed6500; }
+    #container .pdReview .listTitle, #container .brandList .listTitle {
+      font-size: 20px;
+      font-weight: bold;
+      margin: 5px 20px 15px; }
+    #container .pdReview .brand, #container .brandList .brand {
+      margin: 15px; }
+      #container .pdReview .brand ul, #container .brandList .brand ul {
+        clear: both;
+        width: auto;
+        height: 100px; }
+        #container .pdReview .brand ul li, #container .brandList .brand ul li {
+          float: left;
+          width: 25%;
+          height: 100px;
+          vertical-align: middle; }
+          #container .pdReview .brand ul li a, #container .brandList .brand ul li a {
+            display: block;
+            margin: 0 auto;
+            text-align: center; }
+            #container .pdReview .brand ul li a img.brandImg, #container .brandList .brand ul li a img.brandImg {
+              line-height: 100px;
+              vertical-align: middle; }
+  #container .fb-msg, #container .AD720 {
+    width: 720px; }
+  #container .forumMain, #container .articleSelected {
+    position: relative;
+    overflow: auto;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 6px #aaaaaa;
+    background: #f9f9f9 url(../images/www/sogi-bg-9.png) 0 0 scroll repeat-x; }
+    #container .forumMain .objInfo, #container .articleSelected .objInfo {
+      position: relative;
+      margin: 10px 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px dotted #aaaaaa;
+      overflow: auto; }
+      #container .forumMain .objInfo .objBtn, #container .articleSelected .objInfo .objBtn {
+        position: absolute;
+        top: 5px;
+        right: 0px; }
+        #container .forumMain .objInfo .objBtn li, #container .articleSelected .objInfo .objBtn li {
+          float: left;
+          border-radius: 5px;
+          border: 1px solid #aaaaaa;
+          box-shadow: inset 0 0 6px white;
+          background: #cecece url(../images/www/sogi-btn-bg-1.png) 0 0 scroll repeat-x;
+          margin-right: 2px; }
+          #container .forumMain .objInfo .objBtn li a, #container .articleSelected .objInfo .objBtn li a {
+            line-height: 30px;
+            padding: 0 5px; }
+      #container .forumMain .objInfo .pdImg, #container .articleSelected .objInfo .pdImg {
+        float: left;
+        border: 1px solid #aaaaaa;
+        margin-right: 10px; }
+        #container .forumMain .objInfo .pdImg img, #container .articleSelected .objInfo .pdImg img {
+          display: block;
+          width: 150px; }
+      #container .forumMain .objInfo .pdName, #container .articleSelected .objInfo .pdName {
+        float: left;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 5px 0; }
+      #container .forumMain .objInfo .forumManager, #container .forumMain .objInfo .desc, #container .articleSelected .objInfo .forumManager, #container .articleSelected .objInfo .desc {
+        float: left;
+        width: 500px;
+        line-height: 20px;
+        margin-bottom: 5px; }
+      #container .forumMain .objInfo .forumBtn, #container .articleSelected .objInfo .forumBtn {
+        float: right;
+        width: 500px;
+        overflow: hidden;
+        margin-top: 10px; }
+        #container .forumMain .objInfo .forumBtn .createVote, #container .forumMain .objInfo .forumBtn .newPost, #container .articleSelected .objInfo .forumBtn .createVote, #container .articleSelected .objInfo .forumBtn .newPost {
+          float: right; }
+        #container .forumMain .objInfo .forumBtn .createVote, #container .articleSelected .objInfo .forumBtn .createVote {
+          margin-right: 3px; }
+          #container .forumMain .objInfo .forumBtn .createVote a, #container .articleSelected .objInfo .forumBtn .createVote a {
+            display: block;
+            width: 101px;
+            height: 35px;
+            background: url(../images/www/sogi-img.png) -640px -37px no-repeat transparent;
+            text-indent: -9999px; }
+        #container .forumMain .objInfo .forumBtn .newPost, #container .articleSelected .objInfo .forumBtn .newPost {
+          margin-right: 3px; }
+          #container .forumMain .objInfo .forumBtn .newPost a, #container .articleSelected .objInfo .forumBtn .newPost a {
+            display: block;
+            width: 101px;
+            height: 35px;
+            background: url(../images/www/sogi-img.png) -640px 0px no-repeat transparent;
+            text-indent: -9999px; }
+    #container .forumMain .objList, #container .articleSelected .objList {
+      position: relative;
+      margin: 10px 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px dotted #aaaaaa;
+      overflow: auto; }
+      #container .forumMain .objList .objBtn-b, #container .articleSelected .objList .objBtn-b {
+        float: left;
+        border-radius: 5px;
+        background-color: #806f66;
+        margin-right: 2px;
+        margin-bottom: 2px; }
+        #container .forumMain .objList .objBtn-b a, #container .articleSelected .objList .objBtn-b a {
+          display: block;
+          padding: 0 5px;
+          line-height: 20px;
+          color: white; }
+        #container .forumMain .objList .objBtn-b a:hover, #container .articleSelected .objList .objBtn-b a:hover {
+          color: #ed6500; }
+    #container .forumMain .adArticle, #container .articleSelected .adArticle {
+      position: relative;
+      margin: 10px 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px dotted #aaaaaa;
+      overflow: auto; }
+      #container .forumMain .adArticle ul li, #container .articleSelected .adArticle ul li {
+        display: block;
+        float: left;
+        height: 100px;
+        padding: 10px 5px;
+        width: 325px; }
+        #container .forumMain .adArticle ul li img.newsImg, #container .articleSelected .adArticle ul li img.newsImg {
+          border: 1px solid #AAAAAA;
+          border-radius: 10px 10px 10px 10px;
+          float: left;
+          margin-right: 10px;
+          width: 100px; }
+        #container .forumMain .adArticle ul li .title, #container .articleSelected .adArticle ul li .title {
+          float: left;
+          font-size: 15px;
+          font-weight: bold;
+          margin: 5px 0;
+          width: 210px; }
+        #container .forumMain .adArticle ul li .desc, #container .articleSelected .adArticle ul li .desc {
+          float: left;
+          line-height: 20px;
+          width: 210px; }
+      #container .forumMain .adArticle ul li.sList, #container .articleSelected .adArticle ul li.sList {
+        width: 120px;
+        height: auto;
+        margin-right: 3px;
+        text-align: center; }
+        #container .forumMain .adArticle ul li.sList .title, #container .articleSelected .adArticle ul li.sList .title {
+          width: 100px;
+          font-size: 12px; }
+    #container .forumMain .adArticleStyle2, #container .articleSelected .adArticleStyle2 {
+      position: relative;
+      margin: 10px 20px;
+      border-bottom: none; }
+    #container .forumMain .adArticleFixed, #container .articleSelected .adArticleFixed {
+      margin: 10px 0 10px 10px;
+      border: 0; }
+      #container .forumMain .adArticleFixed ul, #container .articleSelected .adArticleFixed ul {
+        float: left; }
+      #container .forumMain .adArticleFixed li, #container .articleSelected .adArticleFixed li {
+        clear: both; }
+    #container .forumMain .articleSearch, #container .articleSelected .articleSearch {
+      width: 650px;
+      line-height: 20px;
+      padding: 5px;
+      margin: 0 25px 10px;
+      border-radius: 5px;
+      border: 1px solid #aaaaaa;
+      box-shadow: inset 0 0 6px white;
+      background: #cecece url(../images/www/sogi-btn-bg-1.png) 0 0 scroll repeat-x; }
+    #container .forumMain .faList, #container .articleSelected .faList {
+      width: auto;
+      margin-top: 10px;
+      margin-bottom: 10px; }
+      #container .forumMain .faList .fTabs, #container .articleSelected .faList .fTabs {
+        margin: 0 10px; }
+        #container .forumMain .faList .fTabs li, #container .articleSelected .faList .fTabs li {
+          float: left;
+          background-color: #ff9d54;
+          border-radius: 3px 3px 0 0;
+          margin-right: 1px; }
+          #container .forumMain .faList .fTabs li a, #container .articleSelected .faList .fTabs li a {
+            display: block;
+            padding: 0 6px;
+            line-height: 22px; }
+        #container .forumMain .faList .fTabs li.on, #container .articleSelected .faList .fTabs li.on {
+          background-color: #ed6500;
+          padding: 0 6px;
+          line-height: 22px; }
+      #container .forumMain .faList .faHead, #container .articleSelected .faList .faHead {
+        clear: both;
+        background-color: #ed6500;
+        color: white;
+        overflow: auto;
+        border-bottom: 1px dashed #cccccc; }
+        #container .forumMain .faList .faHead .faTitle, #container .forumMain .faList .faHead .faCount, #container .forumMain .faList .faHead .faAuthor, #container .forumMain .faList .faHead .faNewRe, #container .articleSelected .faList .faHead .faTitle, #container .articleSelected .faList .faHead .faCount, #container .articleSelected .faList .faHead .faAuthor, #container .articleSelected .faList .faHead .faNewRe {
+          float: left;
+          padding: 5px 10px; }
+        #container .forumMain .faList .faHead .faTitle, #container .articleSelected .faList .faHead .faTitle {
+          width: 380px; }
+        #container .forumMain .faList .faHead .faCount, #container .articleSelected .faList .faHead .faCount {
+          width: 50px;
+          text-align: center; }
+        #container .forumMain .faList .faHead .faAuthor, #container .forumMain .faList .faHead .faNewRe, #container .articleSelected .faList .faHead .faAuthor, #container .articleSelected .faList .faHead .faNewRe {
+          width: 104px;
+          text-align: center; }
+      #container .forumMain .faList .faRow, #container .articleSelected .faList .faRow {
+        clear: both;
+        height: 50px;
+        background-color: #fff3c2;
+        overflow: auto;
+        border-bottom: 1px dashed #cccccc; }
+        #container .forumMain .faList .faRow .field-1, #container .forumMain .faList .faRow .field-2, #container .forumMain .faList .faRow .field-3, #container .forumMain .faList .faRow .field-4, #container .articleSelected .faList .faRow .field-1, #container .articleSelected .faList .faRow .field-2, #container .articleSelected .faList .faRow .field-3, #container .articleSelected .faList .faRow .field-4 {
+          float: left;
+          padding: 5px; }
+        #container .forumMain .faList .faRow .field-1, #container .articleSelected .faList .faRow .field-1 {
+          width: 390px; }
+          #container .forumMain .faList .faRow .field-1 .objBtns, #container .forumMain .faList .faRow .field-1 .title, #container .forumMain .faList .faRow .field-1 .pagi, #container .forumMain .faList .faRow .field-1 .specialIcon, #container .articleSelected .faList .faRow .field-1 .objBtns, #container .articleSelected .faList .faRow .field-1 .title, #container .articleSelected .faList .faRow .field-1 .pagi, #container .articleSelected .faList .faRow .field-1 .specialIcon {
+            float: left; }
+          #container .forumMain .faList .faRow .field-1 .objBtns, #container .articleSelected .faList .faRow .field-1 .objBtns {
+            width: 75px;
+            height: auto;
+            text-align: right;
+            overflow: hidden;
+            margin-right: 5px; }
+            #container .forumMain .faList .faRow .field-1 .objBtns .objBtn, #container .articleSelected .faList .faRow .field-1 .objBtns .objBtn {
+              margin-bottom: 2px; }
+              #container .forumMain .faList .faRow .field-1 .objBtns .objBtn a, #container .articleSelected .faList .faRow .field-1 .objBtns .objBtn a {
+                border-radius: 3px;
+                background-color: #806f66;
+                padding: 2px 3px;
+                line-height: 18px;
+                font-size: 11px;
+                color: white; }
+              #container .forumMain .faList .faRow .field-1 .objBtns .objBtn a:hover, #container .articleSelected .faList .faRow .field-1 .objBtns .objBtn a:hover {
+                color: #ed6500; }
+          #container .forumMain .faList .faRow .field-1 .pagi, #container .articleSelected .faList .faRow .field-1 .pagi {
+            display: table-cell;
+            height: 40px;
+            vertical-align: middle; }
+            #container .forumMain .faList .faRow .field-1 .pagi span, #container .articleSelected .faList .faRow .field-1 .pagi span {
+              height: 100%;
+              display: inline-block; }
+            #container .forumMain .faList .faRow .field-1 .pagi *, #container .articleSelected .faList .faRow .field-1 .pagi * {
+              vertical-align: middle; }
+          #container .forumMain .faList .faRow .field-1 .title, #container .forumMain .faList .faRow .field-1 .specialIcon, #container .articleSelected .faList .faRow .field-1 .title, #container .articleSelected .faList .faRow .field-1 .specialIcon {
+            display: table;
+            width: 235px;
+            height: 40px;
+            *position: relative; }
+            #container .forumMain .faList .faRow .field-1 .title a, #container .forumMain .faList .faRow .field-1 .specialIcon a, #container .articleSelected .faList .faRow .field-1 .title a, #container .articleSelected .faList .faRow .field-1 .specialIcon a {
+              display: table-cell;
+              vertical-align: middle;
+              line-height: 18px;
+              *display: block;
+              *position: absolute;
+              *top: 50%;
+              *width: 100%; }
+            #container .forumMain .faList .faRow .field-1 .title span, #container .forumMain .faList .faRow .field-1 .specialIcon span, #container .articleSelected .faList .faRow .field-1 .title span, #container .articleSelected .faList .faRow .field-1 .specialIcon span {
+              *position: relative;
+              *top: -50%; }
+            #container .forumMain .faList .faRow .field-1 .title .mTag, #container .forumMain .faList .faRow .field-1 .specialIcon .mTag, #container .articleSelected .faList .faRow .field-1 .title .mTag, #container .articleSelected .faList .faRow .field-1 .specialIcon .mTag {
+              font-weight: bold;
+              color: #8a7e81; }
+          #container .forumMain .faList .faRow .field-1 .check, #container .articleSelected .faList .faRow .field-1 .check {
+            float: left;
+            width: 15px;
+            margin-top: 12px; }
+          #container .forumMain .faList .faRow .field-1 .specialIcon, #container .articleSelected .faList .faRow .field-1 .specialIcon {
+            width: 50px; }
+        #container .forumMain .faList .faRow .field-2 .reCount, #container .forumMain .faList .faRow .field-2 .postInfo, #container .forumMain .faList .faRow .field-3 .reCount, #container .forumMain .faList .faRow .field-3 .postInfo, #container .articleSelected .faList .faRow .field-2 .reCount, #container .articleSelected .faList .faRow .field-2 .postInfo, #container .articleSelected .faList .faRow .field-3 .reCount, #container .articleSelected .faList .faRow .field-3 .postInfo {
+          display: table;
+          height: 40px;
+          *position: relative; }
+          #container .forumMain .faList .faRow .field-2 .reCount a, #container .forumMain .faList .faRow .field-2 .postInfo a, #container .forumMain .faList .faRow .field-3 .reCount a, #container .forumMain .faList .faRow .field-3 .postInfo a, #container .articleSelected .faList .faRow .field-2 .reCount a, #container .articleSelected .faList .faRow .field-2 .postInfo a, #container .articleSelected .faList .faRow .field-3 .reCount a, #container .articleSelected .faList .faRow .field-3 .postInfo a {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            line-height: 18px;
+            font-size: 11px;
+            *display: block;
+            *position: absolute;
+            *top: 50%;
+            *width: 100%; }
+          #container .forumMain .faList .faRow .field-2 .reCount span, #container .forumMain .faList .faRow .field-2 .postInfo span, #container .forumMain .faList .faRow .field-3 .reCount span, #container .forumMain .faList .faRow .field-3 .postInfo span, #container .articleSelected .faList .faRow .field-2 .reCount span, #container .articleSelected .faList .faRow .field-2 .postInfo span, #container .articleSelected .faList .faRow .field-3 .reCount span, #container .articleSelected .faList .faRow .field-3 .postInfo span {
+            *position: relative;
+            *top: -50%; }
+        #container .forumMain .faList .faRow .field-2 .reCount, #container .forumMain .faList .faRow .field-3 .reCount, #container .articleSelected .faList .faRow .field-2 .reCount, #container .articleSelected .faList .faRow .field-3 .reCount {
+          width: 60px; }
+        #container .forumMain .faList .faRow .field-2 .postInfo, #container .forumMain .faList .faRow .field-3 .postInfo, #container .articleSelected .faList .faRow .field-2 .postInfo, #container .articleSelected .faList .faRow .field-3 .postInfo {
+          width: 114px; }
+      #container .forumMain .faList .top, #container .articleSelected .faList .top {
+        background-color: #fee57f; }
+    #container .forumMain .article .objBtns, #container .articleSelected .article .objBtns {
+      width: auto;
+      height: auto;
+      text-align: right;
+      overflow: hidden;
+      margin-right: 5px;
+      margin-left: 25px; }
+      #container .forumMain .article .objBtns .objBtn, #container .articleSelected .article .objBtns .objBtn {
+        float: left;
+        margin-right: 2px;
+        margin-bottom: 2px; }
+        #container .forumMain .article .objBtns .objBtn a, #container .articleSelected .article .objBtns .objBtn a {
+          border-radius: 3px;
+          background-color: #806f66;
+          padding: 2px 3px;
+          line-height: 18px;
+          font-size: 11px;
+          color: white; }
+        #container .forumMain .article .objBtns .objBtn a:hover, #container .articleSelected .article .objBtns .objBtn a:hover {
+          color: #ed6500; }
+      #container .forumMain .article .objBtns .wording, #container .articleSelected .article .objBtns .wording {
+        float: left; }
+    #container .forumMain .article h1.arTitle, #container .articleSelected .article h1.arTitle {
+      font-size: 16px;
+      font-weight: bold;
+      margin-left: 25px;
+      margin-bottom: 10px;
+      margin-top: 10px; }
+      #container .forumMain .article h1.arTitle img, #container .articleSelected .article h1.arTitle img {
+        vertical-align: middle; }
+    #container .forumMain .article .authorInfo, #container .articleSelected .article .authorInfo {
+      position: relative;
+      width: auto;
+      height: auto;
+      overflow: auto;
+      background-color: #e6e6e6; }
+      #container .forumMain .article .authorInfo .userImg, #container .articleSelected .article .authorInfo .userImg {
+        float: left;
+        margin: 10px 10px 10px 25px; }
+        #container .forumMain .article .authorInfo .userImg img, #container .articleSelected .article .authorInfo .userImg img {
+          border: 1px solid #aaaaaa;
+          padding: 5px;
+          background-color: white;
+          width: 130px; }
+      #container .forumMain .article .authorInfo .info, #container .articleSelected .article .authorInfo .info {
+        float: left;
+        height: auto;
+        overflow: auto;
+        color: #666666; }
+      #container .forumMain .article .authorInfo .uName, #container .articleSelected .article .authorInfo .uName {
+        font-weight: bold;
+        font-size: 15px;
+        margin: 10px 0;
+        width: auto; }
+        #container .forumMain .article .authorInfo .uName a, #container .articleSelected .article .authorInfo .uName a {
+          color: #3a3536; }
+        #container .forumMain .article .authorInfo .uName a:hover, #container .articleSelected .article .authorInfo .uName a:hover {
+          color: #ed6500; }
+        #container .forumMain .article .authorInfo .uName .uTitle, #container .articleSelected .article .authorInfo .uName .uTitle {
+          display: inline-block;
+          *display: inline;
+          border-radius: 3px;
+          background-color: #ed6500;
+          color: white;
+          padding: 3px 5px;
+          font-weight: normal;
+          font-size: 12px; }
+      #container .forumMain .article .authorInfo .ownBoard, #container .forumMain .article .authorInfo .others, #container .articleSelected .article .authorInfo .ownBoard, #container .articleSelected .article .authorInfo .others {
+        margin: 5px 0; }
+        #container .forumMain .article .authorInfo .ownBoard span, #container .forumMain .article .authorInfo .others span, #container .articleSelected .article .authorInfo .ownBoard span, #container .articleSelected .article .authorInfo .others span {
+          margin-right: 10px; }
+      #container .forumMain .article .authorInfo .articleBtns, #container .articleSelected .article .authorInfo .articleBtns {
+        margin: 8px 0; }
+        #container .forumMain .article .authorInfo .articleBtns a, #container .articleSelected .article .authorInfo .articleBtns a {
+          float: left;
+          display: block;
+          border-radius: 3px;
+          border: 1px solid #aaaaaa;
+          padding: 5px 8px;
+          margin-left: 1px;
+          background: url(../images/www/sogi-btn-bg-1.png) 0 0 scroll repeat-x; }
+        #container .forumMain .article .authorInfo .articleBtns a.red, #container .articleSelected .article .authorInfo .articleBtns a.red {
+          color: white;
+          background: url(../images/www/sogi-mabtn-bg-1.png) 0 0 scroll repeat-x; }
+        #container .forumMain .article .authorInfo .articleBtns a.yellow, #container .articleSelected .article .authorInfo .articleBtns a.yellow {
+          background: url(../images/www/sogi-mabtn-bg-2.png) 0 0 scroll repeat-x; }
+      #container .forumMain .article .authorInfo .artiCount, #container .articleSelected .article .authorInfo .artiCount {
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #bfbfbf; }
+    #container .forumMain .article .articleContent .content, #container .articleSelected .article .articleContent .content {
+      margin: 10px 25px;
+      line-height: 22px; }
+      #container .forumMain .article .articleContent .content p, #container .articleSelected .article .articleContent .content p {
+        margin-bottom: 15px; }
+      #container .forumMain .article .articleContent .content img, #container .articleSelected .article .articleContent .content img {
+        max-width: 500px; }
+    #container .forumMain .article .articleContent .remark, #container .articleSelected .article .articleContent .remark {
+      color: #b3b3b3;
+      width: auto;
+      text-align: right;
+      margin-top: 30px; }
+      #container .forumMain .article .articleContent .remark .del img, #container .forumMain .article .articleContent .remark .reEdit img, #container .forumMain .article .articleContent .remark .lock img, #container .articleSelected .article .articleContent .remark .del img, #container .articleSelected .article .articleContent .remark .reEdit img, #container .articleSelected .article .articleContent .remark .lock img {
+        vertical-align: middle; }
+      #container .forumMain .article .articleContent .remark .del, #container .articleSelected .article .articleContent .remark .del {
+        color: #e06464; }
+    #container .forumMain .article .articleContent .signature, #container .articleSelected .article .articleContent .signature {
+      border-top: 1px dashed #b3b3b3;
+      margin: 30px 25px 15px 25px;
+      padding-top: 10px;
+      color: #999999; }
+    #container .forumMain .faGroups, #container .articleSelected .faGroups {
+      margin: 10px 10px 10px 18px;
+      width: auto; }
+      #container .forumMain .faGroups .faGroup, #container .articleSelected .faGroups .faGroup {
+        float: left;
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+        border: 1px solid #aaaaaa;
+        margin-right: 7px;
+        margin-bottom: 10px; }
+        #container .forumMain .faGroups .faGroup .title, #container .articleSelected .faGroups .faGroup .title {
+          font-size: 15px;
+          font-weight: bold;
+          border-bottom: 1px dotted #aaaaaa;
+          padding-bottom: 5px;
+          margin-bottom: 5px; }
+        #container .forumMain .faGroups .faGroup li.faboard, #container .articleSelected .faGroups .faGroup li.faboard {
+          margin-bottom: 5px; }
+    #container .forumMain .ranking, #container .articleSelected .ranking {
+      float: left;
+      width: 227px;
+      margin-right: 8px;
+      height: 260px;
+      border-right: 1px dotted #aaaaaa; }
+      #container .forumMain .ranking .rkList, #container .articleSelected .ranking .rkList {
+        padding-top: 10px;
+        padding-left: 10px; }
+        #container .forumMain .ranking .rkList li, #container .articleSelected .ranking .rkList li {
+          overflow: auto;
+          clear: both;
+          margin-bottom: 2px; }
+          #container .forumMain .ranking .rkList li .rkNum, #container .articleSelected .ranking .rkList li .rkNum {
+            float: left;
+            width: 25px;
+            padding: 2px 0;
+            margin-right: 5px;
+            text-align: center; }
+          #container .forumMain .ranking .rkList li .rkTop3, #container .articleSelected .ranking .rkList li .rkTop3 {
+            color: white;
+            background-color: #ed6500; }
+          #container .forumMain .ranking .rkList li .name, #container .articleSelected .ranking .rkList li .name {
+            float: left;
+            padding: 2px 0; }
+    #container .forumMain .rankingEnd, #container .articleSelected .rankingEnd {
+      border-right: 0; }
+  #container .articleSelected {
+    overflow: auto;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 6px #aaaaaa;
+    background: #ffebac url(../images/www/sogi-bg-5.png) 0 0 scroll repeat-x; }
+    #container .articleSelected li.artiList {
+      width: auto;
+      margin: 10px; }
+      #container .articleSelected li.artiList .bTitle {
+        overflow: auto;
+        margin: 5px 0;
+        border-bottom: 1px dashed #aaaaaa;
+        font-size: 15px;
+        font-weight: bold; }
+        #container .articleSelected li.artiList .bTitle .name {
+          float: left;
+          padding: 10px; }
+  #container .forumMaBtn {
+    position: absolute;
+    top: 300px;
+    left: -41px; }
+    #container .forumMaBtn .maBtn {
+      display: table;
+      background: #cecece url(../images/www/sogi-mabtn-bg-3.png) 0 0 scroll repeat-x;
+      border-top: 1px solid #aaaaaa;
+      border-bottom: 1px solid #aaaaaa;
+      border-left: 1px solid #aaaaaa;
+      border-radius: 5px 0 0 5px;
+      height: 40px;
+      width: 40px;
+      text-align: center;
+      vertical-align: middle;
+      margin-bottom: 1px; }
+      #container .forumMaBtn .maBtn a {
+        display: block;
+        margin-top: 5px; }
+    #container .forumMaBtn .red {
+      background: #d38d8d url(../images/www/sogi-mabtn-bg-1.png) 0 0 scroll repeat-x; }
+      #container .forumMaBtn .red a {
+        color: white; }
+      #container .forumMaBtn .red a:hover {
+        color: #ed6500; }
+    #container .forumMaBtn .yellow {
+      background: #efde9c url(../images/www/sogi-mabtn-bg-2.png) 0 0 scroll repeat-x; }
+  #container .pdTrend, #container .mapApi {
+    position: relative;
+    overflow: auto;
+    padding: 5px;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 6px #aaaaaa;
+    background-color: #eee1b8; }
+    #container .pdTrend .searchBar, #container .mapApi .searchBar {
+      width: auto;
+      float: right;
+      padding-right: 20px;
+      padding-top: 5px; }
+    #container .pdTrend .shopChart, #container .mapApi .shopChart {
+      clear: both;
+      float: left;
+      width: auto;
+      margin: 10px; }
+    #container .pdTrend .chartItems, #container .mapApi .chartItems {
+      float: left;
+      width: auto;
+      padding: 10px; }
+      #container .pdTrend .chartItems ul.items li.item, #container .mapApi .chartItems ul.items li.item {
+        clear: both;
+        width: 300px; }
+        #container .pdTrend .chartItems ul.items li.item span, #container .mapApi .chartItems ul.items li.item span {
+          display: block;
+          float: left;
+          margin-right: 2px;
+          line-height: 30px; }
+        #container .pdTrend .chartItems ul.items li.item .reviewBtn, #container .mapApi .chartItems ul.items li.item .reviewBtn {
+          float: left;
+          width: 150px;
+          background-color: #806f66;
+          color: white;
+          border-radius: 3px;
+          margin-left: 5px;
+          margin-top: 5px;
+          padding: 3px 0;
+          text-align: center; }
+          #container .pdTrend .chartItems ul.items li.item .reviewBtn a, #container .mapApi .chartItems ul.items li.item .reviewBtn a {
+            color: white; }
+          #container .pdTrend .chartItems ul.items li.item .reviewBtn a:hover, #container .mapApi .chartItems ul.items li.item .reviewBtn a:hover {
+            color: #ed6500; }
+  #container .glMap {
+    margin: 10px;
+    width: auto; }
+    #container .glMap img {
+      margin-top: 10px; }
+  #container .hotStoreFa {
+    position: relative;
+    overflow: auto;
+    padding: 5px;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 6px #aaaaaa;
+    background-color: #eee1b8; }
+    #container .hotStoreFa .faList {
+      clear: both;
+      width: auto;
+      margin-top: 10px;
+      padding-top: 10px;
+      margin-bottom: 10px; }
+      #container .hotStoreFa .faList .faHead {
+        background-color: #ED6500;
+        border-bottom: 1px dashed #CCCCCC;
+        clear: both;
+        color: white;
+        overflow: auto;
+        padding: 5px 10px; }
+        #container .hotStoreFa .faList .faHead .faTitle {
+          width: 365px;
+          float: left; }
+        #container .hotStoreFa .faList .faHead .faCount {
+          text-align: center;
+          width: 45px;
+          float: left; }
+        #container .hotStoreFa .faList .faHead .faAuthor {
+          text-align: center;
+          width: 140px;
+          float: left; }
+        #container .hotStoreFa .faList .faHead .faNewRe {
+          text-align: center;
+          width: 104px;
+          float: left; }
+      #container .hotStoreFa .faList .faRow {
+        clear: both;
+        height: 50px;
+        background-color: #fff3c2;
+        overflow: auto;
+        border-bottom: 1px dashed #cccccc; }
+        #container .hotStoreFa .faList .faRow .field-1, #container .hotStoreFa .faList .faRow .field-2, #container .hotStoreFa .faList .faRow .field-3, #container .hotStoreFa .faList .faRow .field-4 {
+          float: left;
+          padding: 5px; }
+        #container .hotStoreFa .faList .faRow .field-1 {
+          width: 360px; }
+          #container .hotStoreFa .faList .faRow .field-1 .objBtns, #container .hotStoreFa .faList .faRow .field-1 .title, #container .hotStoreFa .faList .faRow .field-1 .pagi, #container .hotStoreFa .faList .faRow .field-1 .specialIcon {
+            float: left; }
+          #container .hotStoreFa .faList .faRow .field-1 .objBtns {
+            width: 75px;
+            height: auto;
+            text-align: right;
+            overflow: hidden;
+            margin-right: 5px; }
+            #container .hotStoreFa .faList .faRow .field-1 .objBtns .objBtn {
+              margin-bottom: 2px; }
+              #container .hotStoreFa .faList .faRow .field-1 .objBtns .objBtn a {
+                border-radius: 3px;
+                background-color: #806f66;
+                padding: 2px 3px;
+                line-height: 18px;
+                font-size: 11px;
+                color: white; }
+              #container .hotStoreFa .faList .faRow .field-1 .objBtns .objBtn a:hover {
+                color: #ed6500; }
+          #container .hotStoreFa .faList .faRow .field-1 .pagi {
+            display: table-cell;
+            height: 40px;
+            vertical-align: middle; }
+            #container .hotStoreFa .faList .faRow .field-1 .pagi span {
+              height: 100%;
+              display: inline-block; }
+            #container .hotStoreFa .faList .faRow .field-1 .pagi * {
+              vertical-align: middle; }
+          #container .hotStoreFa .faList .faRow .field-1 .title, #container .hotStoreFa .faList .faRow .field-1 .specialIcon {
+            display: table;
+            width: 230px;
+            height: 40px;
+            *position: relative; }
+            #container .hotStoreFa .faList .faRow .field-1 .title a, #container .hotStoreFa .faList .faRow .field-1 .specialIcon a {
+              display: table-cell;
+              vertical-align: middle;
+              line-height: 18px;
+              *display: block;
+              *position: absolute;
+              *top: 50%;
+              *width: 100%; }
+            #container .hotStoreFa .faList .faRow .field-1 .title span, #container .hotStoreFa .faList .faRow .field-1 .specialIcon span {
+              *position: relative;
+              *top: -50%; }
+            #container .hotStoreFa .faList .faRow .field-1 .title .mTag, #container .hotStoreFa .faList .faRow .field-1 .specialIcon .mTag {
+              font-weight: bold;
+              color: #8a7e81; }
+          #container .hotStoreFa .faList .faRow .field-1 .check {
+            float: left;
+            width: 15px;
+            margin-top: 12px; }
+          #container .hotStoreFa .faList .faRow .field-1 .specialIcon {
+            width: 50px; }
+        #container .hotStoreFa .faList .faRow .field-2 .reCount, #container .hotStoreFa .faList .faRow .field-2 .postInfo, #container .hotStoreFa .faList .faRow .field-3 .reCount, #container .hotStoreFa .faList .faRow .field-3 .postInfo {
+          display: table;
+          height: 40px;
+          *position: relative; }
+          #container .hotStoreFa .faList .faRow .field-2 .reCount a, #container .hotStoreFa .faList .faRow .field-2 .postInfo a, #container .hotStoreFa .faList .faRow .field-3 .reCount a, #container .hotStoreFa .faList .faRow .field-3 .postInfo a {
+            display: table-cell;
+            vertical-align: middle;
+            text-align: center;
+            line-height: 18px;
+            font-size: 11px;
+            *display: block;
+            *position: absolute;
+            *top: 50%;
+            *width: 100%; }
+          #container .hotStoreFa .faList .faRow .field-2 .reCount span, #container .hotStoreFa .faList .faRow .field-2 .postInfo span, #container .hotStoreFa .faList .faRow .field-3 .reCount span, #container .hotStoreFa .faList .faRow .field-3 .postInfo span {
+            *position: relative;
+            *top: -50%; }
+        #container .hotStoreFa .faList .faRow .field-2 .reCount, #container .hotStoreFa .faList .faRow .field-3 .reCount {
+          width: 50px; }
+        #container .hotStoreFa .faList .faRow .field-2 .postInfo, #container .hotStoreFa .faList .faRow .field-3 .postInfo {
+          width: 114px; }
+      #container .hotStoreFa .faList .top {
+        background-color: #fee57f; }
+      #container .hotStoreFa .faList .fa2pdTitle {
+        clear: both;
+        overflow: auto;
+        border-bottom: 1px dashed #cccccc; }
+  #container .shopMain {
+    position: relative;
+    overflow: auto;
+    height: auto;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 6px #aaaaaa;
+    background: #f9f9f9 url(../images/www/sogi-bg-9.png) 0 0 scroll repeat-x; }
+    #container .shopMain .objInfo {
+      position: relative;
+      margin: 10px 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px dotted #aaaaaa;
+      overflow: auto; }
+      #container .shopMain .objInfo .objBtn {
+        position: absolute;
+        top: 5px;
+        right: 0px; }
+        #container .shopMain .objInfo .objBtn li {
+          float: left;
+          border-radius: 5px;
+          border: 1px solid #aaaaaa;
+          box-shadow: inset 0 0 6px white;
+          background: #cecece url(../images/www/sogi-btn-bg-1.png) 0 0 scroll repeat-x;
+          margin-right: 2px; }
+          #container .shopMain .objInfo .objBtn li a {
+            line-height: 30px;
+            padding: 0 5px; }
+      #container .shopMain .objInfo .pdImg {
+        float: left;
+        border: 1px solid #aaaaaa;
+        margin-right: 10px; }
+        #container .shopMain .objInfo .pdImg img {
+          display: block;
+          width: 150px; }
+      #container .shopMain .objInfo .pdName {
+        float: left;
+        font-size: 20px;
+        font-weight: bold;
+        margin: 5px 0; }
+      #container .shopMain .objInfo .priceAvg {
+        float: left;
+        width: 500px;
+        margin: 10px 0; }
+      #container .shopMain .objInfo .priceFilter {
+        float: left;
+        width: 510px;
+        border: 1px solid #aaaaaa;
+        box-shadow: inset 0 0 6px #aaaaaa;
+        background: #d7d7d7 url(../images/www/sogi-bg-4.png) 0 0 scroll repeat-x; }
+        #container .shopMain .objInfo .priceFilter .filterRow {
+          margin: 8px;
+          width: auto;
+          height: 24px;
+          overflow: hidden; }
+          #container .shopMain .objInfo .priceFilter .filterRow .opt {
+            float: left;
+            margin-right: 8px; }
+            #container .shopMain .objInfo .priceFilter .filterRow .opt .filterBtn {
+              border-radius: 5px;
+              border: 1px solid #aaaaaa;
+              box-shadow: inset 0 0 6px white;
+              background: #cecece url(../images/www/sogi-btn-bg-1.png) 0 0 scroll repeat-x; }
+              #container .shopMain .objInfo .priceFilter .filterRow .opt .filterBtn a {
+                line-height: 22px;
+                padding: 0 25px; }
+    #container .shopMain .objMap {
+      border-bottom: 1px dotted #aaaaaa;
+      margin: 10px 20px; }
+      #container .shopMain .objMap img {
+        width: 680px;
+        margin-bottom: 10px; }
+    #container .shopMain .filterResult {
+      margin: 10px 20px; }
+      #container .shopMain .filterResult .sortFunc {
+        clear: both;
+        width: auto;
+        height: auto;
+        overflow: auto;
+        border-bottom: 1px dotted #aaaaaa;
+        vertical-align: middle;
+        padding-top: 5px;
+        padding-bottom: 5px; }
+        #container .shopMain .filterResult .sortFunc .byOthers {
+          line-height: 26px; }
+          #container .shopMain .filterResult .sortFunc .byOthers a {
+            float: right;
+            background-color: #806F66;
+            border-radius: 3px 3px 3px 3px;
+            color: white;
+            margin-left: 5px;
+            margin-top: 5px;
+            padding: 0px 5px; }
+          #container .shopMain .filterResult .sortFunc .byOthers .resultCounts {
+            float: left; }
+      #container .shopMain .filterResult .byLeft {
+        float: left;
+        width: 450px;
+        font-size: 12px;
+        line-height: 20px;
+        padding: 0;
+        margin: 0; }
+      #container .shopMain .filterResult .stores {
+        margin: 10px 0; }
+        #container .shopMain .filterResult .stores .fll {
+          float: left; }
+        #container .shopMain .filterResult .stores li.store {
+          clear: both;
+          overflow: hidden;
+          width: auto;
+          height: 90px;
+          border-bottom: 1px dotted #aaaaaa;
+          padding-bottom: 10px;
+          margin-top: 10px; }
+          #container .shopMain .filterResult .stores li.store .storeImg {
+            margin-right: 10px; }
+            #container .shopMain .filterResult .stores li.store .storeImg img {
+              width: 120px;
+              border-radius: 5px;
+              border: 1px solid #aaaaaa; }
+          #container .shopMain .filterResult .stores li.store .storeInfos {
+            width: 320px;
+            overflow: hidden;
+            margin-right: 25px; }
+            #container .shopMain .filterResult .stores li.store .storeInfos .name {
+              font-size: 15px;
+              font-weight: bold;
+              margin-bottom: 3px; }
+            #container .shopMain .filterResult .stores li.store .storeInfos .address, #container .shopMain .filterResult .stores li.store .storeInfos .tel {
+              color: #666666; }
+            #container .shopMain .filterResult .stores li.store .storeInfos .desc {
+              margin-top: 3px;
+              color: #3a3536; }
+          #container .shopMain .filterResult .stores li.store .update {
+            color: #666666;
+            width: 110px;
+            line-height: 90px; }
+          #container .shopMain .filterResult .stores li.store .price {
+            width: 90px;
+            line-height: 85px;
+            text-align: center; }
+  #container .bAutoH {
+    height: auto;
+    overflow: auto; }
+  #container .storeNav {
+    clear: both;
+    height: 36px;
+    background: url(../images/www/sogi-nav-bg-1.png) 0 0 scroll repeat-x #ed6500;
+    border-radius: 15px 15px 0 0;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 6px #aaaaaa;
+    behavior: url(ie-css3.htc);
+    z-index: 1; }
+    #container .storeNav ul {
+      margin-left: 10px; }
+    #container .storeNav li {
+      display: inline-block;
+      *display: inline;
+      _display: inline;
+      padding: 0 15px;
+      line-height: 36px; }
+      #container .storeNav li a {
+        font-size: 15px;
+        color: #ffeebd;
+        text-shadow: 0 0 0, 1px 1px 2px #3a3536; }
+      #container .storeNav li a:hover {
+        font-size: 15px;
+        color: #3a3536;
+        text-shadow: 0 0 0, 0px 0px 3px #ffeebd; }
+    #container .storeNav li.on {
+      display: inline-block;
+      *display: inline;
+      _display: inline;
+      padding: 0 15px;
+      line-height: 36px;
+      background: url(../images/www/sogi-arrow-1.gif) center bottom no-repeat transparent; }
+      #container .storeNav li.on a {
+        font-size: 15px;
+        color: #3a3536;
+        font-weight: bold;
+        text-shadow: 0 0 0, 0px 0px 3px #ffeebd; }
+  #container #storeMain {
+    position: relative;
+    overflow: auto;
+    border-radius: 0 0 15px 15px;
+    border-left: 1px solid #aaaaaa;
+    border-right: 1px solid #aaaaaa;
+    border-bottom: 1px solid #aaaaaa;
+    box-shadow: 0 3px 6px #aaaaaa;
+    background: #e8e8e8 url(../images/www/sogi-bg-3.png) 0 0 scroll repeat-x;
+    height: auto;
+    padding-bottom: 10px;
+    z-index: 0; }
+    #container #storeMain .sstyle {
+      border: 0;
+      border-radius: 0; }
+    #container #storeMain .keyVisual {
+      margin-left: 10px; }
+      #container #storeMain .keyVisual img {
+        width: 700px; }
+    #container #storeMain .storeProd {
+      position: relative;
+      width: 100%;
+      overflow: auto; }
+      #container #storeMain .storeProd .tAdorn {
+        position: relative;
+        width: 10px;
+        height: 40px;
+        left: -8px;
+        /*        margin: 0 0 -40px -10px;*/
+        background: url(../images/www/sogi-img.png) -780px 0 no-repeat transparent;
+        z-index: 99; }
+      #container #storeMain .storeProd .title {
+        width: 100%;
+        height: 36px;
+        background-color: #fdd84b;
+        border-bottom: 1px solid #ab8a0d;
+        line-height: 36px; }
+        #container #storeMain .storeProd .title .wording {
+          float: left;
+          font-size: 15px; }
+      #container #storeMain .storeProd .spIcon {
+        float: left;
+        width: 16px;
+        height: 16px;
+        margin-top: 10px;
+        margin-left: 15px;
+        margin-right: 6px; }
+      #container #storeMain .storeProd .i1 {
+        background: url(../images/www/sogi-img.png) -780px -78px no-repeat transparent; }
+      #container #storeMain .storeProd .i2 {
+        background: url(../images/www/sogi-img.png) -780px -42px no-repeat transparent; }
+      #container #storeMain .storeProd .i3 {
+        background: url(../images/www/sogi-img.png) -780px -59px no-repeat transparent; }
+      #container #storeMain .storeProd .i4 {
+        background: url(../images/www/sogi-img.png) -780px -118px no-repeat transparent; }
+      #container #storeMain .storeProd .i5 {
+        background: url(../images/www/sogi-img.png) -800px -109px no-repeat transparent; }
+      #container #storeMain .storeProd .i6 {
+        background: url(../images/www/sogi-img.png) -800px -130px no-repeat transparent; }
+      #container #storeMain .storeProd .i7 {
+        background: url(../images/www/sogi-img.png) -800px -151px no-repeat transparent; }
+      #container #storeMain .storeProd .i8 {
+        width: 6px;
+        height: 6px;
+        background: url(../images/www/sogi-img.png) -800px -100px no-repeat transparent; }
+      #container #storeMain .storeProd .basic {
+        margin: 10px; }
+        #container #storeMain .storeProd .basic .bTitle {
+          clear: both;
+          font-size: 13px;
+          font-weight: bold;
+          border-bottom: 1px dashed #aaaaaa;
+          padding-bottom: 10px; }
+        #container #storeMain .storeProd .basic .infos {
+          margin-left: 20px; }
+          #container #storeMain .storeProd .basic .infos .nt {
+            color: #6f6668; }
+        #container #storeMain .storeProd .basic .payItems {
+          margin-left: 20px;
+          margin-bottom: 20px; }
+          #container #storeMain .storeProd .basic .payItems li {
+            float: left;
+            margin-right: 30px;
+            color: #d35a00; }
+            #container #storeMain .storeProd .basic .payItems li .payIcon {
+              float: left;
+              width: 16px;
+              height: 16px;
+              margin-right: 6px;
+              background: url(../images/www/sogi-img.png) -780px -159px no-repeat transparent; }
+        #container #storeMain .storeProd .basic .serItems {
+          margin-left: 20px;
+          margin-bottom: 20px; }
+          #container #storeMain .storeProd .basic .serItems li {
+            float: left;
+            margin-right: 30px; }
+            #container #storeMain .storeProd .basic .serItems li .servIcon {
+              float: left;
+              width: 6px;
+              height: 6px;
+              margin-top: 6px;
+              margin-right: 6px;
+              background: url(../images/www/sogi-img.png) -800px -100px no-repeat transparent; }
+        #container #storeMain .storeProd .basic .storeDesc {
+          clear: both;
+          margin-top: 30px;
+          line-height: 20px;
+          font-size: 13px; }
+      #container #storeMain .storeProd .gMap {
+        margin: 10px; }
+        #container #storeMain .storeProd .gMap .gMapApi {
+          float: left;
+          width: 520px;
+          overflow: hidden; }
+        #container #storeMain .storeProd .gMap .gps {
+          float: right;
+          width: 180px; }
+          #container #storeMain .storeProd .gMap .gps .gpsTitle {
+            font-size: 13px;
+            font-weight: bold;
+            border-bottom: 1px dashed #aaaaaa;
+            padding-bottom: 5px; }
+          #container #storeMain .storeProd .gMap .gps .infos {
+            margin-left: 10px;
+            line-height: 20px; }
+            #container #storeMain .storeProd .gMap .gps .infos .btn {
+              margin-top: 10px;
+              padding: 3px;
+              background: #cecece url(../images/www/sogi-btn-bg-1.png) 0 0 scroll repeat-x;
+              border: 1px solid #aaaaaa; }
+            #container #storeMain .storeProd .gMap .gps .infos .qrcode {
+              width: 100%;
+              margin-top: 20px;
+              text-align: center; }
+      #container #storeMain .storeProd .storeNotice {
+        overflow: auto;
+        width: auto;
+        padding: 20px; }
+        #container #storeMain .storeProd .storeNotice .noticeIcon {
+          float: left;
+          margin-right: 15px;
+          margin-bottom: 15px;
+          width: 128px;
+          height: 400px;
+          background: url(../images/www/sogi-store-img-1.png) 0 0 scroll repeat-x transparent; }
+        #container #storeMain .storeProd .storeNotice .nRow {
+          float: left;
+          width: 520px;
+          font-size: 13px;
+          line-height: 20px;
+          margin-bottom: 10px;
+          padding-left: 12px;
+          background: url(../images/www/limg-1.jpg) 0 10px scroll no-repeat transparent; }
+    #container #storeMain ul.storePdLists {
+      position: relative;
+      clear: both;
+      padding: 10px 0px 10px 0px;
+      z-index: 10; }
+    #container #storeMain li.storePd {
+      float: left;
+      display: block;
+      width: 175px;
+      margin-bottom: 10px; }
+      #container #storeMain li.storePd .pd {
+        width: 160px;
+        text-align: center;
+        border: 1px solid #aaaaaa;
+        margin-left: 10px; }
+        #container #storeMain li.storePd .pd .info {
+          position: relative;
+          background-color: #3a3536;
+          padding: 5px 0; }
+          #container #storeMain li.storePd .pd .info .arrow {
+            position: absolute;
+            right: 15px;
+            top: 0px; }
+          #container #storeMain li.storePd .pd .info .pName {
+            line-height: 18px; }
+            #container #storeMain li.storePd .pd .info .pName a {
+              color: #fdd84b; }
+            #container #storeMain li.storePd .pd .info .pName a:hover {
+              color: #ed6500; }
+          #container #storeMain li.storePd .pd .info .price {
+            line-height: 18px;
+            color: white; }
+          #container #storeMain li.storePd .pd .info .reviewBtn {
+            width: 150px;
+            background-color: #806f66;
+            color: white;
+            border-radius: 3px;
+            margin-left: 5px;
+            margin-top: 5px;
+            padding: 3px 0; }
+            #container #storeMain li.storePd .pd .info .reviewBtn a {
+              color: white; }
+            #container #storeMain li.storePd .pd .info .reviewBtn a:hover {
+              color: #ed6500; }
+          #container #storeMain li.storePd .pd .info .descb {
+            color: white;
+            width: 150px;
+            padding: 5px;
+            background-color: #554d4f; }
+          #container #storeMain li.storePd .pd .info .update {
+            color: #aaaaaa; }
+      #container #storeMain li.storePd .pdImg {
+        display: block;
+        width: 160px;
+        margin-right: 10px; }
+      #container #storeMain li.storePd .title {
+        float: left;
+        font-size: 15px;
+        width: 215px;
+        font-weight: bold;
+        margin: 5px 0; }
+      #container #storeMain li.storePd .desc {
+        float: left;
+        width: 215px;
+        line-height: 20px; }
+    #container #storeMain .storeSides {
+      position: relative;
+      width: auto;
+      height: auto;
+      overflow: auto;
+      border-left: 1px dashed #aaaaaa; }
+      #container #storeMain .storeSides .mainImg img {
+        width: 200px;
+        margin-left: 18px;
+        padding: 5px;
+        border: 1px solid #aaaaaa;
+        box-shadow: 0 0 10px #aaaaaa; }
+      #container #storeMain .storeSides .mainImg .spotlight {
+        position: absolute;
+        width: 186px;
+        height: 102px;
+        top: 70px;
+        left: 30px;
+        background: url(../images/www/sogi-img.png) -814px 0 no-repeat transparent; }
+      #container #storeMain .storeSides .info {
+        width: 225px;
+        height: auto;
+        overflow: auto;
+        margin-left: 10px;
+        background: url(../images/www/sogi-store-bg-3.png) 0 0 repeat-x #fff8d5;
+        border: 1px solid #d4ad45;
+        border-radius: 10px;
+        margin-top: 20px; }
+        #container #storeMain .storeSides .info .sName {
+          font-size: 15px;
+          font-weight: bold;
+          margin: 5px 10px; }
+        #container #storeMain .storeSides .info .tel {
+          margin: 0 10px;
+          line-height: 18px; }
+          #container #storeMain .storeSides .info .tel .icon {
+            float: left;
+            width: 16px;
+            height: 16px;
+            margin-top: 3px;
+            margin-right: 5px;
+            background: url(../images/www/sogi-img.png) -780px -99px no-repeat transparent; }
+        #container #storeMain .storeSides .info .addr {
+          clear: both;
+          margin: 0 10px 7px;
+          line-height: 18px; }
+          #container #storeMain .storeSides .info .addr .icon {
+            float: left;
+            width: 16px;
+            height: 16px;
+            margin-top: 3px;
+            margin-right: 5px;
+            background: url(../images/www/sogi-img.png) -780px -139px no-repeat transparent; }
+      #container #storeMain .storeSides .rLists {
+        width: 100%;
+        margin-top: 10px; }
+        #container #storeMain .storeSides .rLists .title {
+          font-size: 15px;
+          padding-left: 10px;
+          padding-top: 8px;
+          padding-bottom: 8px;
+          background: #cecece url(../images/www/sogi-mabtn-bg-3.png) 0 0 scroll repeat-x;
+          border-bottom: 1px solid #b7b7b7;
+          border-top: 1px solid #b7b7b7; }
+          #container #storeMain .storeSides .rLists .title .icon {
+            float: left;
+            width: 16px;
+            height: 16px;
+            margin-top: 3px;
+            margin-right: 5px;
+            background: url(../images/www/sogi-img.png) -780px -118px no-repeat transparent; }
+        #container #storeMain .storeSides .rLists .lists ul.list {
+          padding: 5px 0; }
+          #container #storeMain .storeSides .rLists .lists ul.list li {
+            padding: 5px 10px;
+            border-bottom: 1px dashed #aaaaaa; }
+            #container #storeMain .storeSides .rLists .lists ul.list li a {
+              font-size: 13px; }
+  #container .gems .gemArticle {
+    position: relative;
+    margin: 10px;
+    padding-bottom: 10px;
+    /*   border-bottom:1px dotted $sitecolor-5;*/
+    overflow: auto; }
+    #container .gems .gemArticle ul li {
+      display: block;
+      float: left;
+      height: 100px;
+      padding: 10px 5px;
+      width: 325px; }
+      #container .gems .gemArticle ul li img.newsImg {
+        border: 1px solid #AAAAAA;
+        border-radius: 10px 10px 10px 10px;
+        float: left;
+        margin-right: 10px;
+        width: 100px; }
+      #container .gems .gemArticle ul li .title {
+        float: left;
+        font-size: 15px;
+        font-weight: bold;
+        margin: 5px 0;
+        width: 210px; }
+      #container .gems .gemArticle ul li .desc {
+        float: left;
+        line-height: 20px;
+        width: 210px; }
+    #container .gems .gemArticle ul li.sList {
+      width: 120px;
+      height: auto;
+      margin-right: 3px;
+      text-align: center; }
+      #container .gems .gemArticle ul li.sList .title {
+        width: 100px;
+        font-size: 12px; }
+  #container .gems .adArticleFixed {
+    margin: 10px 0 10px 10px;
+    border: 0; }
+    #container .gems .adArticleFixed ul {
+      float: left; }
+    #container .gems .adArticleFixed li {
+      clear: both; }
+  #container .gems .gemArticleFixed {
+    clear: both; }
+    #container .gems .gemArticleFixed ul li {
+      width: 650px; }
+      #container .gems .gemArticleFixed ul li .title, #container .gems .gemArticleFixed ul li .desc, #container .gems .gemArticleFixed ul li .timeTags {
+        width: 530px; }
+      #container .gems .gemArticleFixed ul li .desc {
+        color: #6f6668; }
+      #container .gems .gemArticleFixed ul li .timeTags {
+        float: left;
+        overflow: auto;
+        margin-top: 10px; }
+        #container .gems .gemArticleFixed ul li .timeTags .time, #container .gems .gemArticleFixed ul li .timeTags .tags {
+          float: left;
+          margin-right: 20px;
+          vertical-align: middle;
+          color: #a2999b; }
+          #container .gems .gemArticleFixed ul li .timeTags .time a, #container .gems .gemArticleFixed ul li .timeTags .tags a {
+            color: #a2999b; }
+          #container .gems .gemArticleFixed ul li .timeTags .time a:hover, #container .gems .gemArticleFixed ul li .timeTags .tags a:hover {
+            color: #ed6500; }
+        #container .gems .gemArticleFixed ul li .timeTags .timeIcon {
+          float: left;
+          width: 16px;
+          height: 16px;
+          background: url(../images/www/sogi-img.png) -830px -106px no-repeat transparent;
+          margin-right: 3px;
+          vertical-align: middle; }
+        #container .gems .gemArticleFixed ul li .timeTags .tagsIcon {
+          float: left;
+          width: 16px;
+          height: 16px;
+          background: url(../images/www/sogi-img.png) -830px -128px no-repeat transparent;
+          margin-right: 5px;
+          vertical-align: middle; }
+  #container .gemSelected {
+    overflow: auto;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 6px #aaaaaa;
+    background-color: #eee1b8; }
+    #container .gemSelected li.artiList {
+      width: auto;
+      margin: 10px; }
+      #container .gemSelected li.artiList .bTitle {
+        overflow: auto;
+        margin: 5px 0;
+        border-bottom: 1px dashed #aaaaaa;
+        font-size: 15px;
+        font-weight: bold; }
+        #container .gemSelected li.artiList .bTitle .name {
+          float: left;
+          padding: 10px; }
+  #container .gemCatalog {
+    height: auto;
+    overflow: auto;
+    padding-bottom: 0px; }
+  #container .gemTagList {
+    clear: both;
+    margin: 10px; }
+    #container .gemTagList ul {
+      margin-top: 5px; }
+    #container .gemTagList li {
+      font-size: 13px;
+      height: auto;
+      line-height: 20px;
+      padding: 0; }
+    #container .gemTagList .cTitle {
+      font-size: 13px;
+      font-weight: bold;
+      border-bottom: 1px dashed #aaaaaa;
+      padding: 8px 0; }
+  #container .ath {
+    height: auto;
+    overflow: auto; }
+  #container .pagination {
+    overflow: hidden;
+    font-size: 9pt;
+    padding: 10px 0; }
+    #container .pagination ul {
+      list-style: none;
+      padding: 2px 0;
+      line-height: 16px; }
+    #container .pagination li {
+      display: inline; }
+  #container .digg {
+    padding: 10px 0;
+    margin: 3px;
+    text-align: center; }
+    #container .digg a {
+      padding: 2px 4px 2px 4px;
+      margin: 2px;
+      border: 1px solid #ed6500;
+      text-decoration: none;
+      /* no underline */
+      color: #ed6500; }
+    #container .digg a:hover, #container .digg a:active {
+      border: 1px solid #ff9d54;
+      color: #ff9d54; }
+    #container .digg li.current {
+      padding: 2px 4px 2px 4px;
+      margin: 2px;
+      border: 1px solid #ed6500;
+      font-weight: bold;
+      background-color: #ed6500;
+      color: #FFF; }
+    #container .digg li.disabled {
+      padding: 2px 4px 2px 4px;
+      margin: 2px;
+      border: 1px solid #cccccc;
+      color: #aaaaaa; }
+  #container .small {
+    float: right; }
+    #container .small a {
+      padding: 0;
+      margin: 2px;
+      text-decoration: none;
+      /* no underline */
+      color: #ed6500; }
+    #container .small li.current {
+      padding: 0;
+      margin: 2px;
+      border: 1px solid #ed6500;
+      font-weight: bold;
+      background-color: #ed6500;
+      color: #FFF; }
+    #container .small li {
+      padding: 0; }
+
+#footer {
+  clear: both;
+  display: block;
+  width: 100%;
+  background: white url(../images/www/sogi-bg-7.png) 0 0 scroll repeat-x;
+  border-top: 1px dotted #aaaaaa;
+  margin: 10px 0; }
+  #footer .list {
+    color: #666666;
+    position: relative;
+    width: 970px;
+    margin: 0 auto;
+    line-height: 22px;
+    padding-top: 15px;
+    text-align: center; }

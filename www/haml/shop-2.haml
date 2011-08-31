@@ -1,0 +1,856 @@
+!!!
+%html
+  %head
+    %title 詢價館 - HTC - Desire HD
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %link{:href => "http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi-style-0.1.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi-storeModify.css", :rel => "stylesheet", :type => "text/css"}/
+  %body
+    #topbar
+      .channelList
+        %a{:href => "#", :target => "_blank"} 手機王
+        ｜
+        %a{:href => "#", :target => "_blank"} Windows Phone
+        ｜
+        %a{:href => "#", :target => "_blank"} Android
+        .loginClub
+          %a{:href => "#", :target => "_blank"} 註冊新會員
+          ｜
+          %a{:href => "#", :target => "_blank"} 登入
+    #container
+      .sHead.bw
+        .top
+          .sogiLogo
+            %a.logo{:href => "#", :target => "_blank"} 手機王 LOGO
+          .shopNavArea
+            .shopNav-1
+              %a{:href => "#", :target => "_blank"}
+              .icon
+              .name
+                Ovi商店
+            .shopNav-2
+              %a{:href => "#", :target => "_blank"}
+              .icon
+              .name
+                手機單購
+            .shopNav-3
+              %a{:href => "#", :target => "_blank"}
+              .icon
+              .name
+                線上購物
+            .shopNav-4
+              %a{:href => "#", :target => "_blank"}
+              .icon
+              .name
+                下載服務
+        .mainNav
+          %ul
+            %li
+              %a
+                手機
+            %li
+              %a
+                電信
+            %li
+              %a
+                平板電腦
+            %li
+              %a
+                詢價
+            %li.on
+              %a
+                討論
+            %li
+              %a
+                精選文章
+            %li
+              %a
+                公益
+            %li
+              %a
+                簡訊
+        .mainSubNav
+          %ul
+            %li
+              %a
+                NOKIA
+              |
+            %li
+              %a
+                SAMSUNG
+              |
+            %li
+              %a
+                Sony Ericsson
+              |
+            %li
+              %a
+                LG
+              |
+            %li
+              %a
+                HTC
+              |
+            %li
+              %a
+                MOTO
+              |
+            %li
+              %a
+                Acer
+              |
+            %li
+              %a
+                PULID
+              |
+            %li
+              %a
+                Garmin-Asus
+              |
+            %li
+              %a
+                Sharp
+              |
+            %li
+              %a
+                GIGABYTE
+              |
+            %li
+              %a
+                Altek
+              |
+            %li
+              %a
+                Apple
+              |
+            %li
+              %a
+                BlackBerry
+              |
+            %li
+              %a
+                更多...
+      .fullPromo.bw
+        .breadNav
+          .icon
+          .bNav
+            %a{:href => "#", :title => "\346\211\213\346\251\237\347\216\213"}
+              手機王
+            >
+            %a{:href => "#", :title => "\350\250\216\350\253\226"}
+              討論
+            >
+            %span.here
+              HTC
+        .textAd
+          %ul
+            %li
+              %a{:href => "#", :target => "_blank", :title => "\345\273\243\345\221\212"}
+                iPhone最高省3000送雙色邊框
+            %li
+              %a{:href => "#", :target => "_blank", :title => "\345\273\243\345\221\212"}
+                iPhone最高省3000送雙色邊框
+            %li
+              %a{:href => "#", :target => "_blank", :title => "\345\273\243\345\221\212"}
+                iPhone最高省3000送雙色邊框
+        .AD970.ADin
+          %a{:href => "#", :title => "\345\273\243\345\221\212"}
+            %img{:src => "images/www/ad970.gif"}/
+      .bw.mg
+        .bwl
+          .shopMain
+            .objInfo
+              .objBtn
+                %ul
+                  %li
+                    %a{:href => "#", :title => "\346\211\213\346\251\237\344\273\213\347\264\271"}
+                      手機介紹
+                  %li
+                    %a{:href => "#", :title => "\345\212\240\345\205\245\346\234\200\346\204\233"}
+                      加入最愛
+                  %li
+                    %a{:href => "#", :title => "\351\203\250\350\220\275\346\240\274\345\267\245\345\205\267"}
+                      部落格工具
+              .pdImg
+                %img{:src => "images/www/samples/sample-img-4.jpg"}/
+              .pdName
+                %a{:href => "#", :title => "HTC"}
+                  HTC
+              .priceAvg
+                30日總降幅：
+                %span.money
+                  $1,290
+                30日最大降幅：
+                %span.money
+                  $1,290
+                平均報價：
+                %span.money
+                  $18,300
+              .priceFilter
+                .filterRow
+                  .opt
+                    縣市
+                    %select#local{:name => "local"}
+                      %option{:selected => "selected", :value => "1"}
+                        台北市
+                      %option{:value => "2"}
+                        新北市
+                      %option{:value => "3"}
+                        基隆市
+                  .opt
+                    配件
+                    %select#local{:name => "local"}
+                      %option{:selected => "selected", :value => "1"}
+                        簡配
+                      %option{:value => "2"}
+                        全配
+                  .opt
+                    專案
+                    %select#local{:name => "local"}
+                      %option{:selected => "selected", :value => "1"}
+                        不搭專案
+                      %option{:value => "2"}
+                        新辦
+                      %option{:value => "3"}
+                        續約
+                      %option{:value => "4"}
+                        門號可攜
+                      %option{:value => "5"}
+                        無線上網
+                  .opt
+                    電信商
+                    %select#local{:name => "local"}
+                      %option{:selected => "selected", :value => "1"}
+                        中華電信
+                      %option{:value => "2"}
+                        台灣大哥大
+                      %option{:value => "3"}
+                        遠傳電信
+                      %option{:value => "4"}
+                        亞太電信
+                      %option{:value => "5"}
+                        威寶電信
+                .filterRow
+                  .opt
+                    資費方案
+                    %select#local{:name => "local"}
+                      %option{:selected => "selected", :value => "1"}
+                        請選擇資費方案
+                      %option{:value => "2"}
+                        中華電信 大家講 268 (預繳 $4900)
+                      %option{:value => "3"}
+                        中華電信 大家講 568 (預繳 $2900)
+                  .opt
+                    %a{:href => "#", :title => "\350\263\207\350\262\273\350\252\252\346\230\216"}
+                      資費說明
+                    ｜
+                    %a{:href => "#", :title => "\350\263\207\350\262\273\350\252\252\346\230\216"}
+                      詢價須知
+                  .opt
+                    .filterBtn
+                      %a{:href => "#", :title => "\350\251\242\345\203\271"}
+                        詢價
+            .objMap
+              %img{:src => "images/www/samples/sample-maps-2.jpg"}/
+            .filterResult
+              .byLeft
+                您正在搜尋：HTC
+                %br/
+                共有26個符合要求
+              .sortFunc
+                .byOthers
+                  %a{:href => "#", :title => "\344\276\235\345\203\271\346\240\274\346\216\222\345\272\217"}
+                    依價格排序▲
+                  %a{:href => "#", :title => "\344\276\235\346\233\264\346\226\260\346\227\245\346\234\237\346\216\222\345\272\217"}
+                    依更新日期排序▲
+              .stores
+                %ul
+                  %li.store
+                    %a{:href => "#", :title => "\350\201\257\345\274\267\351\233\273\344\277\241\350\201\257\347\233\237\357\274\215\345\217\260\345\214\227HTC\345\260\210\351\226\200\345\272\227"}
+                    .storeImg.fll
+                      %img{:src => "images/www/samples/sample-img-11.jpg"}/
+                    .storeInfos.fll
+                      .name
+                        聯強電信聯盟－台北HTC專門店
+                      .address
+                        台北巿信義區松德路4號
+                      .tel
+                        02-27891234
+                      .desc
+                        洽詢專線：02-27334554 來電（店），請先說明為手機王網友才能享有！
+                    .update.fll
+                      2011-07-15 更新
+                    .price.fll
+                      .money
+                        $18,300
+                  %li.store
+                    %a{:href => "#", :title => "\350\201\257\345\274\267\351\233\273\344\277\241\350\201\257\347\233\237\357\274\215\345\217\260\345\214\227HTC\345\260\210\351\226\200\345\272\227"}
+                    .storeImg.fll
+                      %img{:src => "images/www/samples/sample-img-11.jpg"}/
+                    .storeInfos.fll
+                      .name
+                        聯強電信聯盟－台北HTC專門店
+                      .address
+                        台北巿信義區松德路4號
+                      .tel
+                        02-27891234
+                      .desc
+                        洽詢專線：02-27334554 來電（店），請先說明為手機王網友才能享有！
+                    .update.fll
+                      2011-07-15 更新
+                    .price.fll
+                      .money
+                        $18,300
+                  %li.store
+                    %a{:href => "#", :title => "\350\201\257\345\274\267\351\233\273\344\277\241\350\201\257\347\233\237\357\274\215\345\217\260\345\214\227HTC\345\260\210\351\226\200\345\272\227"}
+                    .storeImg.fll
+                      %img{:src => "images/www/samples/sample-img-11.jpg"}/
+                    .storeInfos.fll
+                      .name
+                        聯強電信聯盟－台北HTC專門店
+                      .address
+                        台北巿信義區松德路4號
+                      .tel
+                        02-27891234
+                      .desc
+                        洽詢專線：02-27334554 來電（店），請先說明為手機王網友才能享有！
+                    .update.fll
+                      2011-07-15 更新
+                    .price.fll
+                      .money
+                        $18,300
+                  %li.store
+                    %a{:href => "#", :title => "\350\201\257\345\274\267\351\233\273\344\277\241\350\201\257\347\233\237\357\274\215\345\217\260\345\214\227HTC\345\260\210\351\226\200\345\272\227"}
+                    .storeImg.fll
+                      %img{:src => "images/www/samples/sample-img-11.jpg"}/
+                    .storeInfos.fll
+                      .name
+                        聯強電信聯盟－台北HTC專門店
+                      .address
+                        台北巿信義區松德路4號
+                      .tel
+                        02-27891234
+                      .desc
+                        洽詢專線：02-27334554 來電（店），請先說明為手機王網友才能享有！
+                    .update.fll
+                      2011-07-15 更新
+                    .price.fll
+                      .money
+                        $18,300
+                  %li.store
+                    %a{:href => "#", :title => "\350\201\257\345\274\267\351\233\273\344\277\241\350\201\257\347\233\237\357\274\215\345\217\260\345\214\227HTC\345\260\210\351\226\200\345\272\227"}
+                    .storeImg.fll
+                      %img{:src => "images/www/samples/sample-img-11.jpg"}/
+                    .storeInfos.fll
+                      .name
+                        聯強電信聯盟－台北HTC專門店
+                      .address
+                        台北巿信義區松德路4號
+                      .tel
+                        02-27891234
+                      .desc
+                        洽詢專線：02-27334554 來電（店），請先說明為手機王網友才能享有！
+                    .update.fll
+                      2011-07-15 更新
+                    .price.fll
+                      .money
+                        $18,300
+                  %li.store
+                    %a{:href => "#", :title => "\350\201\257\345\274\267\351\233\273\344\277\241\350\201\257\347\233\237\357\274\215\345\217\260\345\214\227HTC\345\260\210\351\226\200\345\272\227"}
+                    .storeImg.fll
+                      %img{:src => "images/www/samples/sample-img-11.jpg"}/
+                    .storeInfos.fll
+                      .name
+                        聯強電信聯盟－台北HTC專門店
+                      .address
+                        台北巿信義區松德路4號
+                      .tel
+                        02-27891234
+                      .desc
+                        洽詢專線：02-27334554 來電（店），請先說明為手機王網友才能享有！
+                    .update.fll
+                      2011-07-15 更新
+                    .price.fll
+                      .money
+                        $18,300
+                  %li.store
+                    %a{:href => "#", :title => "\350\201\257\345\274\267\351\233\273\344\277\241\350\201\257\347\233\237\357\274\215\345\217\260\345\214\227HTC\345\260\210\351\226\200\345\272\227"}
+                    .storeImg.fll
+                      %img{:src => "images/www/samples/sample-img-11.jpg"}/
+                    .storeInfos.fll
+                      .name
+                        聯強電信聯盟－台北HTC專門店
+                      .address
+                        台北巿信義區松德路4號
+                      .tel
+                        02-27891234
+                      .desc
+                        洽詢專線：02-27334554 來電（店），請先說明為手機王網友才能享有！
+                    .update.fll
+                      2011-07-15 更新
+                    .price.fll
+                      .money
+                        $18,300
+                  %li.store
+                    %a{:href => "#", :title => "\350\201\257\345\274\267\351\233\273\344\277\241\350\201\257\347\233\237\357\274\215\345\217\260\345\214\227HTC\345\260\210\351\226\200\345\272\227"}
+                    .storeImg.fll
+                      %img{:src => "images/www/samples/sample-img-11.jpg"}/
+                    .storeInfos.fll
+                      .name
+                        聯強電信聯盟－台北HTC專門店
+                      .address
+                        台北巿信義區松德路4號
+                      .tel
+                        02-27891234
+                      .desc
+                        洽詢專線：02-27334554 來電（店），請先說明為手機王網友才能享有！
+                    .update.fll
+                      2011-07-15 更新
+                    .price.fll
+                      .money
+                        $18,300
+                  %li.store
+                    %a{:href => "#", :title => "\350\201\257\345\274\267\351\233\273\344\277\241\350\201\257\347\233\237\357\274\215\345\217\260\345\214\227HTC\345\260\210\351\226\200\345\272\227"}
+                    .storeImg.fll
+                      %img{:src => "images/www/samples/sample-img-11.jpg"}/
+                    .storeInfos.fll
+                      .name
+                        聯強電信聯盟－台北HTC專門店
+                      .address
+                        台北巿信義區松德路4號
+                      .tel
+                        02-27891234
+                      .desc
+                        洽詢專線：02-27334554 來電（店），請先說明為手機王網友才能享有！
+                    .update.fll
+                      2011-07-15 更新
+                    .price.fll
+                      .money
+                        $18,300
+                  %li.store
+                    %a{:href => "#", :title => "\350\201\257\345\274\267\351\233\273\344\277\241\350\201\257\347\233\237\357\274\215\345\217\260\345\214\227HTC\345\260\210\351\226\200\345\272\227"}
+                    .storeImg.fll
+                      %img{:src => "images/www/samples/sample-img-11.jpg"}/
+                    .storeInfos.fll
+                      .name
+                        聯強電信聯盟－台北HTC專門店
+                      .address
+                        台北巿信義區松德路4號
+                      .tel
+                        02-27891234
+                      .desc
+                        洽詢專線：02-27334554 來電（店），請先說明為手機王網友才能享有！
+                    .update.fll
+                      2011-07-15 更新
+                    .price.fll
+                      .money
+                        $18,300
+          .pdPromo.bAutoH.mg
+            .tabs
+              .tab.on
+                %a{:href => "#", :title => "\346\202\250\345\217\257\350\203\275\346\234\211\350\210\210\350\266\243"}
+                  您可能有興趣
+              .tab
+                %a{:href => "#", :title => "\345\220\214\345\203\271\344\275\215\346\211\213\346\251\237"}
+                  同價位手機
+            .tabsEnd
+            %ul
+              %li
+                .pd
+                  %a{:href => "#", :title => "HTC Desire HD"}
+                    %img.pdImg{:src => "images/www/samples/sample-img-4.jpg"}/
+                  .info
+                    %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
+                    .pName
+                      %a{:href => "#", :title => "HTC Desire HD"}
+                        HTC Desire HD
+                    .price
+                      專案價:
+                      %span.money
+                        %a{:href => "#", :title => "\345\203\271\346\240\274"}
+                          $18,800
+                    .reviewBtn
+                      %a{:href => "#", :title => "\344\273\213\347\264\271"}
+                        介紹
+                      |
+                      %a{:href => "#", :title => "\350\251\225\346\270\254"}
+                        評測
+                      |
+                      %a{:href => "#", :title => "\350\250\216\350\253\226"}
+                        討論
+                      |
+                      %a{:href => "#", :title => "\350\273\212\346\213\274"}
+                        車拼
+              %li
+                .pd
+                  %a{:href => "#", :title => "HTC Desire HD"}
+                    %img.pdImg{:src => "images/www/samples/sample-img-4.jpg"}/
+                  .info
+                    %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
+                    .pName
+                      %a{:href => "#", :title => "HTC Desire HD"}
+                        HTC Desire HD
+                    .price
+                      專案價:
+                      %span.money
+                        %a{:href => "#", :title => "\345\203\271\346\240\274"}
+                          $18,800
+                    .reviewBtn
+                      %a{:href => "#", :title => "\344\273\213\347\264\271"}
+                        介紹
+                      |
+                      %a{:href => "#", :title => "\350\251\225\346\270\254"}
+                        評測
+                      |
+                      %a{:href => "#", :title => "\350\250\216\350\253\226"}
+                        討論
+                      |
+                      %a{:href => "#", :title => "\350\273\212\346\213\274"}
+                        車拼
+              %li
+                .pd
+                  %a{:href => "#", :title => "HTC Desire HD"}
+                    %img.pdImg{:src => "images/www/samples/sample-img-4.jpg"}/
+                  .info
+                    %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
+                    .pName
+                      %a{:href => "#", :title => "HTC Desire HD"}
+                        HTC Desire HD
+                    .price
+                      專案價:
+                      %span.money
+                        %a{:href => "#", :title => "\345\203\271\346\240\274"}
+                          $18,800
+                    .reviewBtn
+                      %a{:href => "#", :title => "\344\273\213\347\264\271"}
+                        介紹
+                      |
+                      %a{:href => "#", :title => "\350\251\225\346\270\254"}
+                        評測
+                      |
+                      %a{:href => "#", :title => "\350\250\216\350\253\226"}
+                        討論
+                      |
+                      %a{:href => "#", :title => "\350\273\212\346\213\274"}
+                        車拼
+              %li
+                .pd
+                  %a{:href => "#", :title => "HTC Desire HD"}
+                    %img.pdImg{:src => "images/www/samples/sample-img-4.jpg"}/
+                  .info
+                    %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
+                    .pName
+                      %a{:href => "#", :title => "HTC Desire HD"}
+                        HTC Desire HD
+                    .price
+                      專案價:
+                      %span.money
+                        %a{:href => "#", :title => "\345\203\271\346\240\274"}
+                          $18,800
+                    .reviewBtn
+                      %a{:href => "#", :title => "\344\273\213\347\264\271"}
+                        介紹
+                      |
+                      %a{:href => "#", :title => "\350\251\225\346\270\254"}
+                        評測
+                      |
+                      %a{:href => "#", :title => "\350\250\216\350\253\226"}
+                        討論
+                      |
+                      %a{:href => "#", :title => "\350\273\212\346\213\274"}
+                        車拼
+              %li
+                .pd
+                  %a{:href => "#", :title => "HTC Desire HD"}
+                    %img.pdImg{:src => "images/www/samples/sample-img-4.jpg"}/
+                  .info
+                    %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
+                    .pName
+                      %a{:href => "#", :title => "HTC Desire HD"}
+                        HTC Desire HD
+                    .price
+                      專案價:
+                      %span.money
+                        %a{:href => "#", :title => "\345\203\271\346\240\274"}
+                          $18,800
+                    .reviewBtn
+                      %a{:href => "#", :title => "\344\273\213\347\264\271"}
+                        介紹
+                      |
+                      %a{:href => "#", :title => "\350\251\225\346\270\254"}
+                        評測
+                      |
+                      %a{:href => "#", :title => "\350\250\216\350\253\226"}
+                        討論
+                      |
+                      %a{:href => "#", :title => "\350\273\212\346\213\274"}
+                        車拼
+              %li
+                .pd
+                  %a{:href => "#", :title => "HTC Desire HD"}
+                    %img.pdImg{:src => "images/www/samples/sample-img-4.jpg"}/
+                  .info
+                    %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
+                    .pName
+                      %a{:href => "#", :title => "HTC Desire HD"}
+                        HTC Desire HD
+                    .price
+                      專案價:
+                      %span.money
+                        %a{:href => "#", :title => "\345\203\271\346\240\274"}
+                          $18,800
+                    .reviewBtn
+                      %a{:href => "#", :title => "\344\273\213\347\264\271"}
+                        介紹
+                      |
+                      %a{:href => "#", :title => "\350\251\225\346\270\254"}
+                        評測
+                      |
+                      %a{:href => "#", :title => "\350\250\216\350\253\226"}
+                        討論
+                      |
+                      %a{:href => "#", :title => "\350\273\212\346\213\274"}
+                        車拼
+              %li
+                .pd
+                  %a{:href => "#", :title => "HTC Desire HD"}
+                    %img.pdImg{:src => "images/www/samples/sample-img-4.jpg"}/
+                  .info
+                    %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
+                    .pName
+                      %a{:href => "#", :title => "HTC Desire HD"}
+                        HTC Desire HD
+                    .price
+                      專案價:
+                      %span.money
+                        %a{:href => "#", :title => "\345\203\271\346\240\274"}
+                          $18,800
+                    .reviewBtn
+                      %a{:href => "#", :title => "\344\273\213\347\264\271"}
+                        介紹
+                      |
+                      %a{:href => "#", :title => "\350\251\225\346\270\254"}
+                        評測
+                      |
+                      %a{:href => "#", :title => "\350\250\216\350\253\226"}
+                        討論
+                      |
+                      %a{:href => "#", :title => "\350\273\212\346\213\274"}
+                        車拼
+              %li
+                .pd
+                  %a{:href => "#", :title => "HTC Desire HD"}
+                    %img.pdImg{:src => "images/www/samples/sample-img-4.jpg"}/
+                  .info
+                    %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
+                    .pName
+                      %a{:href => "#", :title => "HTC Desire HD"}
+                        HTC Desire HD
+                    .price
+                      專案價:
+                      %span.money
+                        %a{:href => "#", :title => "\345\203\271\346\240\274"}
+                          $18,800
+                    .reviewBtn
+                      %a{:href => "#", :title => "\344\273\213\347\264\271"}
+                        介紹
+                      |
+                      %a{:href => "#", :title => "\350\251\225\346\270\254"}
+                        評測
+                      |
+                      %a{:href => "#", :title => "\350\250\216\350\253\226"}
+                        討論
+                      |
+                      %a{:href => "#", :title => "\350\273\212\346\213\274"}
+                        車拼
+            %a{:href => "#", :title => "\346\233\264\345\244\232\346\211\213\346\251\237"}
+            .more
+              更多手機
+              %img{:src => "images/www/sogi-arrow-3.gif"}/
+        .bwr
+          .AD240
+            %a{:href => "#", :title => "\345\273\243\345\221\212"}
+              %img{:src => "images/www/ad240.gif"}/
+          .adPromo.compare.mg
+            .oneTab
+              .tab.on
+                %a{:href => "#", :title => "\347\206\261\351\226\200\350\273\212\346\213\274"}
+                  熱門車拼
+            .oneTabEnd
+            %ul
+              %li
+                %a{:href => "#", :title => "\350\273\212\346\213\274 - HTC Desire HD"}
+                .comparePd
+                  %img.pdImg{:src => "images/www/samples/sample-img-4.jpg"}/
+                  .title
+                    HTC Desire HD
+                .btn.red
+                  %a{:href => "#", :title => "\345\210\252\351\231\244\350\273\212\346\213\274"}
+                    刪除車拼
+              %li
+                %a{:href => "#", :title => "\350\273\212\346\213\274 - HTC Desire HD"}
+                .comparePd
+                  %img.pdImg{:src => "images/www/samples/sample-img-4.jpg"}/
+                  .title
+                    HTC Desire HD
+                .btn.red
+                  %a{:href => "#", :title => "\345\210\252\351\231\244\350\273\212\346\213\274"}
+                    刪除車拼
+            .goCompare
+              %a{:href => "#", :title => "\345\211\215\345\276\200\350\273\212\346\213\274"}
+                前往車拼
+          .searchPromo.mg
+            .tabs
+              .tab.on
+                %a{:href => "#", :title => "\346\211\276\346\211\213\346\251\237"}
+                  找手機
+              .tab
+                %a{:href => "#", :title => "\346\211\276\345\271\263\346\235\277"}
+                  找平板
+            .tabsEnd
+            .search{:style => "display:block;height:270px;"}
+            %a{:href => "#", :title => "\351\200\262\351\232\216\346\220\234\345\260\213"}
+            .more
+              進階搜尋
+              %img{:src => "images/www/sogi-arrow-3.gif"}/
+          .adPromo.sgPromo.mg
+            .oneTab
+              .tab.on
+                %a{:href => "#", :title => "\347\233\270\351\227\234\346\226\207\347\253\240"}
+                  相關文章
+            .oneTabEnd
+            .faExtend
+              %ul
+                %li
+                  %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                    %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                  .title
+                    Android 軟體
+                  .desc
+                    多工處理超強，網頁瀏覽超級快，玩遊...
+                %li
+                  %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                    %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                  .title
+                    Android 軟體
+                  .desc
+                    多工處理超強，網頁瀏覽超級快，玩遊...
+                %li
+                  %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                    %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                  .title
+                    Android 軟體
+                  .desc
+                    多工處理超強，網頁瀏覽超級快，玩遊...
+                %li
+                  %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                    %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                  .title
+                    Android 軟體
+                  .desc
+                    多工處理超強，網頁瀏覽超級快，玩遊...
+                %li
+                  %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                    %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                  .title
+                    Android 軟體
+                  .desc
+                    多工處理超強，網頁瀏覽超級快，玩遊...
+          .adPromo.sgPromo.mg
+            .oneTab
+              .tab.on
+                %a{:href => "#", :title => "\347\233\270\351\227\234\351\205\215\344\273\266"}
+                  相關配件
+            .oneTabEnd
+            .faExtend
+              %ul
+                %li
+                  %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                    %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                  .title
+                    Android 軟體
+                  .desc
+                    多工處理超強，網頁瀏覽超級快，玩遊...
+                %li
+                  %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                    %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                  .title
+                    Android 軟體
+                  .desc
+                    多工處理超強，網頁瀏覽超級快，玩遊...
+                %li
+                  %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                    %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                  .title
+                    Android 軟體
+                  .desc
+                    多工處理超強，網頁瀏覽超級快，玩遊...
+            %a{:href => "#", :title => "\346\233\264\345\244\232\351\205\215\344\273\266"}
+            .more
+              更多配件
+              %img{:src => "images/www/sogi-arrow-3.gif"}/
+          .AD240.mg
+            %a{:href => "#", :title => "\345\273\243\345\221\212"}
+              %img{:src => "images/www/ad240.gif"}/
+          .adPromo.mg
+            .oneTab
+              .tab.on
+                %a{:href => "#", :title => "\350\263\207\350\250\212\346\203\205\345\240\261"}
+                  資訊情報
+            .oneTabEnd
+            %ul
+              %li
+                %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                  %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                .title
+                  Android 軟體
+                .desc
+                  多工處理超強，網頁瀏覽超級快，玩遊...
+              %li
+                %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                  %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                .title
+                  Android 軟體
+                .desc
+                  多工處理超強，網頁瀏覽超級快，玩遊...
+              %li
+                %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                  %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                .title
+                  Android 軟體
+                .desc
+                  多工處理超強，網頁瀏覽超級快，玩遊...
+          .adPromo.sideStorePromo.mg
+            .oneTab
+              .tab.on
+                %a{:href => "#", :title => "\345\245\275\350\251\225\345\272\227\351\213\252"}
+                  好評店鋪
+            .oneTabEnd
+            %ul
+              %li
+                %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                  %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                .title
+                  Android 軟體
+                .desc
+                  多工處理超強，網頁瀏覽超級快，玩遊...
+              %li
+                %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                  %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                .title
+                  Android 軟體
+                .desc
+                  多工處理超強，網頁瀏覽超級快，玩遊...
+              %li
+                %a{:href => "#", :title => "Android \350\273\237\351\253\224"}
+                  %img.softImg{:src => "images/www/samples/sample-img-1.jpg"}/
+                .title
+                  Android 軟體
+                .desc
+                  多工處理超強，網頁瀏覽超級快，玩遊...
+    #footer
+      .list
+        關於手機王 | 網路行銷 | 廣告刊登 | 聯絡我們 | 服務條款 | 隱私權政策 | 法律顧問 | 技術合作 | 首機網路股份有限公司 © 1999-2011 All rights reserved.
+        %p
+          本網站已依台灣網站內容分級規定處理
