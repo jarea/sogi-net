@@ -4,7 +4,7 @@
     %title SOGI 迷你店鋪 - 聯強電信聯盟-永傑通信
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
     %link{:href => "http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css", :rel => "stylesheet", :type => "text/css"}/
-    %link{:href => "css/sogi-style-0.1.css", :rel => "stylesheet", :type => "text/css"}/
+    %link{:href => "css/sogi-style-0.2.css", :rel => "stylesheet", :type => "text/css"}/
   %body
     #topbar
       .channelList
@@ -26,33 +26,52 @@
       #head
         .sHead.bw
           .AD970.mg.pg
-            %a{:href => "#", :title => "\345\273\243\345\221\212"}
+            %a{:href => "#", :title => "廣告"}
               %img{:src => "images/www/ad970.gif"}/
           .storeNav.mg
             %ul
               %li.on
-                %a{:href => "#"}
-                  店鋪首頁
+                %a{:href => "#"} 店鋪首頁
               %li
-                %a{:href => "#"}
-                  推薦促銷
+                %a{:href => "#"} 推薦促銷
               %li
-                %a{:href => "#"}
-                  店鋪資訊
+                %a{:href => "#"} 店鋪資訊
               %li
-                %a{:href => "#"}
-                  服務中心
+                %a{:href => "#"} 服務中心
               %li
-                %a{:href => "#"}
-                  詢價須知
+                %a{:href => "#"} 詢價須知
               %li
-                %a{:href => "#"}
-                  店鋪管理
+                %a{:href => "#"} 店鋪管理
       #main
         #storeMain.bw
           .bwls
+            .SdataDown
+              .Ssystem.Ssystembw
+                %h4 系統通知
+                %ul.list
+                  %li
+                    %span.txt-date> 2011/08/29
+                    \ 
+                    = succeed "&nbsp;" do
+                      %a{:href => "http://shoptest.sogi.com.tw/SystemBulletin.aspx?bn=641"}
+                        0829_ASUS
+                        Slider滑蓋平板開報價
+                    %span.txt-unread 未讀取
+                  %li
+                    %span.txt-date> 2011/08/24
+                    \ 
+                    %a{:href => "http://shoptest.sogi.com.tw/SystemBulletin.aspx?bn=638"} 0824_鎖價異動表列之一
+                  %li
+                    %span.txt-date> 2011/08/24
+                    \ 
+                    = succeed "&nbsp;" do
+                      %a{:href => "http://shoptest.sogi.com.tw/SystemBulletin.aspx?bn=637"} 0824_鎖價異動表列之二
+                    %span.txt-unread 未讀取
+                  %a{:href => "http://shoptest.sogi.com.tw/SystemBulletin.aspx"}
+                    .more
+                      更多系統通知
             .keyVisual.mg
-              %a{:href => "#", :title => "\345\272\227\345\256\266\344\270\273\350\246\226\350\246\272"}
+              %a{:href => "#", :title => "店家主視覺"}
                 %img{:src => "images/www/samples/sample-store-1.jpg"}/
             .storeProd.mg
               .title
@@ -67,15 +86,13 @@
                     .info
                       %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
                       .pName
-                        %a{:href => "#", :title => "HTC Desire HD"}
-                          HTC Desire HD
+                        %a{:href => "#", :title => "HTC Desire HD"} HTC Desire HD
                       .descb
                         童叟無欺，購買有保障，歡迎電洽預約體驗。
                       .price
                         空機價:
                         %span.money
-                          %a{:href => "#", :title => "\345\203\271\346\240\274"}
-                            $18,800
+                          %a{:href => "#", :title => "價格"} $18,800
                       .update
                         更新日：2011-07-15
                 %li.storePd
@@ -85,15 +102,13 @@
                     .info
                       %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
                       .pName
-                        %a{:href => "#", :title => "HTC Desire HD"}
-                          HTC Desire HD
+                        %a{:href => "#", :title => "HTC Desire HD"} HTC Desire HD
                       .descb
                         童叟無欺，購買有保障，歡迎電洽預約體驗。
                       .price
                         空機價:
                         %span.money
-                          %a{:href => "#", :title => "\345\203\271\346\240\274"}
-                            $18,800
+                          %a{:href => "#", :title => "價格"} $18,800
                       .update
                         更新日：2011-07-15
                 %li.storePd
@@ -103,15 +118,13 @@
                     .info
                       %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
                       .pName
-                        %a{:href => "#", :title => "HTC Desire HD"}
-                          HTC Desire HD
+                        %a{:href => "#", :title => "HTC Desire HD"} HTC Desire HD
                       .descb
                         童叟無欺，購買有保障，歡迎電洽預約體驗。
                       .price
                         空機價:
                         %span.money
-                          %a{:href => "#", :title => "\345\203\271\346\240\274"}
-                            $18,800
+                          %a{:href => "#", :title => "價格"} $18,800
                       .update
                         更新日：2011-07-15
                 %li.storePd
@@ -121,21 +134,19 @@
                     .info
                       %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
                       .pName
-                        %a{:href => "#", :title => "HTC Desire HD"}
-                          HTC Desire HD
+                        %a{:href => "#", :title => "HTC Desire HD"} HTC Desire HD
                       .descb
                         童叟無欺，購買有保障，歡迎電洽預約體驗。
                       .price
                         空機價:
                         %span.money
-                          %a{:href => "#", :title => "\345\203\271\346\240\274"}
-                            $18,800
+                          %a{:href => "#", :title => "價格"} $18,800
                       .update
                         更新日：2011-07-15
-              %a{:href => "#", :title => "\346\233\264\345\244\232\346\211\213\346\251\237"}
-              .more
-                更多手機
-                %img{:src => "images/www/sogi-arrow-3.gif"}/
+              %a{:href => "#", :title => "更多手機"}
+                .more
+                  更多手機
+                  %img{:src => "images/www/sogi-arrow-3.gif"}/
             .storeProd.mg
               .title
                 .spIcon.i2
@@ -149,15 +160,13 @@
                     .info
                       %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
                       .pName
-                        %a{:href => "#", :title => "HTC Desire HD"}
-                          HTC Desire HD
+                        %a{:href => "#", :title => "HTC Desire HD"} HTC Desire HD
                       .descb
                         童叟無欺，購買有保障，歡迎電洽預約體驗。
                       .price
                         空機價:
                         %span.money
-                          %a{:href => "#", :title => "\345\203\271\346\240\274"}
-                            $18,800
+                          %a{:href => "#", :title => "價格"} $18,800
                       .update
                         更新日：2011-07-15
                 %li.storePd
@@ -167,15 +176,13 @@
                     .info
                       %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
                       .pName
-                        %a{:href => "#", :title => "HTC Desire HD"}
-                          HTC Desire HD
+                        %a{:href => "#", :title => "HTC Desire HD"} HTC Desire HD
                       .descb
                         童叟無欺，購買有保障，歡迎電洽預約體驗。
                       .price
                         空機價:
                         %span.money
-                          %a{:href => "#", :title => "\345\203\271\346\240\274"}
-                            $18,800
+                          %a{:href => "#", :title => "價格"} $18,800
                       .update
                         更新日：2011-07-15
                 %li.storePd
@@ -185,15 +192,13 @@
                     .info
                       %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
                       .pName
-                        %a{:href => "#", :title => "HTC Desire HD"}
-                          HTC Desire HD
+                        %a{:href => "#", :title => "HTC Desire HD"} HTC Desire HD
                       .descb
                         童叟無欺，購買有保障，歡迎電洽預約體驗。
                       .price
                         空機價:
                         %span.money
-                          %a{:href => "#", :title => "\345\203\271\346\240\274"}
-                            $18,800
+                          %a{:href => "#", :title => "價格"} $18,800
                       .update
                         更新日：2011-07-15
                 %li.storePd
@@ -203,21 +208,19 @@
                     .info
                       %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
                       .pName
-                        %a{:href => "#", :title => "HTC Desire HD"}
-                          HTC Desire HD
+                        %a{:href => "#", :title => "HTC Desire HD"} HTC Desire HD
                       .descb
                         童叟無欺，購買有保障，歡迎電洽預約體驗。
                       .price
                         空機價:
                         %span.money
-                          %a{:href => "#", :title => "\345\203\271\346\240\274"}
-                            $18,800
+                          %a{:href => "#", :title => "價格"} $18,800
                       .update
                         更新日：2011-07-15
-              %a{:href => "#", :title => "\346\233\264\345\244\232\346\211\213\346\251\237"}
-              .more
-                更多手機
-                %img{:src => "images/www/sogi-arrow-3.gif"}/
+              %a{:href => "#", :title => "更多手機"}
+                .more
+                  更多手機
+                  %img{:src => "images/www/sogi-arrow-3.gif"}/
             .storeProd.mg
               .title
                 .spIcon.i3
@@ -231,15 +234,13 @@
                     .info
                       %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
                       .pName
-                        %a{:href => "#", :title => "HTC Desire HD"}
-                          HTC Desire HD
+                        %a{:href => "#", :title => "HTC Desire HD"} HTC Desire HD
                       .descb
                         童叟無欺，購買有保障，歡迎電洽預約體驗。
                       .price
                         空機價:
                         %span.money
-                          %a{:href => "#", :title => "\345\203\271\346\240\274"}
-                            $18,800
+                          %a{:href => "#", :title => "價格"} $18,800
                       .update
                         更新日：2011-07-15
                 %li.storePd
@@ -249,15 +250,13 @@
                     .info
                       %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
                       .pName
-                        %a{:href => "#", :title => "HTC Desire HD"}
-                          HTC Desire HD
+                        %a{:href => "#", :title => "HTC Desire HD"} HTC Desire HD
                       .descb
                         童叟無欺，購買有保障，歡迎電洽預約體驗。
                       .price
                         空機價:
                         %span.money
-                          %a{:href => "#", :title => "\345\203\271\346\240\274"}
-                            $18,800
+                          %a{:href => "#", :title => "價格"} $18,800
                       .update
                         更新日：2011-07-15
                 %li.storePd
@@ -267,15 +266,13 @@
                     .info
                       %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
                       .pName
-                        %a{:href => "#", :title => "HTC Desire HD"}
-                          HTC Desire HD
+                        %a{:href => "#", :title => "HTC Desire HD"} HTC Desire HD
                       .descb
                         童叟無欺，購買有保障，歡迎電洽預約體驗。
                       .price
                         空機價:
                         %span.money
-                          %a{:href => "#", :title => "\345\203\271\346\240\274"}
-                            $18,800
+                          %a{:href => "#", :title => "價格"} $18,800
                       .update
                         更新日：2011-07-15
                 %li.storePd
@@ -285,29 +282,26 @@
                     .info
                       %img.arrow{:src => "images/www/sogi-arrow-4.gif"}/
                       .pName
-                        %a{:href => "#", :title => "HTC Desire HD"}
-                          HTC Desire HD
+                        %a{:href => "#", :title => "HTC Desire HD"} HTC Desire HD
                       .descb
                         童叟無欺，購買有保障，歡迎電洽預約體驗。
                       .price
                         空機價:
                         %span.money
-                          %a{:href => "#", :title => "\345\203\271\346\240\274"}
-                            $18,800
+                          %a{:href => "#", :title => "價格"} $18,800
                       .update
                         更新日：2011-07-15
-              %a{:href => "#", :title => "\346\233\264\345\244\232\346\211\213\346\251\237"}
-              .more
-                更多手機
-                %img{:src => "images/www/sogi-arrow-3.gif"}/
+              %a{:href => "#", :title => "更多手機"}
+                .more
+                  更多手機
+                  %img{:src => "images/www/sogi-arrow-3.gif"}/
           .bwr
             .storeSides
               .mainImg
                 %img{:src => "images/www/samples/sample-img-11.jpg"}/
-                -# .spotlight
+                .spotlight
               .info
-                %h1.sName
-                  聯強電信聯盟-永傑通信
+                %h1.sName 聯強電信聯盟-永傑通信
                 .tel
                   .icon
                   02-23090818
@@ -321,35 +315,25 @@
                 .lists
                   %ul.list
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        HTC (5)
+                      %a{:href => "#", :title => "HTC"} HTC (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        Apple (5)
+                      %a{:href => "#", :title => "HTC"} Apple (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        Nokia (5)
+                      %a{:href => "#", :title => "HTC"} Nokia (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        Sony Ericssion (5)
+                      %a{:href => "#", :title => "HTC"} Sony Ericssion (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        ASUS (5)
+                      %a{:href => "#", :title => "HTC"} ASUS (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        HTC (5)
+                      %a{:href => "#", :title => "HTC"} HTC (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        Apple (5)
+                      %a{:href => "#", :title => "HTC"} Apple (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        Nokia (5)
+                      %a{:href => "#", :title => "HTC"} Nokia (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        Sony Ericssion (5)
+                      %a{:href => "#", :title => "HTC"} Sony Ericssion (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        ASUS (5)
+                      %a{:href => "#", :title => "HTC"} ASUS (5)
               .rLists
                 .title
                   .icon
@@ -357,35 +341,25 @@
                 .lists
                   %ul.list
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        HTC (5)
+                      %a{:href => "#", :title => "HTC"} HTC (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        Apple (5)
+                      %a{:href => "#", :title => "HTC"} Apple (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        Nokia (5)
+                      %a{:href => "#", :title => "HTC"} Nokia (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        Sony Ericssion (5)
+                      %a{:href => "#", :title => "HTC"} Sony Ericssion (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        ASUS (5)
+                      %a{:href => "#", :title => "HTC"} ASUS (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        HTC (5)
+                      %a{:href => "#", :title => "HTC"} HTC (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        Apple (5)
+                      %a{:href => "#", :title => "HTC"} Apple (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        Nokia (5)
+                      %a{:href => "#", :title => "HTC"} Nokia (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        Sony Ericssion (5)
+                      %a{:href => "#", :title => "HTC"} Sony Ericssion (5)
                     %li
-                      %a{:href => "#", :title => "HTC"}
-                        ASUS (5)
+                      %a{:href => "#", :title => "HTC"} ASUS (5)
     #footer
       .list
         關於手機王 | 網路行銷 | 廣告刊登 | 聯絡我們 | 服務條款 | 隱私權政策 | 法律顧問 | 技術合作 | 首機網路股份有限公司 © 1999-2011 All rights reserved.
