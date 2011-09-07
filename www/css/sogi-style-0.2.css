@@ -806,7 +806,9 @@ a:hover {
             right: 15px;
             top: 0px; }
           #container .pdPromo li .pd .info .pName {
-            line-height: 18px; }
+            line-height: 18px;
+            height: 40px;
+             }
             #container .pdPromo li .pd .info .pName a {
               color: #fdd84b; }
             #container .pdPromo li .pd .info .pName a:hover {
@@ -1140,11 +1142,15 @@ a:hover {
       float: left;
       font-size: 20px;
       font-weight: bold;
-      margin: 5px 0; }
+      margin: 0px 20px; }
     #container .pdReview .qfeature, #container .brandList .qfeature {
       margin-top: 15px;
       padding-left: 10px;
       float: left; }
+      #container .pdReview .fb-good{
+         float: left;
+         margin: 10px;
+      }
       #container .pdReview .qfeature .row-1, #container .pdReview .qfeature .row-2, #container .brandList .qfeature .row-1, #container .brandList .qfeature .row-2 {
         height: auto;
         overflow: auto;
@@ -4022,28 +4028,29 @@ h1{
 	width:700px;
 }
 .Mfootermain .Discussbar{
-	width:680px;
-	border-bottom-width: 1px;
-	border-bottom-style: dashed;
-	border-bottom-color: #444;	
-	height:30px;
-	font-size: 13px;
-	color: #555
-	padding: 0 10px 0;
+   
+   width:680px;
+   border-bottom-width: 1px;
+   border-bottom-style: dashed;
+   border-bottom-color: #444; 
+   height:30px;
+   color: #555;
+   margin:30px;
 }
+
 .Mfootermain .Discussbar a{
-	color: #555;
-	font-size: 12px;
-	color: #000;
+   color: #555;
+   font-size: 12px;
+   color: #000;
 }
 .Mfootermain .Discussbar a:hover{
-	color: #000;
-	text-decoration: underline;
+   color: #000;
+   text-decoration: underline;
 }
 .Mfootermain .Discusseven{
-	width:680px;
+   width:680px;
    border-bottom: 1px solid #DDDDDD;
-	font-family: Arial,Helvetica,sans-serif;
+   font-family: Arial, Helvetica, sans-serif;
    font-size: 12px;
    height: 60px;
    padding-left: 5px;
@@ -4051,19 +4058,18 @@ h1{
    letter-spacing: 1px;
    line-height: 25px;
    text-align: left;
-	background-color: #444;
 }
 .Mfootermain .Discussodd{
-	width:680px;
-	border-bottom: 1px solid #DDDDDD;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	height: 60px;
-	padding-left: 5px;
-	padding-right: 5px;
-	letter-spacing: 1px;
-	line-height: 25px;
-	text-align: left;
+   width:680px;
+   border-bottom: 1px solid #DDDDDD;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   height: 60px;
+   padding-left: 5px;
+   padding-right: 5px;
+   letter-spacing: 1px;
+   line-height: 25px;
+   text-align: left;
 }
 
 /*我的最愛*/
@@ -4207,7 +4213,7 @@ h1{
 .Mfootermain .Feven{
 	width:680px;
    border-bottom: 1px solid #DDDDDD;
-	font-family: Arial,Helvetica,sans-serif;
+	
    font-size: 12px;
    height: 50px;
    padding-left: 5px;
@@ -4215,7 +4221,7 @@ h1{
     letter-spacing: 1px;
     line-height: 25px;
     text-align: left;
-	background-color: #444;
+	
 }
 .Mfootermain tbody .Fbar th.Fbar-l{
 	height:35px;
@@ -5503,55 +5509,94 @@ ul.notice li {
 /*store店鋪---------------------------------------END*/
 
 /*討論館新增--*/
-
 #container .forumMain .faGroups .faBlock, #container .articleSelected .faGroups .faBlock {
-	float: left;
-	width: 658px;
-	height: auto;
-	padding: 10px;
-	border: 1px solid #aaaaaa;
-	margin-right: 7px;
-	margin-bottom: 10px;
-	overflow: hidden;
+   float: left;
+   width: 658px;
+   height: auto;
+   padding: 10px;
+   border: 1px solid #aaaaaa;
+   margin-right: 7px;
+   margin-bottom: 10px;
+   overflow: hidden;
 }
 #container .forumMain .faGroups .faBlock .title, #container .articleSelected .faGroups .faBlock .title {
-   font-size: 15px;
-   font-weight: bold;
-   border-bottom: 1px dotted #aaaaaa;
-   padding-bottom: 5px;
-   margin-bottom: 5px; 
-}
-.faContent{
+          font-size: 15px;
+          font-weight: bold;
+          border-bottom: 1px dotted #aaaaaa;
+          padding-bottom: 5px;
+          margin-bottom: 5px; 
+              }
+.faContent
+        {
    margin-bottom: 5px ;
    margin-top:5px;
-   float: left;	
+   float: left;      
+   margin-left:17px;         
+        } 
+.faContentHotTopic
+        {
+   padding-top:10px;
+   padding-bottom:10px;
    margin-left:17px;
-}
-.faContentHotTopic {
-   margin-bottom: 5px ;
-   margin-top:5px;
+   margin-right:17px;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #BBB;
+        }  
+.faContentDiscussBoard
+        
+{
+   padding-top:10px;
+   padding-bottom:10px;
    margin-left:17px;
+   margin-right:17px;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #BBB;   
 }
-
+.L
+{
+float:left;
+width:300px;
+}
+        
+.R
+{  
+}
 /*討論館新增---------------------------------------END*/
 
 /*新增*/
-
 .txt-unread {
-	border-radius: 3px 3px 3px 3px;
-	color: #FFFFFF;
-	padding: 1px 3px;
-	background-attachment: scroll;
-	background-color: #C30;
-	background-image: none;
-	background-repeat: repeat;
-	background-position: 0 0;
+   border-radius: 3px 3px 3px 3px;
+   color: #FFFFFF;
+   padding: 1px 3px;
+   background-attachment: scroll;
+   background-color: #C30;
+   background-image: none;
+   background-repeat: repeat;
+   background-position: 0 0;
 }
-.Ssystembw{
-	height:125px;
-	width:auto;
-	margin-right:20px;
-	margin-left:10px;
+.Ssystembw
+{
+   height:125px;
+   width:auto;
+   margin-right:20px;
+   margin-left:10px;
 }
-
+.InThemiddle img
+{
+float:left;
+margin-left:15px;
+}
+.txt-price
+{
+   margin-left:30px; 
+}
+.pkFont
+{
+   font-size:12px;
+   line-height: 25px;
+   letter-spacing: 1px; 
+   padding:15px 20px;
+}
 /*新增--------------------------------END*/
