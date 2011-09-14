@@ -1144,7 +1144,6 @@ a:hover {
       font-weight: bold;
       margin: 0px 20px; }
     #container .pdReview .qfeature, #container .brandList .qfeature {
-      margin-top: 15px;
       padding-left: 10px;
       float: left; }
       #container .pdReview .fb-good{
@@ -1197,7 +1196,9 @@ a:hover {
         float: left;
         width: 635px;
         height: 115px;
-        overflow: hidden; }
+        overflow: hidden; 
+        margin-top: 5px;
+        }
       #container .pdReview .album ul, #container .brandList .album ul {
         width: 1000px; }
       #container .pdReview .album li, #container .brandList .album li {
@@ -1280,7 +1281,7 @@ a:hover {
       /*暫定樣式*/
       /*暫定樣式 end*/
       /* 手機館-討論列表 */
-      /* 手機王－規格列表	*/ }
+      /* 手機王－規格列表 */ }
       #container .pdReview .pdIntro .content, #container .brandList .pdIntro .content {
         margin: 5px 10px; }
       #container .pdReview .pdIntro .pdTitle, #container .brandList .pdIntro .pdTitle {
@@ -2768,114 +2769,114 @@ a:hover {
 
 /*彈出視窗的討論版(DiscussBoard)*/
 .msg {
-	border: 1px solid #CCCCCC;
-	width: 500px;
-	position: absolute;
-	background-attachment: scroll;
-	background-color: #DDD;
-	background-repeat: repeat;
-	background-position: 0 0;
-	box-shadow: 0 0 6px #AAAAAA;
-	margin:0;
-	padding-left:10px;
-}	
+   border: 1px solid #CCCCCC;
+   width: 500px;
+   position: absolute;
+   background-attachment: scroll;
+   background-color: #DDD;
+   background-repeat: repeat;
+   background-position: 0 0;
+   box-shadow: 0 0 6px #AAAAAA;
+   margin:0;
+   padding-left:10px;
+}  
 .msg2 {
-	border: 1px solid #CCCCCC;
-	width: 510px;
-	position: absolute;
-	margin-top:100px;
-	background-attachment: scroll;
-	background-color: #DDD;
-	background-repeat: repeat;
-	background-position: 0 0;
-	box-shadow: 0 0 6px #AAAAAA;
-}	
+   border: 1px solid #CCCCCC;
+   width: 510px;
+   position: absolute;
+   margin-top:100px;
+   background-attachment: scroll;
+   background-color: #DDD;
+   background-repeat: repeat;
+   background-position: 0 0;
+   box-shadow: 0 0 6px #AAAAAA;
+}  
 .msg h4
 {
-	width:490px;
-	float:left;
-	text-align: center;
-	font-size:14px;
-	background-color:#AAA;
-	height:30px;
-	line-height: 30px;
-	border-radius:10px;
-	letter-spacing: 0.2em;
-	padding:0px;
-	margin-top:10px;	
+   width:490px;
+   float:left;
+   text-align: center;
+   font-size:14px;
+   background-color:#AAA;
+   height:30px;
+   line-height: 30px;
+   border-radius:10px;
+   letter-spacing: 0.2em;
+   padding:0px;
+   margin-top:10px;  
 }
 .msg2 h4
 {
 width:490px;
-	float:left;
-	text-align: center;
-	font-size:14px;
-	background-color:#AAA;
-	height:30px;
-	line-height: 30px;
-	border-radius:10px;
-	letter-spacing: 0.2em;
-	padding:0px;
-	margin-top:10px;
-	margin-left:10px;
+   float:left;
+   text-align: center;
+   font-size:14px;
+   background-color:#AAA;
+   height:30px;
+   line-height: 30px;
+   border-radius:10px;
+   letter-spacing: 0.2em;
+   padding:0px;
+   margin-top:10px;
+   margin-left:10px;
 }
 .thiscontent.name
 {
-	font-size: 12px;	
-}	
+   font-size: 12px;  
+}  
 .thiscontent
 {
-	float:left;
-	padding:20px 10px 10px 10px;
+   float:left;
+   padding:20px 10px 10px 10px;
    text-align: left;
 }
  .thiscontent label
 {
-	font-size:14px;
-	color: #444;
+   font-size:14px;
+   color: #444;
 }
 .thiscontent .txt-imp
 {
-	padding:5px;
-	font-size:12px;
-	color: #444;
+   padding:5px;
+   font-size:12px;
+   color: #444;
 }
 .Cleft
 {
-	padding:5px 0 5px 0;
-	font-size:15px; 
-	color: #444;
+   padding:5px 0 5px 0;
+   font-size:15px; 
+   color: #444;
 }
 
 /*編輯公告*/
 
 .Boardmsg {
-	border: 1px solid #CCCCCC;
-	width: 520px;
-	position: absolute;
-	background-attachment: scroll;
-	background-color: #DDD;
-	background-repeat: repeat;
-	background-position: 0 0;
-	box-shadow: 0 0 6px #AAAAAA;
-	margin:0;
-	padding-left:0px;
-}	
+   border: 1px solid #CCCCCC;
+   width: 520px;
+   position: absolute;
+   background-attachment: scroll;
+   background-color: #DDD;
+   background-repeat: repeat;
+   background-position: 0 0;
+   box-shadow: 0 0 6px #AAAAAA;
+   margin:0;
+   padding-left:0px;
+}  
 .Boardmsg h4
 {
 width:500px;
-	float:left;
-	text-align: center;
-	font-size:14px;
-	background-color:#AAA;
-	height:30px;
-	line-height: 30px;
-	border-radius:10px;
-	letter-spacing: 0.2em;
-	padding:0px;
-	margin-top:10px;	
-	margin-left:10px;
-	}
+   float:left;
+   text-align: center;
+   font-size:14px;
+   background-color:#AAA;
+   height:30px;
+   line-height: 30px;
+   border-radius:10px;
+   letter-spacing: 0.2em;
+   padding:0px;
+   margin-top:10px;  
+   margin-left:10px;
+   }
 .thiscontent h3{
    background-color: transparent;
    border: 0 none;
@@ -2892,58 +2893,58 @@ width:500px;
     padding-left: 0px;
 }
 .thiscontent ul.arrow{
-	font-size:13px;
-	line-height: 20px;
+   font-size:13px;
+   line-height: 20px;
 }
 .choise {
-	border: 1px solid #CCCCCC;
-	width: 200px;
-	position: absolute;
-	background-attachment: scroll;
-	background-color: #DDD;
-	background-repeat: repeat;
-	background-position: 0 0;
-	box-shadow: 0 0 6px #AAAAAA;
-	padding:5px 0 5px 0;
-	text-align: center;
-	font-size:13px;
-}	
+   border: 1px solid #CCCCCC;
+   width: 200px;
+   position: absolute;
+   background-attachment: scroll;
+   background-color: #DDD;
+   background-repeat: repeat;
+   background-position: 0 0;
+   box-shadow: 0 0 6px #AAAAAA;
+   padding:5px 0 5px 0;
+   text-align: center;
+   font-size:13px;
+}  
 .Dspace{
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #BBB;
-	margin:0 0 5px 0;	
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #BBB;
+   margin:0 0 5px 0; 
 }
 .pageSpaceR{
-	float:left;
-	width:auto;
-}	
+   float:left;
+   width:auto;
+}  
 .pageSpaceL{
-	float:left;
-	width:auto;
-	line-height:30px;
-}	
+   float:left;
+   width:auto;
+   line-height:30px;
+}  
 .pageSpace{
-	float:left;
-	width:auto;
-	border-top-width: 1px;
-	border-bottom-width: 1px;
-	border-top-style: solid;
-	border-bottom-style: solid;
-	border-top-color: #777;
-	border-bottom-color: #555;	
-	padding:10px 0 10px 0;
-	margin:10px 0 10px 0;
+   float:left;
+   width:auto;
+   border-top-width: 1px;
+   border-bottom-width: 1px;
+   border-top-style: solid;
+   border-bottom-style: solid;
+   border-top-color: #777;
+   border-bottom-color: #555; 
+   padding:10px 0 10px 0;
+   margin:10px 0 10px 0;
 }
 .thiscontent .bar{
-	float:left;
+   float:left;
 }
 .thiscontent .objBtn
 {
   width:auto;
   float:left;
-  padding-top:0px;	 
-}	
+  padding-top:0px;    
+}  
 .thiscontent .objBtn li {
     background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
     border: 1px solid #AAAAAA;
@@ -2951,30 +2952,30 @@ width:500px;
     box-shadow: 0 0 6px white inset;
     float:left;
     margin-right: 5px;
-	padding:5px 10px 5px 10px;
-	font-size:13px;
+   padding:5px 10px 5px 10px;
+   font-size:13px;
 }
 .thiscontent .pageSpace .pageSpaceR .objBtn ul li a{
-	padding-left:10px;
+   padding-left:10px;
 }
 .thiscontent .pageSpace .pageSpaceR .objBtn{
-	padding-left:10px;
+   padding-left:10px;
 }
 .mistake .pageSpace{
    float: left;
    margin: 10px auto;
    padding: 10px 0;
    width: auto;
-	padding:15px;
-	width:450px;
-	line-height:25px;
+   padding:15px;
+   width:450px;
+   line-height:25px;
 }
 .mistake .objBtn{
   width:auto;
   float:left;
-  padding-top:0px;	 
-  padding-bottom:10px;	
-}	
+  padding-top:0px;    
+  padding-bottom:10px;  
+}  
 .mistake .objBtn li {
     background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
     border: 1px solid #AAAAAA;
@@ -2982,21 +2983,21 @@ width:500px;
     box-shadow: 0 0 6px white inset;
     float:left;
     margin-right: 5px;
-	padding:5px 10px 5px 10px;
-	font-size:13px;
+   padding:5px 10px 5px 10px;
+   font-size:13px;
 }
 .mistake .name{
-	font-size: 13px;	
-	padding-top:50px;
+   font-size: 13px;  
+   padding-top:50px;
 }
 .mistake td{
-	padding:3px;
+   padding:3px;
 }
 .pageNav .objBtn{
   width:autopx;
   float:left;
-  padding-top:0px;	 
-  padding-bottom:10px;	
+  padding-top:0px;    
+  padding-bottom:10px;  
 }
 .pageNav .objBtn li {
     background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
@@ -3005,11 +3006,11 @@ width:500px;
     box-shadow: 0 0 6px white inset;
     float:left;
     margin-right: 5px;
-	padding:5px 10px 5px 10px;
-	font-size:13px;
+   padding:5px 10px 5px 10px;
+   font-size:13px;
 }
 #yauclaa .thiscontent #delForm .Cleft select{
-	font-size: 12px;	
+   font-size: 12px;  
 }
 
 /*彈出視窗的討論版(DiscussBoard)----------END*/
@@ -3017,137 +3018,137 @@ width:500px;
 /*footer*/
 .footermain strong
 {
-	color:#500;
-	margin: 5px;
-	line-height: 30px;
+   color:#500;
+   margin: 5px;
+   line-height: 30px;
 }
 
 .footermain {
-	border-radius: 15px 15px 15px 15px;
-	height: auto;
-	overflow: hidden;
+   border-radius: 15px 15px 15px 15px;
+   height: auto;
+   overflow: hidden;
 }
 .nav{
-	padding:10px 20px 40px 10px;
+   padding:10px 20px 40px 10px;
 }
 .Fdatas{
-	margin-top:30px;
-	margin-left: 5px;
-	height: auto;
+   margin-top:30px;
+   margin-left: 5px;
+   height: auto;
 }
 .FdataL{
-	float:left;
-	margin: 0px;
-	padding: 0px;
-	height: auto;
+   float:left;
+   margin: 0px;
+   padding: 0px;
+   height: auto;
 }
 .FdataR{
-	float:left;
-	border-radius: 0px 15px 15px 15px;
-	box-shadow: 0 0 6px #AAAAAA;
-	height: auto;
-	overflow: hidden;
-	width: 650px;
-	padding: 5px 5px 5px 0;
-	border-top-width: 1px;
-	border-right-width: 1px;
-	border-bottom-width: 1px;
-	border-left-width: 0px;
-	border-top-style: solid;
-	border-right-style: solid;
-	border-bottom-style: solid;
-	border-left-style: solid;
-	border-top-color: #AAAAAA;
-	border-right-color: #AAAAAA;
-	border-bottom-color: #AAAAAA;
-	border-left-color: #AAAAAA;
-	margin: 0px;
-	background-image: url(../images/www/FdataR_bac.jpg);
-	padding-bottom:20px;
+   float:left;
+   border-radius: 0px 15px 15px 15px;
+   box-shadow: 0 0 6px #AAAAAA;
+   height: auto;
+   overflow: hidden;
+   width: 650px;
+   padding: 5px 5px 5px 0;
+   border-top-width: 1px;
+   border-right-width: 1px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #AAAAAA;
+   border-right-color: #AAAAAA;
+   border-bottom-color: #AAAAAA;
+   border-left-color: #AAAAAA;
+   margin: 0px;
+   background-image: url(../images/www/FdataR_bac.jpg);
+   padding-bottom:20px;
 }
 .Fdata{
-	padding: 0px;
-	width: 620px;
-	height: 200px;
-	margin: 13px 20px 20px 18px;
+   padding: 0px;
+   width: 620px;
+   height: 200px;
+   margin: 13px 20px 20px 18px;
 }
 .FdataUp{
-	width: 620px;
-	float: left;
+   width: 620px;
+   float: left;
 }
 .FdataDown{
-	width: 620px;
-	float: left;
-	border: 0.1em solid #AAA;
+   width: 620px;
+   float: left;
+   border: 0.1em solid #AAA;
 }
 .FdataTabs{
-	float: left;	
+   float: left;   
 }
 .FdataTabs a{
-	display:block;
-	height: 35px;
-	width: 100px;
-	background-image: url(../images/www/FdataTab_bac.png);
+   display:block;
+   height: 35px;
+   width: 100px;
+   background-image: url(../images/www/FdataTab_bac.png);
 }
 .FdataTabs a:hover{
-	background-image:  url(../images/www/FdataTabOn_bac.png);
-	color: #444;
+   background-image:  url(../images/www/FdataTabOn_bac.png);
+   color: #444;
 }
 .FdataTab{
-	float: left;
-	margin: 0 3px 0 0;
-	padding: 0px;
-	color: #444;
-	background-image: url(../images/www/FdataTab_bac.png);
-	text-align: center;
-	line-height: 35px;
+   float: left;
+   margin: 0 3px 0 0;
+   padding: 0px;
+   color: #444;
+   background-image: url(../images/www/FdataTab_bac.png);
+   text-align: center;
+   line-height: 35px;
 }
 .Fon a{
-	display:block;
-	height: 35px;
-	width: 100px;
-	background-image:  url(../images/www/FdataTabOn_bac.png);
+   display:block;
+   height: 35px;
+   width: 100px;
+   background-image:  url(../images/www/FdataTabOn_bac.png);
 }
 .FdataSignBig{
-	float: right;
-	padding: 0px;
-	height: auto;
-	width: auto;
-	margin: 23px 0 0 0;
-	color: #BBB;
-	font-size: 12px;
+   float: right;
+   padding: 0px;
+   height: auto;
+   width: auto;
+   margin: 23px 0 0 0;
+   color: #BBB;
+   font-size: 12px;
 }
 .FdataSignSmall{
-	float: right;
-	padding: 0px;
-	height: auto;
-	width: auto;
-	margin:0;
-	color: #BBB;
-	font-size: 12px;
+   float: right;
+   padding: 0px;
+   height: auto;
+   width: auto;
+   margin:0;
+   color: #BBB;
+   font-size: 12px;
 }
 .FdataSign{
-	float: right;
-	padding: 0px;
-	height: auto;
-	width: auto;
-	margin: 18px 0 0 0;
-	color: #BBB;
-	font-size: 12px;
+   float: right;
+   padding: 0px;
+   height: auto;
+   width: auto;
+   margin: 18px 0 0 0;
+   color: #BBB;
+   font-size: 12px;
 }
 .Ftabs {
-	clear: both;
-	display: block;
-	float: left;
-	height: 29px;
-	line-height: 29px;
-	padding-left: 10px;
-	background-attachment: scroll;
-	background-color: #806F66;
-	background-image: url(../../images/www/sogi-img.png);
-	background-repeat: no-repeat;
-	background-position: -1px -180px;
-	border-radius: 15px 15px 15px 15px;
+   clear: both;
+   display: block;
+   float: left;
+   height: 29px;
+   line-height: 29px;
+   padding-left: 10px;
+   background-attachment: scroll;
+   background-color: #806F66;
+   background-image: url(../../images/www/sogi-img.png);
+   background-repeat: no-repeat;
+   background-position: -1px -180px;
+   border-radius: 15px 15px 15px 15px;
 }
 .Ftabs .Ftab {
     float: left;
@@ -3156,115 +3157,115 @@ width:500px;
     text-align: center;
 }
 .Ftabs .Ftab a {
-	color: white;
-	display: block;
-	line-height: 28px;
-	padding: 0 15px 0 15px;	
+   color: white;
+   display: block;
+   line-height: 28px;
+   padding: 0 15px 0 15px; 
 }
 .Ftabs .Ftab a:hover {
     background-color: #3A3536;
     border-radius: 15px 15px 15px 15px;
 }
 .Ftabs .on {
-	border-radius: 15px 15px 15px 15px;
-	  background-color: #3A3536;
+   border-radius: 15px 15px 15px 15px;
+     background-color: #3A3536;
 }
 .FtabsEnd {
-	display: block;
-	float: left;
-	height: 0px;
-	line-height: 29px;
-	width: 0px;
-	margin-top: 40px;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	background-position: right -180px;
+   display: block;
+   float: left;
+   height: 0px;
+   line-height: 29px;
+   width: 0px;
+   margin-top: 40px;
+   background-attachment: scroll;
+   background-repeat: no-repeat;
+   background-position: right -180px;
 }
 
 /* 關於手機王 公司簡介*/
 
 .IntroFtitle{
-	height:35px;
-	width: 610px;
-	float: left;
-	line-height: 35px;
-	font-size: 13px;
-	font-weight: 200;
-	background-color: #DDD;
-	background-image: url(../images/www/Ftitle_bac.png);
-	padding: 0 0 0 10px;
-	margin: 0px;
+   height:35px;
+   width: 610px;
+   float: left;
+   line-height: 35px;
+   font-size: 13px;
+   font-weight: 200;
+   background-color: #DDD;
+   background-image: url(../images/www/Ftitle_bac.png);
+   padding: 0 0 0 10px;
+   margin: 0px;
 }
 .IntroFblock1{
-	width: 610px;
-	float: left;
-	padding-left: 10px;
-	letter-spacing: 2px;
-	line-height: 20px;
-	border-top: 0.1em solid #AAA;
-	border-bottom: 0.1em solid #AAA;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-size: 12px;
+   width: 610px;
+   float: left;
+   padding-left: 10px;
+   letter-spacing: 2px;
+   line-height: 20px;
+   border-top: 0.1em solid #AAA;
+   border-bottom: 0.1em solid #AAA;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 12px;
 }
 .IntroFblock1l{
-	width: 305px;
-	float: left;
+   width: 305px;
+   float: left;
 }
 .IntroFblock1r{
-	width: 305px;
-	float: left;
+   width: 305px;
+   float: left;
 }
 .IntroFblock2{
-	width: auto;
-	float: left;
-	padding: 20px 25px 15px 25px;
-	letter-spacing: 2px;
-	line-height: 20px;
-	font-size: 11px;
+   width: auto;
+   float: left;
+   padding: 20px 25px 15px 25px;
+   letter-spacing: 2px;
+   line-height: 20px;
+   font-size: 11px;
 }
 
 /* 關於手機王 里程碑*/
 
 .MileFtitle{
-	height:35px;
-	width: 610px;
-	float: left;
-	border: 0.1em solid #AAA;
-	line-height: 35px;
-	font-size: 13px;
-	font-weight: 200;
-	background-color: #DDD;
-	background-image: url(../images/www/Ftitle_bac.png);
-	padding: 0 0 0 10px;
-	margin: 0px;
+   height:35px;
+   width: 610px;
+   float: left;
+   border: 0.1em solid #AAA;
+   line-height: 35px;
+   font-size: 13px;
+   font-weight: 200;
+   background-color: #DDD;
+   background-image: url(../images/www/Ftitle_bac.png);
+   padding: 0 0 0 10px;
+   margin: 0px;
 }
 .MileFtitleL{
-	float: left;
-	width: 100px;
+   float: left;
+   width: 100px;
 }
 .MileFtitleR{
 }
 .MileFblock{
-	height:auto;
-	width: 610px;
-	float: left;
-	border: 0.1em solid #AAA;
-	line-height: 35px;
-	font-size: 12px;
-	font-weight: 200;
-	padding: 0 0 0 10px;
-	margin: 0px;
+   height:auto;
+   width: 610px;
+   float: left;
+   border: 0.1em solid #AAA;
+   line-height: 35px;
+   font-size: 12px;
+   font-weight: 200;
+   padding: 0 0 0 10px;
+   margin: 0px;
 }
 .MileFblockL{
-	float: left;
-	width: 50px;
-	height:auto;
+   float: left;
+   width: 50px;
+   height:auto;
 }
 .MileFblockM{
-	float: left;
-	width: 50px;
-	height:auto;
+   float: left;
+   width: 50px;
+   height:auto;
 }
 .MileFblockR{
   float: left;
@@ -3274,452 +3275,452 @@ width:500px;
 /* 關於手機王 facebook*/
 
 .FaceFtitle{
-	height:35px;
-	width: 610px;
-	float: left;
-	line-height: 35px;
-	font-size: 13px;
-	font-weight: 200;
-	background-color: #DDD;
-	background-image: url(../images/www/Ftitle_bac.png);
-	padding: 0 0 0 10px;
-	margin: 0px;
+   height:35px;
+   width: 610px;
+   float: left;
+   line-height: 35px;
+   font-size: 13px;
+   font-weight: 200;
+   background-color: #DDD;
+   background-image: url(../images/www/Ftitle_bac.png);
+   padding: 0 0 0 10px;
+   margin: 0px;
 }
 .FaceFtitle a:hover{
-	text-decoration: underline;	
-	color:#444;
+   text-decoration: underline;   
+   color:#444;
 }
 .FaceFblockUp{
-	width: 610px;
-	float: left;
-	padding-left: 10px;
-	letter-spacing: 2px;
-	line-height: 20px;
-	border-top: 0.1em solid #AAA;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-size: 12px;
+   width: 610px;
+   float: left;
+   padding-left: 10px;
+   letter-spacing: 2px;
+   line-height: 20px;
+   border-top: 0.1em solid #AAA;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 12px;
 }
 .FaceFblockDown{
-	width: 610px;
-	float: left;
-	padding-left: 10px;
-	letter-spacing: 2px;
-	line-height: 20px;
-	border-top: 0.1em solid #AAA;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	margin-bottom:15px;
-	font-size: 11px;
+   width: 610px;
+   float: left;
+   padding-left: 10px;
+   letter-spacing: 2px;
+   line-height: 20px;
+   border-top: 0.1em solid #AAA;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-bottom:15px;
+   font-size: 11px;
 }
 .Facebook{
-	margin: 20px;
-	height: auto;
-	width: auto;
+   margin: 20px;
+   height: auto;
+   width: auto;
 }
 
 /* 關於手機王 plurk*/
 
 .Plurk{
-	margin: 20px;
-	height: auto;
-	width: auto;
+   margin: 20px;
+   height: auto;
+   width: auto;
 }
 
 /* 網路行銷 Strength*/
 
 .StrengthFblock{
-	width: 610px;
-	float: left;
-	padding-left: 5px;
-	padding-right: 10px;
-	letter-spacing: 2px;
-	line-height: 20px;
-	border: 0.1em solid #AAA;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-size: 12px;
-	margin-bottom:15px;
+   width: 610px;
+   float: left;
+   padding-left: 5px;
+   padding-right: 10px;
+   letter-spacing: 2px;
+   line-height: 20px;
+   border: 0.1em solid #AAA;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 12px;
+   margin-bottom:15px;
 }
 .StrengthFblockL{
-	width: 280px;
-	float: left;
-	border-right-width: 1px;
-	border-right-style: solid;
-	border-right-color: #AAAAAA;
-	margin:10px 0px 10px 10px;
-	padding-right:10px;
+   width: 280px;
+   float: left;
+   border-right-width: 1px;
+   border-right-style: solid;
+   border-right-color: #AAAAAA;
+   margin:10px 0px 10px 10px;
+   padding-right:10px;
 }
 .StrengthFblockR{
-	width: 280px;
-	float: right;
-	margin:10px 0px 10px 10px;
+   width: 280px;
+   float: right;
+   margin:10px 0px 10px 10px;
 }
 .StrengthFdataDown{
-	width: 620px;
-	float: left;	
+   width: 620px;
+   float: left;   
 }
 
 /* 網路行銷 Effect*/
 
 .Ftitle{
-	height:35px;
-	width: 610px;
-	float: left;
-	border: 0.1em solid #AAA;
-	line-height: 35px;
-	font-size: 13px;
-	font-weight: 200;
-	background-color: #DDD;
-	background-image: url(../images/www/Ftitle_bac.png);
-	padding: 0 0 0 10px;
-	margin: 0px;
+   height:35px;
+   width: 610px;
+   float: left;
+   border: 0.1em solid #AAA;
+   line-height: 35px;
+   font-size: 13px;
+   font-weight: 200;
+   background-color: #DDD;
+   background-image: url(../images/www/Ftitle_bac.png);
+   padding: 0 0 0 10px;
+   margin: 0px;
 }
 .Ftitle a:hover{
-	color: #555;
-	text-decoration: underline;	
+   color: #555;
+   text-decoration: underline;   
 }
 .Fblock{
    height:auto;
-	width: 610px;
-	height:35px;
-	float: left;
-	border: 0.1em solid #AAA;
-	line-height: 35px;
-	font-size: 12px;
-	font-weight: 200;
-	padding: 0 0 0 10px;
-	margin: 0px;
+   width: 610px;
+   height:35px;
+   float: left;
+   border: 0.1em solid #AAA;
+   line-height: 35px;
+   font-size: 12px;
+   font-weight: 200;
+   padding: 0 0 0 10px;
+   margin: 0px;
 }
 .FblockL{
-	width: 305px;
-	float: left;
-	border-right-width: 1px;
-	border-right-style: solid;
-	border-right-color: #AAAAAA;
-	margin:0;
+   width: 305px;
+   float: left;
+   border-right-width: 1px;
+   border-right-style: solid;
+   border-right-color: #AAAAAA;
+   margin:0;
 }
 .FblockR{
-	width: 305px;
-	float: right;
-	margin:0;
+   width: 305px;
+   float: right;
+   margin:0;
 }
 .EffectFdataDown{
-	width: 620px;
-	float: left;	
+   width: 620px;
+   float: left;   
 }
 
 /* 廣告刊登*/
 
 .AdsFtitle{
-	height:35px;
-	width:620px;
-	float: left;
-	border-top: 0.1em solid #AAA;
-	line-height: 35px;
-	font-size: 13px;
-	font-weight: 200;
-	background-color: #DDD;
-	background-image: url(../images/www/Ftitle_bac.png);
-	padding: 0;
-	margin: 0px;
+   height:35px;
+   width:620px;
+   float: left;
+   border-top: 0.1em solid #AAA;
+   line-height: 35px;
+   font-size: 13px;
+   font-weight: 200;
+   background-color: #DDD;
+   background-image: url(../images/www/Ftitle_bac.png);
+   padding: 0;
+   margin: 0px;
 }
 .AdsFtitleL{
-	height:auto;
-	width:400px;
-	border-right: 0.1em solid #AAA;
-	float: left;
-	padding:0 0 0 20px;
+   height:auto;
+   width:400px;
+   border-right: 0.1em solid #AAA;
+   float: left;
+   padding:0 0 0 20px;
 }
 .AdsFtitleR{
    height:auto;
-	width:auto;
-	float: left;
-	padding:0 0 0 20px;
+   width:auto;
+   float: left;
+   padding:0 0 0 20px;
 }
 .AdsFblockUp{
-	height:auto;
-	width: auto;
-	float: left;
-	line-height: 25px;
-	font-size: 12px;
-	font-weight: 200;
-	padding: 15px 0 20px 20px;
-	margin: 0;
+   height:auto;
+   width: auto;
+   float: left;
+   line-height: 25px;
+   font-size: 12px;
+   font-weight: 200;
+   padding: 15px 0 20px 20px;
+   margin: 0;
 }
 .AdsFblockM{
-	height:auto;
-	width: auto;
-	float: left;
-	line-height: 25px;
-	font-size: 12px;
-	font-weight: 200;
-	margin: 0;
+   height:auto;
+   width: auto;
+   float: left;
+   line-height: 25px;
+   font-size: 12px;
+   font-weight: 200;
+   margin: 0;
 }
 .AdsFblockML{
-	height:auto;
-	width: 400px;
-	float: left;
-	border-right: 0.1em solid #AAA;
-	line-height: 20px;
-	font-size: 12px;
-	font-weight: 200;
-	padding:15px 0 20px 20px;
-	margin: 0;
-	color: #000;
+   height:auto;
+   width: 400px;
+   float: left;
+   border-right: 0.1em solid #AAA;
+   line-height: 20px;
+   font-size: 12px;
+   font-weight: 200;
+   padding:15px 0 20px 20px;
+   margin: 0;
+   color: #000;
 }
 .AdsFblockMR{
-	height:auto;
-	width: 160px;
-	float: left;
-	line-height: 25px;
-	font-size: 12px;
-	font-weight: 200;
-	padding:15px 0 0 20px;
-	margin: 0;
+   height:auto;
+   width: 160px;
+   float: left;
+   line-height: 25px;
+   font-size: 12px;
+   font-weight: 200;
+   padding:15px 0 0 20px;
+   margin: 0;
 }
 .AdsFblockDown{
-	height:auto;
-	width: auto;
-	line-height: 25px;
-	font-size: 12px;
-	font-weight: 200;
-	margin: 0;
+   height:auto;
+   width: auto;
+   line-height: 25px;
+   font-size: 12px;
+   font-weight: 200;
+   margin: 0;
 }
 .AdsFblockDownL{
-	height:auto;
-	width: 300px;
-	float: left;
-	border-right: 0.1em solid #AAA;
-	line-height: 20px;
-	font-size: 12px;
-	font-weight: 200;
-	padding:15px 15px 20px 20px;
-	margin: 0;
-	color: #000;
+   height:auto;
+   width: 300px;
+   float: left;
+   border-right: 0.1em solid #AAA;
+   line-height: 20px;
+   font-size: 12px;
+   font-weight: 200;
+   padding:15px 15px 20px 20px;
+   margin: 0;
+   color: #000;
 }
 .AdsFblockDownR{
-	height:auto;
-	width: 160px;
-	float: left;
-	line-height: 25px;
-	font-size: 12px;
-	font-weight: 200;
-	padding:45px 0 0 40px;
-	margin: 0;
+   height:auto;
+   width: 160px;
+   float: left;
+   line-height: 25px;
+   font-size: 12px;
+   font-weight: 200;
+   padding:45px 0 0 40px;
+   margin: 0;
 }
 
 /* 連絡我們*/
 
 .ContactFtitle{
-	height:35px;
-	width: 605px;
-	float: left;
-	border-bottom: 0.1em solid #AAA;
-	line-height: 35px;
-	font-size: 13px;
-	font-weight: 200;
-	background-color: #DDD;
-	background-image: url(../images/www/Ftitle_bac.png);
-	padding: 0 0 0 15px;
-	margin: 0px;
+   height:35px;
+   width: 605px;
+   float: left;
+   border-bottom: 0.1em solid #AAA;
+   line-height: 35px;
+   font-size: 13px;
+   font-weight: 200;
+   background-color: #DDD;
+   background-image: url(../images/www/Ftitle_bac.png);
+   padding: 0 0 0 15px;
+   margin: 0px;
 }
 .ContactFblockUp{
-	width: 600px;
-	float: left;
-	padding-left: 20px;
-	letter-spacing: 2px;
-	line-height: 20px;
-	border-bottom: 0.1em solid #AAA;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-size: 12px;
+   width: 600px;
+   float: left;
+   padding-left: 20px;
+   letter-spacing: 2px;
+   line-height: 20px;
+   border-bottom: 0.1em solid #AAA;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 12px;
 }
 .ContactFblockDown{
-	width: auto;
-	float: left;
-	letter-spacing: 2px;
-	line-height: 20px;
-	font-size: 11px;
+   width: auto;
+   float: left;
+   letter-spacing: 2px;
+   line-height: 20px;
+   font-size: 11px;
 }
 .ContactFblockDownL{
-   float: left;	
+   float: left;   
    padding: 20px 20px 15px 20px;
 }
 .ContactFblockDownM{
-	float: left;
-	width:130px;
-	padding: 20px 20px 15px 20px;
-	border-right: 0.1em solid #AAA;
-	border-left: 0.1em solid #AAA;
+   float: left;
+   width:130px;
+   padding: 20px 20px 15px 20px;
+   border-right: 0.1em solid #AAA;
+   border-left: 0.1em solid #AAA;
 }
 .ContactFblockDownR{
-	float: right;
-	padding: 20px 20px 15px 20px;
+   float: right;
+   padding: 20px 20px 15px 20px;
 }
 
 /* 隱私權*/
 
 .PrivacyFtitle{
-	height:35px;
-	width: 605px;
-	float: left;
-	border-bottom: 0.1em solid #AAA;
-	line-height: 35px;
-	font-size: 13px;
-	font-weight: 200;
-	background-color: #DDD;
-	background-image: url(../images/www/Ftitle_bac.png);
-	padding: 0 0 0 15px;
-	margin: 0px;
+   height:35px;
+   width: 605px;
+   float: left;
+   border-bottom: 0.1em solid #AAA;
+   line-height: 35px;
+   font-size: 13px;
+   font-weight: 200;
+   background-color: #DDD;
+   background-image: url(../images/www/Ftitle_bac.png);
+   padding: 0 0 0 15px;
+   margin: 0px;
 }
 .PrivacyFtitleL{
-	float:left;
+   float:left;
 }
 .PrivacyFtitleR{
-	padding-top:10px;
-	float:right;
-	font-size: 10px;
+   padding-top:10px;
+   float:right;
+   font-size: 10px;
 }
 .PrivacyFblockT{
-	width: 590px;
-	float: left;
-	padding:5px 15px 10px 15px;
-	letter-spacing: 2px;
-	line-height: 25px;
-	border-bottom: 0.1em solid #AAA;
-	font-size: 12px;
+   width: 590px;
+   float: left;
+   padding:5px 15px 10px 15px;
+   letter-spacing: 2px;
+   line-height: 25px;
+   border-bottom: 0.1em solid #AAA;
+   font-size: 12px;
 }
 h1{
-	font-size: 14px;
-	line-height: 40px;
+   font-size: 14px;
+   line-height: 40px;
 }
 .PrivacyFblockM{
-	width: 600px;
-	float: left;
-	padding-left:10px;
-	letter-spacing: 2px;
-	line-height: 25px;
-	border-bottom: 0.1em solid #AAA;
-	font-size: 12px;
+   width: 600px;
+   float: left;
+   padding-left:10px;
+   letter-spacing: 2px;
+   line-height: 25px;
+   border-bottom: 0.1em solid #AAA;
+   font-size: 12px;
 }
 .PrivacyFblockML{
-	width: 270px;
-	float: left;
-	padding:5px 10px 10px 10px;
-	border-right: 0.1em solid #AAA;
-	color: #000;	
+   width: 270px;
+   float: left;
+   padding:5px 10px 10px 10px;
+   border-right: 0.1em solid #AAA;
+   color: #000;   
 }
 .PrivacyFblockMR{
-	width: 270px;
-	float: left;
-	padding:5px 10px 10px 20px;
+   width: 270px;
+   float: left;
+   padding:5px 10px 10px 20px;
 }
 .PrivacyFdataDown{
-	width: 620px;
-	float: left;
-	border: 0.1em solid #AAA;
+   width: 620px;
+   float: left;
+   border: 0.1em solid #AAA;
 }
 
 /* 法律顧問*/
 
 .LowFtitle{
-	height:35px;
-	width: 610px;
-	float: left;
-	border-bottom: 0.1em solid #AAA;
-	line-height: 35px;
-	font-size: 13px;
-	font-weight: 200;
-	background-color: #DDD;
-	background-image: url(../images/www/Ftitle_bac.png);
-	padding: 0 0 0 10px;
-	margin: 0px;
+   height:35px;
+   width: 610px;
+   float: left;
+   border-bottom: 0.1em solid #AAA;
+   line-height: 35px;
+   font-size: 13px;
+   font-weight: 200;
+   background-color: #DDD;
+   background-image: url(../images/www/Ftitle_bac.png);
+   padding: 0 0 0 10px;
+   margin: 0px;
 }
 .LowFtitleL{
-	float:left;
+   float:left;
 }
 .LowFtitleR{
-	padding-top:10px;
-	float:right;
-	font-size: 10px;
+   padding-top:10px;
+   float:right;
+   font-size: 10px;
 }
 .LowFblock{
-	width: 600px;
-	float: left;
-	padding-left: 15px;
-	letter-spacing: 2px;
-	line-height: 20px;
-	border-bottom: 0.1em solid #AAA;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	font-size: 12px;
+   width: 600px;
+   float: left;
+   padding-left: 15px;
+   letter-spacing: 2px;
+   line-height: 20px;
+   border-bottom: 0.1em solid #AAA;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   font-size: 12px;
 }
 .LowFblockl{
-	width: 290px;
-	float: left;
-	padding:5px;
+   width: 290px;
+   float: left;
+   padding:5px;
 }
 .LowFblockr{
-	width: 290px;
-	float: left;
+   width: 290px;
+   float: left;
 }
 
 /* 技術合作*/
 
 .TechFtitle{
-	height:35px;
-	width: 610px;
-	float: left;
-	border-bottom: 0.1em solid #AAA;
-	line-height: 35px;
-	font-size: 13px;
-	font-weight: 200;
-	background-color: #DDD;
-	background-image: url(../images/www/Ftitle_bac.png);
-	padding: 0 0 0 10px;
-	margin: 0px;
+   height:35px;
+   width: 610px;
+   float: left;
+   border-bottom: 0.1em solid #AAA;
+   line-height: 35px;
+   font-size: 13px;
+   font-weight: 200;
+   background-color: #DDD;
+   background-image: url(../images/www/Ftitle_bac.png);
+   padding: 0 0 0 10px;
+   margin: 0px;
 }
 .TechFtitleL{
-	float:left;
-	width:270px;
-	border-right: 0.1em solid #AAA;
+   float:left;
+   width:270px;
+   border-right: 0.1em solid #AAA;
 }
 .TechFtitleR{
-	float:left;
+   float:left;
 }
 .TechFblock{
-	width: 600px;
-	float: left;
-	letter-spacing: 2px;
-	line-height: 20px;
-	border-bottom: 0.1em solid #AAA;
-	font-size: 12px;
+   width: 600px;
+   float: left;
+   letter-spacing: 2px;
+   line-height: 20px;
+   border-bottom: 0.1em solid #AAA;
+   font-size: 12px;
 }
 .TechFblockl{
-	width: 220px;
-	height:auto;
-	float: left;
+   width: 220px;
+   height:auto;
+   float: left;
 }
 .TechFblockLT{
-	width:250px;
-	float: left;
-	border-bottom: 0.1em solid #AAA;
-	border-right: 0.1em solid #AAA;
-	padding:15px;
+   width:250px;
+   float: left;
+   border-bottom: 0.1em solid #AAA;
+   border-right: 0.1em solid #AAA;
+   padding:15px;
 }
 .TechFblockLB{
-	float: left;
-	border-right: 0.1em solid #AAA;
-	padding:15px;
-	width:250px;
-	font-size: 11px;
+   float: left;
+   border-right: 0.1em solid #AAA;
+   padding:15px;
+   width:250px;
+   font-size: 11px;
 }
 .TechFblockr{
-	width: 300px;
-	float: left;
-	padding-left:80px;
-	padding-top:10px;
+   width: 300px;
+   float: left;
+   padding-left:80px;
+   padding-top:10px;
 }
 
 /*footer------------------------------END*/
@@ -3771,79 +3772,79 @@ h1{
     margin-top: 0.5em;
 }
 .Mfootermain {
-	border: 1px solid #AAAAAA;
-	border-radius: 15px 15px 15px 15px;
-	box-shadow: 0 0 6px #AAAAAA;
-	height:auto;
-	overflow: hidden;
-	padding: 5px;
-	background-attachment: scroll;
-	background-color: #ECECEC;
-	background-repeat: repeat;
-	background-position: 0 0;
+   border: 1px solid #AAAAAA;
+   border-radius: 15px 15px 15px 15px;
+   box-shadow: 0 0 6px #AAAAAA;
+   height:auto;
+   overflow: hidden;
+   padding: 5px;
+   background-attachment: scroll;
+   background-color: #ECECEC;
+   background-repeat: repeat;
+   background-position: 0 0;
 }
 .Mfootermain .Mnav{
-	padding:10px 20px 40px 5px;
+   padding:10px 20px 40px 5px;
 }
 .Mfootermain .Mdatas{
-	margin-left: 5px;
-	padding:10px;
-	height: auto;
+   margin-left: 5px;
+   padding:10px;
+   height: auto;
 }
 .Mfootermain .MdataUp{
-	width: 620px;
-	float: left;
-	padding-left:10px;
+   width: 620px;
+   float: left;
+   padding-left:10px;
 }
 .Mfootermain .MdataDown{
-	width:auto;
-	float: left;
-	padding-bottom:25px;
-	padding-top:15px;
-	padding-left:10px;
+   width:auto;
+   float: left;
+   padding-bottom:25px;
+   padding-top:15px;
+   padding-left:10px;
 }
 .Mfootermain .MdataTabs{
-	float: left;	
+   float: left;   
 }
 .Mfootermain .MdataTabs a{
-	display:block;
-	height: 30px;
-	width: 100px;
-	background-image: url(../images/www/FdataTab_bac.png);
-	color: #444;
+   display:block;
+   height: 30px;
+   width: 100px;
+   background-image: url(../images/www/FdataTab_bac.png);
+   color: #444;
 }
 .Mfootermain .MdataTabs a:hover{
-	background-image:  url(../images/www/FdataTabOn_bac.png);
-	color: #444;
+   background-image:  url(../images/www/FdataTabOn_bac.png);
+   color: #444;
 }
 .Mfootermain .MdataTab{
-	float: left;
-	margin: 0 3px 0 0;
-	padding: 0px;
-	color: #444;
-	background-image: url(../images/www/FdataTab_bac.png);
-	text-align: center;
-	line-height: 30px;
+   float: left;
+   margin: 0 3px 0 0;
+   padding: 0px;
+   color: #444;
+   background-image: url(../images/www/FdataTab_bac.png);
+   text-align: center;
+   line-height: 30px;
 }
 .Mfootermain .Mon a{
-	display:block;
-	height: 30px;
-	width: 100px;
-	background-image:  url(../images/www/FdataTabOn_bac.png);
+   display:block;
+   height: 30px;
+   width: 100px;
+   background-image:  url(../images/www/FdataTabOn_bac.png);
 }
 .Mfootermain .Mtabs {
-	clear: both;
-	display: block;
-	float: left;
-	height: 29px;
-	line-height: 29px;
-	padding-left: 10px;
-	background-attachment: scroll;
-	background-color: #806F66;
-	background-image: url(../../images/www/sogi-img.png);
-	background-repeat: no-repeat;
-	background-position: -1px -180px;
-	border-radius: 15px 15px 15px 15px;
+   clear: both;
+   display: block;
+   float: left;
+   height: 29px;
+   line-height: 29px;
+   padding-left: 10px;
+   background-attachment: scroll;
+   background-color: #806F66;
+   background-image: url(../../images/www/sogi-img.png);
+   background-repeat: no-repeat;
+   background-position: -1px -180px;
+   border-radius: 15px 15px 15px 15px;
 }
 .Mfootermain .Mtabs .Mtab {
     float: left;
@@ -3852,36 +3853,36 @@ h1{
     text-align: center;
 }
 .Mfootermain .Mtabs .Mtab a {
-	color: white;
-	display: block;
-	line-height: 28px;
-	padding: 0 15px 0 15px;
-	
+   color: white;
+   display: block;
+   line-height: 28px;
+   padding: 0 15px 0 15px;
+   
 }
 .Mfootermain .Mtabs .Mtab a:hover {
     background-color: #3A3536;
     border-radius: 15px 15px 15px 15px;
 }
 .Mfootermain .Mtabs .on {
-	border-radius: 15px 15px 15px 15px;
-	background-color: #3A3536;
+   border-radius: 15px 15px 15px 15px;
+   background-color: #3A3536;
 }
 .Mfootermain .MtabsEnd {
-	display: block;
-	float: left;
-	height: 0px;
-	line-height: 29px;
-	width: 0px;
-	margin-top: 40px;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	background-position: right -180px;
+   display: block;
+   float: left;
+   height: 0px;
+   line-height: 29px;
+   width: 0px;
+   margin-top: 40px;
+   background-attachment: scroll;
+   background-repeat: no-repeat;
+   background-position: right -180px;
 }
 .Mfootermain div.spacer {
-	clear: both;
-	font-size: 0;
-	height: 20px;
-	line-height: 0;
+   clear: both;
+   font-size: 0;
+   height: 20px;
+   line-height: 0;
 }
 .Mfootermain div.spacer2 {
     clear: both;
@@ -3894,34 +3895,34 @@ h1{
     font-size: 0;
     height: 5px;
     line-height: 0;
-	border-bottom: 1px solid #AAAAAA;
+   border-bottom: 1px solid #AAAAAA;
 }
 .Mfootermain .Mblock{
-	float:left;
-	width:500px;
+   float:left;
+   width:500px;
 }
 
 /*會員資料*/
 
 .Mfootermain #pr_top {
-	border-bottom: 1px solid #87C4D5;
-	border-left: 1px solid #87C4D5;
-	border-right: 1px solid #87C4D5;
-	color: #444444;
-	float: left;
-	font-family: Arial,Helvetica,sans-serif;
-	font-size: 12px;
-	font-weight: bold;
-	height: 27px;
-	text-align: left;
-	vertical-align: middle;
-	width: 100%;
-	background-color: #222;
+   border-bottom: 1px solid #87C4D5;
+   border-left: 1px solid #87C4D5;
+   border-right: 1px solid #87C4D5;
+   color: #444444;
+   float: left;
+   font-family: Arial,Helvetica,sans-serif;
+   font-size: 12px;
+   font-weight: bold;
+   height: 27px;
+   text-align: left;
+   vertical-align: middle;
+   width: 100%;
+   background-color: #222;
 }
 .Mfootermain #pr_top p {
-	display: block;
-	margin: 7px 10px 0;
-	color: #EEE;
+   display: block;
+   margin: 7px 10px 0;
+   color: #EEE;
 }
 .Mfootermain #pr_box {
     border-bottom: 1px solid #999999;
@@ -3929,7 +3930,7 @@ h1{
     border-right: 1px solid #999999;
     float: left;
     line-height: 20px;
-	margin:0 0 20px 0;
+   margin:0 0 20px 0;
     text-align: left;
     width: 100%;
 }
@@ -3991,15 +3992,15 @@ h1{
 .Mfootermain .member LI {
    width:230px;
    display: block;
-	font-size: 12px;
-	line-height: 28px;
-	list-style-position: outside;
-	list-style-type: none;
-	margin-left: 0;
-	text-align: left;
-	border-bottom-width: 0.1em;
-	border-bottom-style: dotted;
-	border-bottom-color: #555;
+   font-size: 12px;
+   line-height: 28px;
+   list-style-position: outside;
+   list-style-type: none;
+   margin-left: 0;
+   text-align: left;
+   border-bottom-width: 0.1em;
+   border-bottom-style: dotted;
+   border-bottom-color: #555;
 }
 .Mfootermain .member LI span.list {
     background-image: url("../imgs/list_bg.gif");
@@ -4025,7 +4026,7 @@ h1{
 /*討論版ㄒ*/
 
 .Mfootermain Table .spec2{
-	width:700px;
+   width:700px;
 }
 .Mfootermain .Discussbar{
    
@@ -4082,7 +4083,7 @@ h1{
     margin: 0 0 20px 0;
     padding:  3px 8px;
     text-align: right;
-	width:650px;
+   width:650px;
 }
 .Mfootermain Table {
 }
@@ -4090,8 +4091,8 @@ h1{
     height: 25px;
 }
 .Mfootermain Table TR.odd {
-	height: 25px;
-	background-color:#DDD;
+   height: 25px;
+   background-color:#DDD;
 }
 .Mfootermain Table TR.chek {
     height: 25px;
@@ -4103,11 +4104,11 @@ h1{
     padding: 5px;
 }
 .Mfootermain .block{
-	width:580px;
-	border-bottom-width: 1px;
-	border-bottom-style: dashed;
-	border-bottom-color: #AAA;
-	padding:15px 0 5px 0;
+   width:580px;
+   border-bottom-width: 1px;
+   border-bottom-style: dashed;
+   border-bottom-color: #AAA;
+   padding:15px 0 5px 0;
 }
 .Mfootermain Table TR.odd td h3,.Mfootermain Table TR.even td h3,.Mfootermain #top td h3 {
     color: #990000;
@@ -4117,39 +4118,39 @@ h1{
     height: 25px;
 }
 .Mfootermain tbody .bar{
-	height:35px;
-	font-size: 13px;
-	color: #555;
+   height:35px;
+   font-size: 13px;
+   color: #555;
 }
 .Mfootermain tbody .bar a{
-	color: #555;	
+   color: #555;   
 }
 .Mfootermain tbody .bar a:hover{
-	color: #555;
-	text-decoration: underline;
+   color: #555;
+   text-decoration: underline;
 }
 .Mfootermain tbody a{
-	color: #0072BC;
+   color: #0072BC;
 }
 .Mfootermain tbody a:hover{
-	color: #FF9900;
+   color: #FF9900;
 }
 
 /*我的訊息*/
 
 .Mfootermain tbody .Messagebar{
-	height:35px;
-	font-size: 13px;
-	color: #444;
-	border-bottom-width: 1px;
-	border-bottom-style: dashed;
-	border-bottom-color: #222;
+   height:35px;
+   font-size: 13px;
+   color: #444;
+   border-bottom-width: 1px;
+   border-bottom-style: dashed;
+   border-bottom-color: #222;
 }
 .Mfootermain TH.bar-c,.Mfootermain TD.bar-c {
-	height: 30px;
-	letter-spacing: 1px;
-	padding: 2px;
-	text-align: center;
+   height: 30px;
+   letter-spacing: 1px;
+   padding: 2px;
+   text-align: center;
 }
 .Mfootermain TH.bar-l,.Mfootermain TD.bar-l {
     height: 30px;
@@ -4193,27 +4194,27 @@ h1{
 /*我的訊息-好友*/
 
 .Mfootermain .Fbar{
-	width:680px;
-	border-bottom-width: 1px;
-	border-bottom-style: dashed;
-	border-bottom-color: #444;	
-	height:30px;
-	font-size:11px;
-	color: #000;
-	padding: 0 10px 0;
+   width:680px;
+   border-bottom-width: 1px;
+   border-bottom-style: dashed;
+   border-bottom-color: #444; 
+   height:30px;
+   font-size:11px;
+   color: #000;
+   padding: 0 10px 0;
 }
 .Mfootermain .Fbar a{
-	font-size:11px;
-	color:#000;
+   font-size:11px;
+   color:#000;
 }
 .Mfootermain .Fbar a:hover{
-	color: #000;
-	text-decoration: underline;
+   color: #000;
+   text-decoration: underline;
 }
 .Mfootermain .Feven{
-	width:680px;
+   width:680px;
    border-bottom: 1px solid #DDDDDD;
-	
+   
    font-size: 12px;
    height: 50px;
    padding-left: 5px;
@@ -4221,23 +4222,23 @@ h1{
     letter-spacing: 1px;
     line-height: 25px;
     text-align: left;
-	
+   
 }
 .Mfootermain tbody .Fbar th.Fbar-l{
-	height:35px;
-	font-size: 12px;
-	width:120px;
-	letter-spacing: 1px;
-	padding: 2px 5px;
-	text-align: left;	
+   height:35px;
+   font-size: 12px;
+   width:120px;
+   letter-spacing: 1px;
+   padding: 2px 5px;
+   text-align: left; 
 }
 
 /*我的訊息-寄信*/
 
 .Mfootermain tbody .Sendbar{
-	border-bottom-width: 1px;
-	border-bottom-style: dashed;
-	border-bottom-color: #888;	
+   border-bottom-width: 1px;
+   border-bottom-style: dashed;
+   border-bottom-color: #888; 
 }
 
 /*會員權益*/
@@ -4246,7 +4247,7 @@ h1{
     float: left;
     line-height: 20px;
     padding: 10px 0 10px 0;
-	margin:0 0 20px 0;
+   margin:0 0 20px 0;
     text-align: left;
     width: 100%;
    height:auto;
@@ -4255,9 +4256,9 @@ h1{
 /*活動*/
 
 .Mfootermain #Acpr_box{
-	width:665px;
-	height:auto;
-	border: 2px solid #CFCFCF;
+   width:665px;
+   height:auto;
+   border: 2px solid #CFCFCF;
 }
 
 .Mfootermain #Acpr_box .event {
@@ -4276,20 +4277,20 @@ h1{
     padding: 0;
 }
 .Mfootermain .back p{
-	width:630px;
-	font-size: 12px;
-	margin-bottom: 0.9em;
-	margin-top: 0.5em;
-	border-top-width: 1px;
-	border-top-style: solid;
-	border-top-color: #AAA;
+   width:630px;
+   font-size: 12px;
+   margin-bottom: 0.9em;
+   margin-top: 0.5em;
+   border-top-width: 1px;
+   border-top-style: solid;
+   border-top-color: #AAA;
 }
 .Mfootermain #maincont .spacer{
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #AAA;	
-	margin-bottom:10px;
-	height:7px;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #AAA; 
+   margin-bottom:10px;
+   height:7px;
 }
 .Mfootermain .text-orange {
     color: #D62E03;
@@ -4300,27 +4301,27 @@ h1{
     font-weight: bold;
 }
 .Mfootermain .number{
-	margin:13px;
-	line-height: 0px;	
+   margin:13px;
+   line-height: 0px; 
 }
 .Mfootermain .number a{
-	margin-left:8px;
-	line-height: 0px;	
-	font-size:12px;
+   margin-left:8px;
+   line-height: 0px; 
+   font-size:12px;
 }
-.Mfootermain .SPblock{	
+.Mfootermain .SPblock{  
 }
 .Mfootermain .SPblock table {
     border-collapse: collapse;
     line-height: 30px;
     word-wrap: break-word;
-	border-radius: 5px 5px 5px 5px;
-	box-shadow: 0 0 3px #AAAAAA;
-	padding:0;
+   border-radius: 5px 5px 5px 5px;
+   box-shadow: 0 0 3px #AAAAAA;
+   padding:0;
 }
 .Mfootermain .SPblock table,.Mfootermain .SPblock caption,.Mfootermain .SPblock tbody,.Mfootermain .SPblock tfoot,.Mfootermain .SPblock thead,.Mfootermain .SPblock tr,.Mfootermain .SPblock th,.Mfootermain .SPblock td {
    vertical-align: middle;
-	border: 1px solid #BBB;
+   border: 1px solid #BBB;
 }
 
 /*上欄*/
@@ -4335,7 +4336,7 @@ h1{
 }
 
 .Mfootermain .SPblock .off-Shelves td {
-	background-color: #BBB;
+   background-color: #BBB;
 }
 .Mfootermain .SPblock table.tbl-noborder {
 }
@@ -4344,7 +4345,7 @@ h1{
     padding: 3px;
 }
 .Mfootermain .SPblock .tbl-thRow {
-	border: 1px solid #BBB;
+   border: 1px solid #BBB;
 }
 .Mfootermain .SPblock .tbl-Row {
 }
@@ -4363,7 +4364,7 @@ h1{
     border-right: 1px solid #999999;
     float: left;
     line-height: 20px;
-	margin:0 0 20px 0;
+   margin:0 0 20px 0;
     text-align: left;
     width: 100%;
 }
@@ -4380,41 +4381,41 @@ h1{
 /*文章message*/
 
   #container .messageMain{
-	position: relative;
-	overflow: hidden;
-	height: auto;
-	border-radius: 15px;
-	border: 1px solid #aaaaaa;
-	box-shadow: 0 0 6px #aaaaaa;
-	background: #f9f9f9 url(../images/www/sogi-bg-9.png) 0 0 scroll repeat-x;
-	 }
-	
-	
+   position: relative;
+   overflow: hidden;
+   height: auto;
+   border-radius: 15px;
+   border: 1px solid #aaaaaa;
+   box-shadow: 0 0 6px #aaaaaa;
+   background: #f9f9f9 url(../images/www/sogi-bg-9.png) 0 0 scroll repeat-x;
+    }
+   
+   
 #container .messageMain .mContent{
-	width:650px;
-	height:auto;
-	margin: 15px;
-	clear: both;
-	float: left;
-	padding-top: 5px;
-	padding-right: 15px;
-	padding-bottom: 15px;
-	padding-left: 15px;
-	}
+   width:650px;
+   height:auto;
+   margin: 15px;
+   clear: both;
+   float: left;
+   padding-top: 5px;
+   padding-right: 15px;
+   padding-bottom: 15px;
+   padding-left: 15px;
+   }
 .messageMain .mTitle{
-	width:650px;
-	float:left;
-	text-align: center;
-	font-size:15px;
-	background-color:#AAA;
-	height:35px;
-	line-height: 35px;
-	border-radius:10px;
-	letter-spacing: 0.2em;	
-	}
+   width:650px;
+   float:left;
+   text-align: center;
+   font-size:15px;
+   background-color:#AAA;
+   height:35px;
+   line-height: 35px;
+   border-radius:10px;
+   letter-spacing: 0.2em;  
+   }
 .messageMain .mChange{
-	padding:20px 0 5px 20px;
-	float:left;
+   padding:20px 0 5px 20px;
+   float:left;
 }
 .messageMain .mContent .objBtn li {
     background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
@@ -4423,80 +4424,80 @@ h1{
     box-shadow: 0 0 6px white inset;
     float: left;
     margin-right: 2px;
-	padding:10px;
+   padding:10px;
 }
 .messageMain .mArticleT{
-	width:auto;
-	 float: left;
-	 padding-top:15px;
-	 font-size:13px;
+   width:auto;
+    float: left;
+    padding-top:15px;
+    font-size:13px;
 }
 #container .messageMain .mContent strong{
-	color: #888;	
-	font-size:12px;
-	}
+   color: #888;   
+   font-size:12px;
+   }
 .messageMain .mArticleMinor{
-	width:auto;
-	 float: left;
-	 padding-top:20px;
-	 font-size:13px;
+   width:auto;
+    float: left;
+    padding-top:20px;
+    font-size:13px;
 }
 .messageMain .mArticleContent{
-	width:620px;
-	 float: left;
-	 padding-top:20px;
-	 font-size:13px;
+   width:620px;
+    float: left;
+    padding-top:20px;
+    font-size:13px;
 }
 .messageMain .mArticle{
-	width:auto;
-	float: left;
-	padding-left:20px;
-	padding-top:30px;
-	padding-bottom:30px;
+   width:auto;
+   float: left;
+   padding-left:20px;
+   padding-top:30px;
+   padding-bottom:30px;
 }
 .messageMain .mArticleKeys{
    float: left;
-   padding-left:20px;	
+   padding-left:20px;   
   padding-bottom:30px;
   font-size:13px;
 }
-.messageMain .mArticleSkeys	{
-	float:left;
- padding-left:20px;	
+.messageMain .mArticleSkeys   {
+   float:left;
+ padding-left:20px;  
   padding-bottom:15px;
   font-size:13px;
   width:500px;
 }
 .messageMain .mArticleSkeys .objBtn li {
-	background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
-	border: 1px solid #AAAAAA;
-	border-radius: 5px 5px 5px 5px;
-	box-shadow: 0 0 6px white inset;
-	float:left;
-	margin-right: 5px;
-	padding:3px 6px 3px 6px;
-	font-size:11px;
-	text-align: center;	
+   background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
+   border: 1px solid #AAAAAA;
+   border-radius: 5px 5px 5px 5px;
+   box-shadow: 0 0 6px white inset;
+   float:left;
+   margin-right: 5px;
+   padding:3px 6px 3px 6px;
+   font-size:11px;
+   text-align: center;  
 }
 .messageMain .mArticleSkeys .objBtn {   
-	float:left;
-	padding-right:20px;
+   float:left;
+   padding-right:20px;
 }
 .messageMain .mRule{
-	padding-left:180px;
-	padding-bottom:15px;
-	padding-top:20px;
-	float:left;
-	font-size: 13px;
-	color: #444;
+   padding-left:180px;
+   padding-bottom:15px;
+   padding-top:20px;
+   float:left;
+   font-size: 13px;
+   color: #444;
 }
 .messageMain .mArticleBtn{
-	padding-top:25px;
-	padding-left:145px;
+   padding-top:25px;
+   padding-left:145px;
 }
 .messageMain .mArticleBtn .objBtn {
    width:500px;
-	float:left;
+   float:left;
 }
 .messageMain .mArticleBtn .objBtn li {
     background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
@@ -4505,8 +4506,8 @@ h1{
     box-shadow: 0 0 6px white inset;
     float:left;
     margin-right: 5px;
-	padding:5px 10px 5px 10px;
-	font-size:13px;
+   padding:5px 10px 5px 10px;
+   font-size:13px;
 }
 .messageMain .mNewPage{
    border-radius:14px 14px 14px 14px;
@@ -4515,32 +4516,32 @@ h1{
    border: 1px solid #AAAAAA;
    width:650px;
    padding-bottom:20px;
-}	
+}  
 .messageMain .pageSpace{
-	float:left;
-	width:610px;
-	padding-bottom:20px;
-	margin-left:20px;
-	border-bottom-width: 1px;
-	border-bottom-style: dotted;
-	border-bottom-color: #AAA;	
+   float:left;
+   width:610px;
+   padding-bottom:20px;
+   margin-left:20px;
+   border-bottom-width: 1px;
+   border-bottom-style: dotted;
+   border-bottom-color: #AAA; 
 }
 .messageMain .pageSpaceR{
-	float:left;
-	width:auto;
+   float:left;
+   width:auto;
 }
 .messageMain .pageSpaceL{
-	float:left;
-	width:68px;
-}	
+   float:left;
+   width:68px;
+}  
 .messageMain .space{
-	float:left;
-	width:610px;
-	margin-left:20px;
+   float:left;
+   width:610px;
+   margin-left:20px;
 }
 .messageMain .mNewPage .objBtn{
   width:600px;
-	float:left;
+   float:left;
    padding-top:20px;
 }
 .messageMain .mNewPage .objBtn li {
@@ -4550,16 +4551,16 @@ h1{
     box-shadow: 0 0 6px white inset;
     float:right;
     margin-right: 5px;
-	padding:5px 10px 5px 10px;
-	font-size:13px;
+   padding:5px 10px 5px 10px;
+   font-size:13px;
 }
-.messageMain .mArticleAnswerBtn{	
-	padding-top:25px;
-	padding-left:185px;
+.messageMain .mArticleAnswerBtn{ 
+   padding-top:25px;
+   padding-left:185px;
 }
 .messageMain .mArticleAnswerBtn .objBtn {
    width:500px;
-	float:left; 
+   float:left; 
 }
 .messageMain .mArticleAnswerBtn .objBtn li {
     background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
@@ -4568,33 +4569,33 @@ h1{
     box-shadow: 0 0 6px white inset;
     float:left;
     margin-right: 5px;
-	padding:5px 10px 5px 10px;
-	font-size:13px;
+   padding:5px 10px 5px 10px;
+   font-size:13px;
 }
 .messageMain .mExplanation{
-	width:auto;
-	 float: left;
-	 padding-top:20px;
-	 font-size:13px;
-}	
+   width:auto;
+    float: left;
+    padding-top:20px;
+    font-size:13px;
+}  
 .messageMain .mDeadline{
-	width:auto;
-	 float: left;
-	 padding-top:20px;
-	 font-size:13px;
+   width:auto;
+    float: left;
+    padding-top:20px;
+    font-size:13px;
 }
 .messageMain .pageSpaceR .img{
-	padding-top:1px;
-	float:left;	
+   padding-top:1px;
+   float:left; 
 }
 .messageMain .mArticlePreviewBtn{
-	width:auto;
-	padding-top:50px;
-	padding-left:240px;
+   width:auto;
+   padding-top:50px;
+   padding-left:240px;
 }
 .messageMain .mArticlePreviewBtn .objBtn {
     width:auto;
-	float:left;
+   float:left;
 }
 .messageMain .mArticlePreviewBtn .objBtn li {
     background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
@@ -4603,8 +4604,8 @@ h1{
     box-shadow: 0 0 6px white inset;
     float:left;
     margin-right: 5px;
-	padding:5px 10px 5px 10px;
-	font-size:13px;
+   padding:5px 10px 5px 10px;
+   font-size:13px;
 }
 
 /*文章message------------------------------END*/
@@ -4612,7 +4613,7 @@ h1{
 /*mobi新增部份-----*/
 
 .mobiSearch{
-	 overflow: hidden;
+    overflow: hidden;
     padding: 5px;
     height: auto;
     border-radius: 15px;
@@ -4634,10 +4635,10 @@ h1{
     width: 17%;
 }
 .mobiSearch .tFind th, .tFind td {
-	border-bottom-width: 1px;
-	border-bottom-style: dotted;
-	border-bottom-color: #AAA;
-	padding:4px;
+   border-bottom-width: 1px;
+   border-bottom-style: dotted;
+   border-bottom-color: #AAA;
+   padding:4px;
 }
 .mobiSearch table, caption, tbody, tfoot, thead, tr, th, td {
     vertical-align: middle;
@@ -4647,86 +4648,86 @@ h1{
     font-size: 13px;
 }
 .mobiSearch .pageNav{
-	padding-top:10px;
+   padding-top:10px;
 }
 .mobiSearch .mobiTitle{
-	width:670px;
-	font-size:15px;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #BBB;
-	padding-top:10px;
-	padding-bottom:5px;
-	padding-left:20px;
-	margin-left:10px;
-	color: #800;
+   width:670px;
+   font-size:15px;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #BBB;
+   padding-top:10px;
+   padding-bottom:5px;
+   padding-left:20px;
+   margin-left:10px;
+   color: #800;
 }
 
 /*pk*/
 
 .pk{
-	position: relative;
-	margin: 15px auto;
-	padding:3px 15px;
-	behavior: url(ie-css3.htc);
-	z-index: 1;
-	border-radius:15px;
-	box-shadow: 0 0 6px #AAAAAA;
-	background-color: #EEE;	
-}	 
+   position: relative;
+   margin: 15px auto;
+   padding:3px 15px;
+   behavior: url(ie-css3.htc);
+   z-index: 1;
+   border-radius:15px;
+   box-shadow: 0 0 6px #AAAAAA;
+   background-color: #EEE; 
+}   
 #pkContent{
-   padding:20px;	
-}	 
+   padding:20px;  
+}   
 a.btnE:hover {
-	color: #F60;
-	box-shadow: 0 0 6px #111 inset;
+   color: #F60;
+   box-shadow: 0 0 6px #111 inset;
 }
 a.btnE {
     border-radius: 5px 5px 5px 5px;
     box-shadow: 0 0 6px #888 inset;
     font-size: 12px;
-    padding:8px 5px;	
+    padding:8px 5px; 
 }
 table.border TH, table.border TD {
     border: 1px solid #DDDDDD;
     padding: 10px 15px;
 }
 .tBrand th, .tSpec th, .tPK th {
-	font-size: 14px;
-	padding: 3px 0;
-	text-align: center;
-	background-color:#CC9;
-	font-weight: 700;
-	color: #010;
+   font-size: 14px;
+   padding: 3px 0;
+   text-align: center;
+   background-color:#CC9;
+   font-weight: 700;
+   color: #010;
 }
 table, caption, tbody, tfoot, thead, tr, th, td {
     vertical-align: middle;
 }
 #pkContent h2{
-	font-size:15px;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #AAA;
-	padding-bottom:3px;
-	padding-left:5px;
-	color: #500;
+   font-size:15px;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #AAA;
+   padding-bottom:3px;
+   padding-left:5px;
+   color: #500;
 }
 .searchBlock{
-	font-size:14px;
-	width:100px;
-	padding-left:10px;
-	padding-top:40px;
-	line-height:10px;
-	color: #444;
+   font-size:14px;
+   width:100px;
+   padding-left:10px;
+   padding-top:40px;
+   line-height:10px;
+   color: #444;
 }
 .searchBlock li{
-	padding-bottom:3px;
-	width:200px;
+   padding-bottom:3px;
+   width:200px;
 }
 .searchBlock #form {
-	padding-top:6px;
-	padding-left:8px;
-	font-size:11px;
+   padding-top:6px;
+   padding-left:8px;
+   font-size:11px;
 }
 
 /*mobi新增部份---------------------------------------END*/
@@ -4734,113 +4735,113 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 /*store店鋪新增部份-----*/
 
 #container .NewProgram{
-	width:350px;
-	float:left;
-	font-size:14px;
-	line-height: 22px;
-	}
-	
-	#container .NewProgram .spacer{
-	height:5px;
-	border-top-width: 1px;
-	border-top-style: solid;
-	border-top-color: #BBB;
-	margin-top:8px;
-	margin-right: 0;
-	margin-bottom: 5px;
-	margin-left: 0;
-	}
-	#container .NewProgram strong{
-	color: #D00;
-	font-weight: 800;
-	}
-	#container .NewProgramS{
-	width:300px;
-	float:left;
-	font-size:14px;
-	line-height: 22px;
-	}
-	#container .NewProgramS .spacer{
-	height:5px;
-	border-top-width: 1px;
-	border-top-style: solid;
-	border-top-color: #BBB;
-	margin-top:8px;
-	margin-right: 0;
-	margin-bottom: 5px;
-	margin-left: 0;
-	clear:left;
-	}
-	#container .NewProgramS strong{
-	color: #D00;
-	font-weight: 800;
-	}
+   width:350px;
+   float:left;
+   font-size:14px;
+   line-height: 22px;
+   }
+   
+   #container .NewProgram .spacer{
+   height:5px;
+   border-top-width: 1px;
+   border-top-style: solid;
+   border-top-color: #BBB;
+   margin-top:8px;
+   margin-right: 0;
+   margin-bottom: 5px;
+   margin-left: 0;
+   }
+   #container .NewProgram strong{
+   color: #D00;
+   font-weight: 800;
+   }
+   #container .NewProgramS{
+   width:300px;
+   float:left;
+   font-size:14px;
+   line-height: 22px;
+   }
+   #container .NewProgramS .spacer{
+   height:5px;
+   border-top-width: 1px;
+   border-top-style: solid;
+   border-top-color: #BBB;
+   margin-top:8px;
+   margin-right: 0;
+   margin-bottom: 5px;
+   margin-left: 0;
+   clear:left;
+   }
+   #container .NewProgramS strong{
+   color: #D00;
+   font-weight: 800;
+   }
 .NewProgram .space{
-	float:left;
-	width:350px;
-}	 
+   float:left;
+   width:350px;
+}   
 .NewProgramS .space{
-	float:left;
-	width:300px;
+   float:left;
+   width:300px;
 }
 .programR{
-	float:left;
-	width:auto;
-}	
+   float:left;
+   width:auto;
+}  
 .programL{
-	float:left;
-	width:auto;
+   float:left;
+   width:auto;
 }
-	#container .points{
-	margin-bottom: 10px;	
-	width:600px;
-	font-size: 13px;
+   #container .points{
+   margin-bottom: 10px; 
+   width:600px;
+   font-size: 13px;
     padding-left: 18px;
-	padding-bottom:10px;
-	}
-	#container .points img{
-	padding-top:5px;
-	}
-	#container .points strong{
-		color: #D00;
-	  font-weight: 700;
-	}
+   padding-bottom:10px;
+   }
+   #container .points img{
+   padding-top:5px;
+   }
+   #container .points strong{
+      color: #D00;
+     font-weight: 700;
+   }
 .content .FdataTabs{
-	float: left;	
+   float: left;   
 }
 .content .FdataTabs a{
-	display:block;
-	height: 30px;
-	width: 100px;
-	background-image: url(../images/www/FdataTab_bac.png);
+   display:block;
+   height: 30px;
+   width: 100px;
+   background-image: url(../images/www/FdataTab_bac.png);
 }
 .content .FdataTabs a:hover{
-	background-image:  url(../images/www/FdataTabOn_bac.png);
-	color: #444;
+   background-image:  url(../images/www/FdataTabOn_bac.png);
+   color: #444;
 }
 .content .FdataTab{
-	float: left;
-	margin: 0 3px 0 0;
-	padding: 0px;
-	color: #444;
-	background-image: url(../images/www/FdataTab_bac.png);
-	text-align: center;
-	line-height: 30px;
+   float: left;
+   margin: 0 3px 0 0;
+   padding: 0px;
+   color: #444;
+   background-image: url(../images/www/FdataTab_bac.png);
+   text-align: center;
+   line-height: 30px;
 }
 .content .Fon a{
-	display:block;
-	height: 30px;
-	width: 100px;
-	background-image: url(../images/www/FdataTabOn_bac.png);	
+   display:block;
+   height: 30px;
+   width: 100px;
+   background-image: url(../images/www/FdataTabOn_bac.png); 
 }
 .content .mobiDataDown{
-	float: left;
-	margin: 0 3px 0 0;
-	padding:0 0 30px 0;
-	color: #444;
-	text-align: center;
-	line-height: 30px;
-	width: 690px;
+   float: left;
+   margin: 0 3px 0 0;
+   padding:0 0 30px 0;
+   color: #444;
+   text-align: center;
+   line-height: 30px;
+   width: 690px;
 }
 .mobileTable table.tbl-border TH,.mobileTable table.tbl-border TD {
     border: 1px solid #DDDDDD;
@@ -4854,12 +4855,12 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     text-align: center;
 }
 .mobileTable table th {
-	background-color:#DDD;
-	font-weight: bold;
+   background-color:#DDD;
+   font-weight: bold;
 }
 .mobileTable table,.mobileTable caption,.mobileTable tbody,.mobileTable tfoot,.mobileTable thead,.mobileTable tr,.mobileTable th,.mobileTable td {
     vertical-align: middle;
-	padding:50px;
+   padding:50px;
 }
 .mobileTable .tp-col2 .tptGroup {
     margin: 0;
@@ -4873,127 +4874,127 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 /*store店鋪-----*/
 
 .Sfootermain {
-	border-radius: 15px 15px 15px 15px;
-	height:auto;
-	overflow: hidden;
-	padding: 5px;
-	margin-top:10px;
+   border-radius: 15px 15px 15px 15px;
+   height:auto;
+   overflow: hidden;
+   padding: 5px;
+   margin-top:10px;
 }
 .Sfootermain .Snav{
-	padding:10px 20px 40px 10px;
+   padding:10px 20px 40px 10px;
 }
-.Sfootermain .Sdatas{	
-	margin-left: 5px;
-	padding:10px;
-	height: auto;
+.Sfootermain .Sdatas{   
+   margin-left: 5px;
+   padding:10px;
+   height: auto;
 }
 .Sfootermain .SdataUp{
-	width: 660px;
-	float: left;
-	padding-left:15px;
+   width: 660px;
+   float: left;
+   padding-left:15px;
 }
 .Sfootermain .SdataMiddle{
-	width: 620px;
-	float: left;
-	padding:10px 0 0 10px;
+   width: 620px;
+   float: left;
+   padding:10px 0 0 10px;
 }
 .Sfootermain .SMdataTabs{
-	float: right;	
-	padding-top:2px;
+   float: right;  
+   padding-top:2px;
 }
 .Sfootermain .SMdataTabs a{
-	display:block;
-	height:25px;
-	width: 70px;
-	color: #000;
-	background-color:#FC6;
-	box-shadow: 0 0 2px black;
-	border-radius:5px;
+   display:block;
+   height:25px;
+   width: 70px;
+   color: #000;
+   background-color:#FC6;
+   box-shadow: 0 0 2px black;
+   border-radius:5px;
 }
 .Sfootermain .SMdataTabs a:hover{
-	color:#ED6500;
+   color:#ED6500;
 }
 .Sfootermain .SMdataTab{
-	float: left;
-	margin: 0 3px 0 0;
-	padding: 0px;
-	color: #444;
-	text-align: center;
-	font-size: 11px;
+   float: left;
+   margin: 0 3px 0 0;
+   padding: 0px;
+   color: #444;
+   text-align: center;
+   font-size: 11px;
 }
 .Sfootermain .SMon a{
-	display:block;
-	height: 25px;
-	width: 70px;
-	box-shadow: 0 0 6px black inset;
-	border-radius:5px;
-	background-color: #BC9E6B;
+   display:block;
+   height: 25px;
+   width: 70px;
+   box-shadow: 0 0 6px black inset;
+   border-radius:5px;
+   background-color: #BC9E6B;
 }
 .Sfootermain .SdataDown h3{
-	color: #333333;
-	font-size: 15px;
-	font-weight: bold;
-	height: 30px;
-	line-height: 2;
-	margin: 0 0 5px 0;
-	width: 660px;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #AAA;	
+   color: #333333;
+   font-size: 15px;
+   font-weight: bold;
+   height: 30px;
+   line-height: 2;
+   margin: 0 0 5px 0;
+   width: 660px;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #AAA; 
 }
 .Sfootermain .SdataDown{
-	width:auto;
-	float: left;
-	padding-bottom:25px;
-	padding-top:15px;
-	padding-left:15px;
+   width:auto;
+   float: left;
+   padding-bottom:25px;
+   padding-top:15px;
+   padding-left:15px;
 }
 .Sfootermain .SdataTabs{
-	float: left;	
+   float: left;   
 }
 .Sfootermain .SdataTabs a{
-	display:block;
-	height: 30px;
-	width: 100px;
-	/*background-image: url(../images/www/FdataTab_bac.png);*/
-	background-color: #EDCF49;
-	color: #444;
+   display:block;
+   height: 30px;
+   width: 100px;
+   /*background-image: url(../images/www/FdataTab_bac.png);*/
+   background-color: #EDCF49;
+   color: #444;
 }
 .Sfootermain .SdataTabs a:hover{
-	/*background-image:  url(../images/www/FdataTabOn_bac.png);*/
-	background-color: #EC741B;
-	color: #FFFFFF;
+   /*background-image:  url(../images/www/FdataTabOn_bac.png);*/
+   background-color: #EC741B;
+   color: #FFFFFF;
 }
 .Sfootermain .SdataTab{
-	float: left;
-	margin: 0 3px 0 0;
-	padding: 0px;
-	color: #444;
-	/*background-image: url(../images/www/FdataTab_bac.png);*/
-	text-align: center;
-	line-height: 30px;
+   float: left;
+   margin: 0 3px 0 0;
+   padding: 0px;
+   color: #444;
+   /*background-image: url(../images/www/FdataTab_bac.png);*/
+   text-align: center;
+   line-height: 30px;
 }
 .Sfootermain .Son a{
-	display:block;
-	height: 30px;
-	width: 100px;
-	color:#FFFFFF;
-	background-color: #EC741B
-	/*background-image:  url(../images/www/FdataTabOn_bac.png);*/
+   display:block;
+   height: 30px;
+   width: 100px;
+   color:#FFFFFF;
+   background-color: #EC741B
+   /*background-image:  url(../images/www/FdataTabOn_bac.png);*/
 }
 .Sfootermain .Stabs {
-	clear: both;
-	display: block;
-	float: left;
-	height: 29px;
-	line-height: 29px;
-	padding-left: 10px;
-	background-attachment: scroll;
-	background-color: #806F66;
-	background-image: url(../../images/www/sogi-img.png);
-	background-repeat: no-repeat;
-	background-position: -1px -180px;
-	border-radius: 15px 15px 15px 15px;
+   clear: both;
+   display: block;
+   float: left;
+   height: 29px;
+   line-height: 29px;
+   padding-left: 10px;
+   background-attachment: scroll;
+   background-color: #806F66;
+   background-image: url(../../images/www/sogi-img.png);
+   background-repeat: no-repeat;
+   background-position: -1px -180px;
+   border-radius: 15px 15px 15px 15px;
 }
 .Sfootermain .Stabs .Stab {
     float: left;
@@ -5002,29 +5003,29 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     text-align: center;
 }
 .Sfootermain .Stabs .Stab a {
-	color: white;
-	display: block;
-	line-height: 28px;
-	padding: 0 15px 0 15px;
+   color: white;
+   display: block;
+   line-height: 28px;
+   padding: 0 15px 0 15px;
 }
 .Sfootermain .Stabs .Stab a:hover {
     background-color: #3A3536;
     border-radius: 15px 15px 15px 15px;
 }
 .Sfootermain .Stabs .on {
-	border-radius: 15px 15px 15px 15px;
-	  background-color: #3A3536;
+   border-radius: 15px 15px 15px 15px;
+     background-color: #3A3536;
 }
 .Sfootermain .StabsEnd {
-	display: block;
-	float: left;
-	height: 0px;
-	line-height: 29px;
-	width: 0px;
-	margin-top: 40px;
-	background-attachment: scroll;
-	background-repeat: no-repeat;
-	background-position: right -180px;
+   display: block;
+   float: left;
+   height: 0px;
+   line-height: 29px;
+   width: 0px;
+   margin-top: 40px;
+   background-attachment: scroll;
+   background-repeat: no-repeat;
+   background-position: right -180px;
 }
 .Sfootermain #Scontent h3 span {
     background-image: url("../images/front/ico_index_title.png");
@@ -5101,31 +5102,31 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 #container #main #storeMain .bwls .Sfootermain .Sdatas .SdataR .Sdata .SdataDown .SInformation .tbl-borderH tbody tr td #ctl00_ContentPlaceHolder1_fuShopPic
 {
-	float:left;
-	width:300px;
-	margin-bottom:10px;
+   float:left;
+   width:300px;
+   margin-bottom:10px;
 }
 .Sfootermain .Sblock{
-	width:auto;
-	float: left;
-	padding-bottom:25px;
-	padding-top:15px;
-	padding-left:15px;
+   width:auto;
+   float: left;
+   padding-bottom:25px;
+   padding-top:15px;
+   padding-left:15px;
 }
 
 .Sfootermain .Sblock table {
     border-collapse: collapse;
     line-height: 2;
     word-wrap: break-word;
-	border-radius: 5px 5px 5px 5px;
-	box-shadow: 0 0 3px #AAAAAA;
-	margin-top:5px;
+   border-radius: 5px 5px 5px 5px;
+   box-shadow: 0 0 3px #AAAAAA;
+   margin-top:5px;
 }
 .Sfootermain .Sblock table,.Sfootermain .Sblock caption,.Sfootermain .Sblock tbody,.Sfootermain .Sblock tfoot,.Sfootermain .Sblock thead,.Sfootermain .Sblock tr,.Sfootermain .Sblock th,.Sfootermain .Sblock td {
     vertical-align: middle;
 }
 .Sblock table.tbl-border {
-	border: 1px solid #AAA;
+   border: 1px solid #AAA;
 }
 
 /*上欄*/
@@ -5142,7 +5143,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 
 .Sblock .off-Shelves td {
-	background-color: #BBB;
+   background-color: #BBB;
 }
 .Sblock table.tbl-noborder {
    
@@ -5152,7 +5153,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     padding: 3px;
 }
 .Sblock .tbl-thRow2 {
-	background-attachment: scroll;
+   background-attachment: scroll;
     background-color: #CCCC66;
     background-image: none;
     background-position: 0 0;
@@ -5162,8 +5163,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     padding: 3px 5px;
 }
 .Sblock .tbl-thRow {
-	background-color: #FFC;
-	border: 1px solid #AAA;	
+   background-color: #FFC;
+   border: 1px solid #AAA; 
 }
 .Sblock .tbl-Row {
 }
@@ -5178,16 +5179,16 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 }
 .Sblock h3
 {
-	color: #333333;
-	font-size: 15px;
-	font-weight: bold;
-	height: 30px;
-	line-height: 2;
-	margin: 0 0 5px 0;
-	width: 660px;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #777;	
+   color: #333333;
+   font-size: 15px;
+   font-weight: bold;
+   height: 30px;
+   line-height: 2;
+   margin: 0 0 5px 0;
+   width: 660px;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #777; 
 }
 .Sclear {
     clear: both;
@@ -5203,32 +5204,32 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     visibility: hidden;
 }
 .Ssystem {
-	border: 1px solid #BBB;
-	border-radius: 5px 5px 5px 5px;
-	box-shadow: 0 0 2px #AAAAAA;
-	margin-bottom: 15px;
-	margin-left: 17px;
-	padding: 0;
-	width:600px;
-	background-color: #FFC;;
-	margin-top:10px;
+   border: 1px solid #BBB;
+   border-radius: 5px 5px 5px 5px;
+   box-shadow: 0 0 2px #AAAAAA;
+   margin-bottom: 15px;
+   margin-left: 17px;
+   padding: 0;
+   width:600px;
+   background-color: #FFC;;
+   margin-top:10px;
 }
 .Ssystem h4 {
-	font-size: 15px;
-	font-weight: bold;
-	padding: 3px 5px;
-	background-attachment: scroll;
-	background-color: #CC6;
-	background-image: none;
-	background-repeat: repeat;
-	background-position: 0 0;
+   font-size: 15px;
+   font-weight: bold;
+   padding: 3px 5px;
+   background-attachment: scroll;
+   background-color: #CC6;
+   background-image: none;
+   background-repeat: repeat;
+   background-position: 0 0;
 }
 .Ssystem ul, .Ssystem p {
     margin: 5px 10px;
 }
 .Ssystem ul.list li {
-	line-height: 2;
-/*	border-bottom-width: 1px;
+   line-height: 2;
+/* border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #AAA;*/
 }
@@ -5250,19 +5251,19 @@ table, caption, tbody, tfoot, thead, tr, th, td {
   text-decoration: underline;
    }
 .Ssystem a:hover {
-	cursor: pointer;
-	color: #ed6500;  
+   cursor: pointer;
+   color: #ed6500;  
    }
    
 /*商品管理-新增報價*/
 
 .mobile table.tbl-border TH, .mobile table.tbl-border TD {
-	padding: 2px;
-	border: 1px solid #AAA;	
-	
+   padding: 2px;
+   border: 1px solid #AAA; 
+   
 }
 .mobile .tbl-thRow {
-	background-attachment: scroll;
+   background-attachment: scroll;
     background-color: #CCCC66;
     background-image: none;
     background-position: 0 0;
@@ -5274,9 +5275,9 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     border-collapse: collapse;
     line-height: 2;
     word-wrap: break-word;
-	border-radius: 5px 5px 5px 5px;
-	box-shadow: 0 0 3px #AAAAAA;
-	margin-top:5px;
+   border-radius: 5px 5px 5px 5px;
+   box-shadow: 0 0 3px #AAAAAA;
+   margin-top:5px;
 }
 
 /*門號資費*/
@@ -5305,20 +5306,20 @@ ul.Snotice li {
 }
 .SFeeDown table,.SFeeDown caption,.SFeeDown tbody,.SFeeDown tfoot,.SFeeDown thead,.SFeeDown tr,.SFeeDown th,.SFeeDown td {
     vertical-align: middle;
-	border: 1px solid #BBBBBB;
+   border: 1px solid #BBBBBB;
 }
 .SInformation tr{
     vertical-align: middle;
-	border: 1px solid #BBBBBB;
+   border: 1px solid #BBBBBB;
 }
 ul.notice li {
-	font-size: 13px;
-	padding-left: 18px;
-	background-attachment: scroll;
-	background-color: transparent;
-	background-image: url(../imgs/ico_notice.png);
-	background-repeat: no-repeat;
-	background-position: 0 3px;
+   font-size: 13px;
+   padding-left: 18px;
+   background-attachment: scroll;
+   background-color: transparent;
+   background-image: url(../imgs/ico_notice.png);
+   background-repeat: no-repeat;
+   background-position: 0 3px;
 }
 .SInformation .tbl-Right{
     text-align: left;
@@ -5327,70 +5328,70 @@ ul.notice li {
    border: 1px Solid #BBB;   
 }
 .SInformation TABLE.tbl-borderH TH {
-	-moz-border-bottom-colors: none;
-	-moz-border-image: none;
-	-moz-border-left-colors: none;
-	-moz-border-right-colors: none;
-	-moz-border-top-colors: none;
-	padding: 3px;
-	border-top-width: medium;
-	border-right-width: medium;
-	border-bottom-width: 1px;
-	border-left-width: medium;
-	border-top-style: none;
-	border-right-style: none;
-	border-bottom-style: solid;
-	border-left-style: none;
-	border-bottom-color: #BBB;
-}	
+   -moz-border-bottom-colors: none;
+   -moz-border-image: none;
+   -moz-border-left-colors: none;
+   -moz-border-right-colors: none;
+   -moz-border-top-colors: none;
+   padding: 3px;
+   border-top-width: medium;
+   border-right-width: medium;
+   border-bottom-width: 1px;
+   border-left-width: medium;
+   border-top-style: none;
+   border-right-style: none;
+   border-bottom-style: solid;
+   border-left-style: none;
+   border-bottom-color: #BBB;
+}  
 .SPdataTabs{
-	float: right;	
-	padding-top:2px;
+   float: right;  
+   padding-top:2px;
 }
 .SPdataTabs a{
-	display:block;
-	height:25px;
-	width: 70px;
-	color: #000;
-	background-color:#FC6;
-	box-shadow: 0 0 2px black;
-	border-radius:5px;
-	line-height:24px;
+   display:block;
+   height:25px;
+   width: 70px;
+   color: #000;
+   background-color:#FC6;
+   box-shadow: 0 0 2px black;
+   border-radius:5px;
+   line-height:24px;
 }
 .SPdataTabs a:hover{
-	color:#ED6500;
+   color:#ED6500;
 }
 .SPdataTab{
-	float: left;
-	margin: 0 3px 0 0;
-	padding: 0px;
-	color: #444;
-	text-align: center;
-	font-size: 11px;
+   float: left;
+   margin: 0 3px 0 0;
+   padding: 0px;
+   color: #444;
+   text-align: center;
+   font-size: 11px;
 }
 .SPon a{
-	display:block;
-	height: 25px;
-	width: 70px;
-	box-shadow: 0 0 6px black inset;
-	border-radius:5px;
+   display:block;
+   height: 25px;
+   width: 70px;
+   box-shadow: 0 0 6px black inset;
+   border-radius:5px;
 }
-.SPblock{	
+.SPblock{   
 }
 .SPblock table {
     border-collapse: collapse;
     line-height: 2;
     word-wrap: break-word;
-	border-radius: 5px 5px 5px 5px;
-	box-shadow: 0 0 3px #AAAAAA;
-	margin-top:5px;
-	margin-bottom:30px;
+   border-radius: 5px 5px 5px 5px;
+   box-shadow: 0 0 3px #AAAAAA;
+   margin-top:5px;
+   margin-bottom:30px;
 }
 .SPblock table,.SPblock caption,.SPblock tbody,.SPblock tfoot,.SPblock thead,.SPblock tr,.SPblock th,.SPblock td {
     vertical-align: middle;
 }
 .SPblock table.tbl-border {
-	border: 1px solid #AAA;
+   border: 1px solid #AAA;
 }
 
 /*上欄*/
@@ -5404,7 +5405,7 @@ ul.notice li {
     padding: 3px;
 }
 .SPblock .off-Shelves td {
-	background-color: #BBB;
+   background-color: #BBB;
 }
 .SPblock table.tbl-noborder {
 }
@@ -5413,7 +5414,7 @@ ul.notice li {
     padding: 3px;
 }
 .SPblock .tbl-thRow2 {
-	background-attachment: scroll;
+   background-attachment: scroll;
     background-color: #CCCC66;
     background-image: none;
     background-position: 0 0;
@@ -5423,8 +5424,8 @@ ul.notice li {
     padding: 3px 5px;
 }
 .SPblock .tbl-thRow {
-	background-color: #CCCC66;
-	border: 1px solid #AAA;
+   background-color: #CCCC66;
+   border: 1px solid #AAA;
 }
 .SPblock .tbl-Row {
 }
@@ -5438,66 +5439,66 @@ ul.notice li {
     vertical-align: top;
 }
 .SPblock h3{
-	color: #333333;
-	font-size: 15px;
-	font-weight: bold;
-	height: 30px;
-	line-height: 2;
-	margin: 0 0 5px 0;
-	width: 660px;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #777;	
+   color: #333333;
+   font-size: 15px;
+   font-weight: bold;
+   height: 30px;
+   line-height: 2;
+   margin: 0 0 5px 0;
+   width: 660px;
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #777; 
 }
 .SChatting{
-	width:660px;
+   width:660px;
 }
 .SRdataTabs{
-	float: right;	
-	padding-top:2px;
+   float: right;  
+   padding-top:2px;
 }
 .SRdataTabs a{
-	display:block;
-	height:25px;
-	width: auto;
-	color: #000;
-	background-color:#FC6;
-	box-shadow: 0 0 2px black;
-	border-radius:5px;
-	line-height:24px;
+   display:block;
+   height:25px;
+   width: auto;
+   color: #000;
+   background-color:#FC6;
+   box-shadow: 0 0 2px black;
+   border-radius:5px;
+   line-height:24px;
 }
 .SRdataTabs a:hover{
-	color:#ED6500;
+   color:#ED6500;
 }
 .SRdataTab{
-	float: left;
-	margin: 0 3px 0 0;
-	padding: 0px;
-	color: #444;
-	text-align: center;
-	font-size: 11px;
+   float: left;
+   margin: 0 3px 0 0;
+   padding: 0px;
+   color: #444;
+   text-align: center;
+   font-size: 11px;
 }
 .SRon a{
-	display:block;
-	height: 25px;
-	width: auto;
-	box-shadow: 0 0 6px black inset;
-	border-radius:5px;	
+   display:block;
+   height: 25px;
+   width: auto;
+   box-shadow: 0 0 6px black inset;
+   border-radius:5px;   
 }
 .separate{
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: #888;	
-	margin-bottom:13px;
-	padding-bottom:25px;
-	padding-top:13px;
-	float:left
+   border-bottom-width: 1px;
+   border-bottom-style: solid;
+   border-bottom-color: #888; 
+   margin-bottom:13px;
+   padding-bottom:25px;
+   padding-top:13px;
+   float:left
 }
 .sTitle{
-		float:left
+      float:left
 }
 .sContent{
-		float:left
+      float:left
 }
 .sBlock{
    width:650px;
@@ -5678,3 +5679,115 @@ margin-left:15px;
 }
 
 /*0907新增--------------------------------END*/
+
+/*0908新增----修改/新增頁面:store-member-1.html*/
+  #container .average {
+   background-color: #FFC;
+   margin:10px 0;
+   height: auto;
+   }
+/*0908新增--------------------------------END*/
+
+/*0910新增----修改/新增頁面:searchResult.html*/
+   #container .searchReslut {
+     background-color: #FFC;
+     margin-bottom:10px;
+   }
+   .searchResultMain{
+      margin:0 30px;
+   }
+.searchResultMain li
+   {
+   padding:20px 0;
+   border-bottom-width: 1px;
+   border-bottom-style: dashed;
+   border-bottom-color: #AAA;
+   font-size:12px;
+   color: #555;
+   }  
+.searchResultMain h2{
+   font-size:14px;
+   margin-bottom:5px 
+}  
+.searchResultMain h2 b{
+   color:red;  
+}  
+.searchResultMain h2 a:link{
+   color: #000;
+}  
+
+.searchResultMain h2 a:hover{
+   color: #ED6500;
+}  
+/*0910新增--------------------------------END*/
+
+/*0912新增----store-message-1~5*/
+
+.storeMessage
+{
+   position: relative;
+   overflow: hidden;
+   height: auto;
+   border-radius: 0;
+   border: 1px solid #aaaaaa;
+   box-shadow: 0 0 0 #aaaaaa;
+   margin:10px;
+   
+}
+/*0912新增--------------------------------END*/
+
+
+/*0912新增----mobile-3,mobile-3-changeboard*/
+.advantages
+{
+   float: left;
+      margin-right: 5px;
+
+      }
+.advantages .list li
+{
+   padding:5px 10px;
+   font-size:13px;
+   
+border-bottom-width: 1px;
+   border-bottom-style: dashed;
+   border-bottom-color: #BBB; 
+}
+
+.advantages .function li
+{
+   width: 150px;
+   padding:5px 15px;
+   font-size:13px;
+   border-bottom-width: 1px;
+   border-bottom-style: dashed;
+   border-bottom-color: #BBB; 
+}
+
+.advantages .list
+{
+   float: left;
+   color:#444;
+}
+.advantages .function
+{
+   float: left;
+   color:#000;
+}
+.mainSubNav .objBtn a {
+   background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
+   border: 1px solid #AAAAAA;
+   border-radius: 5px 5px 5px 5px;
+   box-shadow: 0 0 6px white inset;
+   float:left;
+   margin-right: 5px;
+   padding:0 8px 0 8px;
+   font-size:11px;
+   text-align: center;  
+}
+.mainSubNav .objBtn {   
+   float:left;
+   
+}
+
+/*0912新增--------------------------------END*/
