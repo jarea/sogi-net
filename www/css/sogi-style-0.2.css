@@ -259,6 +259,35 @@ a:hover {
           background: url(../images/www/sogi-img.png) -280px -39px no-repeat transparent; }
         #container .sHead .shopNavArea .shopNav-4 a:hover .name {
           color: #ed6500; }
+        #container .sHead .headSearch{
+            float: left;
+            position:relative;
+            right: -150px;
+            /*width: 150px;*/
+            margin-top: 45px;
+        }
+        #container .sHead .headSearch input{
+            float: left;
+            width: 180px;
+            height: 24px;
+            line-height:22px;
+            background-color: #fff;
+            border: 1px solid #999;
+        }
+        #container .sHead .headSearch .searchBtn{
+            background: url("../images/www/sogi-mabtn-bg-3.png") repeat-x scroll 0 0 #CECECE;
+            border: 1px solid #AAAAAA;
+            border-radius: 5px 5px 5px 5px;
+            float: left;
+            height: 25px;
+            line-height:25px;
+            margin-bottom: 10px;
+            margin-right: 2px;
+            text-align: center;
+            vertical-align: middle;
+            width: 40px;
+            margin-left: 5px;
+        }
     #container .sHead .mainNav {
       clear: both;
       height: 36px;
@@ -498,7 +527,7 @@ a:hover {
       float: left;
       display: block;
       width: 248px;
-      overflow: auto;
+      /*overflow: auto;*/
       height: auto; }
       #container .promoTp-2 .hotList ul {
         clear: both;
@@ -1597,6 +1626,7 @@ a:hover {
       box-shadow: inset 0 0 6px white;
       background: #cecece url(../images/www/sogi-btn-bg-1.png) 0 0 scroll repeat-x; }
     #container .forumMain .faList, #container .articleSelected .faList {
+      clear:both;
       width: auto;
       margin-top: 10px;
       margin-bottom: 10px; }
@@ -1627,10 +1657,10 @@ a:hover {
         #container .forumMain .faList .faHead .faTitle, #container .articleSelected .faList .faHead .faTitle {
           width: 380px; }
         #container .forumMain .faList .faHead .faCount, #container .articleSelected .faList .faHead .faCount {
-          width: 50px;
+          width: 34px;
           text-align: center; }
         #container .forumMain .faList .faHead .faAuthor, #container .forumMain .faList .faHead .faNewRe, #container .articleSelected .faList .faHead .faAuthor, #container .articleSelected .faList .faHead .faNewRe {
-          width: 104px;
+          width: 84px;
           text-align: center; }
       #container .forumMain .faList .faRow, #container .articleSelected .faList .faRow {
         clear: both;
@@ -1686,7 +1716,9 @@ a:hover {
               *width: 100%; }
             #container .forumMain .faList .faRow .field-1 .title span, #container .forumMain .faList .faRow .field-1 .specialIcon span, #container .articleSelected .faList .faRow .field-1 .title span, #container .articleSelected .faList .faRow .field-1 .specialIcon span {
               *position: relative;
-              *top: -50%; }
+              *top: -50%;
+               font-size: 13px;
+              }
             #container .forumMain .faList .faRow .field-1 .title .mTag, #container .forumMain .faList .faRow .field-1 .specialIcon .mTag, #container .articleSelected .faList .faRow .field-1 .title .mTag, #container .articleSelected .faList .faRow .field-1 .specialIcon .mTag {
               font-weight: bold;
               color: #8a7e81; }
@@ -1714,9 +1746,9 @@ a:hover {
             *position: relative;
             *top: -50%; }
         #container .forumMain .faList .faRow .field-2 .reCount, #container .forumMain .faList .faRow .field-3 .reCount, #container .articleSelected .faList .faRow .field-2 .reCount, #container .articleSelected .faList .faRow .field-3 .reCount {
-          width: 60px; }
+          width: 45px; }
         #container .forumMain .faList .faRow .field-2 .postInfo, #container .forumMain .faList .faRow .field-3 .postInfo, #container .articleSelected .faList .faRow .field-2 .postInfo, #container .articleSelected .faList .faRow .field-3 .postInfo {
-          width: 114px; }
+          width: 90px; }
       #container .forumMain .faList .top, #container .articleSelected .faList .top {
         background-color: #fee57f; }
     #container .forumMain .article .objBtns, #container .articleSelected .article .objBtns {
@@ -1898,21 +1930,25 @@ a:hover {
           float: left;
           padding: 10px; }
   #container .forumMaBtn {
-    position: absolute;
-    top: 300px;
-    left: -41px; }
+    /*position: absolute;*/
+    /*top: 300px;*/
+    /*left: -41px; */
+      width: auto;
+      margin: 0 180px;
+    }
     #container .forumMaBtn .maBtn {
+      float: left;
       display: table;
       background: #cecece url(../images/www/sogi-mabtn-bg-3.png) 0 0 scroll repeat-x;
-      border-top: 1px solid #aaaaaa;
-      border-bottom: 1px solid #aaaaaa;
-      border-left: 1px solid #aaaaaa;
-      border-radius: 5px 0 0 5px;
+      border: 1px solid #aaaaaa;
+      border-radius: 5px;
       height: 40px;
       width: 40px;
       text-align: center;
       vertical-align: middle;
-      margin-bottom: 1px; }
+      margin-bottom: 10px;
+      margin-right: 2px;
+      }
       #container .forumMaBtn .maBtn a {
         display: block;
         margin-top: 5px; }
@@ -2460,6 +2496,7 @@ a:hover {
             right: 15px;
             top: 0px; }
           #container #storeMain li.storePd .pd .info .pName {
+            height: 40px;
             line-height: 18px; }
             #container #storeMain li.storePd .pd .info .pName a {
               color: #fdd84b; }
@@ -2483,6 +2520,7 @@ a:hover {
           #container #storeMain li.storePd .pd .info .descb {
             color: white;
             width: 150px;
+            height: 32px;
             padding: 5px;
             background-color: #554d4f; }
           #container #storeMain li.storePd .pd .info .update {
@@ -2698,6 +2736,7 @@ a:hover {
     height: auto;
     overflow: auto; }
   #container .pagination {
+    clear:both;
     overflow: hidden;
     font-size: 9pt;
     padding: 10px 0; }
@@ -5791,3 +5830,68 @@ border-bottom-width: 1px;
 }
 
 /*0912新增--------------------------------END*/
+
+/*0915新增----forum-1,store-6-2-1-A-Z*/
+
+#footer .sogiLogo {
+      float: left; }
+#footer .sogiLogo .logo {
+        display: block;
+        position: relative;
+        width: 150px;
+        height: 87px;
+        top: 10px;
+        left: 30px;
+        background: url(../images/www/sogi2.png) -1px 0px no-repeat transparent;
+        text-indent: -9999px; }
+.AtoZon{
+   box-shadow:0 0 5px black inset;
+   padding:0 5px; 
+   border-radius:5px;
+   background-color: #999;
+}
+.AtoZon a{
+   color: #FFF;
+}
+#container .bwl .hotNews {
+    float: left;
+    margin-left: 18px;
+   margin-top:10px;
+   overflow:hidden;
+   width:680px;
+   }
+   
+#container .bwl .hotList {
+    display: block;
+    float: left;
+    height: auto;
+    width: 248px;
+}  
+   #container .bwl .hotList li.style3 {
+    padding: 2px 10px;
+   overflow: auto;
+}
+#container .forumTitle{
+    position: relative;
+    overflow: auto;
+    height: auto;
+   margin-bottom:10px;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 6px #aaaaaa;
+    background: #f9f9f9 url(../images/www/sogi-bg-9.png) 0 0 scroll repeat-x; }
+   
+#container .bwl .hotList li {
+    border-bottom: 1px dotted #AAAAAA;
+    display: block;
+    height: auto;
+    overflow: auto;
+    padding: 7px 5px;
+    width: 270px;
+}
+#container .bwl .hotList li .desc {
+    float: left;
+    line-height: 18px;
+    width: 140px;
+}
+/*0915新增--------------------------------END*/
