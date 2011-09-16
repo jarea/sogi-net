@@ -1532,7 +1532,7 @@ a:hover {
         width: 500px;
         overflow: hidden;
         margin-top: 10px; }
-        #container .forumMain .objInfo .forumBtn .createVote, #container .forumMain .objInfo .forumBtn .newPost, #container .articleSelected .objInfo .forumBtn .createVote, #container .articleSelected .objInfo .forumBtn .newPost {
+        #container .forumMain .objInfo .forumBtn .createVote, #container .forumMain .objInfo .forumBtn .newPost, #container .forumMain .objInfo .forumBtn .addFavorite, #container .articleSelected .objInfo .forumBtn .createVote, #container .articleSelected .objInfo .forumBtn .newPost, #container .articleSelected .objInfo .forumBtn .addFavorite {
           float: right; }
         #container .forumMain .objInfo .forumBtn .createVote, #container .articleSelected .objInfo .forumBtn .createVote {
           margin-right: 3px; }
@@ -1549,6 +1549,14 @@ a:hover {
             width: 101px;
             height: 35px;
             background: url(../images/www/sogi-img.png) -640px 0px no-repeat transparent;
+            text-indent: -9999px; }
+        #container .forumMain .objInfo .forumBtn .addFavorite, #container .articleSelected .objInfo .forumBtn .addFavorite {
+          margin-right: 3px; }
+          #container .forumMain .objInfo .forumBtn .addFavorite a, #container .articleSelected .objInfo .forumBtn .addFavorite a {
+            display: block;
+            width: 101px;
+            height: 35px;
+            background: url(../images/www/sogi-img.png) -640px -74px no-repeat transparent;
             text-indent: -9999px; }
     #container .forumMain .objList, #container .articleSelected .objList {
       position: relative;
@@ -5895,3 +5903,10 @@ border-bottom-width: 1px;
     width: 140px;
 }
 /*0915新增--------------------------------END*/
+
+.articleContent .content .artiQuote{
+   border: 1px solid #999;
+   background-color: #d3d3d3;
+   padding: 10px;
+   color: #666;
+}
