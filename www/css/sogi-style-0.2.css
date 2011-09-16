@@ -348,6 +348,7 @@ a:hover {
           color: #3a3536;
           text-shadow: 1px 1px 2px #ed6500; }
   #container .fullPromo {
+    clear:both;
     overflow: auto;
     border-radius: 0 0 15px 15px;
     border-left: 1px solid #aaaaaa;
@@ -5822,19 +5823,22 @@ border-bottom-width: 1px;
    color:#000;
 }
 .mainSubNav .objBtn a {
-   background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
-   border: 1px solid #AAAAAA;
+   background-color:#D3A913;
+/*   border: 1px solid #E08645;*/
    border-radius: 5px 5px 5px 5px;
-   box-shadow: 0 0 6px white inset;
-   float:left;
-   margin-right: 5px;
-   padding:0 8px 0 8px;
-   font-size:11px;
-   text-align: center;  
+   font-size:12px;
+   text-align: center;
+   padding: 3px 6px;
+   margin-right: 10px;
+   margin-left: 10px;
+   color: #333333;
+}
+.mainSubNav .objBtn a:hover{
+   background-color: #6D5A52;
+   color: #FFFFFF;
 }
 .mainSubNav .objBtn {   
-   float:left;
-   
+   float:left;  
 }
 
 /*0912新增--------------------------------END*/
@@ -5909,4 +5913,17 @@ border-bottom-width: 1px;
    background-color: #d3d3d3;
    padding: 10px;
    color: #666 ;
+}
+.editBtn {
+   background: url("../images/www/sogi-mabtn-bg-3.png") repeat-x scroll 0 0 #CECECE;
+   border: 1px solid #AAAAAA;
+   border-radius: 5px 5px 5px 5px;
+   float: left;
+   height: 25px;
+   line-height:25px;
+   margin: 0px 2px 10px 5px;
+   padding: 0px 10px;
+   text-align: center;
+   vertical-align: middle;
+   width: auto;
 }
