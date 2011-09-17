@@ -5927,3 +5927,11 @@ border-bottom-width: 1px;
    vertical-align: middle;
    width: auto;
 }
+
+.tableform th, .tableform td{
+   padding: 10px 5px;
+   border-bottom: 1px dashed #999;
+}
+.tableform th{
+   background-color: #d3d3d3;
+}
