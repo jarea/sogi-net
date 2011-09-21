@@ -1983,6 +1983,12 @@ a:hover {
       float: right;
       padding-right: 20px;
       padding-top: 5px; }
+      #container .pdTrend .searchBar, #container .mapApi .searchBar input.searchInput{
+         width: 500px;
+         height: 22px;
+         background-color: #FFF6DD;
+         border: 1px solid #AD944A;
+      }
     #container .pdTrend .shopChart, #container .mapApi .shopChart {
       clear: both;
       float: left;
@@ -2277,6 +2283,13 @@ a:hover {
               margin-bottom: 3px; }
             #container .shopMain .filterResult .stores li.store .storeInfos .address, #container .shopMain .filterResult .stores li.store .storeInfos .tel {
               color: #666666; }
+			  #container .shopMain .hightlight{
+                background-color: #FFEBAC;
+                color: #333333;
+                float: left;
+                padding: 1px 3px;
+                text-decoration: none;
+			   }
             #container .shopMain .filterResult .stores li.store .storeInfos .desc {
               margin-top: 3px;
               color: #3a3536; }
@@ -2394,7 +2407,8 @@ a:hover {
         height: 6px;
         background: url(../images/www/sogi-img.png) -800px -100px no-repeat transparent; }
       #container #storeMain .storeProd .basic {
-        margin: 10px; }
+        margin: 10px;
+		font-size:12px; }
         #container #storeMain .storeProd .basic .bTitle {
           clear: both;
           font-size: 13px;
@@ -2402,12 +2416,11 @@ a:hover {
           border-bottom: 1px dashed #aaaaaa;
           padding-bottom: 10px; }
         #container #storeMain .storeProd .basic .infos {
-          margin-left: 20px; }
+          margin:10px 0 20px 20px; }
           #container #storeMain .storeProd .basic .infos .nt {
             color: #6f6668; }
         #container #storeMain .storeProd .basic .payItems {
-          margin-left: 20px;
-          margin-bottom: 20px; }
+          margin:10px 0 40px 20px; }
           #container #storeMain .storeProd .basic .payItems li {
             float: left;
             margin-right: 30px;
@@ -2419,8 +2432,7 @@ a:hover {
               margin-right: 6px;
               background: url(../images/www/sogi-img.png) -780px -159px no-repeat transparent; }
         #container #storeMain .storeProd .basic .serItems {
-          margin-left: 20px;
-          margin-bottom: 20px; }
+          margin:10px 0 40px 20px; }
           #container #storeMain .storeProd .basic .serItems li {
             float: left;
             margin-right: 30px; }
@@ -3079,8 +3091,7 @@ width:500px;
 .nav{
    padding:10px 20px 40px 10px;
 }
-.Fdatas{
-   margin-top:30px;
+.Fdatas{ 
    margin-left: 5px;
    height: auto;
 }
@@ -3096,7 +3107,7 @@ width:500px;
    box-shadow: 0 0 6px #AAAAAA;
    height: auto;
    overflow: hidden;
-   width: 650px;
+   width: 680px;
    padding: 5px 5px 5px 0;
    border-top-width: 1px;
    border-right-width: 1px;
@@ -3118,7 +3129,7 @@ width:500px;
    padding: 0px;
    width: 620px;
    height: 200px;
-   margin: 13px 20px 20px 18px;
+   margin: 13px 20px 20px 30px;
 }
 .FdataUp{
    width: 620px;
@@ -3136,11 +3147,16 @@ width:500px;
    display:block;
    height: 35px;
    width: 100px;
-   background-image: url(../images/www/FdataTab_bac.png);
+    background-color: #EDCF49;
+   color: #444;
+  /*background-image: url(../images/www/FdataTab_bac.png);*/
+
 }
 .FdataTabs a:hover{
-   background-image:  url(../images/www/FdataTabOn_bac.png);
+   /*background-image:  url(../images/www/FdataTabOn_bac.png);*/
    color: #444;
+   background-color: #EC741B;
+   color: #FFFFFF;
 }
 .FdataTab{
    float: left;
@@ -3155,7 +3171,9 @@ width:500px;
    display:block;
    height: 35px;
    width: 100px;
-   background-image:  url(../images/www/FdataTabOn_bac.png);
+   background-color: #EC741B;
+   color: #FFFFFF;
+   /*background-image:  url(../images/www/FdataTabOn_bac.png);*/
 }
 .FdataSignBig{
    float: right;
@@ -4861,11 +4879,13 @@ table, caption, tbody, tfoot, thead, tr, th, td {
    display:block;
    height: 30px;
    width: 100px;
-   background-image: url(../images/www/FdataTab_bac.png);
+   background-color: #EDCF49;
+   color: #444;
 }
 .content .FdataTabs a:hover{
-   background-image:  url(../images/www/FdataTabOn_bac.png);
    color: #444;
+   background-color: #EC741B;
+   color: #FFFFFF;
 }
 .content .FdataTab{
    float: left;
@@ -4880,7 +4900,8 @@ table, caption, tbody, tfoot, thead, tr, th, td {
    display:block;
    height: 30px;
    width: 100px;
-   background-image: url(../images/www/FdataTabOn_bac.png); 
+   background-color: #EC741B;
+   color: #FFFFFF;
 }
 .content .mobiDataDown{
    float: left;
@@ -4955,12 +4976,14 @@ table, caption, tbody, tfoot, thead, tr, th, td {
    height:25px;
    width: 70px;
    color: #000;
-   background-color:#FC6;
-   box-shadow: 0 0 2px black;
+   background-color: #BC9E6B;
+   box-shadow: 0 0 6px black inset;
    border-radius:5px;
 }
 .Sfootermain .SMdataTabs a:hover{
    color:#ED6500;
+   box-shadow: 0 0 2px black;
+   background-color:#FC6;
 }
 .Sfootermain .SMdataTab{
    float: left;
@@ -4969,14 +4992,15 @@ table, caption, tbody, tfoot, thead, tr, th, td {
    color: #444;
    text-align: center;
    font-size: 11px;
+   line-height: 25px;
 }
 .Sfootermain .SMon a{
    display:block;
    height: 25px;
    width: 70px;
-   box-shadow: 0 0 6px black inset;
+   box-shadow: 0 0 2px black;
    border-radius:5px;
-   background-color: #BC9E6B;
+   background-color:#FC6;
 }
 .Sfootermain .SdataDown h3{
    color: #333333;
@@ -5272,8 +5296,16 @@ table, caption, tbody, tfoot, thead, tr, th, td {
    background-repeat: repeat;
    background-position: 0 0;
 }
-.Ssystem ul, .Ssystem p {
-    margin: 5px 10px;
+.Ssystem ul{
+	margin: 5px 10px;
+	font-size:14px;
+	font-weight: 600;
+}
+.Ssystem p
+{
+	margin: 5px 10px;
+	font-size:12px;
+	font-weight: 100;
 }
 .Ssystem ul.list li {
    line-height: 2;
@@ -5401,13 +5433,15 @@ ul.notice li {
    height:25px;
    width: 70px;
    color: #000;
-   background-color:#FC6;
-   box-shadow: 0 0 2px black;
+   box-shadow: 0 0 6px black inset;
    border-radius:5px;
    line-height:24px;
+   background-color: #BC9E6B;
 }
 .SPdataTabs a:hover{
    color:#ED6500;
+   box-shadow: 0 0 2px black;
+   background-color:#FC6;
 }
 .SPdataTab{
    float: left;
@@ -5421,8 +5455,9 @@ ul.notice li {
    display:block;
    height: 25px;
    width: 70px;
-   box-shadow: 0 0 6px black inset;
+   box-shadow: 0 0 2px black;
    border-radius:5px;
+   background-color:#FC6;
 }
 .SPblock{   
 }
@@ -5510,13 +5545,15 @@ ul.notice li {
    height:25px;
    width: auto;
    color: #000;
-   background-color:#FC6;
-   box-shadow: 0 0 2px black;
+   background-color: #BC9E6B;
+   box-shadow: 0 0 6px black inset;
    border-radius:5px;
    line-height:24px;
 }
 .SRdataTabs a:hover{
    color:#ED6500;
+    box-shadow: 0 0 2px black;
+	background-color:#FC6;
 }
 .SRdataTab{
    float: left;
@@ -5530,8 +5567,9 @@ ul.notice li {
    display:block;
    height: 25px;
    width: auto;
-   box-shadow: 0 0 6px black inset;
+    box-shadow: 0 0 2px black;
    border-radius:5px;   
+   background-color:#FC6;
 }
 .separate{
    border-bottom-width: 1px;
@@ -5629,6 +5667,7 @@ width:300px;
    background-image: none;
    background-repeat: repeat;
    background-position: 0 0;
+   font-weight:100;
 }
 .Ssystembw
 {
