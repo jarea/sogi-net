@@ -1664,38 +1664,39 @@ a:hover {
           float: left;
           padding: 5px 10px; }
         #container .forumMain .faList .faHead .faTitle, #container .articleSelected .faList .faHead .faTitle {
-          width: 380px; }
+          width: 410px; }
         #container .forumMain .faList .faHead .faCount, #container .articleSelected .faList .faHead .faCount {
           width: 34px;
           text-align: center; }
         #container .forumMain .faList .faHead .faAuthor, #container .forumMain .faList .faHead .faNewRe, #container .articleSelected .faList .faHead .faAuthor, #container .articleSelected .faList .faHead .faNewRe {
-          width: 84px;
+          width: 60px;
           text-align: center; }
       #container .forumMain .faList .faRow, #container .articleSelected .faList .faRow {
         clear: both;
         height: 50px;
         background-color: #fff3c2;
-        overflow: auto;
+        overflow: hidden;
         border-bottom: 1px dashed #cccccc; }
         #container .forumMain .faList .faRow .field-1, #container .forumMain .faList .faRow .field-2, #container .forumMain .faList .faRow .field-3, #container .forumMain .faList .faRow .field-4, #container .articleSelected .faList .faRow .field-1, #container .articleSelected .faList .faRow .field-2, #container .articleSelected .faList .faRow .field-3, #container .articleSelected .faList .faRow .field-4 {
           float: left;
           padding: 5px; }
         #container .forumMain .faList .faRow .field-1, #container .articleSelected .faList .faRow .field-1 {
-          width: 390px; }
+          width: 420px; }
           #container .forumMain .faList .faRow .field-1 .objBtns, #container .forumMain .faList .faRow .field-1 .title, #container .forumMain .faList .faRow .field-1 .pagi, #container .forumMain .faList .faRow .field-1 .specialIcon, #container .articleSelected .faList .faRow .field-1 .objBtns, #container .articleSelected .faList .faRow .field-1 .title, #container .articleSelected .faList .faRow .field-1 .pagi, #container .articleSelected .faList .faRow .field-1 .specialIcon {
             float: left; }
           #container .forumMain .faList .faRow .field-1 .objBtns, #container .articleSelected .faList .faRow .field-1 .objBtns {
             width: 75px;
             height: auto;
-            text-align: right;
+            text-align: center;
             overflow: hidden;
             margin-right: 5px; }
             #container .forumMain .faList .faRow .field-1 .objBtns .objBtn, #container .articleSelected .faList .faRow .field-1 .objBtns .objBtn {
               margin-bottom: 2px; }
               #container .forumMain .faList .faRow .field-1 .objBtns .objBtn a, #container .articleSelected .faList .faRow .field-1 .objBtns .objBtn a {
+                display: block;
                 border-radius: 3px;
                 background-color: #806f66;
-                padding: 2px 3px;
+                padding: 1px 2px;
                 line-height: 18px;
                 font-size: 11px;
                 color: white; }
@@ -1712,7 +1713,7 @@ a:hover {
               vertical-align: middle; }
           #container .forumMain .faList .faRow .field-1 .title, #container .forumMain .faList .faRow .field-1 .specialIcon, #container .articleSelected .faList .faRow .field-1 .title, #container .articleSelected .faList .faRow .field-1 .specialIcon {
             display: table;
-            width: 235px;
+            width: 260px;
             height: 40px;
             *position: relative; }
             #container .forumMain .faList .faRow .field-1 .title a, #container .forumMain .faList .faRow .field-1 .specialIcon a, #container .articleSelected .faList .faRow .field-1 .title a, #container .articleSelected .faList .faRow .field-1 .specialIcon a {
@@ -1726,7 +1727,7 @@ a:hover {
             #container .forumMain .faList .faRow .field-1 .title span, #container .forumMain .faList .faRow .field-1 .specialIcon span, #container .articleSelected .faList .faRow .field-1 .title span, #container .articleSelected .faList .faRow .field-1 .specialIcon span {
               *position: relative;
               *top: -50%;
-               font-size: 13px;
+               font-size: 15px;
               }
             #container .forumMain .faList .faRow .field-1 .title .mTag, #container .forumMain .faList .faRow .field-1 .specialIcon .mTag, #container .articleSelected .faList .faRow .field-1 .title .mTag, #container .articleSelected .faList .faRow .field-1 .specialIcon .mTag {
               font-weight: bold;
@@ -1757,7 +1758,7 @@ a:hover {
         #container .forumMain .faList .faRow .field-2 .reCount, #container .forumMain .faList .faRow .field-3 .reCount, #container .articleSelected .faList .faRow .field-2 .reCount, #container .articleSelected .faList .faRow .field-3 .reCount {
           width: 45px; }
         #container .forumMain .faList .faRow .field-2 .postInfo, #container .forumMain .faList .faRow .field-3 .postInfo, #container .articleSelected .faList .faRow .field-2 .postInfo, #container .articleSelected .faList .faRow .field-3 .postInfo {
-          width: 90px; }
+          width: 70px; }
       #container .forumMain .faList .top, #container .articleSelected .faList .top {
         background-color: #fee57f; }
     #container .forumMain .article .objBtns, #container .articleSelected .article .objBtns {
@@ -2048,45 +2049,46 @@ a:hover {
         overflow: auto;
         padding: 5px 10px; }
         #container .hotStoreFa .faList .faHead .faTitle {
-          width: 365px;
+          width: 400px;
           float: left; }
         #container .hotStoreFa .faList .faHead .faCount {
           text-align: center;
-          width: 45px;
+          width: 50px;
           float: left; }
         #container .hotStoreFa .faList .faHead .faAuthor {
           text-align: center;
-          width: 140px;
+          width: 90px;
           float: left; }
         #container .hotStoreFa .faList .faHead .faNewRe {
           text-align: center;
-          width: 104px;
+          width: 90px;
           float: left; }
       #container .hotStoreFa .faList .faRow {
         clear: both;
         height: 50px;
         background-color: #fff3c2;
-        overflow: auto;
+        overflow: hidden;
         border-bottom: 1px dashed #cccccc; }
         #container .hotStoreFa .faList .faRow .field-1, #container .hotStoreFa .faList .faRow .field-2, #container .hotStoreFa .faList .faRow .field-3, #container .hotStoreFa .faList .faRow .field-4 {
           float: left;
           padding: 5px; }
         #container .hotStoreFa .faList .faRow .field-1 {
-          width: 360px; }
+          width: 395px; }
           #container .hotStoreFa .faList .faRow .field-1 .objBtns, #container .hotStoreFa .faList .faRow .field-1 .title, #container .hotStoreFa .faList .faRow .field-1 .pagi, #container .hotStoreFa .faList .faRow .field-1 .specialIcon {
             float: left; }
           #container .hotStoreFa .faList .faRow .field-1 .objBtns {
             width: 75px;
             height: auto;
-            text-align: right;
+            text-align: center;
             overflow: hidden;
             margin-right: 5px; }
             #container .hotStoreFa .faList .faRow .field-1 .objBtns .objBtn {
               margin-bottom: 2px; }
               #container .hotStoreFa .faList .faRow .field-1 .objBtns .objBtn a {
+                display:block;
                 border-radius: 3px;
                 background-color: #806f66;
-                padding: 2px 3px;
+                padding: 1px 2px;
                 line-height: 18px;
                 font-size: 11px;
                 color: white; }
@@ -2103,13 +2105,14 @@ a:hover {
               vertical-align: middle; }
           #container .hotStoreFa .faList .faRow .field-1 .title, #container .hotStoreFa .faList .faRow .field-1 .specialIcon {
             display: table;
-            width: 230px;
+            width: 250px;
             height: 40px;
             *position: relative; }
             #container .hotStoreFa .faList .faRow .field-1 .title a, #container .hotStoreFa .faList .faRow .field-1 .specialIcon a {
               display: table-cell;
               vertical-align: middle;
               line-height: 18px;
+              font-size: 15px;
               *display: block;
               *position: absolute;
               *top: 50%;
@@ -2144,9 +2147,9 @@ a:hover {
             *position: relative;
             *top: -50%; }
         #container .hotStoreFa .faList .faRow .field-2 .reCount, #container .hotStoreFa .faList .faRow .field-3 .reCount {
-          width: 50px; }
+          width: 45px; }
         #container .hotStoreFa .faList .faRow .field-2 .postInfo, #container .hotStoreFa .faList .faRow .field-3 .postInfo {
-          width: 114px; }
+          width: 78px; }
       #container .hotStoreFa .faList .top {
         background-color: #fee57f; }
       #container .hotStoreFa .faList .fa2pdTitle {
