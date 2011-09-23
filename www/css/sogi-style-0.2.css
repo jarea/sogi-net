@@ -183,7 +183,7 @@ a:hover {
           height: 38px;
           margin-right: 40px;
           margin-left: 65px;
-          background: url(../images/www/sogi-img.png) -160px -1px no-repeat transparent;
+          background: url(../images/www/sogi-img.png) -200px -1px no-repeat transparent;
           text-indent: -9999px; }
         #container .sHead .shopNavArea .shopNav-1 a .name {
           clear: both;
@@ -193,7 +193,7 @@ a:hover {
           margin-left: 65px;
           top: 15px; }
         #container .sHead .shopNavArea .shopNav-1 a:hover .icon {
-          background: url(../images/www/sogi-img.png) -160px -39px no-repeat transparent; }
+          background: url(../images/www/sogi-img.png) -200px -39px no-repeat transparent; }
         #container .sHead .shopNavArea .shopNav-1 a:hover .name {
           color: #ed6500; }
       #container .sHead .shopNavArea .shopNav-2 {
@@ -205,7 +205,7 @@ a:hover {
           width: 40px;
           height: 38px;
           margin-right: 40px;
-          background: url(../images/www/sogi-img.png) -200px -1px no-repeat transparent;
+          background: url(../images/www/sogi-img.png) -160px -1px no-repeat transparent;
           text-indent: -9999px; }
         #container .sHead .shopNavArea .shopNav-2 a .name {
           clear: both;
@@ -214,7 +214,7 @@ a:hover {
           color: #3a3536;
           top: 15px; }
         #container .sHead .shopNavArea .shopNav-2 a:hover .icon {
-          background: url(../images/www/sogi-img.png) -200px -39px no-repeat transparent; }
+          background: url(../images/www/sogi-img.png) -160px -39px no-repeat transparent; }
         #container .sHead .shopNavArea .shopNav-2 a:hover .name {
           color: #ed6500; }
       #container .sHead .shopNavArea .shopNav-3 {
