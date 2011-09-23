@@ -2008,9 +2008,8 @@ a:hover {
         width: 300px; }
         #container .pdTrend .chartItems ul.items li.item span, #container .mapApi .chartItems ul.items li.item span {
           display: block;
-          float: left;
           margin-right: 2px;
-          line-height: 30px; }
+          line-height: 22px; }
         #container .pdTrend .chartItems ul.items li.item .reviewBtn, #container .mapApi .chartItems ul.items li.item .reviewBtn {
           float: left;
           width: 150px;
