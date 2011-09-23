@@ -803,7 +803,7 @@ a:hover {
     position: relative;
     overflow: hidden;
     padding: 5px;
-    height: 310px;
+    height: auto;
     border-radius: 15px;
     border: 1px solid #aaaaaa;
     box-shadow: 0 0 6px #aaaaaa;
@@ -5873,8 +5873,8 @@ border-bottom-width: 1px;
    font-size:12px;
    text-align: center;
    padding: 3px 6px;
-   margin-right: 10px;
-   margin-left: 10px;
+   margin-right: 1px;
+   margin-left: 3px;
    color: #333333;
 }
 .mainSubNav .objBtn a:hover{
