@@ -1061,7 +1061,8 @@ a:hover {
           z-index: 998; }
         #container .mobiNewsPromo .hotShowList li .name {
           position: absolute;
-          top: 145px;
+          top: 138px;
+          height: 40px;
           width: 150px;
           text-align: center;
           z-index: 999; }
