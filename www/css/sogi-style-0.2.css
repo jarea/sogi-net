@@ -730,7 +730,10 @@ a:hover {
         width: 100px;
         border: 1px solid #aaaaaa; }
       #container .compare li .comparePd .title {
-        float: none; }
+        float: none;
+        height: 30px;
+        overflow: hidden;
+      }
       #container .compare li .red {
         width: 70px;
         font-size: 11px;
@@ -1788,7 +1791,7 @@ a:hover {
       #container .forumMain .article .objBtns .wording, #container .articleSelected .article .objBtns .wording {
         float: left; }
     #container .forumMain .article h1.arTitle, #container .articleSelected .article h1.arTitle {
-      font-size: 16px;
+      font-size: 18px;
       font-weight: bold;
       margin-left: 25px;
       margin-bottom: 10px;
@@ -1858,13 +1861,17 @@ a:hover {
         font-size: 18px;
         font-weight: bold;
         color: #bfbfbf; }
+    #container .forumMain .article .articleContent{
+      overflow: hidden;
+    }
     #container .forumMain .article .articleContent .content, #container .articleSelected .article .articleContent .content {
+      font-size: 15px;
       margin: 10px 25px;
       line-height: 22px; }
       #container .forumMain .article .articleContent .content p, #container .articleSelected .article .articleContent .content p {
         margin-bottom: 15px; }
       #container .forumMain .article .articleContent .content img, #container .articleSelected .article .articleContent .content img {
-        max-width: 500px; }
+        /*max-width: 640px;*/ }
     #container .forumMain .article .articleContent .remark, #container .articleSelected .article .articleContent .remark {
       color: #b3b3b3;
       width: auto;
@@ -4723,6 +4730,8 @@ h1{
 }
 .mobiSearch .pageNav{
    padding-top:10px;
+   padding-left: 300px;
+   width: 100%;
 }
 .mobiSearch .mobiTitle{
    width:670px;
@@ -4764,7 +4773,7 @@ a.btnE {
 }
 table.border TH, table.border TD {
     border: 1px solid #DDDDDD;
-    padding: 10px 15px;
+    padding: 10px;
 }
 .tBrand th, .tSpec th, .tPK th {
    font-size: 14px;
@@ -5982,4 +5991,23 @@ margin-left:15px;
 }
 .tableform th{
    background-color: #d3d3d3;
+}
+.btn-del{
+   border-radius: 3px;
+   background-color: #A3A37C;
+   padding: 2px 4px;
+   color: #eee;
+}
+
+.btnStyle-2{
+   height: 40px;
+   text-align: center;
+}
+.btnStyle-2 input{
+   float:left;
+   width: auto;
+   height: 30px;
+   margin: 0 auto;
+   text-align: center;
+   margin-right: 5px;
 }
