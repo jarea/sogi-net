@@ -1314,7 +1314,9 @@ a:hover {
       /* 手機館-討論列表 */
       /* 手機王－規格列表 */ }
       #container .pdReview .pdIntro .content, #container .brandList .pdIntro .content {
-        margin: 5px 10px; }
+        margin: 5px 10px;
+        font-size: 15px;
+        }
       #container .pdReview .pdIntro .pdTitle, #container .brandList .pdIntro .pdTitle {
         font-size: 15px;
         font-weight: bold;
@@ -1434,10 +1436,11 @@ a:hover {
             padding: 4px 10px; }
           #container .pdReview .pdIntro .specLists .specGroup .specRow .name, #container .brandList .pdIntro .specLists .specGroup .specRow .name {
             width: 120px;
-            font-size: 13px;
+            font-size: 15px;
             font-weight: bold;
             color: #554d4f; }
           #container .pdReview .pdIntro .specLists .specGroup .specRow .values, #container .brandList .pdIntro .specLists .specGroup .specRow .values {
+            font-size:15px;
             width: 500px; }
           #container .pdReview .pdIntro .specLists .specGroup .specRow .specFeedback, #container .brandList .pdIntro .specLists .specGroup .specRow .specFeedback {
             width: 16px;
@@ -1447,11 +1450,11 @@ a:hover {
           #container .pdReview .pdIntro .specLists .specGroup .greyBg, #container .brandList .pdIntro .specLists .specGroup .greyBg {
             background-color: #e6e4e4; }
     #container .pdReview .moreIntro, #container .brandList .moreIntro {
-      width: 80px;
-      float: right;
+      width: 660px;
       margin-right: 30px;
+      margin-left: 30px;
       border-radius: 5px 5px 0 0;
-      background-color: #e3e3e3; }
+      background-color: #FFEBAC; }
       #container .pdReview .moreIntro a, #container .brandList .moreIntro a {
         display: block;
         width: 100%;
@@ -5838,24 +5841,24 @@ margin-left:15px;
       margin-right: 5px;
 
       }
-.advantages .list li
+.advantages li {
+   height: auto;
+   overflow:auto;
+   border-bottom-width: 1px;
+   border-bottom-style: dashed;
+   border-bottom-color: #BBB;
+}
+.advantages li .list
 {
    padding:5px 10px;
    font-size:13px;
-   
-border-bottom-width: 1px;
-   border-bottom-style: dashed;
-   border-bottom-color: #BBB; 
 }
 
-.advantages .function li
+.advantages li .function
 {
    width: 150px;
    padding:5px 15px;
    font-size:13px;
-   border-bottom-width: 1px;
-   border-bottom-style: dashed;
-   border-bottom-color: #BBB; 
 }
 
 .advantages .list
