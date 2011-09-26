@@ -1867,6 +1867,7 @@ a:hover {
     #container .forumMain .article .articleContent .content, #container .articleSelected .article .articleContent .content {
       font-size: 15px;
       margin: 10px 25px;
+      min-height: 100px;
       line-height: 22px; }
       #container .forumMain .article .articleContent .content p, #container .articleSelected .article .articleContent .content p {
         margin-bottom: 15px; }
