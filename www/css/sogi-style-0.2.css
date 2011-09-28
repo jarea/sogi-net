@@ -116,6 +116,8 @@ a:hover {
     background-color: #806f66;
     margin-right: 5px;
     margin-bottom: 5px; }
+  #container .noPaddingB{
+    padding-bottom: 0px; }
   #container .btn {
     display: block;
     border-radius: 3px;
@@ -1452,19 +1454,19 @@ a:hover {
             margin-top: 10px; }
           #container .pdReview .pdIntro .specLists .specGroup .greyBg, #container .brandList .pdIntro .specLists .specGroup .greyBg {
             background-color: #e6e4e4; }
-    #container .pdReview .moreIntro, #container .brandList .moreIntro {
+    #container .pdReview .moreIntro, #container .brandList .moreIntro, #container .newsPromo .moreIntro {
       width: 660px;
       margin-right: 30px;
       margin-left: 30px;
       border-radius: 5px 5px 0 0;
-      background-color: #FFEBAC; }
-      #container .pdReview .moreIntro a, #container .brandList .moreIntro a {
+      background-color: #FFAA6D; }
+      #container .pdReview .moreIntro a, #container .brandList .moreIntro a, #container .newsPromo .moreIntro a {
         display: block;
         width: 100%;
         text-align: center;
         color: #666666;
         padding: 4px 0 4px; }
-      #container .pdReview .moreIntro a:hover, #container .brandList .moreIntro a:hover {
+      #container .pdReview .moreIntro a:hover, #container .brandList .moreIntro a:hover, #container .newsPromo .moreIntro a:hover {
         color: #ed6500; }
     #container .pdReview .listTitle, #container .brandList .listTitle {
       font-size: 20px;
@@ -5697,12 +5699,12 @@ width:300px;
 }
 .InThemiddle img
 {
-float:left;
-margin-left:15px;
+/*float:left;
+margin-left:15px;*/
 }
 .txt-price
 {
-   margin-left:30px; 
+/*   margin-left:30px; */
 }
 .pkFont
 {
@@ -5711,6 +5713,10 @@ margin-left:15px;
    letter-spacing: 1px; 
    padding:15px 20px;
 }
+.tPK td{
+   text-align: center;
+}
+
 /*新增--------------------------------END*/
 /*0907新增----修改/新增頁面:member10-1.html , member-sighUp.html*/
 .personalData{
@@ -6012,3 +6018,215 @@ margin-left:15px;
    text-align: center;
    margin-right: 5px;
 }
+#container .noPaddingB{
+    padding-bottom: 0px; 
+}
+#container .btnNormal{
+   display: table-cell;
+   width: 100%;
+   padding-top: 10px;
+   text-align: center;
+}
+#container .btnNormal li{
+   background: url("../images/www/sogi-btn-bg-1.png") repeat-x scroll 0 0 #CECECE;
+   border: 1px solid #AAAAAA;
+   border-radius: 5px 5px 5px 5px;
+   box-shadow: 0 0 6px white inset;
+   float: left;
+   margin-left: 2px;
+   padding: 3px 5px;
+}
+/*sogi-0922更新------mobile-2.html,index.html*/
+.topNav
+{
+float:left;
+}
+
+.topNav .topicon-1 {
+    background: url("../images/www/sogi-img.png") no-repeat scroll -40px -432px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+    position: relative;
+     margin:0 1px;
+    text-indent: -9999px;
+    width: 20px; }
+.topNav a:hover .topicon-1{
+    background: url("../images/www/sogi-img.png") no-repeat scroll -20px -432px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+    position: relative;
+     margin:0 1px;
+    text-indent: -9999px;
+    width: 20px; }   
+   
+.topNav .on {
+   text-decoration: underline;
+   
+}
+.toptitle
+{
+   float:left;
+}
+
+.topNav .topicon-2 {
+    background: url("../images/www/sogi-img.png") no-repeat scroll -80px -432px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+     margin:0 1px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px; }
+.topNav a:hover .topicon-2{
+    background: url("../images/www/sogi-img.png") no-repeat scroll -60px -432px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+     margin:0 1px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px; }   
+   
+.topNav .topicon-3{
+    background: url("../images/www/sogi-img.png") no-repeat scroll -81px -490px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+    margin:0 1px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px; }
+.topNav a:hover .topicon-3{
+    background: url("../images/www/sogi-img.png") no-repeat scroll -61px -490px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+   margin:0 1px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px; }   
+   
+.topNav .topicon-4{
+    background: url("../images/www/sogi-img.png") no-repeat scroll -40px -458px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+    margin:0 1px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px; }
+.topNav a:hover .topicon-4{
+    background: url("../images/www/sogi-img.png") no-repeat scroll -20px -458px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+   margin:0 1px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px; }   
+   
+.topNav .topicon-5{
+    background: url("../images/www/sogi-img.png") no-repeat scroll -40px -482px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+    margin:0 1px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px; }
+.topNav a:hover .topicon-5{
+    background: url("../images/www/sogi-img.png") no-repeat scroll -20px -482px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+   margin:0 1px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px; }   
+
+.topNav .topicon-6{
+    background: url("../images/www/sogi-img.png") no-repeat scroll -40px -505px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+    margin:0 1px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px; }
+.topNav a:hover .topicon-6{
+    background: url("../images/www/sogi-img.png") no-repeat scroll -20px -505px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+   margin:0 1px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px; }         
+.topNav .topicon-7{
+    background: url("../images/www/sogi-img.png") no-repeat scroll -40px -555px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+    margin:0 1px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px; }
+.topNav a:hover .topicon-7{
+    background: url("../images/www/sogi-img.png") no-repeat scroll -20px -555px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+   margin:0 1px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px; }      
+   
+.topNav .topicon-8{
+    background: url("../images/www/sogi-img.png") no-repeat scroll -40px -530px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+    margin:0 1px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px; }
+.topNav a:hover .topicon-8{
+    background: url("../images/www/sogi-img.png") no-repeat scroll -20px -530px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+   margin:0 1px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px; }         
+   
+.topNav .topicon-9{
+    background: url("../images/www/sogi-img.png") no-repeat scroll -81px -518px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+    margin:0 1px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px; }
+.topNav a:hover .topicon-9{
+    background: url("../images/www/sogi-img.png") no-repeat scroll -61px -518px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+   margin:0 1px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px; }   
+.reveal
+{
+   font-size:13px;
+   margin:10px;
+   padding:5px 0;
+   border-bottom: 1px solid #777;
+   border-top: 1px solid #777;
+   font-weight: 600; 
+}                          
+/*sogi-0922更新------------------------------------------END*/
