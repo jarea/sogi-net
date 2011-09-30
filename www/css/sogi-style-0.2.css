@@ -1160,7 +1160,7 @@ a:hover {
       line-height: 22px;
       margin-top: 7px; }
   #container .pdReview, #container .brandList {
-    overflow: auto;
+    /*overflow: auto;*/
     padding: 10px 0 0;
     height: auto;
     border-radius: 15px;
@@ -1175,7 +1175,8 @@ a:hover {
       margin-bottom: 15px;
       margin-left: 17px; }
     #container .pdReview .pdName, #container .brandList .pdName {
-      float: left;
+      /*float: left;*/
+      width:100%;
       font-size: 20px;
       font-weight: bold;
       margin: 0px 20px; }
@@ -6230,3 +6231,8 @@ float:left;
    font-weight: 600; 
 }                          
 /*sogi-0922更新------------------------------------------END*/
+
+#container input[type=text]{
+   height: 22px;
+   line-height: 22px;
+}
