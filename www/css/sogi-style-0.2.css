@@ -843,6 +843,8 @@ a:hover {
           #container .pdPromo li .pd .info .pName {
             line-height: 18px;
             height: 40px;
+            width: 100%;
+            overflow: hidden;
              }
             #container .pdPromo li .pd .info .pName a {
               color: #fdd84b; }
@@ -866,6 +868,8 @@ a:hover {
       #container .pdPromo li .pdImg {
         display: block;
         width: 160px;
+        height: 160px;
+        overflow: hidden;
         margin-right: 10px; }
       #container .pdPromo li .title {
         float: left;
@@ -1456,17 +1460,20 @@ a:hover {
           #container .pdReview .pdIntro .specLists .specGroup .greyBg, #container .brandList .pdIntro .specLists .specGroup .greyBg {
             background-color: #e6e4e4; }
     #container .pdReview .moreIntro, #container .brandList .moreIntro, #container .newsPromo .moreIntro {
-      width: 660px;
-      margin-right: 30px;
-      margin-left: 30px;
+      clear:both;
+      position:relative;
+      left: 530px;
+      width: 160px;
+/*      margin-right: 30px;
+      margin-left: 30px;*/
       border-radius: 5px 5px 0 0;
       background-color: #FFAA6D; }
       #container .pdReview .moreIntro a, #container .brandList .moreIntro a, #container .newsPromo .moreIntro a {
         display: block;
-        width: 100%;
+        width: 150px;
         text-align: center;
         color: #666666;
-        padding: 4px 0 4px; }
+        padding: 4px 5px ; }
       #container .pdReview .moreIntro a:hover, #container .brandList .moreIntro a:hover, #container .newsPromo .moreIntro a:hover {
         color: #ed6500; }
     #container .pdReview .listTitle, #container .brandList .listTitle {
@@ -2535,6 +2542,8 @@ a:hover {
             top: 0px; }
           #container #storeMain li.storePd .pd .info .pName {
             height: 40px;
+            width: 100%;
+            overflow:hidden;
             line-height: 18px; }
             #container #storeMain li.storePd .pd .info .pName a {
               color: #fdd84b; }
@@ -2566,6 +2575,8 @@ a:hover {
       #container #storeMain li.storePd .pdImg {
         display: block;
         width: 160px;
+        height: 160px;
+        overflow: hidden;
         margin-right: 10px; }
       #container #storeMain li.storePd .title {
         float: left;
