@@ -4,8 +4,9 @@
     <title>手機館首頁</title>
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
     <link href='http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css' rel='stylesheet' type='text/css' />
-  <link href='css/sogi-style-0.2.css' rel='stylesheet' type='text/css' />
-  
+    <link href='css/sogi-style-0.2.css' rel='stylesheet' type='text/css' />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js/sogi.js"></script>
   
   </head>
   <body>
@@ -261,10 +262,10 @@
             
             
             
-            <tr class=""><th>照片</th><td class="InThemiddle"><div align="right"><a class="btn-del hide" title="X" href="springboard.aspx?c=1&amp;d=8169:HTC:EVO 3D"><span>X</span></a></div><br><a href="productInfo.aspx?pno=8169"><img alt="HTC EVO 3D" onerror="javascript:this.src='http://attach.sogi.com.tw/img_product/100/SOGIProduct.jpg'" src="http://attach.sogi.com.tw/img_product/100/NO_8169.jpg"></a></td>
+            <tr class=""><th>照片</th><td id="pk-1"  class="InThemiddle mover"><div align="right"><a class="btn-del hide" title="X" href="springboard.aspx?c=1&amp;d=8169:HTC:EVO 3D"><span>X</span></a></div><br><a href="productInfo.aspx?pno=8169"><img alt="HTC EVO 3D" onerror="javascript:this.src='http://attach.sogi.com.tw/img_product/100/SOGIProduct.jpg'" src="http://attach.sogi.com.tw/img_product/100/NO_8169.jpg"></a></td>
             
             
-            <td class="InThemiddle"><div align="right"><a class="btn-del hide" title="X" href="springboard.aspx?c=1&amp;d=8469:NOKIA:500"><span>X</span></a></div>
+            <td id="pk-2" class="InThemiddle mover"><div align="right"><a class="btn-del hide" title="X" href="springboard.aspx?c=1&amp;d=8469:NOKIA:500"><span>X</span></a></div>
  <br><a href="productInfo.aspx?pno=8169"><img alt="HTC EVO 3D" onerror="javascript:this.src='http://attach.sogi.com.tw/img_product/100/SOGIProduct.jpg'" src="http://attach.sogi.com.tw/img_product/100/NO_8169.jpg"></a></td>
  
  
@@ -284,11 +285,11 @@
             
             
             
-            <tr class=""><th>原廠售價</th><td><span class="txt-price"> NT$ 21900</span></td><td><span class="txt-price"> NT$ --------</span></td><td><span class="txt-price"> NT$ --------</span></td><td><span class="txt-price"> NT$ --------</span></td><td><span class="txt-price"> NT$ --------</span></td> </tr>
+            <tr class=""><th>原廠售價</th><td id="pk-1" class="mover"><span class="txt-price"> NT$ 21900</span></td><td id="pk-2" class="mover"><span class="txt-price"> NT$ --------</span></td><td><span class="txt-price"> NT$ --------</span></td><td><span class="txt-price"> NT$ --------</span></td><td><span class="txt-price"> NT$ --------</span></td> </tr>
             
             
             
-           <tr><th>平均報價</th><td><span class="txt-price"> NT$ --------</span></td><td><span class="txt-price"> NT$ --------</span></td><td><span class="txt-price"> NT$ --------</span></td><td><span class="txt-price"> NT$ --------</span></td><td><span class="txt-price"> NT$ --------</span></td></tr>
+           <tr><th>平均報價</th><td id="pk-1" class="mover"><span class="txt-price"> NT$ --------</span></td><td id="pk-2" class="mover"><span class="txt-price"> NT$ --------</span></td><td><span class="txt-price"> NT$ --------</span></td><td><span class="txt-price"> NT$ --------</span></td><td><span class="txt-price"> NT$ --------</span></td></tr>
            
            
            
@@ -296,141 +297,141 @@
            <tr class=""><th>基本資訊</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th></tr>
            
            
-           <tr><th>頻率系統</th><td>GSM850, GSM900, GSM1800, GSM1900, HSDPA, WCDMA, HSUPA</td><td>GSM850, GSM900, GSM1800, GSM1900, HSDPA, WCDMA, HSUPA</td><td>GSM850, GSM900, GSM1800, GSM1900, HSDPA, WCDMA, HSUPA</td><td>GSM850, GSM900, GSM1800, GSM1900, HSDPA, WCDMA, HSUPA</td><td>GSM850, GSM900, GSM1800, GSM1900, HSDPA, WCDMA, HSUPA</td></tr>
+           <tr><th>頻率系統</th><td id="pk-1" class="mover">GSM850, GSM900, GSM1800, GSM1900, HSDPA, WCDMA, HSUPA</td><td id="pk-2" class="mover">GSM850, GSM900, GSM1800, GSM1900, HSDPA, WCDMA, HSUPA</td><td>GSM850, GSM900, GSM1800, GSM1900, HSDPA, WCDMA, HSUPA</td><td>GSM850, GSM900, GSM1800, GSM1900, HSDPA, WCDMA, HSUPA</td><td>GSM850, GSM900, GSM1800, GSM1900, HSDPA, WCDMA, HSUPA</td></tr>
            
            
            
-           <tr><th>內建相機畫素</th><td>500萬畫素</td><td>500萬畫素</td><td>500萬畫素</td><td>500萬畫素</td><td>500萬畫素</td></tr>
+           <tr><th>內建相機畫素</th><td id="pk-1" class="mover">500萬畫素</td><td id="pk-2" class="mover">500萬畫素</td><td>500萬畫素</td><td>500萬畫素</td><td>500萬畫素</td></tr>
            
            
            
-           <tr><th>鈴聲種類</th><td>AAC, AMR, MIDI, MP3, WAV, WMA</td><td>MP3</td><td>MP3</td><td>MP3</td><td>MP3</td></tr>
+           <tr><th>鈴聲種類</th><td id="pk-1" class="mover">AAC, AMR, MIDI, MP3, WAV, WMA</td><td id="pk-2" class="mover">MP3</td><td>MP3</td><td>MP3</td><td>MP3</td></tr>
            
            
            
-           <tr><th>內建記憶體(ROM)</th><td>1G</td><td>512MB</td><td>512MB</td><td>512MB</td><td>512MB</td></tr>
+           <tr><th>內建記憶體(ROM)</th><td id="pk-1" class="mover">1G</td><td id="pk-2" class="mover">512MB</td><td>512MB</td><td>512MB</td><td>512MB</td></tr>
            
            
            
-           <tr><th>藍牙版本</th><td>V3.0</td><td>V2.1</td><td>V2.1</td><td>V2.1</td><td>V2.1</td></tr>
+           <tr><th>藍牙版本</th><td id="pk-1" class="mover">V3.0</td><td id="pk-2" class="mover">V2.1</td><td>V2.1</td><td>V2.1</td><td>V2.1</td></tr>
            
            
-           <tr><th>RAM記憶體</th><td>1GB</td><td>256MB</td><td>256MB</td><td>256MB</td><td>256MB</td></tr>
+           <tr><th>RAM記憶體</th><td id="pk-1" class="mover">1GB</td><td id="pk-2" class="mover">256MB</td><td>256MB</td><td>256MB</td><td>256MB</td></tr>
            
-           <tr><th>音樂播放器</th><td>AAC, M4A, MP3, OGG, WAV, WMA, AMR, MID</td><td>MP3</td><td>MP3</td><td>MP3</td><td>MP3</td></tr>
-           
-           
-           
-           <tr><th>作業系統(平台)</th><td>Android 2.3</td><td>Symbian Anna</td><td>Symbian Anna</td><td>Symbian Anna</td><td>Symbian Anna</td></tr>
-           
-           
-           <tr><th>傳輸介面</th><td>藍牙, USB, A2DP, HDMI</td><td>藍牙, USB</td><td>藍牙, USB</td><td>藍牙, USB</td><td>藍牙, USB</td></tr>
+           <tr><th>音樂播放器</th><td id="pk-1" class="mover">AAC, M4A, MP3, OGG, WAV, WMA, AMR, MID</td><td id="pk-2" class="mover">MP3</td><td>MP3</td><td>MP3</td><td>MP3</td></tr>
            
            
            
-           <tr><th>處理器</th><td>Qualcomm Snapdragon MSM8660, 1.2GHz</td><td>1GHz</td><td>1GHz</td><td>1GHz</td><td>1GHz</td></tr>
+           <tr><th>作業系統(平台)</th><td id="pk-1" class="mover">Android 2.3</td><td id="pk-2" class="mover">Symbian Anna</td><td>Symbian Anna</td><td>Symbian Anna</td><td>Symbian Anna</td></tr>
+           
+           
+           <tr><th>傳輸介面</th><td id="pk-1" class="mover">藍牙, USB, A2DP, HDMI</td><td id="pk-2" class="mover">藍牙, USB</td><td>藍牙, USB</td><td>藍牙, USB</td><td>藍牙, USB</td></tr>
            
            
            
-           <tr><th>記憶卡插槽</th><td>microSD(TF)</td><td>microSD(TF)</td><td>microSD(TF)</td><td>microSD(TF)</td><td>microSD(TF)</td></tr>
+           <tr><th>處理器</th><td id="pk-1" class="mover">Qualcomm Snapdragon MSM8660, 1.2GHz</td><td id="pk-2" class="mover">1GHz</td><td>1GHz</td><td>1GHz</td><td>1GHz</td></tr>
+           
+           
+           
+           <tr><th>記憶卡插槽</th><td id="pk-1" class="mover">microSD(TF)</td><td id="pk-2" class="mover">microSD(TF)</td><td>microSD(TF)</td><td>microSD(TF)</td><td>microSD(TF)</td></tr>
            
            
            <tr><th>影音資訊</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th></tr>
            
            
-           <tr><th>感光元件</th><td>CMOS</td><td>CMOS</td><td>CMOS</td><td>CMOS</td><td>CMOS</td></tr>
+           <tr><th>感光元件</th><td id="pk-1" class="mover">CMOS</td><td id="pk-2" class="mover">CMOS</td><td>CMOS</td><td>CMOS</td><td>CMOS</td></tr>
            
            
            
-           <tr><th>錄影格式</th><td>3GP</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+           <tr><th>錄影格式</th><td id="pk-1" class="mover">3GP</td><td id="pk-2" class="mover">-</td><td>-</td><td>-</td><td>-</td></tr>
            
            
            
            
-           <tr><th>圖片支援格式</th><td>JPEG</td><td>Flash, JPEG</td><td>Flash, JPEG</td><td>Flash, JPEG</td><td>Flash, JPEG</td></tr>
+           <tr><th>圖片支援格式</th><td id="pk-1" class="mover">JPEG</td><td id="pk-2" class="mover">Flash, JPEG</td><td>Flash, JPEG</td><td>Flash, JPEG</td><td>Flash, JPEG</td></tr>
            
            
            
-           <tr><th>影片播放格式</th><td>3GP, AVI, MPEG4, WMV, Xvid, 3G2</td><td>MPEG4</td><td>MPEG4</td><td>MPEG4</td><td>MPEG4</td></tr>
+           <tr><th>影片播放格式</th><td id="pk-1" class="mover">3GP, AVI, MPEG4, WMV, Xvid, 3G2</td><td id="pk-2" class="mover">MPEG4</td><td>MPEG4</td><td>MPEG4</td><td>MPEG4</td></tr>
            
            
            
-           <tr><th>視訊鏡頭(3G)</th><td>130萬畫素</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+           <tr><th>視訊鏡頭(3G)</th><td id="pk-1" class="mover">130萬畫素</td><td id="pk-2" class="mover">-</td><td>-</td><td>-</td><td>-</td></tr>
            
            
-           <tr><th>相機功能</th><td>自動對焦, LED 閃光燈</td><td>LED 閃光燈</td><td>LED 閃光燈</td><td>LED 閃光燈</td><td>LED 閃光燈</td></tr>
+           <tr><th>相機功能</th><td id="pk-1" class="mover">自動對焦, LED 閃光燈</td><td id="pk-2" class="mover">LED 閃光燈</td><td>LED 閃光燈</td><td>LED 閃光燈</td><td>LED 閃光燈</td></tr>
            
            
            <tr><th>螢幕資訊</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th></tr>
            
            
-           <tr><th>主螢幕材質</th><td>TFT</td><td>TFT</td><td>TFT</td><td>TFT</td><td>TFT</td></tr>
+           <tr><th>主螢幕材質</th><td id="pk-1" class="mover">TFT</td><td id="pk-2" class="mover">TFT</td><td>TFT</td><td>TFT</td><td>TFT</td></tr>
            
            
-           <tr><th>主螢幕色彩</th><td>-</td><td>1600萬色 </td><td>1600萬色 </td><td>1600萬色 </td><td>1600萬色 </td></tr>
+           <tr><th>主螢幕色彩</th><td id="pk-1" class="mover">-</td><td id="pk-2" class="mover">1600萬色 </td><td>1600萬色 </td><td>1600萬色 </td><td>1600萬色 </td></tr>
            
            
-           <tr><th>主螢幕尺寸</th><td>4.3吋</td><td>3.2吋</td><td>3.2吋</td><td>3.2吋</td><td>3.2吋</td></tr>
+           <tr><th>主螢幕尺寸</th><td id="pk-1" class="mover">4.3吋</td><td id="pk-2" class="mover">3.2吋</td><td>3.2吋</td><td>3.2吋</td><td>3.2吋</td></tr>
            
            
-           <tr><th>主螢幕解析度</th><td>960 x 540 pixels</td><td>360*640 pixels</td><td>360*640 pixels</td><td>360*640 pixels</td><td>360*640 pixels</td></tr>
+           <tr><th>主螢幕解析度</th><td id="pk-1" class="mover">960 x 540 pixels</td><td id="pk-2" class="mover">360*640 pixels</td><td>360*640 pixels</td><td>360*640 pixels</td><td>360*640 pixels</td></tr>
            
            
            
            <tr><th>網路資訊</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th></tr>
            
            
-           <tr><th>簡訊格式</th><td>SMS, MMS</td><td>SMS, MMS</td><td>SMS, MMS</td><td>SMS, MMS</td><td>SMS, MMS</td></tr>
+           <tr><th>簡訊格式</th><td id="pk-1" class="mover">SMS, MMS</td><td id="pk-2" class="mover">SMS, MMS</td><td>SMS, MMS</td><td>SMS, MMS</td><td>SMS, MMS</td></tr>
            
            
-           <tr><th>上網方式</th><td>EDGE, GPRS, Wi-Fi / WLAN, 3G / WCDMA, 3.5G / HSDPA</td><td>EDGE, GPRS, Wi-Fi / WLAN, 3G / WCDMA, 3.5G / HSDPA</td><td>EDGE, GPRS, Wi-Fi / WLAN, 3G / WCDMA, 3.5G / HSDPA</td><td>EDGE, GPRS, Wi-Fi / WLAN, 3G / WCDMA, 3.5G / HSDPA</td><td>EDGE, GPRS, Wi-Fi / WLAN, 3G / WCDMA, 3.5G / HSDPA</td></tr>
+           <tr><th>上網方式</th><td id="pk-1" class="mover">EDGE, GPRS, Wi-Fi / WLAN, 3G / WCDMA, 3.5G / HSDPA</td><td id="pk-2" class="mover">EDGE, GPRS, Wi-Fi / WLAN, 3G / WCDMA, 3.5G / HSDPA</td><td>EDGE, GPRS, Wi-Fi / WLAN, 3G / WCDMA, 3.5G / HSDPA</td><td>EDGE, GPRS, Wi-Fi / WLAN, 3G / WCDMA, 3.5G / HSDPA</td><td>EDGE, GPRS, Wi-Fi / WLAN, 3G / WCDMA, 3.5G / HSDPA</td></tr>
            
            
            <tr><th>內建功能</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th></tr>
            
            
-           <tr><th>輸入法</th><td>-</td><td>手寫輸入</td><td>手寫輸入</td><td>手寫輸入</td><td>手寫輸入</td></tr>
+           <tr><th>輸入法</th><td id="pk-1" class="mover">-</td><td id="pk-2" class="mover">手寫輸入</td><td>手寫輸入</td><td>手寫輸入</td><td>手寫輸入</td></tr>
            
-           <tr><th>實用工具</th><td>FM收音機, 世界時鐘, 錄音, 數位指南針</td><td>計算機, FM收音機, 世界時鐘, 鬧鈴, 錄音</td><td>計算機, FM收音機, 世界時鐘, 鬧鈴, 錄音</td><td>計算機, FM收音機, 世界時鐘, 鬧鈴, 錄音</td><td>計算機, FM收音機, 世界時鐘, 鬧鈴, 錄音</td></tr>
+           <tr><th>實用工具</th><td id="pk-1" class="mover">FM收音機, 世界時鐘, 錄音, 數位指南針</td><td id="pk-2" class="mover">計算機, FM收音機, 世界時鐘, 鬧鈴, 錄音</td><td>計算機, FM收音機, 世界時鐘, 鬧鈴, 錄音</td><td>計算機, FM收音機, 世界時鐘, 鬧鈴, 錄音</td><td>計算機, FM收音機, 世界時鐘, 鬧鈴, 錄音</td></tr>
            
            
-           <tr><th>進階功能</th><td>GPS(衛星導航), 陀螺儀</td><td>JAVA, GPS(衛星導航), A-GPS</td><td>JAVA, GPS(衛星導航), A-GPS</td><td>JAVA, GPS(衛星導航), A-GPS</td><td>JAVA, GPS(衛星導航), A-GPS</td></tr>
+           <tr><th>進階功能</th><td id="pk-1" class="mover">GPS(衛星導航), 陀螺儀</td><td id="pk-2" class="mover">JAVA, GPS(衛星導航), A-GPS</td><td>JAVA, GPS(衛星導航), A-GPS</td><td>JAVA, GPS(衛星導航), A-GPS</td><td>JAVA, GPS(衛星導航), A-GPS</td></tr>
            
            
            <tr><th>機身資訊</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th><th>&nbsp;</th></tr>
            
            
-           <tr><th>機身長度</th><td>126mm(公厘)</td><td>111.3mm(公厘)</td><td>111.3mm(公厘)</td><td>111.3mm(公厘)</td><td>111.3mm(公厘)</td></tr>
+           <tr><th>機身長度</th><td id="pk-1" class="mover">126mm(公厘)</td><td id="pk-2" class="mover">111.3mm(公厘)</td><td>111.3mm(公厘)</td><td>111.3mm(公厘)</td><td>111.3mm(公厘)</td></tr>
            
            
-           <tr><th>機身寬度</th><td>65mm(公厘)</td><td>53.8mm(公厘)</td><td>53.8mm(公厘)</td><td>53.8mm(公厘)</td><td>53.8mm(公厘)</td></tr>
+           <tr><th>機身寬度</th><td id="pk-1" class="mover">65mm(公厘)</td><td id="pk-2" class="mover">53.8mm(公厘)</td><td>53.8mm(公厘)</td><td>53.8mm(公厘)</td><td>53.8mm(公厘)</td></tr>
            
            
-           <tr><th>機身厚度</th><td>12.05mm(公厘)</td><td>14.1mm(公厘)</td><td>14.1mm(公厘)</td><td>14.1mm(公厘)</td><td>14.1mm(公厘)</td></tr>
+           <tr><th>機身厚度</th><td id="pk-1" class="mover">12.05mm(公厘)</td><td id="pk-2" class="mover">14.1mm(公厘)</td><td>14.1mm(公厘)</td><td>14.1mm(公厘)</td><td>14.1mm(公厘)</td></tr>
            
-           <tr><th>機身重量</th><td>170g(公克)</td><td>93g(公克)</td><td>93g(公克)</td><td>93g(公克)</td><td>93g(公克)</td></tr>
-           
-           
-           <tr><th>通話時間(最大)</th><td>9.33HR(小時)</td><td>7HR(小時)</td><td>7HR(小時)</td><td>7HR(小時)</td><td>7HR(小時)</td></tr>
-           
-           <tr><th>待機時間(最大)</th><td>14.91天</td><td>20.83天</td><td>20.83天</td><td>20.83天</td><td>20.83天</td></tr>
-           
-           <tr><th>電池容量</th><td>1730mAh(毫安培)</td><td>1110mAh(毫安培)</td><td>1110mAh(毫安培)</td><td>1110mAh(毫安培)</td><td>1110mAh(毫安培)</td></tr>
+           <tr><th>機身重量</th><td id="pk-1" class="mover">170g(公克)</td><td id="pk-2" class="mover">93g(公克)</td><td>93g(公克)</td><td>93g(公克)</td><td>93g(公克)</td></tr>
            
            
-           <tr><th>操作介面</th><td>觸控螢幕, 直式 / 橫式螢幕切換</td><td>觸控螢幕, 直式 / 橫式螢幕切換</td><td>觸控螢幕, 直式 / 橫式螢幕切換</td><td>觸控螢幕, 直式 / 橫式螢幕切換</td><td>觸控螢幕, 直式 / 橫式螢幕切換</td></tr>
+           <tr><th>通話時間(最大)</th><td id="pk-1" class="mover">9.33HR(小時)</td><td id="pk-2" class="mover">7HR(小時)</td><td>7HR(小時)</td><td>7HR(小時)</td><td>7HR(小時)</td></tr>
+           
+           <tr><th>待機時間(最大)</th><td id="pk-1" class="mover">14.91天</td><td id="pk-2" class="mover">20.83天</td><td>20.83天</td><td>20.83天</td><td>20.83天</td></tr>
+           
+           <tr><th>電池容量</th><td id="pk-1" class="mover">1730mAh(毫安培)</td><td id="pk-2" class="mover">1110mAh(毫安培)</td><td>1110mAh(毫安培)</td><td>1110mAh(毫安培)</td><td>1110mAh(毫安培)</td></tr>
            
            
-           <tr><th>機身顏色</th><td>黑</td><td>-</td><td>-</td><td>-</td><td>-</td></tr>
+           <tr><th>操作介面</th><td id="pk-1" class="mover">觸控螢幕, 直式 / 橫式螢幕切換</td><td id="pk-2" class="mover">觸控螢幕, 直式 / 橫式螢幕切換</td><td>觸控螢幕, 直式 / 橫式螢幕切換</td><td>觸控螢幕, 直式 / 橫式螢幕切換</td><td>觸控螢幕, 直式 / 橫式螢幕切換</td></tr>
            
            
-           <tr><th>WCDMA通話時間(最大)</th><td>7.75HR</td><td>5HR</td><td>5HR</td><td>5HR</td><td>5HR</td></tr>
+           <tr><th>機身顏色</th><td id="pk-1" class="mover">黑</td><td id="pk-2" class="mover">-</td><td>-</td><td>-</td><td>-</td></tr>
            
            
-           <tr><th>WCDMA待機時間(最大)</th><td>17.5天</td><td>18.95天</td><td>18.95天</td><td>18.95天</td><td>18.95天</td></tr>
+           <tr><th>WCDMA通話時間(最大)</th><td id="pk-1" class="mover">7.75HR</td><td id="pk-2" class="mover">5HR</td><td>5HR</td><td>5HR</td><td>5HR</td></tr>
            
            
-           <tr><th>機身設計</th><td>直立式, 雙鏡頭, 3.5mm 耳機孔</td><td>直立式, 可換外殼, 3.5mm 耳機孔</td><td>直立式, 可換外殼, 3.5mm 耳機孔</td><td>直立式, 可換外殼, 3.5mm 耳機孔</td><td>直立式, 可換外殼, 3.5mm 耳機孔</td></tr></tbody></table>
+           <tr><th>WCDMA待機時間(最大)</th><td id="pk-1" class="mover">17.5天</td><td id="pk-2" class="mover">18.95天</td><td>18.95天</td><td>18.95天</td><td>18.95天</td></tr>
+           
+           
+           <tr><th>機身設計</th><td id="pk-1" class="mover">直立式, 雙鏡頭, 3.5mm 耳機孔</td><td id="pk-2" class="mover">直立式, 可換外殼, 3.5mm 耳機孔</td><td>直立式, 可換外殼, 3.5mm 耳機孔</td><td>直立式, 可換外殼, 3.5mm 耳機孔</td><td>直立式, 可換外殼, 3.5mm 耳機孔</td></tr></tbody></table>
         </div>
       </div>
       
