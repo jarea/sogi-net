@@ -69,7 +69,7 @@ a:hover {
   #topbar a {
     color: white; }
   #topbar a:hover {
-    color: #666666; }
+    color: #eee; }
 
 #container {
   overflow: auto;
@@ -188,18 +188,18 @@ a:hover {
           height: 38px;
           margin-right: 40px;
           margin-left: 65px;
-          background: url(../images/www/sogi-img.png) -200px -1px no-repeat transparent;
+          /*background: url(../images/www/sogi-img.png) -200px -1px no-repeat transparent;*/
           text-indent: -9999px; }
         #container .sHead .shopNavArea .shopNav-1 a .name {
           clear: both;
           display: block;
           position: relative;
-          color: #3a3536;
+          /*color: #3a3536;*/
           margin-left: 65px;
           top: 15px; }
-        #container .sHead .shopNavArea .shopNav-1 a:hover .icon {
+        #container .sHead .shopNavArea .shopNav-1 a .icon {
           background: url(../images/www/sogi-img.png) -200px -39px no-repeat transparent; }
-        #container .sHead .shopNavArea .shopNav-1 a:hover .name {
+        #container .sHead .shopNavArea .shopNav-1 a .name {
           color: #ed6500; }
       #container .sHead .shopNavArea .shopNav-2 {
         float: left; }
@@ -210,17 +210,17 @@ a:hover {
           width: 40px;
           height: 38px;
           margin-right: 40px;
-          background: url(../images/www/sogi-img.png) -160px -1px no-repeat transparent;
+          /*background: url(../images/www/sogi-img.png) -160px -1px no-repeat transparent;*/
           text-indent: -9999px; }
         #container .sHead .shopNavArea .shopNav-2 a .name {
           clear: both;
           display: block;
           position: relative;
-          color: #3a3536;
+          /*color: #3a3536;*/
           top: 15px; }
-        #container .sHead .shopNavArea .shopNav-2 a:hover .icon {
+        #container .sHead .shopNavArea .shopNav-2 a .icon {
           background: url(../images/www/sogi-img.png) -160px -39px no-repeat transparent; }
-        #container .sHead .shopNavArea .shopNav-2 a:hover .name {
+        #container .sHead .shopNavArea .shopNav-2 a .name {
           color: #ed6500; }
       #container .sHead .shopNavArea .shopNav-3 {
         float: left; }
@@ -231,17 +231,17 @@ a:hover {
           width: 40px;
           height: 38px;
           margin-right: 40px;
-          background: url(../images/www/sogi-img.png) -240px -1px no-repeat transparent;
+          /*background: url(../images/www/sogi-img.png) -240px -1px no-repeat transparent;*/
           text-indent: -9999px; }
         #container .sHead .shopNavArea .shopNav-3 a .name {
           clear: both;
           display: block;
           position: relative;
-          color: #3a3536;
+          /*color: #3a3536;*/
           top: 15px; }
-        #container .sHead .shopNavArea .shopNav-3 a:hover .icon {
+        #container .sHead .shopNavArea .shopNav-3 a .icon {
           background: url(../images/www/sogi-img.png) -240px -39px no-repeat transparent; }
-        #container .sHead .shopNavArea .shopNav-3 a:hover .name {
+        #container .sHead .shopNavArea .shopNav-3 a .name {
           color: #ed6500; }
       #container .sHead .shopNavArea .shopNav-4 {
         float: left; }
@@ -252,17 +252,17 @@ a:hover {
           width: 40px;
           height: 38px;
           margin-right: 40px;
-          background: url(../images/www/sogi-img.png) -280px -1px no-repeat transparent;
+          /*background: url(../images/www/sogi-img.png) -280px -1px no-repeat transparent;*/
           text-indent: -9999px; }
         #container .sHead .shopNavArea .shopNav-4 a .name {
           clear: both;
           display: block;
           position: relative;
-          color: #3a3536;
+          /*color: #3a3536;*/
           top: 15px; }
-        #container .sHead .shopNavArea .shopNav-4 a:hover .icon {
+        #container .sHead .shopNavArea .shopNav-4 a .icon {
           background: url(../images/www/sogi-img.png) -280px -39px no-repeat transparent; }
-        #container .sHead .shopNavArea .shopNav-4 a:hover .name {
+        #container .sHead .shopNavArea .shopNav-4 a .name {
           color: #ed6500; }
         #container .sHead .headSearch{
             float: left;
@@ -693,11 +693,18 @@ a:hover {
   #container .searchPromo {
     overflow: hidden;
     padding: 5px;
-    height: 300px;
+    /*height: 300px;*/
     border-radius: 15px;
     border: 1px solid #aaaaaa;
     box-shadow: 0 0 6px #aaaaaa;
     background: #d7d7d7 url(../images/www/sogi-bg-4.png) 0 0 scroll repeat-x; }
+  #container .searchPromo .qSearch{
+    margin-left: 10px;
+  }
+  #container .searchPromo .qSearch li{
+    line-height: 22px;
+    font-size: 13px;
+  }
   #container .adPromo {
     overflow-y: auto;
     padding: 5px 5px 15px 5px;
@@ -1608,7 +1615,10 @@ a:hover {
       margin: 10px 20px;
       padding-bottom: 10px;
       border-bottom: 1px dotted #aaaaaa;
-      /*overflow: auto;*/ }
+      overflow: auto; }
+    #container .forumMain .adaHeight{
+      height: 125px;   
+    }
       #container .forumMain .adArticle ul li, #container .articleSelected .adArticle ul li {
         display: block;
         float: left;
@@ -5689,7 +5699,6 @@ ul.notice li {
 .L
 {
 float:left;
-width:300px;
 }
         
 .R
@@ -6070,7 +6079,7 @@ float:left;
      margin:0 1px;
     text-indent: -9999px;
     width: 20px; }
-.topNav a:hover .topicon-1{
+/*.topNav a:hover .topicon-1{
     background: url("../images/www/sogi-img.png") no-repeat scroll -20px -432px transparent;
     display: block;
     height: 28px;
@@ -6078,7 +6087,7 @@ float:left;
     position: relative;
      margin:0 1px;
     text-indent: -9999px;
-    width: 20px; }   
+    width: 20px; }   */
    
 .topNav .on {
    text-decoration: underline;
@@ -6090,15 +6099,6 @@ float:left;
 }
 
 .topNav .topicon-2 {
-    background: url("../images/www/sogi-img.png") no-repeat scroll -80px -432px transparent;
-    display: block;
-    height: 28px;
-   float:left;
-     margin:0 1px;
-    position: relative;
-    text-indent: -9999px;
-    width: 20px; }
-.topNav a:hover .topicon-2{
     background: url("../images/www/sogi-img.png") no-repeat scroll -60px -432px transparent;
     display: block;
     height: 28px;
@@ -6106,10 +6106,19 @@ float:left;
      margin:0 1px;
     position: relative;
     text-indent: -9999px;
-    width: 20px; }   
+    width: 20px; }
+/*.topNav a:hover .topicon-2{
+    background: url("../images/www/sogi-img.png") no-repeat scroll -60px -432px transparent;
+    display: block;
+    height: 28px;
+   float:left;
+     margin:0 1px;
+    position: relative;
+    text-indent: -9999px;
+    width: 20px; }   */
    
 .topNav .topicon-3{
-    background: url("../images/www/sogi-img.png") no-repeat scroll -81px -490px transparent;
+    background: url("../images/www/sogi-img.png") no-repeat scroll -61px -490px transparent;
     display: block;
     height: 28px;
    float:left;
@@ -6117,7 +6126,7 @@ float:left;
     position: relative;
     text-indent: -9999px;
     width: 20px; }
-.topNav a:hover .topicon-3{
+/*.topNav a:hover .topicon-3{
     background: url("../images/www/sogi-img.png") no-repeat scroll -61px -490px transparent;
     display: block;
     height: 28px;
@@ -6125,10 +6134,10 @@ float:left;
    margin:0 1px;
     position: relative;
     text-indent: -9999px;
-    width: 20px; }   
+    width: 20px; }   */
    
 .topNav .topicon-4{
-    background: url("../images/www/sogi-img.png") no-repeat scroll -40px -458px transparent;
+    background: url("../images/www/sogi-img.png") no-repeat scroll -20px -458px transparent;
     display: block;
     height: 28px;
    float:left;
@@ -6136,7 +6145,7 @@ float:left;
     position: relative;
     text-indent: -9999px;
     width: 20px; }
-.topNav a:hover .topicon-4{
+/*.topNav a:hover .topicon-4{
     background: url("../images/www/sogi-img.png") no-repeat scroll -20px -458px transparent;
     display: block;
     height: 28px;
@@ -6144,10 +6153,10 @@ float:left;
    margin:0 1px;
     position: relative;
     text-indent: -9999px;
-    width: 20px; }   
+    width: 20px; }   */
    
 .topNav .topicon-5{
-    background: url("../images/www/sogi-img.png") no-repeat scroll -40px -482px transparent;
+    background: url("../images/www/sogi-img.png") no-repeat scroll -20px -482px transparent;
     display: block;
     height: 28px;
    float:left;
@@ -6155,7 +6164,7 @@ float:left;
     position: relative;
     text-indent: -9999px;
     width: 20px; }
-.topNav a:hover .topicon-5{
+/*.topNav a:hover .topicon-5{
     background: url("../images/www/sogi-img.png") no-repeat scroll -20px -482px transparent;
     display: block;
     height: 28px;
@@ -6163,10 +6172,10 @@ float:left;
    margin:0 1px;
     position: relative;
     text-indent: -9999px;
-    width: 20px; }   
+    width: 20px; }   */
 
 .topNav .topicon-6{
-    background: url("../images/www/sogi-img.png") no-repeat scroll -40px -505px transparent;
+    background: url("../images/www/sogi-img.png") no-repeat scroll -20px -505px transparent;
     display: block;
     height: 28px;
    float:left;
@@ -6174,7 +6183,7 @@ float:left;
     position: relative;
     text-indent: -9999px;
     width: 20px; }
-.topNav a:hover .topicon-6{
+/*.topNav a:hover .topicon-6{
     background: url("../images/www/sogi-img.png") no-repeat scroll -20px -505px transparent;
     display: block;
     height: 28px;
@@ -6182,9 +6191,9 @@ float:left;
    margin:0 1px;
     position: relative;
     text-indent: -9999px;
-    width: 20px; }         
+    width: 20px; }         */
 .topNav .topicon-7{
-    background: url("../images/www/sogi-img.png") no-repeat scroll -40px -555px transparent;
+    background: url("../images/www/sogi-img.png") no-repeat scroll -20px -555px transparent;
     display: block;
     height: 28px;
    float:left;
@@ -6192,7 +6201,7 @@ float:left;
     position: relative;
     text-indent: -9999px;
     width: 20px; }
-.topNav a:hover .topicon-7{
+/*.topNav a:hover .topicon-7{
     background: url("../images/www/sogi-img.png") no-repeat scroll -20px -555px transparent;
     display: block;
     height: 28px;
@@ -6200,10 +6209,10 @@ float:left;
    margin:0 1px;
     position: relative;
     text-indent: -9999px;
-    width: 20px; }      
+    width: 20px; }      */
    
 .topNav .topicon-8{
-    background: url("../images/www/sogi-img.png") no-repeat scroll -40px -530px transparent;
+    background: url("../images/www/sogi-img.png") no-repeat scroll -20px -530px transparent;
     display: block;
     height: 28px;
    float:left;
@@ -6211,7 +6220,7 @@ float:left;
     position: relative;
     text-indent: -9999px;
     width: 20px; }
-.topNav a:hover .topicon-8{
+/*.topNav a:hover .topicon-8{
     background: url("../images/www/sogi-img.png") no-repeat scroll -20px -530px transparent;
     display: block;
     height: 28px;
@@ -6219,10 +6228,10 @@ float:left;
    margin:0 1px;
     position: relative;
     text-indent: -9999px;
-    width: 20px; }         
+    width: 20px; }         */
    
 .topNav .topicon-9{
-    background: url("../images/www/sogi-img.png") no-repeat scroll -81px -518px transparent;
+    background: url("../images/www/sogi-img.png") no-repeat scroll -61px -518px transparent;
     display: block;
     height: 28px;
    float:left;
@@ -6230,7 +6239,7 @@ float:left;
     position: relative;
     text-indent: -9999px;
     width: 20px; }
-.topNav a:hover .topicon-9{
+/*.topNav a:hover .topicon-9{
     background: url("../images/www/sogi-img.png") no-repeat scroll -61px -518px transparent;
     display: block;
     height: 28px;
@@ -6238,7 +6247,7 @@ float:left;
    margin:0 1px;
     position: relative;
     text-indent: -9999px;
-    width: 20px; }   
+    width: 20px; }   */
 .reveal
 {
    font-size:13px;
@@ -6254,3 +6263,38 @@ float:left;
    height: 22px;
    line-height: 22px;
 }
+
+#container .mobiNewsPromo2 .hotShowList3 {
+      float: left;
+     margin-top:10px }
+      #container .mobiNewsPromo2 .hotShowList3 .headNews {
+        position: relative;
+        float: left;
+        width:320px;
+        margin: 0 10px;
+        overflow: hidden;
+        border-bottom: 1px dashed #aaaaaa; }
+        #container .mobiNewsPromo2 .hotShowList3 .headNews img.newsImg {
+          float: right;
+          margin: 0px 0px 5px 5px; }
+        #container .mobiNewsPromo2 .hotShowList3 .headNews .title {
+          font-size: 13px;
+          font-weight: bold;
+          margin-bottom: 5px;
+         }
+        #container .mobiNewsPromo2 .hotShowList3 .headNews .desc {
+          line-height: 20px; } 
+   #container .mobiNewsPromo2 {
+    overflow: hidden;
+    border-radius: 15px;
+    border: 1px solid #aaaaaa;
+    box-shadow: 0 0 6px #aaaaaa;
+    background: #ffebac url(../images/www/sogi-bg-9.png) 0 0 scroll repeat-x;
+   margin-bottom:10px;
+    }
+   #container .mobiNewsPromo2 .L, #container .mobiNewsPromo2 .R{
+      float:left;
+      margin-top:10px;
+      margin-bottom: 10px;
+   }
+.overme {background: #F7FF85;}
