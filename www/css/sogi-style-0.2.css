@@ -69,12 +69,12 @@ a:hover {
   #topbar a {
     color: white; }
   #topbar a:hover {
-    color: #eee; }
+    color: #ed6500;; }
 
 #container {
-  overflow: auto;
+  /*overflow: auto;*/
   width: 100%;
-  height: auto;
+  height: 100%;
   background: white url(../images/www/sogi-bg.png) 0 0 scroll repeat-x;
   /*手機館*/
   /* 討論館 */
@@ -201,8 +201,7 @@ a:hover {
           background: url(../images/www/sogi-img.png) -200px -39px no-repeat transparent; }
         #container .sHead .shopNavArea .shopNav-1 a .name {
           color: #ed6500; }
-      #container .sHead .shopNavArea .shopNav-2 {
-        float: left; }
+     #container .sHead .shopNavArea .shopNav-2 { float: left; }
         #container .sHead .shopNavArea .shopNav-2 a .icon {
           display: block;
           position: relative;
@@ -216,12 +215,11 @@ a:hover {
           clear: both;
           display: block;
           position: relative;
-          /*color: #3a3536;*/
+          color: #3a3536;
           top: 15px; }
         #container .sHead .shopNavArea .shopNav-2 a .icon {
           background: url(../images/www/sogi-img.png) -160px -39px no-repeat transparent; }
-        #container .sHead .shopNavArea .shopNav-2 a .name {
-          color: #ed6500; }
+        #container .sHead .shopNavArea .shopNav-2 a .name:hover {color: #ed6500; }
       #container .sHead .shopNavArea .shopNav-3 {
         float: left; }
         #container .sHead .shopNavArea .shopNav-3 a .icon {
@@ -237,12 +235,11 @@ a:hover {
           clear: both;
           display: block;
           position: relative;
-          /*color: #3a3536;*/
+          color: #3a3536;
           top: 15px; }
         #container .sHead .shopNavArea .shopNav-3 a .icon {
           background: url(../images/www/sogi-img.png) -240px -39px no-repeat transparent; }
-        #container .sHead .shopNavArea .shopNav-3 a .name {
-          color: #ed6500; }
+        #container .sHead .shopNavArea .shopNav-3 a .name:hover {color: #ed6500; }
       #container .sHead .shopNavArea .shopNav-4 {
         float: left; }
         #container .sHead .shopNavArea .shopNav-4 a .icon {
@@ -258,12 +255,11 @@ a:hover {
           clear: both;
           display: block;
           position: relative;
-          /*color: #3a3536;*/
+          color: #3a3536;
           top: 15px; }
         #container .sHead .shopNavArea .shopNav-4 a .icon {
           background: url(../images/www/sogi-img.png) -280px -39px no-repeat transparent; }
-        #container .sHead .shopNavArea .shopNav-4 a .name {
-          color: #ed6500; }
+        #container .sHead .shopNavArea .shopNav-4 a .name:hover {color: #ed6500; }
         #container .sHead .headSearch{
             float: left;
             position:relative;
@@ -1894,13 +1890,18 @@ a:hover {
     }
     #container .forumMain .article .articleContent .content, #container .articleSelected .article .articleContent .content {
       font-size: 15px;
-      margin: 10px 25px;
       min-height: 100px;
       line-height: 22px; }
-      #container .forumMain .article .articleContent .content p, #container .articleSelected .article .articleContent .content p {
+      #container .forumMain .article .articleContent .content p, #container .articleSelected .article .articleContent .content p{
         margin-bottom: 15px; }
+      #container .forumMain .article .articleContent .content div, #container .articleSelected .article .articleContent .content div{
+        margin-bottom: 0px;
+      }
+      #container .forumMain .article .articleContent .content strong, #container .articleSelected .article .articleContent .content strong, #container .forumMain .article .articleContent .content em, #container .articleSelected .article .articleContent .content em{
+        font-weight: bold;
+      }
       #container .forumMain .article .articleContent .content img, #container .articleSelected .article .articleContent .content img {
-        /*max-width: 640px;*/ }
+        margin-right:2px;}
     #container .forumMain .article .articleContent .remark, #container .articleSelected .article .articleContent .remark {
       color: #b3b3b3;
       width: auto;
