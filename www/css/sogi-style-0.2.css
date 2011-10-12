@@ -72,7 +72,7 @@ a:hover {
     color: #ed6500;; }
 
 #container {
-  /*overflow: auto;*/
+  overflow: auto;
   width: 100%;
   height: 100%;
   background: white url(../images/www/sogi-bg.png) 0 0 scroll repeat-x;
@@ -194,7 +194,7 @@ a:hover {
           clear: both;
           display: block;
           position: relative;
-          /*color: #3a3536;*/
+          color: #3a3536;
           margin-left: 65px;
           top: 15px; }
         #container .sHead .shopNavArea .shopNav-1 a .icon {
@@ -1891,15 +1891,31 @@ a:hover {
     #container .forumMain .article .articleContent .content, #container .articleSelected .article .articleContent .content {
       font-size: 15px;
       min-height: 100px;
-      line-height: 22px; }
+      line-height: 22px;
+      margin: 10px; }
+      #container .forumMain .article .articleContent .content ul li, #container .articleSelected .article .articleContent .content ul li{
+         list-style-type:disc;
+         list-style-position: inside;
+         margin-left: 20px;
+      }
+      #container .forumMain .article .articleContent .content ol li, #container .articleSelected .article .articleContent .content ol li{
+         list-style-type:decimal;
+         list-style-position: inside;
+         margin-left: 20px;
+      }
       #container .forumMain .article .articleContent .content p, #container .articleSelected .article .articleContent .content p{
         margin-bottom: 15px; }
       #container .forumMain .article .articleContent .content div, #container .articleSelected .article .articleContent .content div{
         margin-bottom: 0px;
       }
-      #container .forumMain .article .articleContent .content strong, #container .articleSelected .article .articleContent .content strong, #container .forumMain .article .articleContent .content em, #container .articleSelected .article .articleContent .content em{
+      #container .forumMain .article .articleContent .content strong, #container .articleSelected .article .articleContent .content strong{
         font-weight: bold;
       }
+      #container .forumMain .article .articleContent .content em, #container .articleSelected .article .articleContent .content em{
+        font-style: italic;
+      }
+      #container .forumMain .article .articleContent .content table tr td{
+      border:solid 1px #000;}
       #container .forumMain .article .articleContent .content img, #container .articleSelected .article .articleContent .content img {
         margin-right:2px;}
     #container .forumMain .article .articleContent .remark, #container .articleSelected .article .articleContent .remark {
