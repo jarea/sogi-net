@@ -56,18 +56,18 @@ a:hover {
 
 #topbar {
   width: 100%;
-  background-color: #3a3536;
+  background-color: #ddd;
   height: 30px; }
   #topbar .channelList {
-    width: 970px;
+    width: 980px;
     margin: 0 auto;
-    color: white;
+    color: #585858;
     line-height: 30px; }
     #topbar .channelList .loginClub {
       width: auto;
       float: right; }
   #topbar a {
-    color: white; }
+    color: #585858; }
   #topbar a:hover {
     color: #ed6500;; }
 
